@@ -1,0 +1,8013 @@
+{
+  "scenario": "Manufacturing Quality Control",
+  "description": "Automated inspection system for detecting defective products on production line",
+  "cost_matrix": {
+    "false_positive": "Good product marked as defective, waste and rework ($20-100)",
+    "false_negative": "Defective product shipped to customer, returns and reputation damage ($200-2000)"
+  },
+  "priority": "Minimize False Negatives",
+  "optimal_threshold": 0.3,
+  "prevalence": 0.08,
+  "data": [
+    {
+      "id": 1,
+      "prediction_score": 0.627,
+      "actual": 1,
+      "predicted": 1,
+      "production_line": 4,
+      "sensor_reading": 17.49
+    },
+    {
+      "id": 2,
+      "prediction_score": 0.062,
+      "actual": 0,
+      "predicted": 0,
+      "production_line": 4,
+      "sensor_reading": 71.02
+    },
+    {
+      "id": 3,
+      "prediction_score": 0.295,
+      "actual": 0,
+      "predicted": 0,
+      "production_line": 2,
+      "sensor_reading": 19.93
+    },
+    {
+      "id": 4,
+      "prediction_score": 0.527,
+      "actual": 0,
+      "predicted": 1,
+      "production_line": 4,
+      "sensor_reading": 28.95
+    },
+    {
+      "id": 5,
+      "prediction_score": 0.338,
+      "actual": 0,
+      "predicted": 0,
+      "production_line": 4,
+      "sensor_reading": 4.22
+    },
+    {
+      "id": 6,
+      "prediction_score": 0.029,
+      "actual": 0,
+      "predicted": 0,
+      "production_line": 3,
+      "sensor_reading": 83.46
+    },
+    {
+      "id": 7,
+      "prediction_score": 0.113,
+      "actual": 0,
+      "predicted": 0,
+      "production_line": 3,
+      "sensor_reading": 49.41
+    },
+    {
+      "id": 8,
+      "prediction_score": 0.31,
+      "actual": 0,
+      "predicted": 0,
+      "production_line": 4,
+      "sensor_reading": 22.45
+    },
+    {
+      "id": 9,
+      "prediction_score": 0.271,
+      "actual": 0,
+      "predicted": 0,
+      "production_line": 1,
+      "sensor_reading": 15.4
+    },
+    {
+      "id": 10,
+      "prediction_score": 0.496,
+      "actual": 0,
+      "predicted": 0,
+      "production_line": 3,
+      "sensor_reading": 95.6
+    },
+    {
+      "id": 11,
+      "prediction_score": 0.832,
+      "actual": 0,
+      "predicted": 1,
+      "production_line": 4,
+      "sensor_reading": 12.42
+    },
+    {
+      "id": 12,
+      "prediction_score": 0.413,
+      "actual": 0,
+      "predicted": 0,
+      "production_line": 3,
+      "sensor_reading": 41.72
+    },
+    {
+      "id": 13,
+      "prediction_score": 0.218,
+      "actual": 0,
+      "predicted": 0,
+      "production_line": 4,
+      "sensor_reading": 90.68
+    },
+    {
+      "id": 14,
+      "prediction_score": 0.84,
+      "actual": 0,
+      "predicted": 1,
+      "production_line": 2,
+      "sensor_reading": 2.84
+    },
+    {
+      "id": 15,
+      "prediction_score": 0.071,
+      "actual": 0,
+      "predicted": 0,
+      "production_line": 3,
+      "sensor_reading": 49.31
+    },
+    {
+      "id": 16,
+      "prediction_score": 0.47,
+      "actual": 0,
+      "predicted": 0,
+      "production_line": 1,
+      "sensor_reading": 59.89
+    },
+    {
+      "id": 17,
+      "prediction_score": 0.779,
+      "actual": 1,
+      "predicted": 1,
+      "production_line": 3,
+      "sensor_reading": 58.11
+    },
+    {
+      "id": 18,
+      "prediction_score": 0.703,
+      "actual": 1,
+      "predicted": 1,
+      "production_line": 5,
+      "sensor_reading": 43.61
+    },
+    {
+      "id": 19,
+      "prediction_score": 0.603,
+      "actual": 1,
+      "predicted": 1,
+      "production_line": 3,
+      "sensor_reading": 62.8
+    },
+    {
+      "id": 20,
+      "prediction_score": 0.377,
+      "actual": 0,
+      "predicted": 0,
+      "production_line": 4,
+      "sensor_reading": 97.43
+    },
+    {
+      "id": 21,
+      "prediction_score": 0.046,
+      "actual": 0,
+      "predicted": 0,
+      "production_line": 1,
+      "sensor_reading": 37.32
+    },
+    {
+      "id": 22,
+      "prediction_score": 0.327,
+      "actual": 0,
+      "predicted": 0,
+      "production_line": 5,
+      "sensor_reading": 1.75
+    },
+    {
+      "id": 23,
+      "prediction_score": 0.218,
+      "actual": 0,
+      "predicted": 0,
+      "production_line": 3,
+      "sensor_reading": 16.28
+    },
+    {
+      "id": 24,
+      "prediction_score": 0.495,
+      "actual": 0,
+      "predicted": 0,
+      "production_line": 1,
+      "sensor_reading": 14.61
+    },
+    {
+      "id": 25,
+      "prediction_score": 0.403,
+      "actual": 0,
+      "predicted": 0,
+      "production_line": 4,
+      "sensor_reading": 87.83
+    },
+    {
+      "id": 26,
+      "prediction_score": 0.535,
+      "actual": 0,
+      "predicted": 1,
+      "production_line": 2,
+      "sensor_reading": 35.74
+    },
+    {
+      "id": 27,
+      "prediction_score": 0.416,
+      "actual": 0,
+      "predicted": 0,
+      "production_line": 1,
+      "sensor_reading": 27.27
+    },
+    {
+      "id": 28,
+      "prediction_score": 0.721,
+      "actual": 0,
+      "predicted": 1,
+      "production_line": 4,
+      "sensor_reading": 63.62
+    },
+    {
+      "id": 29,
+      "prediction_score": 0.684,
+      "actual": 0,
+      "predicted": 1,
+      "production_line": 3,
+      "sensor_reading": 4.87
+    },
+    {
+      "id": 30,
+      "prediction_score": 0.422,
+      "actual": 0,
+      "predicted": 0,
+      "production_line": 3,
+      "sensor_reading": 52.96
+    },
+    {
+      "id": 31,
+      "prediction_score": 0.786,
+      "actual": 0,
+      "predicted": 1,
+      "production_line": 1,
+      "sensor_reading": 51.39
+    },
+    {
+      "id": 32,
+      "prediction_score": 0.242,
+      "actual": 0,
+      "predicted": 0,
+      "production_line": 2,
+      "sensor_reading": 76.47
+    },
+    {
+      "id": 33,
+      "prediction_score": 0.272,
+      "actual": 0,
+      "predicted": 0,
+      "production_line": 5,
+      "sensor_reading": 75.26
+    },
+    {
+      "id": 34,
+      "prediction_score": 0.74,
+      "actual": 1,
+      "predicted": 1,
+      "production_line": 5,
+      "sensor_reading": 32.26
+    },
+    {
+      "id": 35,
+      "prediction_score": 0.417,
+      "actual": 0,
+      "predicted": 0,
+      "production_line": 3,
+      "sensor_reading": 82.68
+    },
+    {
+      "id": 36,
+      "prediction_score": 0.562,
+      "actual": 0,
+      "predicted": 1,
+      "production_line": 3,
+      "sensor_reading": 27.15
+    },
+    {
+      "id": 37,
+      "prediction_score": 0.021,
+      "actual": 0,
+      "predicted": 0,
+      "production_line": 3,
+      "sensor_reading": 9.58
+    },
+    {
+      "id": 38,
+      "prediction_score": 0.166,
+      "actual": 0,
+      "predicted": 0,
+      "production_line": 5,
+      "sensor_reading": 35.16
+    },
+    {
+      "id": 39,
+      "prediction_score": 0.191,
+      "actual": 0,
+      "predicted": 0,
+      "production_line": 2,
+      "sensor_reading": 1.29
+    },
+    {
+      "id": 40,
+      "prediction_score": 0.061,
+      "actual": 0,
+      "predicted": 0,
+      "production_line": 5,
+      "sensor_reading": 28.14
+    },
+    {
+      "id": 41,
+      "prediction_score": 0.359,
+      "actual": 0,
+      "predicted": 0,
+      "production_line": 4,
+      "sensor_reading": 41.2
+    },
+    {
+      "id": 42,
+      "prediction_score": 0.457,
+      "actual": 0,
+      "predicted": 0,
+      "production_line": 2,
+      "sensor_reading": 10.24
+    },
+    {
+      "id": 43,
+      "prediction_score": 0.049,
+      "actual": 0,
+      "predicted": 0,
+      "production_line": 2,
+      "sensor_reading": 50.34
+    },
+    {
+      "id": 44,
+      "prediction_score": 0.468,
+      "actual": 0,
+      "predicted": 0,
+      "production_line": 2,
+      "sensor_reading": 79.51
+    },
+    {
+      "id": 45,
+      "prediction_score": 0.318,
+      "actual": 0,
+      "predicted": 0,
+      "production_line": 5,
+      "sensor_reading": 61.34
+    },
+    {
+      "id": 46,
+      "prediction_score": 0.518,
+      "actual": 0,
+      "predicted": 1,
+      "production_line": 5,
+      "sensor_reading": 84.61
+    },
+    {
+      "id": 47,
+      "prediction_score": 0.624,
+      "actual": 0,
+      "predicted": 1,
+      "production_line": 5,
+      "sensor_reading": 70.23
+    },
+    {
+      "id": 48,
+      "prediction_score": 0.363,
+      "actual": 0,
+      "predicted": 0,
+      "production_line": 1,
+      "sensor_reading": 41.73
+    },
+    {
+      "id": 49,
+      "prediction_score": 0.061,
+      "actual": 0,
+      "predicted": 0,
+      "production_line": 1,
+      "sensor_reading": 11.66
+    },
+    {
+      "id": 50,
+      "prediction_score": 0.463,
+      "actual": 1,
+      "predicted": 0,
+      "production_line": 2,
+      "sensor_reading": 92.34
+    },
+    {
+      "id": 51,
+      "prediction_score": 0.189,
+      "actual": 0,
+      "predicted": 0,
+      "production_line": 4,
+      "sensor_reading": 34.82
+    },
+    {
+      "id": 52,
+      "prediction_score": 0.097,
+      "actual": 0,
+      "predicted": 0,
+      "production_line": 3,
+      "sensor_reading": 13.9
+    },
+    {
+      "id": 53,
+      "prediction_score": 0.038,
+      "actual": 0,
+      "predicted": 0,
+      "production_line": 4,
+      "sensor_reading": 88.97
+    },
+    {
+      "id": 54,
+      "prediction_score": 0.226,
+      "actual": 0,
+      "predicted": 0,
+      "production_line": 5,
+      "sensor_reading": 52.31
+    },
+    {
+      "id": 55,
+      "prediction_score": 0.451,
+      "actual": 0,
+      "predicted": 0,
+      "production_line": 3,
+      "sensor_reading": 17.22
+    },
+    {
+      "id": 56,
+      "prediction_score": 0.319,
+      "actual": 0,
+      "predicted": 0,
+      "production_line": 3,
+      "sensor_reading": 2.88
+    },
+    {
+      "id": 57,
+      "prediction_score": 0.445,
+      "actual": 0,
+      "predicted": 0,
+      "production_line": 1,
+      "sensor_reading": 22.24
+    },
+    {
+      "id": 58,
+      "prediction_score": 0.044,
+      "actual": 0,
+      "predicted": 0,
+      "production_line": 2,
+      "sensor_reading": 68.8
+    },
+    {
+      "id": 59,
+      "prediction_score": 0.708,
+      "actual": 0,
+      "predicted": 1,
+      "production_line": 3,
+      "sensor_reading": 12.53
+    },
+    {
+      "id": 60,
+      "prediction_score": 0.27,
+      "actual": 0,
+      "predicted": 0,
+      "production_line": 2,
+      "sensor_reading": 98.11
+    },
+    {
+      "id": 61,
+      "prediction_score": 0.208,
+      "actual": 0,
+      "predicted": 0,
+      "production_line": 4,
+      "sensor_reading": 69.08
+    },
+    {
+      "id": 62,
+      "prediction_score": 0.352,
+      "actual": 0,
+      "predicted": 0,
+      "production_line": 1,
+      "sensor_reading": 7.77
+    },
+    {
+      "id": 63,
+      "prediction_score": 0.398,
+      "actual": 0,
+      "predicted": 0,
+      "production_line": 4,
+      "sensor_reading": 75.73
+    },
+    {
+      "id": 64,
+      "prediction_score": 0.128,
+      "actual": 0,
+      "predicted": 0,
+      "production_line": 1,
+      "sensor_reading": 19.64
+    },
+    {
+      "id": 65,
+      "prediction_score": 0.054,
+      "actual": 0,
+      "predicted": 0,
+      "production_line": 1,
+      "sensor_reading": 79.31
+    },
+    {
+      "id": 66,
+      "prediction_score": 0.069,
+      "actual": 0,
+      "predicted": 0,
+      "production_line": 5,
+      "sensor_reading": 59.32
+    },
+    {
+      "id": 67,
+      "prediction_score": 0.514,
+      "actual": 0,
+      "predicted": 1,
+      "production_line": 4,
+      "sensor_reading": 11.89
+    },
+    {
+      "id": 68,
+      "prediction_score": 0.703,
+      "actual": 0,
+      "predicted": 1,
+      "production_line": 3,
+      "sensor_reading": 4.33
+    },
+    {
+      "id": 69,
+      "prediction_score": 0.215,
+      "actual": 0,
+      "predicted": 0,
+      "production_line": 3,
+      "sensor_reading": 66.76
+    },
+    {
+      "id": 70,
+      "prediction_score": 0.334,
+      "actual": 0,
+      "predicted": 0,
+      "production_line": 1,
+      "sensor_reading": 78.24
+    },
+    {
+      "id": 71,
+      "prediction_score": 0.429,
+      "actual": 0,
+      "predicted": 0,
+      "production_line": 5,
+      "sensor_reading": 20.54
+    },
+    {
+      "id": 72,
+      "prediction_score": 0.131,
+      "actual": 0,
+      "predicted": 0,
+      "production_line": 2,
+      "sensor_reading": 18.48
+    },
+    {
+      "id": 73,
+      "prediction_score": 0.308,
+      "actual": 0,
+      "predicted": 0,
+      "production_line": 3,
+      "sensor_reading": 2.93
+    },
+    {
+      "id": 74,
+      "prediction_score": 0.659,
+      "actual": 0,
+      "predicted": 1,
+      "production_line": 2,
+      "sensor_reading": 84.59
+    },
+    {
+      "id": 75,
+      "prediction_score": 0.23,
+      "actual": 0,
+      "predicted": 0,
+      "production_line": 3,
+      "sensor_reading": 94.88
+    },
+    {
+      "id": 76,
+      "prediction_score": 0.264,
+      "actual": 0,
+      "predicted": 0,
+      "production_line": 3,
+      "sensor_reading": 35.22
+    },
+    {
+      "id": 77,
+      "prediction_score": 0.138,
+      "actual": 0,
+      "predicted": 0,
+      "production_line": 5,
+      "sensor_reading": 78.08
+    },
+    {
+      "id": 78,
+      "prediction_score": 0.537,
+      "actual": 0,
+      "predicted": 1,
+      "production_line": 5,
+      "sensor_reading": 24.18
+    },
+    {
+      "id": 79,
+      "prediction_score": 0.262,
+      "actual": 0,
+      "predicted": 0,
+      "production_line": 5,
+      "sensor_reading": 6.83
+    },
+    {
+      "id": 80,
+      "prediction_score": 0.268,
+      "actual": 0,
+      "predicted": 0,
+      "production_line": 5,
+      "sensor_reading": 76.32
+    },
+    {
+      "id": 81,
+      "prediction_score": 0.349,
+      "actual": 0,
+      "predicted": 0,
+      "production_line": 5,
+      "sensor_reading": 21.7
+    },
+    {
+      "id": 82,
+      "prediction_score": 0.343,
+      "actual": 0,
+      "predicted": 0,
+      "production_line": 2,
+      "sensor_reading": 96.43
+    },
+    {
+      "id": 83,
+      "prediction_score": 0.558,
+      "actual": 0,
+      "predicted": 1,
+      "production_line": 2,
+      "sensor_reading": 90.17
+    },
+    {
+      "id": 84,
+      "prediction_score": 0.545,
+      "actual": 0,
+      "predicted": 1,
+      "production_line": 5,
+      "sensor_reading": 0.43
+    },
+    {
+      "id": 85,
+      "prediction_score": 0.656,
+      "actual": 0,
+      "predicted": 1,
+      "production_line": 1,
+      "sensor_reading": 92.42
+    },
+    {
+      "id": 86,
+      "prediction_score": 0.167,
+      "actual": 0,
+      "predicted": 0,
+      "production_line": 5,
+      "sensor_reading": 85.13
+    },
+    {
+      "id": 87,
+      "prediction_score": 0.108,
+      "actual": 0,
+      "predicted": 0,
+      "production_line": 4,
+      "sensor_reading": 36.65
+    },
+    {
+      "id": 88,
+      "prediction_score": 0.248,
+      "actual": 0,
+      "predicted": 0,
+      "production_line": 5,
+      "sensor_reading": 18.51
+    },
+    {
+      "id": 89,
+      "prediction_score": 0.351,
+      "actual": 0,
+      "predicted": 0,
+      "production_line": 1,
+      "sensor_reading": 18.08
+    },
+    {
+      "id": 90,
+      "prediction_score": 0.752,
+      "actual": 1,
+      "predicted": 1,
+      "production_line": 3,
+      "sensor_reading": 98.13
+    },
+    {
+      "id": 91,
+      "prediction_score": 0.364,
+      "actual": 0,
+      "predicted": 0,
+      "production_line": 4,
+      "sensor_reading": 21.43
+    },
+    {
+      "id": 92,
+      "prediction_score": 0.067,
+      "actual": 0,
+      "predicted": 0,
+      "production_line": 2,
+      "sensor_reading": 40.76
+    },
+    {
+      "id": 93,
+      "prediction_score": 0.395,
+      "actual": 0,
+      "predicted": 0,
+      "production_line": 3,
+      "sensor_reading": 12.36
+    },
+    {
+      "id": 94,
+      "prediction_score": 0.261,
+      "actual": 0,
+      "predicted": 0,
+      "production_line": 1,
+      "sensor_reading": 51.97
+    },
+    {
+      "id": 95,
+      "prediction_score": 0.767,
+      "actual": 0,
+      "predicted": 1,
+      "production_line": 4,
+      "sensor_reading": 76.23
+    },
+    {
+      "id": 96,
+      "prediction_score": 0.188,
+      "actual": 0,
+      "predicted": 0,
+      "production_line": 3,
+      "sensor_reading": 55.71
+    },
+    {
+      "id": 97,
+      "prediction_score": 0.313,
+      "actual": 0,
+      "predicted": 0,
+      "production_line": 1,
+      "sensor_reading": 8.22
+    },
+    {
+      "id": 98,
+      "prediction_score": 0.788,
+      "actual": 1,
+      "predicted": 1,
+      "production_line": 4,
+      "sensor_reading": 11.57
+    },
+    {
+      "id": 99,
+      "prediction_score": 0.109,
+      "actual": 0,
+      "predicted": 0,
+      "production_line": 3,
+      "sensor_reading": 45.69
+    },
+    {
+      "id": 100,
+      "prediction_score": 0.469,
+      "actual": 0,
+      "predicted": 0,
+      "production_line": 3,
+      "sensor_reading": 68.7
+    },
+    {
+      "id": 101,
+      "prediction_score": 0.588,
+      "actual": 0,
+      "predicted": 1,
+      "production_line": 4,
+      "sensor_reading": 22.59
+    },
+    {
+      "id": 102,
+      "prediction_score": 0.522,
+      "actual": 0,
+      "predicted": 1,
+      "production_line": 4,
+      "sensor_reading": 29.06
+    },
+    {
+      "id": 103,
+      "prediction_score": 0.449,
+      "actual": 0,
+      "predicted": 0,
+      "production_line": 4,
+      "sensor_reading": 18.88
+    },
+    {
+      "id": 104,
+      "prediction_score": 0.315,
+      "actual": 0,
+      "predicted": 0,
+      "production_line": 1,
+      "sensor_reading": 89.48
+    },
+    {
+      "id": 105,
+      "prediction_score": 0.396,
+      "actual": 0,
+      "predicted": 0,
+      "production_line": 4,
+      "sensor_reading": 93.91
+    },
+    {
+      "id": 106,
+      "prediction_score": 0.363,
+      "actual": 0,
+      "predicted": 0,
+      "production_line": 3,
+      "sensor_reading": 17.93
+    },
+    {
+      "id": 107,
+      "prediction_score": 0.194,
+      "actual": 0,
+      "predicted": 0,
+      "production_line": 4,
+      "sensor_reading": 67.21
+    },
+    {
+      "id": 108,
+      "prediction_score": 0.224,
+      "actual": 0,
+      "predicted": 0,
+      "production_line": 4,
+      "sensor_reading": 43.81
+    },
+    {
+      "id": 109,
+      "prediction_score": 0.827,
+      "actual": 0,
+      "predicted": 1,
+      "production_line": 1,
+      "sensor_reading": 11.92
+    },
+    {
+      "id": 110,
+      "prediction_score": 0.519,
+      "actual": 1,
+      "predicted": 1,
+      "production_line": 4,
+      "sensor_reading": 40.06
+    },
+    {
+      "id": 111,
+      "prediction_score": 0.518,
+      "actual": 0,
+      "predicted": 1,
+      "production_line": 5,
+      "sensor_reading": 97.76
+    },
+    {
+      "id": 112,
+      "prediction_score": 0.152,
+      "actual": 0,
+      "predicted": 0,
+      "production_line": 2,
+      "sensor_reading": 6.47
+    },
+    {
+      "id": 113,
+      "prediction_score": 0.392,
+      "actual": 0,
+      "predicted": 0,
+      "production_line": 2,
+      "sensor_reading": 33.86
+    },
+    {
+      "id": 114,
+      "prediction_score": 0.49,
+      "actual": 0,
+      "predicted": 0,
+      "production_line": 5,
+      "sensor_reading": 84.4
+    },
+    {
+      "id": 115,
+      "prediction_score": 0.285,
+      "actual": 0,
+      "predicted": 0,
+      "production_line": 4,
+      "sensor_reading": 12.28
+    },
+    {
+      "id": 116,
+      "prediction_score": 0.084,
+      "actual": 0,
+      "predicted": 0,
+      "production_line": 4,
+      "sensor_reading": 72.52
+    },
+    {
+      "id": 117,
+      "prediction_score": 0.075,
+      "actual": 0,
+      "predicted": 0,
+      "production_line": 3,
+      "sensor_reading": 76.48
+    },
+    {
+      "id": 118,
+      "prediction_score": 0.332,
+      "actual": 0,
+      "predicted": 0,
+      "production_line": 5,
+      "sensor_reading": 59.36
+    },
+    {
+      "id": 119,
+      "prediction_score": 0.552,
+      "actual": 0,
+      "predicted": 1,
+      "production_line": 4,
+      "sensor_reading": 35.61
+    },
+    {
+      "id": 120,
+      "prediction_score": 0.668,
+      "actual": 1,
+      "predicted": 1,
+      "production_line": 5,
+      "sensor_reading": 95.01
+    },
+    {
+      "id": 121,
+      "prediction_score": 0.038,
+      "actual": 0,
+      "predicted": 0,
+      "production_line": 4,
+      "sensor_reading": 51.14
+    },
+    {
+      "id": 122,
+      "prediction_score": 0.35,
+      "actual": 0,
+      "predicted": 0,
+      "production_line": 2,
+      "sensor_reading": 76.8
+    },
+    {
+      "id": 123,
+      "prediction_score": 0.929,
+      "actual": 1,
+      "predicted": 1,
+      "production_line": 1,
+      "sensor_reading": 12.22
+    },
+    {
+      "id": 124,
+      "prediction_score": 0.254,
+      "actual": 0,
+      "predicted": 0,
+      "production_line": 4,
+      "sensor_reading": 49.73
+    },
+    {
+      "id": 125,
+      "prediction_score": 0.5,
+      "actual": 0,
+      "predicted": 1,
+      "production_line": 2,
+      "sensor_reading": 2.97
+    },
+    {
+      "id": 126,
+      "prediction_score": 0.156,
+      "actual": 0,
+      "predicted": 0,
+      "production_line": 1,
+      "sensor_reading": 83.03
+    },
+    {
+      "id": 127,
+      "prediction_score": 0.105,
+      "actual": 0,
+      "predicted": 0,
+      "production_line": 4,
+      "sensor_reading": 67.81
+    },
+    {
+      "id": 128,
+      "prediction_score": 0.209,
+      "actual": 0,
+      "predicted": 0,
+      "production_line": 2,
+      "sensor_reading": 38.26
+    },
+    {
+      "id": 129,
+      "prediction_score": 0.737,
+      "actual": 0,
+      "predicted": 1,
+      "production_line": 3,
+      "sensor_reading": 15.27
+    },
+    {
+      "id": 130,
+      "prediction_score": 0.546,
+      "actual": 0,
+      "predicted": 1,
+      "production_line": 5,
+      "sensor_reading": 62.32
+    },
+    {
+      "id": 131,
+      "prediction_score": 0.334,
+      "actual": 0,
+      "predicted": 0,
+      "production_line": 1,
+      "sensor_reading": 66.11
+    },
+    {
+      "id": 132,
+      "prediction_score": 0.339,
+      "actual": 0,
+      "predicted": 0,
+      "production_line": 5,
+      "sensor_reading": 76.76
+    },
+    {
+      "id": 133,
+      "prediction_score": 0.46,
+      "actual": 0,
+      "predicted": 0,
+      "production_line": 4,
+      "sensor_reading": 20.19
+    },
+    {
+      "id": 134,
+      "prediction_score": 0.187,
+      "actual": 0,
+      "predicted": 0,
+      "production_line": 4,
+      "sensor_reading": 49.03
+    },
+    {
+      "id": 135,
+      "prediction_score": 0.663,
+      "actual": 0,
+      "predicted": 1,
+      "production_line": 3,
+      "sensor_reading": 54.24
+    },
+    {
+      "id": 136,
+      "prediction_score": 0.191,
+      "actual": 0,
+      "predicted": 0,
+      "production_line": 5,
+      "sensor_reading": 54.66
+    },
+    {
+      "id": 137,
+      "prediction_score": 0.173,
+      "actual": 0,
+      "predicted": 0,
+      "production_line": 1,
+      "sensor_reading": 99.07
+    },
+    {
+      "id": 138,
+      "prediction_score": 0.433,
+      "actual": 0,
+      "predicted": 0,
+      "production_line": 1,
+      "sensor_reading": 38.36
+    },
+    {
+      "id": 139,
+      "prediction_score": 0.701,
+      "actual": 0,
+      "predicted": 1,
+      "production_line": 3,
+      "sensor_reading": 85.29
+    },
+    {
+      "id": 140,
+      "prediction_score": 0.356,
+      "actual": 0,
+      "predicted": 0,
+      "production_line": 4,
+      "sensor_reading": 45.97
+    },
+    {
+      "id": 141,
+      "prediction_score": 0.45,
+      "actual": 0,
+      "predicted": 0,
+      "production_line": 1,
+      "sensor_reading": 17.69
+    },
+    {
+      "id": 142,
+      "prediction_score": 0.442,
+      "actual": 0,
+      "predicted": 0,
+      "production_line": 3,
+      "sensor_reading": 88.47
+    },
+    {
+      "id": 143,
+      "prediction_score": 0.066,
+      "actual": 0,
+      "predicted": 0,
+      "production_line": 2,
+      "sensor_reading": 49.15
+    },
+    {
+      "id": 144,
+      "prediction_score": 0.346,
+      "actual": 0,
+      "predicted": 0,
+      "production_line": 2,
+      "sensor_reading": 31.25
+    },
+    {
+      "id": 145,
+      "prediction_score": 0.08,
+      "actual": 0,
+      "predicted": 0,
+      "production_line": 4,
+      "sensor_reading": 48.75
+    },
+    {
+      "id": 146,
+      "prediction_score": 0.051,
+      "actual": 0,
+      "predicted": 0,
+      "production_line": 1,
+      "sensor_reading": 56.89
+    },
+    {
+      "id": 147,
+      "prediction_score": 0.331,
+      "actual": 0,
+      "predicted": 0,
+      "production_line": 4,
+      "sensor_reading": 66.01
+    },
+    {
+      "id": 148,
+      "prediction_score": 0.127,
+      "actual": 0,
+      "predicted": 0,
+      "production_line": 5,
+      "sensor_reading": 57.22
+    },
+    {
+      "id": 149,
+      "prediction_score": 0.029,
+      "actual": 0,
+      "predicted": 0,
+      "production_line": 4,
+      "sensor_reading": 56.23
+    },
+    {
+      "id": 150,
+      "prediction_score": 0.542,
+      "actual": 0,
+      "predicted": 1,
+      "production_line": 2,
+      "sensor_reading": 50.67
+    },
+    {
+      "id": 151,
+      "prediction_score": 0.419,
+      "actual": 0,
+      "predicted": 0,
+      "production_line": 4,
+      "sensor_reading": 26.34
+    },
+    {
+      "id": 152,
+      "prediction_score": 0.389,
+      "actual": 0,
+      "predicted": 0,
+      "production_line": 5,
+      "sensor_reading": 97.09
+    },
+    {
+      "id": 153,
+      "prediction_score": 0.312,
+      "actual": 0,
+      "predicted": 0,
+      "production_line": 5,
+      "sensor_reading": 67.65
+    },
+    {
+      "id": 154,
+      "prediction_score": 0.414,
+      "actual": 0,
+      "predicted": 0,
+      "production_line": 3,
+      "sensor_reading": 32.05
+    },
+    {
+      "id": 155,
+      "prediction_score": 0.915,
+      "actual": 1,
+      "predicted": 1,
+      "production_line": 1,
+      "sensor_reading": 59.05
+    },
+    {
+      "id": 156,
+      "prediction_score": 0.14,
+      "actual": 0,
+      "predicted": 0,
+      "production_line": 2,
+      "sensor_reading": 83.69
+    },
+    {
+      "id": 157,
+      "prediction_score": 0.424,
+      "actual": 0,
+      "predicted": 0,
+      "production_line": 3,
+      "sensor_reading": 80.96
+    },
+    {
+      "id": 158,
+      "prediction_score": 0.5,
+      "actual": 1,
+      "predicted": 1,
+      "production_line": 5,
+      "sensor_reading": 2.69
+    },
+    {
+      "id": 159,
+      "prediction_score": 0.009,
+      "actual": 0,
+      "predicted": 0,
+      "production_line": 3,
+      "sensor_reading": 38.06
+    },
+    {
+      "id": 160,
+      "prediction_score": 0.666,
+      "actual": 0,
+      "predicted": 1,
+      "production_line": 4,
+      "sensor_reading": 34.51
+    },
+    {
+      "id": 161,
+      "prediction_score": 0.252,
+      "actual": 0,
+      "predicted": 0,
+      "production_line": 3,
+      "sensor_reading": 41.19
+    },
+    {
+      "id": 162,
+      "prediction_score": 0.758,
+      "actual": 1,
+      "predicted": 1,
+      "production_line": 1,
+      "sensor_reading": 66.12
+    },
+    {
+      "id": 163,
+      "prediction_score": 0.469,
+      "actual": 1,
+      "predicted": 0,
+      "production_line": 2,
+      "sensor_reading": 23.46
+    },
+    {
+      "id": 164,
+      "prediction_score": 0.239,
+      "actual": 0,
+      "predicted": 0,
+      "production_line": 3,
+      "sensor_reading": 59.25
+    },
+    {
+      "id": 165,
+      "prediction_score": 0.232,
+      "actual": 0,
+      "predicted": 0,
+      "production_line": 1,
+      "sensor_reading": 86.89
+    },
+    {
+      "id": 166,
+      "prediction_score": 0.149,
+      "actual": 0,
+      "predicted": 0,
+      "production_line": 1,
+      "sensor_reading": 33.76
+    },
+    {
+      "id": 167,
+      "prediction_score": 0.088,
+      "actual": 0,
+      "predicted": 0,
+      "production_line": 1,
+      "sensor_reading": 53.84
+    },
+    {
+      "id": 168,
+      "prediction_score": 0.358,
+      "actual": 0,
+      "predicted": 0,
+      "production_line": 1,
+      "sensor_reading": 46.09
+    },
+    {
+      "id": 169,
+      "prediction_score": 0.089,
+      "actual": 0,
+      "predicted": 0,
+      "production_line": 4,
+      "sensor_reading": 56.8
+    },
+    {
+      "id": 170,
+      "prediction_score": 0.445,
+      "actual": 0,
+      "predicted": 0,
+      "production_line": 4,
+      "sensor_reading": 26.66
+    },
+    {
+      "id": 171,
+      "prediction_score": 0.256,
+      "actual": 0,
+      "predicted": 0,
+      "production_line": 4,
+      "sensor_reading": 58.8
+    },
+    {
+      "id": 172,
+      "prediction_score": 0.418,
+      "actual": 0,
+      "predicted": 0,
+      "production_line": 3,
+      "sensor_reading": 37.77
+    },
+    {
+      "id": 173,
+      "prediction_score": 0.407,
+      "actual": 0,
+      "predicted": 0,
+      "production_line": 4,
+      "sensor_reading": 32.24
+    },
+    {
+      "id": 174,
+      "prediction_score": 0.544,
+      "actual": 0,
+      "predicted": 1,
+      "production_line": 1,
+      "sensor_reading": 80.83
+    },
+    {
+      "id": 175,
+      "prediction_score": 0.059,
+      "actual": 0,
+      "predicted": 0,
+      "production_line": 1,
+      "sensor_reading": 69.09
+    },
+    {
+      "id": 176,
+      "prediction_score": 0.681,
+      "actual": 1,
+      "predicted": 1,
+      "production_line": 2,
+      "sensor_reading": 33.6
+    },
+    {
+      "id": 177,
+      "prediction_score": 0.25,
+      "actual": 0,
+      "predicted": 0,
+      "production_line": 5,
+      "sensor_reading": 81.15
+    },
+    {
+      "id": 178,
+      "prediction_score": 0.603,
+      "actual": 0,
+      "predicted": 1,
+      "production_line": 3,
+      "sensor_reading": 16.66
+    },
+    {
+      "id": 179,
+      "prediction_score": 0.37,
+      "actual": 1,
+      "predicted": 0,
+      "production_line": 3,
+      "sensor_reading": 36.33
+    },
+    {
+      "id": 180,
+      "prediction_score": 0.7,
+      "actual": 1,
+      "predicted": 1,
+      "production_line": 4,
+      "sensor_reading": 20.18
+    },
+    {
+      "id": 181,
+      "prediction_score": 0.586,
+      "actual": 0,
+      "predicted": 1,
+      "production_line": 1,
+      "sensor_reading": 84.04
+    },
+    {
+      "id": 182,
+      "prediction_score": 0.243,
+      "actual": 0,
+      "predicted": 0,
+      "production_line": 5,
+      "sensor_reading": 21.41
+    },
+    {
+      "id": 183,
+      "prediction_score": 0.39,
+      "actual": 0,
+      "predicted": 0,
+      "production_line": 3,
+      "sensor_reading": 4.75
+    },
+    {
+      "id": 184,
+      "prediction_score": 0.417,
+      "actual": 0,
+      "predicted": 0,
+      "production_line": 5,
+      "sensor_reading": 40.2
+    },
+    {
+      "id": 185,
+      "prediction_score": 0.297,
+      "actual": 0,
+      "predicted": 0,
+      "production_line": 2,
+      "sensor_reading": 62.46
+    },
+    {
+      "id": 186,
+      "prediction_score": 0.234,
+      "actual": 0,
+      "predicted": 0,
+      "production_line": 1,
+      "sensor_reading": 71.77
+    },
+    {
+      "id": 187,
+      "prediction_score": 0.628,
+      "actual": 0,
+      "predicted": 1,
+      "production_line": 5,
+      "sensor_reading": 9.47
+    },
+    {
+      "id": 188,
+      "prediction_score": 0.182,
+      "actual": 0,
+      "predicted": 0,
+      "production_line": 3,
+      "sensor_reading": 27.34
+    },
+    {
+      "id": 189,
+      "prediction_score": 0.207,
+      "actual": 0,
+      "predicted": 0,
+      "production_line": 5,
+      "sensor_reading": 80.12
+    },
+    {
+      "id": 190,
+      "prediction_score": 0.233,
+      "actual": 0,
+      "predicted": 0,
+      "production_line": 4,
+      "sensor_reading": 42.71
+    },
+    {
+      "id": 191,
+      "prediction_score": 0.123,
+      "actual": 0,
+      "predicted": 0,
+      "production_line": 3,
+      "sensor_reading": 79.57
+    },
+    {
+      "id": 192,
+      "prediction_score": 0.625,
+      "actual": 0,
+      "predicted": 1,
+      "production_line": 3,
+      "sensor_reading": 50.46
+    },
+    {
+      "id": 193,
+      "prediction_score": 0.672,
+      "actual": 0,
+      "predicted": 1,
+      "production_line": 3,
+      "sensor_reading": 43.29
+    },
+    {
+      "id": 194,
+      "prediction_score": 0.433,
+      "actual": 0,
+      "predicted": 0,
+      "production_line": 5,
+      "sensor_reading": 31.34
+    },
+    {
+      "id": 195,
+      "prediction_score": 0.317,
+      "actual": 0,
+      "predicted": 0,
+      "production_line": 4,
+      "sensor_reading": 40.23
+    },
+    {
+      "id": 196,
+      "prediction_score": 0.52,
+      "actual": 0,
+      "predicted": 1,
+      "production_line": 5,
+      "sensor_reading": 51.54
+    },
+    {
+      "id": 197,
+      "prediction_score": 0.777,
+      "actual": 0,
+      "predicted": 1,
+      "production_line": 5,
+      "sensor_reading": 18.06
+    },
+    {
+      "id": 198,
+      "prediction_score": 0.312,
+      "actual": 0,
+      "predicted": 0,
+      "production_line": 1,
+      "sensor_reading": 62.78
+    },
+    {
+      "id": 199,
+      "prediction_score": 0.6,
+      "actual": 0,
+      "predicted": 1,
+      "production_line": 5,
+      "sensor_reading": 86.27
+    },
+    {
+      "id": 200,
+      "prediction_score": 0.116,
+      "actual": 0,
+      "predicted": 0,
+      "production_line": 5,
+      "sensor_reading": 49.92
+    },
+    {
+      "id": 201,
+      "prediction_score": 0.192,
+      "actual": 0,
+      "predicted": 0,
+      "production_line": 4,
+      "sensor_reading": 26.79
+    },
+    {
+      "id": 202,
+      "prediction_score": 0.597,
+      "actual": 0,
+      "predicted": 1,
+      "production_line": 5,
+      "sensor_reading": 80.89
+    },
+    {
+      "id": 203,
+      "prediction_score": 0.727,
+      "actual": 0,
+      "predicted": 1,
+      "production_line": 4,
+      "sensor_reading": 93.46
+    },
+    {
+      "id": 204,
+      "prediction_score": 0.518,
+      "actual": 0,
+      "predicted": 1,
+      "production_line": 1,
+      "sensor_reading": 52.23
+    },
+    {
+      "id": 205,
+      "prediction_score": 0.89,
+      "actual": 1,
+      "predicted": 1,
+      "production_line": 3,
+      "sensor_reading": 46.25
+    },
+    {
+      "id": 206,
+      "prediction_score": 0.478,
+      "actual": 0,
+      "predicted": 0,
+      "production_line": 2,
+      "sensor_reading": 15.05
+    },
+    {
+      "id": 207,
+      "prediction_score": 0.476,
+      "actual": 0,
+      "predicted": 0,
+      "production_line": 3,
+      "sensor_reading": 84.41
+    },
+    {
+      "id": 208,
+      "prediction_score": 0.013,
+      "actual": 0,
+      "predicted": 0,
+      "production_line": 4,
+      "sensor_reading": 31.87
+    },
+    {
+      "id": 209,
+      "prediction_score": 0.382,
+      "actual": 0,
+      "predicted": 0,
+      "production_line": 1,
+      "sensor_reading": 63.39
+    },
+    {
+      "id": 210,
+      "prediction_score": 0.588,
+      "actual": 1,
+      "predicted": 1,
+      "production_line": 4,
+      "sensor_reading": 26.69
+    },
+    {
+      "id": 211,
+      "prediction_score": 0.251,
+      "actual": 0,
+      "predicted": 0,
+      "production_line": 3,
+      "sensor_reading": 64.6
+    },
+    {
+      "id": 212,
+      "prediction_score": 0.62,
+      "actual": 0,
+      "predicted": 1,
+      "production_line": 3,
+      "sensor_reading": 68.69
+    },
+    {
+      "id": 213,
+      "prediction_score": 0.707,
+      "actual": 0,
+      "predicted": 1,
+      "production_line": 2,
+      "sensor_reading": 40.59
+    },
+    {
+      "id": 214,
+      "prediction_score": 0.126,
+      "actual": 0,
+      "predicted": 0,
+      "production_line": 1,
+      "sensor_reading": 15.0
+    },
+    {
+      "id": 215,
+      "prediction_score": 0.358,
+      "actual": 0,
+      "predicted": 0,
+      "production_line": 1,
+      "sensor_reading": 24.56
+    },
+    {
+      "id": 216,
+      "prediction_score": 0.419,
+      "actual": 0,
+      "predicted": 0,
+      "production_line": 3,
+      "sensor_reading": 46.42
+    },
+    {
+      "id": 217,
+      "prediction_score": 0.351,
+      "actual": 1,
+      "predicted": 0,
+      "production_line": 5,
+      "sensor_reading": 99.13
+    },
+    {
+      "id": 218,
+      "prediction_score": 0.451,
+      "actual": 0,
+      "predicted": 0,
+      "production_line": 4,
+      "sensor_reading": 64.69
+    },
+    {
+      "id": 219,
+      "prediction_score": 0.483,
+      "actual": 0,
+      "predicted": 0,
+      "production_line": 1,
+      "sensor_reading": 20.2
+    },
+    {
+      "id": 220,
+      "prediction_score": 0.416,
+      "actual": 0,
+      "predicted": 0,
+      "production_line": 3,
+      "sensor_reading": 13.64
+    },
+    {
+      "id": 221,
+      "prediction_score": 0.134,
+      "actual": 0,
+      "predicted": 0,
+      "production_line": 3,
+      "sensor_reading": 78.97
+    },
+    {
+      "id": 222,
+      "prediction_score": 0.711,
+      "actual": 0,
+      "predicted": 1,
+      "production_line": 3,
+      "sensor_reading": 65.87
+    },
+    {
+      "id": 223,
+      "prediction_score": 0.137,
+      "actual": 0,
+      "predicted": 0,
+      "production_line": 2,
+      "sensor_reading": 64.43
+    },
+    {
+      "id": 224,
+      "prediction_score": 0.089,
+      "actual": 0,
+      "predicted": 0,
+      "production_line": 1,
+      "sensor_reading": 96.38
+    },
+    {
+      "id": 225,
+      "prediction_score": 0.183,
+      "actual": 0,
+      "predicted": 0,
+      "production_line": 4,
+      "sensor_reading": 78.22
+    },
+    {
+      "id": 226,
+      "prediction_score": 0.12,
+      "actual": 0,
+      "predicted": 0,
+      "production_line": 1,
+      "sensor_reading": 85.96
+    },
+    {
+      "id": 227,
+      "prediction_score": 0.066,
+      "actual": 0,
+      "predicted": 0,
+      "production_line": 1,
+      "sensor_reading": 31.39
+    },
+    {
+      "id": 228,
+      "prediction_score": 0.705,
+      "actual": 1,
+      "predicted": 1,
+      "production_line": 3,
+      "sensor_reading": 86.72
+    },
+    {
+      "id": 229,
+      "prediction_score": 0.405,
+      "actual": 0,
+      "predicted": 0,
+      "production_line": 4,
+      "sensor_reading": 89.68
+    },
+    {
+      "id": 230,
+      "prediction_score": 0.217,
+      "actual": 0,
+      "predicted": 0,
+      "production_line": 1,
+      "sensor_reading": 39.69
+    },
+    {
+      "id": 231,
+      "prediction_score": 0.529,
+      "actual": 0,
+      "predicted": 1,
+      "production_line": 2,
+      "sensor_reading": 23.6
+    },
+    {
+      "id": 232,
+      "prediction_score": 0.487,
+      "actual": 0,
+      "predicted": 0,
+      "production_line": 5,
+      "sensor_reading": 73.45
+    },
+    {
+      "id": 233,
+      "prediction_score": 0.326,
+      "actual": 0,
+      "predicted": 0,
+      "production_line": 1,
+      "sensor_reading": 52.2
+    },
+    {
+      "id": 234,
+      "prediction_score": 0.228,
+      "actual": 0,
+      "predicted": 0,
+      "production_line": 5,
+      "sensor_reading": 94.97
+    },
+    {
+      "id": 235,
+      "prediction_score": 0.516,
+      "actual": 0,
+      "predicted": 1,
+      "production_line": 5,
+      "sensor_reading": 25.18
+    },
+    {
+      "id": 236,
+      "prediction_score": 0.333,
+      "actual": 0,
+      "predicted": 0,
+      "production_line": 1,
+      "sensor_reading": 23.81
+    },
+    {
+      "id": 237,
+      "prediction_score": 0.455,
+      "actual": 0,
+      "predicted": 0,
+      "production_line": 1,
+      "sensor_reading": 77.32
+    },
+    {
+      "id": 238,
+      "prediction_score": 0.544,
+      "actual": 1,
+      "predicted": 1,
+      "production_line": 3,
+      "sensor_reading": 32.93
+    },
+    {
+      "id": 239,
+      "prediction_score": 0.296,
+      "actual": 0,
+      "predicted": 0,
+      "production_line": 5,
+      "sensor_reading": 73.72
+    },
+    {
+      "id": 240,
+      "prediction_score": 0.359,
+      "actual": 0,
+      "predicted": 0,
+      "production_line": 2,
+      "sensor_reading": 93.55
+    },
+    {
+      "id": 241,
+      "prediction_score": 0.214,
+      "actual": 0,
+      "predicted": 0,
+      "production_line": 2,
+      "sensor_reading": 14.43
+    },
+    {
+      "id": 242,
+      "prediction_score": 0.516,
+      "actual": 0,
+      "predicted": 1,
+      "production_line": 2,
+      "sensor_reading": 21.41
+    },
+    {
+      "id": 243,
+      "prediction_score": 0.316,
+      "actual": 0,
+      "predicted": 0,
+      "production_line": 3,
+      "sensor_reading": 43.95
+    },
+    {
+      "id": 244,
+      "prediction_score": 0.71,
+      "actual": 1,
+      "predicted": 1,
+      "production_line": 3,
+      "sensor_reading": 86.29
+    },
+    {
+      "id": 245,
+      "prediction_score": 0.36,
+      "actual": 0,
+      "predicted": 0,
+      "production_line": 1,
+      "sensor_reading": 49.04
+    },
+    {
+      "id": 246,
+      "prediction_score": 0.395,
+      "actual": 0,
+      "predicted": 0,
+      "production_line": 3,
+      "sensor_reading": 69.96
+    },
+    {
+      "id": 247,
+      "prediction_score": 0.354,
+      "actual": 0,
+      "predicted": 0,
+      "production_line": 1,
+      "sensor_reading": 31.65
+    },
+    {
+      "id": 248,
+      "prediction_score": 0.063,
+      "actual": 0,
+      "predicted": 0,
+      "production_line": 4,
+      "sensor_reading": 47.49
+    },
+    {
+      "id": 249,
+      "prediction_score": 0.328,
+      "actual": 0,
+      "predicted": 0,
+      "production_line": 2,
+      "sensor_reading": 96.33
+    },
+    {
+      "id": 250,
+      "prediction_score": 0.131,
+      "actual": 0,
+      "predicted": 0,
+      "production_line": 2,
+      "sensor_reading": 36.3
+    },
+    {
+      "id": 251,
+      "prediction_score": 0.459,
+      "actual": 0,
+      "predicted": 0,
+      "production_line": 3,
+      "sensor_reading": 82.14
+    },
+    {
+      "id": 252,
+      "prediction_score": 0.278,
+      "actual": 0,
+      "predicted": 0,
+      "production_line": 1,
+      "sensor_reading": 64.54
+    },
+    {
+      "id": 253,
+      "prediction_score": 0.546,
+      "actual": 0,
+      "predicted": 1,
+      "production_line": 5,
+      "sensor_reading": 3.48
+    },
+    {
+      "id": 254,
+      "prediction_score": 0.392,
+      "actual": 0,
+      "predicted": 0,
+      "production_line": 1,
+      "sensor_reading": 69.07
+    },
+    {
+      "id": 255,
+      "prediction_score": 0.497,
+      "actual": 0,
+      "predicted": 0,
+      "production_line": 2,
+      "sensor_reading": 25.3
+    },
+    {
+      "id": 256,
+      "prediction_score": 0.283,
+      "actual": 0,
+      "predicted": 0,
+      "production_line": 4,
+      "sensor_reading": 30.93
+    },
+    {
+      "id": 257,
+      "prediction_score": 0.099,
+      "actual": 0,
+      "predicted": 0,
+      "production_line": 3,
+      "sensor_reading": 90.32
+    },
+    {
+      "id": 258,
+      "prediction_score": 0.317,
+      "actual": 0,
+      "predicted": 0,
+      "production_line": 1,
+      "sensor_reading": 53.49
+    },
+    {
+      "id": 259,
+      "prediction_score": 0.148,
+      "actual": 0,
+      "predicted": 0,
+      "production_line": 2,
+      "sensor_reading": 85.76
+    },
+    {
+      "id": 260,
+      "prediction_score": 0.138,
+      "actual": 0,
+      "predicted": 0,
+      "production_line": 4,
+      "sensor_reading": 0.79
+    },
+    {
+      "id": 261,
+      "prediction_score": 0.43,
+      "actual": 0,
+      "predicted": 0,
+      "production_line": 4,
+      "sensor_reading": 92.75
+    },
+    {
+      "id": 262,
+      "prediction_score": 0.437,
+      "actual": 0,
+      "predicted": 0,
+      "production_line": 3,
+      "sensor_reading": 30.09
+    },
+    {
+      "id": 263,
+      "prediction_score": 0.093,
+      "actual": 0,
+      "predicted": 0,
+      "production_line": 2,
+      "sensor_reading": 29.74
+    },
+    {
+      "id": 264,
+      "prediction_score": 0.405,
+      "actual": 0,
+      "predicted": 0,
+      "production_line": 2,
+      "sensor_reading": 91.59
+    },
+    {
+      "id": 265,
+      "prediction_score": 0.444,
+      "actual": 1,
+      "predicted": 0,
+      "production_line": 3,
+      "sensor_reading": 87.95
+    },
+    {
+      "id": 266,
+      "prediction_score": 0.057,
+      "actual": 0,
+      "predicted": 0,
+      "production_line": 4,
+      "sensor_reading": 78.93
+    },
+    {
+      "id": 267,
+      "prediction_score": 0.598,
+      "actual": 0,
+      "predicted": 1,
+      "production_line": 3,
+      "sensor_reading": 86.64
+    },
+    {
+      "id": 268,
+      "prediction_score": 0.701,
+      "actual": 1,
+      "predicted": 1,
+      "production_line": 4,
+      "sensor_reading": 47.11
+    },
+    {
+      "id": 269,
+      "prediction_score": 0.597,
+      "actual": 1,
+      "predicted": 1,
+      "production_line": 4,
+      "sensor_reading": 92.65
+    },
+    {
+      "id": 270,
+      "prediction_score": 0.361,
+      "actual": 0,
+      "predicted": 0,
+      "production_line": 3,
+      "sensor_reading": 71.74
+    },
+    {
+      "id": 271,
+      "prediction_score": 0.64,
+      "actual": 0,
+      "predicted": 1,
+      "production_line": 1,
+      "sensor_reading": 82.44
+    },
+    {
+      "id": 272,
+      "prediction_score": 0.24,
+      "actual": 0,
+      "predicted": 0,
+      "production_line": 3,
+      "sensor_reading": 50.63
+    },
+    {
+      "id": 273,
+      "prediction_score": 0.392,
+      "actual": 0,
+      "predicted": 0,
+      "production_line": 3,
+      "sensor_reading": 42.09
+    },
+    {
+      "id": 274,
+      "prediction_score": 0.355,
+      "actual": 0,
+      "predicted": 0,
+      "production_line": 5,
+      "sensor_reading": 73.78
+    },
+    {
+      "id": 275,
+      "prediction_score": 0.189,
+      "actual": 0,
+      "predicted": 0,
+      "production_line": 4,
+      "sensor_reading": 69.52
+    },
+    {
+      "id": 276,
+      "prediction_score": 0.129,
+      "actual": 0,
+      "predicted": 0,
+      "production_line": 1,
+      "sensor_reading": 64.14
+    },
+    {
+      "id": 277,
+      "prediction_score": 0.284,
+      "actual": 0,
+      "predicted": 0,
+      "production_line": 2,
+      "sensor_reading": 63.02
+    },
+    {
+      "id": 278,
+      "prediction_score": 0.096,
+      "actual": 0,
+      "predicted": 0,
+      "production_line": 2,
+      "sensor_reading": 0.31
+    },
+    {
+      "id": 279,
+      "prediction_score": 0.08,
+      "actual": 0,
+      "predicted": 0,
+      "production_line": 2,
+      "sensor_reading": 62.83
+    },
+    {
+      "id": 280,
+      "prediction_score": 0.366,
+      "actual": 0,
+      "predicted": 0,
+      "production_line": 3,
+      "sensor_reading": 57.58
+    },
+    {
+      "id": 281,
+      "prediction_score": 0.405,
+      "actual": 0,
+      "predicted": 0,
+      "production_line": 1,
+      "sensor_reading": 15.78
+    },
+    {
+      "id": 282,
+      "prediction_score": 0.384,
+      "actual": 0,
+      "predicted": 0,
+      "production_line": 5,
+      "sensor_reading": 71.36
+    },
+    {
+      "id": 283,
+      "prediction_score": 0.235,
+      "actual": 0,
+      "predicted": 0,
+      "production_line": 2,
+      "sensor_reading": 84.7
+    },
+    {
+      "id": 284,
+      "prediction_score": 0.138,
+      "actual": 0,
+      "predicted": 0,
+      "production_line": 4,
+      "sensor_reading": 79.26
+    },
+    {
+      "id": 285,
+      "prediction_score": 0.324,
+      "actual": 0,
+      "predicted": 0,
+      "production_line": 3,
+      "sensor_reading": 45.15
+    },
+    {
+      "id": 286,
+      "prediction_score": 0.241,
+      "actual": 0,
+      "predicted": 0,
+      "production_line": 2,
+      "sensor_reading": 26.07
+    },
+    {
+      "id": 287,
+      "prediction_score": 0.049,
+      "actual": 0,
+      "predicted": 0,
+      "production_line": 5,
+      "sensor_reading": 82.68
+    },
+    {
+      "id": 288,
+      "prediction_score": 0.697,
+      "actual": 1,
+      "predicted": 1,
+      "production_line": 3,
+      "sensor_reading": 19.87
+    },
+    {
+      "id": 289,
+      "prediction_score": 0.565,
+      "actual": 0,
+      "predicted": 1,
+      "production_line": 4,
+      "sensor_reading": 36.76
+    },
+    {
+      "id": 290,
+      "prediction_score": 0.084,
+      "actual": 0,
+      "predicted": 0,
+      "production_line": 4,
+      "sensor_reading": 87.64
+    },
+    {
+      "id": 291,
+      "prediction_score": 0.465,
+      "actual": 0,
+      "predicted": 0,
+      "production_line": 5,
+      "sensor_reading": 22.45
+    },
+    {
+      "id": 292,
+      "prediction_score": 0.034,
+      "actual": 0,
+      "predicted": 0,
+      "production_line": 1,
+      "sensor_reading": 92.31
+    },
+    {
+      "id": 293,
+      "prediction_score": 0.28,
+      "actual": 0,
+      "predicted": 0,
+      "production_line": 5,
+      "sensor_reading": 62.66
+    },
+    {
+      "id": 294,
+      "prediction_score": 0.124,
+      "actual": 0,
+      "predicted": 0,
+      "production_line": 1,
+      "sensor_reading": 97.41
+    },
+    {
+      "id": 295,
+      "prediction_score": 0.401,
+      "actual": 0,
+      "predicted": 0,
+      "production_line": 2,
+      "sensor_reading": 26.18
+    },
+    {
+      "id": 296,
+      "prediction_score": 0.502,
+      "actual": 0,
+      "predicted": 1,
+      "production_line": 2,
+      "sensor_reading": 4.98
+    },
+    {
+      "id": 297,
+      "prediction_score": 0.58,
+      "actual": 0,
+      "predicted": 1,
+      "production_line": 5,
+      "sensor_reading": 42.89
+    },
+    {
+      "id": 298,
+      "prediction_score": 0.247,
+      "actual": 0,
+      "predicted": 0,
+      "production_line": 3,
+      "sensor_reading": 14.93
+    },
+    {
+      "id": 299,
+      "prediction_score": 0.271,
+      "actual": 0,
+      "predicted": 0,
+      "production_line": 3,
+      "sensor_reading": 17.01
+    },
+    {
+      "id": 300,
+      "prediction_score": 0.275,
+      "actual": 0,
+      "predicted": 0,
+      "production_line": 5,
+      "sensor_reading": 11.74
+    },
+    {
+      "id": 301,
+      "prediction_score": 0.176,
+      "actual": 0,
+      "predicted": 0,
+      "production_line": 5,
+      "sensor_reading": 43.52
+    },
+    {
+      "id": 302,
+      "prediction_score": 0.382,
+      "actual": 0,
+      "predicted": 0,
+      "production_line": 4,
+      "sensor_reading": 82.73
+    },
+    {
+      "id": 303,
+      "prediction_score": 0.486,
+      "actual": 0,
+      "predicted": 0,
+      "production_line": 4,
+      "sensor_reading": 11.85
+    },
+    {
+      "id": 304,
+      "prediction_score": 0.182,
+      "actual": 0,
+      "predicted": 0,
+      "production_line": 2,
+      "sensor_reading": 19.05
+    },
+    {
+      "id": 305,
+      "prediction_score": 0.159,
+      "actual": 0,
+      "predicted": 0,
+      "production_line": 3,
+      "sensor_reading": 28.8
+    },
+    {
+      "id": 306,
+      "prediction_score": 0.256,
+      "actual": 0,
+      "predicted": 0,
+      "production_line": 4,
+      "sensor_reading": 38.21
+    },
+    {
+      "id": 307,
+      "prediction_score": 0.099,
+      "actual": 0,
+      "predicted": 0,
+      "production_line": 4,
+      "sensor_reading": 85.63
+    },
+    {
+      "id": 308,
+      "prediction_score": 0.586,
+      "actual": 0,
+      "predicted": 1,
+      "production_line": 5,
+      "sensor_reading": 21.56
+    },
+    {
+      "id": 309,
+      "prediction_score": 0.253,
+      "actual": 0,
+      "predicted": 0,
+      "production_line": 3,
+      "sensor_reading": 72.67
+    },
+    {
+      "id": 310,
+      "prediction_score": 0.223,
+      "actual": 0,
+      "predicted": 0,
+      "production_line": 2,
+      "sensor_reading": 41.83
+    },
+    {
+      "id": 311,
+      "prediction_score": 0.436,
+      "actual": 0,
+      "predicted": 0,
+      "production_line": 4,
+      "sensor_reading": 79.25
+    },
+    {
+      "id": 312,
+      "prediction_score": 0.082,
+      "actual": 0,
+      "predicted": 0,
+      "production_line": 1,
+      "sensor_reading": 29.02
+    },
+    {
+      "id": 313,
+      "prediction_score": 0.36,
+      "actual": 0,
+      "predicted": 0,
+      "production_line": 3,
+      "sensor_reading": 23.55
+    },
+    {
+      "id": 314,
+      "prediction_score": 0.396,
+      "actual": 0,
+      "predicted": 0,
+      "production_line": 4,
+      "sensor_reading": 90.73
+    },
+    {
+      "id": 315,
+      "prediction_score": 0.583,
+      "actual": 0,
+      "predicted": 1,
+      "production_line": 3,
+      "sensor_reading": 58.29
+    },
+    {
+      "id": 316,
+      "prediction_score": 0.159,
+      "actual": 0,
+      "predicted": 0,
+      "production_line": 4,
+      "sensor_reading": 8.57
+    },
+    {
+      "id": 317,
+      "prediction_score": 0.724,
+      "actual": 0,
+      "predicted": 1,
+      "production_line": 4,
+      "sensor_reading": 13.32
+    },
+    {
+      "id": 318,
+      "prediction_score": 0.513,
+      "actual": 0,
+      "predicted": 1,
+      "production_line": 3,
+      "sensor_reading": 97.44
+    },
+    {
+      "id": 319,
+      "prediction_score": 0.088,
+      "actual": 0,
+      "predicted": 0,
+      "production_line": 4,
+      "sensor_reading": 68.69
+    },
+    {
+      "id": 320,
+      "prediction_score": 0.218,
+      "actual": 0,
+      "predicted": 0,
+      "production_line": 4,
+      "sensor_reading": 70.85
+    },
+    {
+      "id": 321,
+      "prediction_score": 0.106,
+      "actual": 0,
+      "predicted": 0,
+      "production_line": 5,
+      "sensor_reading": 25.62
+    },
+    {
+      "id": 322,
+      "prediction_score": 0.596,
+      "actual": 0,
+      "predicted": 1,
+      "production_line": 1,
+      "sensor_reading": 55.7
+    },
+    {
+      "id": 323,
+      "prediction_score": 0.681,
+      "actual": 0,
+      "predicted": 1,
+      "production_line": 1,
+      "sensor_reading": 33.29
+    },
+    {
+      "id": 324,
+      "prediction_score": 0.217,
+      "actual": 0,
+      "predicted": 0,
+      "production_line": 2,
+      "sensor_reading": 47.09
+    },
+    {
+      "id": 325,
+      "prediction_score": 0.701,
+      "actual": 0,
+      "predicted": 1,
+      "production_line": 3,
+      "sensor_reading": 99.67
+    },
+    {
+      "id": 326,
+      "prediction_score": 0.153,
+      "actual": 0,
+      "predicted": 0,
+      "production_line": 5,
+      "sensor_reading": 70.96
+    },
+    {
+      "id": 327,
+      "prediction_score": 0.124,
+      "actual": 0,
+      "predicted": 0,
+      "production_line": 1,
+      "sensor_reading": 0.54
+    },
+    {
+      "id": 328,
+      "prediction_score": 0.102,
+      "actual": 0,
+      "predicted": 0,
+      "production_line": 5,
+      "sensor_reading": 61.97
+    },
+    {
+      "id": 329,
+      "prediction_score": 0.393,
+      "actual": 0,
+      "predicted": 0,
+      "production_line": 3,
+      "sensor_reading": 97.75
+    },
+    {
+      "id": 330,
+      "prediction_score": 0.234,
+      "actual": 0,
+      "predicted": 0,
+      "production_line": 3,
+      "sensor_reading": 13.22
+    },
+    {
+      "id": 331,
+      "prediction_score": 0.063,
+      "actual": 0,
+      "predicted": 0,
+      "production_line": 5,
+      "sensor_reading": 4.11
+    },
+    {
+      "id": 332,
+      "prediction_score": 0.114,
+      "actual": 0,
+      "predicted": 0,
+      "production_line": 2,
+      "sensor_reading": 26.03
+    },
+    {
+      "id": 333,
+      "prediction_score": 0.68,
+      "actual": 0,
+      "predicted": 1,
+      "production_line": 5,
+      "sensor_reading": 49.28
+    },
+    {
+      "id": 334,
+      "prediction_score": 0.465,
+      "actual": 1,
+      "predicted": 0,
+      "production_line": 3,
+      "sensor_reading": 87.79
+    },
+    {
+      "id": 335,
+      "prediction_score": 0.2,
+      "actual": 0,
+      "predicted": 0,
+      "production_line": 2,
+      "sensor_reading": 8.96
+    },
+    {
+      "id": 336,
+      "prediction_score": 0.075,
+      "actual": 0,
+      "predicted": 0,
+      "production_line": 5,
+      "sensor_reading": 43.29
+    },
+    {
+      "id": 337,
+      "prediction_score": 0.326,
+      "actual": 0,
+      "predicted": 0,
+      "production_line": 3,
+      "sensor_reading": 11.68
+    },
+    {
+      "id": 338,
+      "prediction_score": 0.587,
+      "actual": 0,
+      "predicted": 1,
+      "production_line": 1,
+      "sensor_reading": 97.85
+    },
+    {
+      "id": 339,
+      "prediction_score": 0.303,
+      "actual": 0,
+      "predicted": 0,
+      "production_line": 4,
+      "sensor_reading": 87.17
+    },
+    {
+      "id": 340,
+      "prediction_score": 0.586,
+      "actual": 1,
+      "predicted": 1,
+      "production_line": 3,
+      "sensor_reading": 74.78
+    },
+    {
+      "id": 341,
+      "prediction_score": 0.874,
+      "actual": 0,
+      "predicted": 1,
+      "production_line": 4,
+      "sensor_reading": 28.29
+    },
+    {
+      "id": 342,
+      "prediction_score": 0.151,
+      "actual": 0,
+      "predicted": 0,
+      "production_line": 3,
+      "sensor_reading": 61.29
+    },
+    {
+      "id": 343,
+      "prediction_score": 0.258,
+      "actual": 0,
+      "predicted": 0,
+      "production_line": 3,
+      "sensor_reading": 51.7
+    },
+    {
+      "id": 344,
+      "prediction_score": 0.122,
+      "actual": 0,
+      "predicted": 0,
+      "production_line": 4,
+      "sensor_reading": 89.27
+    },
+    {
+      "id": 345,
+      "prediction_score": 0.238,
+      "actual": 0,
+      "predicted": 0,
+      "production_line": 3,
+      "sensor_reading": 73.69
+    },
+    {
+      "id": 346,
+      "prediction_score": 0.028,
+      "actual": 0,
+      "predicted": 0,
+      "production_line": 4,
+      "sensor_reading": 76.37
+    },
+    {
+      "id": 347,
+      "prediction_score": 0.887,
+      "actual": 1,
+      "predicted": 1,
+      "production_line": 2,
+      "sensor_reading": 55.57
+    },
+    {
+      "id": 348,
+      "prediction_score": 0.49,
+      "actual": 0,
+      "predicted": 0,
+      "production_line": 4,
+      "sensor_reading": 5.32
+    },
+    {
+      "id": 349,
+      "prediction_score": 0.112,
+      "actual": 0,
+      "predicted": 0,
+      "production_line": 2,
+      "sensor_reading": 5.46
+    },
+    {
+      "id": 350,
+      "prediction_score": 0.08,
+      "actual": 0,
+      "predicted": 0,
+      "production_line": 2,
+      "sensor_reading": 3.59
+    },
+    {
+      "id": 351,
+      "prediction_score": 0.483,
+      "actual": 0,
+      "predicted": 0,
+      "production_line": 3,
+      "sensor_reading": 16.36
+    },
+    {
+      "id": 352,
+      "prediction_score": 0.299,
+      "actual": 0,
+      "predicted": 0,
+      "production_line": 4,
+      "sensor_reading": 43.64
+    },
+    {
+      "id": 353,
+      "prediction_score": 0.29,
+      "actual": 0,
+      "predicted": 0,
+      "production_line": 4,
+      "sensor_reading": 4.08
+    },
+    {
+      "id": 354,
+      "prediction_score": 0.212,
+      "actual": 0,
+      "predicted": 0,
+      "production_line": 3,
+      "sensor_reading": 98.88
+    },
+    {
+      "id": 355,
+      "prediction_score": 0.707,
+      "actual": 0,
+      "predicted": 1,
+      "production_line": 5,
+      "sensor_reading": 48.52
+    },
+    {
+      "id": 356,
+      "prediction_score": 0.323,
+      "actual": 1,
+      "predicted": 0,
+      "production_line": 4,
+      "sensor_reading": 11.25
+    },
+    {
+      "id": 357,
+      "prediction_score": 0.089,
+      "actual": 0,
+      "predicted": 0,
+      "production_line": 2,
+      "sensor_reading": 12.37
+    },
+    {
+      "id": 358,
+      "prediction_score": 0.556,
+      "actual": 0,
+      "predicted": 1,
+      "production_line": 1,
+      "sensor_reading": 20.37
+    },
+    {
+      "id": 359,
+      "prediction_score": 0.051,
+      "actual": 0,
+      "predicted": 0,
+      "production_line": 3,
+      "sensor_reading": 18.07
+    },
+    {
+      "id": 360,
+      "prediction_score": 0.116,
+      "actual": 0,
+      "predicted": 0,
+      "production_line": 2,
+      "sensor_reading": 74.99
+    },
+    {
+      "id": 361,
+      "prediction_score": 0.238,
+      "actual": 0,
+      "predicted": 0,
+      "production_line": 3,
+      "sensor_reading": 56.32
+    },
+    {
+      "id": 362,
+      "prediction_score": 0.154,
+      "actual": 0,
+      "predicted": 0,
+      "production_line": 5,
+      "sensor_reading": 21.24
+    },
+    {
+      "id": 363,
+      "prediction_score": 0.304,
+      "actual": 0,
+      "predicted": 0,
+      "production_line": 1,
+      "sensor_reading": 52.6
+    },
+    {
+      "id": 364,
+      "prediction_score": 0.158,
+      "actual": 0,
+      "predicted": 0,
+      "production_line": 5,
+      "sensor_reading": 18.06
+    },
+    {
+      "id": 365,
+      "prediction_score": 0.73,
+      "actual": 0,
+      "predicted": 1,
+      "production_line": 1,
+      "sensor_reading": 24.62
+    },
+    {
+      "id": 366,
+      "prediction_score": 0.676,
+      "actual": 1,
+      "predicted": 1,
+      "production_line": 4,
+      "sensor_reading": 67.69
+    },
+    {
+      "id": 367,
+      "prediction_score": 0.61,
+      "actual": 1,
+      "predicted": 1,
+      "production_line": 3,
+      "sensor_reading": 2.6
+    },
+    {
+      "id": 368,
+      "prediction_score": 0.348,
+      "actual": 1,
+      "predicted": 0,
+      "production_line": 1,
+      "sensor_reading": 39.42
+    },
+    {
+      "id": 369,
+      "prediction_score": 0.115,
+      "actual": 0,
+      "predicted": 0,
+      "production_line": 5,
+      "sensor_reading": 92.91
+    },
+    {
+      "id": 370,
+      "prediction_score": 0.185,
+      "actual": 0,
+      "predicted": 0,
+      "production_line": 1,
+      "sensor_reading": 83.7
+    },
+    {
+      "id": 371,
+      "prediction_score": 0.213,
+      "actual": 0,
+      "predicted": 0,
+      "production_line": 2,
+      "sensor_reading": 2.89
+    },
+    {
+      "id": 372,
+      "prediction_score": 0.102,
+      "actual": 0,
+      "predicted": 0,
+      "production_line": 4,
+      "sensor_reading": 83.07
+    },
+    {
+      "id": 373,
+      "prediction_score": 0.052,
+      "actual": 0,
+      "predicted": 0,
+      "production_line": 4,
+      "sensor_reading": 45.41
+    },
+    {
+      "id": 374,
+      "prediction_score": 0.208,
+      "actual": 0,
+      "predicted": 0,
+      "production_line": 3,
+      "sensor_reading": 59.42
+    },
+    {
+      "id": 375,
+      "prediction_score": 0.068,
+      "actual": 0,
+      "predicted": 0,
+      "production_line": 1,
+      "sensor_reading": 32.94
+    },
+    {
+      "id": 376,
+      "prediction_score": 0.718,
+      "actual": 0,
+      "predicted": 1,
+      "production_line": 1,
+      "sensor_reading": 65.62
+    },
+    {
+      "id": 377,
+      "prediction_score": 0.289,
+      "actual": 0,
+      "predicted": 0,
+      "production_line": 4,
+      "sensor_reading": 32.49
+    },
+    {
+      "id": 378,
+      "prediction_score": 0.563,
+      "actual": 0,
+      "predicted": 1,
+      "production_line": 5,
+      "sensor_reading": 12.93
+    },
+    {
+      "id": 379,
+      "prediction_score": 0.759,
+      "actual": 0,
+      "predicted": 1,
+      "production_line": 1,
+      "sensor_reading": 80.16
+    },
+    {
+      "id": 380,
+      "prediction_score": 0.462,
+      "actual": 0,
+      "predicted": 0,
+      "production_line": 3,
+      "sensor_reading": 32.32
+    },
+    {
+      "id": 381,
+      "prediction_score": 0.188,
+      "actual": 0,
+      "predicted": 0,
+      "production_line": 1,
+      "sensor_reading": 74.38
+    },
+    {
+      "id": 382,
+      "prediction_score": 0.285,
+      "actual": 0,
+      "predicted": 0,
+      "production_line": 5,
+      "sensor_reading": 95.19
+    },
+    {
+      "id": 383,
+      "prediction_score": 0.337,
+      "actual": 0,
+      "predicted": 0,
+      "production_line": 4,
+      "sensor_reading": 9.26
+    },
+    {
+      "id": 384,
+      "prediction_score": 0.255,
+      "actual": 0,
+      "predicted": 0,
+      "production_line": 3,
+      "sensor_reading": 17.8
+    },
+    {
+      "id": 385,
+      "prediction_score": 0.212,
+      "actual": 0,
+      "predicted": 0,
+      "production_line": 4,
+      "sensor_reading": 8.92
+    },
+    {
+      "id": 386,
+      "prediction_score": 0.287,
+      "actual": 0,
+      "predicted": 0,
+      "production_line": 2,
+      "sensor_reading": 16.29
+    },
+    {
+      "id": 387,
+      "prediction_score": 0.158,
+      "actual": 0,
+      "predicted": 0,
+      "production_line": 4,
+      "sensor_reading": 28.49
+    },
+    {
+      "id": 388,
+      "prediction_score": 0.5,
+      "actual": 1,
+      "predicted": 0,
+      "production_line": 2,
+      "sensor_reading": 12.06
+    },
+    {
+      "id": 389,
+      "prediction_score": 0.158,
+      "actual": 0,
+      "predicted": 0,
+      "production_line": 4,
+      "sensor_reading": 80.11
+    },
+    {
+      "id": 390,
+      "prediction_score": 0.118,
+      "actual": 0,
+      "predicted": 0,
+      "production_line": 3,
+      "sensor_reading": 90.37
+    },
+    {
+      "id": 391,
+      "prediction_score": 0.281,
+      "actual": 0,
+      "predicted": 0,
+      "production_line": 5,
+      "sensor_reading": 13.13
+    },
+    {
+      "id": 392,
+      "prediction_score": 0.183,
+      "actual": 0,
+      "predicted": 0,
+      "production_line": 1,
+      "sensor_reading": 83.21
+    },
+    {
+      "id": 393,
+      "prediction_score": 0.612,
+      "actual": 1,
+      "predicted": 1,
+      "production_line": 5,
+      "sensor_reading": 19.99
+    },
+    {
+      "id": 394,
+      "prediction_score": 0.299,
+      "actual": 0,
+      "predicted": 0,
+      "production_line": 4,
+      "sensor_reading": 88.54
+    },
+    {
+      "id": 395,
+      "prediction_score": 0.563,
+      "actual": 0,
+      "predicted": 1,
+      "production_line": 4,
+      "sensor_reading": 26.85
+    },
+    {
+      "id": 396,
+      "prediction_score": 0.392,
+      "actual": 0,
+      "predicted": 0,
+      "production_line": 5,
+      "sensor_reading": 42.31
+    },
+    {
+      "id": 397,
+      "prediction_score": 0.404,
+      "actual": 0,
+      "predicted": 0,
+      "production_line": 4,
+      "sensor_reading": 81.1
+    },
+    {
+      "id": 398,
+      "prediction_score": 0.098,
+      "actual": 0,
+      "predicted": 0,
+      "production_line": 5,
+      "sensor_reading": 18.64
+    },
+    {
+      "id": 399,
+      "prediction_score": 0.222,
+      "actual": 0,
+      "predicted": 0,
+      "production_line": 4,
+      "sensor_reading": 9.29
+    },
+    {
+      "id": 400,
+      "prediction_score": 0.381,
+      "actual": 0,
+      "predicted": 0,
+      "production_line": 5,
+      "sensor_reading": 34.17
+    },
+    {
+      "id": 401,
+      "prediction_score": 0.097,
+      "actual": 0,
+      "predicted": 0,
+      "production_line": 4,
+      "sensor_reading": 67.64
+    },
+    {
+      "id": 402,
+      "prediction_score": 0.197,
+      "actual": 0,
+      "predicted": 0,
+      "production_line": 2,
+      "sensor_reading": 93.07
+    },
+    {
+      "id": 403,
+      "prediction_score": 0.577,
+      "actual": 1,
+      "predicted": 1,
+      "production_line": 5,
+      "sensor_reading": 62.96
+    },
+    {
+      "id": 404,
+      "prediction_score": 0.092,
+      "actual": 0,
+      "predicted": 0,
+      "production_line": 5,
+      "sensor_reading": 8.4
+    },
+    {
+      "id": 405,
+      "prediction_score": 0.471,
+      "actual": 0,
+      "predicted": 0,
+      "production_line": 4,
+      "sensor_reading": 43.74
+    },
+    {
+      "id": 406,
+      "prediction_score": 0.547,
+      "actual": 0,
+      "predicted": 1,
+      "production_line": 4,
+      "sensor_reading": 30.04
+    },
+    {
+      "id": 407,
+      "prediction_score": 0.161,
+      "actual": 0,
+      "predicted": 0,
+      "production_line": 2,
+      "sensor_reading": 68.43
+    },
+    {
+      "id": 408,
+      "prediction_score": 0.555,
+      "actual": 0,
+      "predicted": 1,
+      "production_line": 3,
+      "sensor_reading": 84.15
+    },
+    {
+      "id": 409,
+      "prediction_score": 0.73,
+      "actual": 1,
+      "predicted": 1,
+      "production_line": 5,
+      "sensor_reading": 42.77
+    },
+    {
+      "id": 410,
+      "prediction_score": 0.553,
+      "actual": 0,
+      "predicted": 1,
+      "production_line": 5,
+      "sensor_reading": 4.77
+    },
+    {
+      "id": 411,
+      "prediction_score": 0.413,
+      "actual": 0,
+      "predicted": 0,
+      "production_line": 1,
+      "sensor_reading": 91.73
+    },
+    {
+      "id": 412,
+      "prediction_score": 0.07,
+      "actual": 0,
+      "predicted": 0,
+      "production_line": 5,
+      "sensor_reading": 10.76
+    },
+    {
+      "id": 413,
+      "prediction_score": 0.535,
+      "actual": 0,
+      "predicted": 1,
+      "production_line": 4,
+      "sensor_reading": 41.3
+    },
+    {
+      "id": 414,
+      "prediction_score": 0.281,
+      "actual": 0,
+      "predicted": 0,
+      "production_line": 4,
+      "sensor_reading": 66.09
+    },
+    {
+      "id": 415,
+      "prediction_score": 0.325,
+      "actual": 1,
+      "predicted": 0,
+      "production_line": 5,
+      "sensor_reading": 81.28
+    },
+    {
+      "id": 416,
+      "prediction_score": 0.409,
+      "actual": 1,
+      "predicted": 0,
+      "production_line": 3,
+      "sensor_reading": 25.49
+    },
+    {
+      "id": 417,
+      "prediction_score": 0.305,
+      "actual": 0,
+      "predicted": 0,
+      "production_line": 1,
+      "sensor_reading": 76.86
+    },
+    {
+      "id": 418,
+      "prediction_score": 0.348,
+      "actual": 0,
+      "predicted": 0,
+      "production_line": 1,
+      "sensor_reading": 11.39
+    },
+    {
+      "id": 419,
+      "prediction_score": 0.233,
+      "actual": 0,
+      "predicted": 0,
+      "production_line": 4,
+      "sensor_reading": 17.96
+    },
+    {
+      "id": 420,
+      "prediction_score": 0.197,
+      "actual": 0,
+      "predicted": 0,
+      "production_line": 2,
+      "sensor_reading": 84.29
+    },
+    {
+      "id": 421,
+      "prediction_score": 0.179,
+      "actual": 0,
+      "predicted": 0,
+      "production_line": 1,
+      "sensor_reading": 8.33
+    },
+    {
+      "id": 422,
+      "prediction_score": 0.663,
+      "actual": 0,
+      "predicted": 1,
+      "production_line": 3,
+      "sensor_reading": 31.39
+    },
+    {
+      "id": 423,
+      "prediction_score": 0.372,
+      "actual": 0,
+      "predicted": 0,
+      "production_line": 4,
+      "sensor_reading": 75.74
+    },
+    {
+      "id": 424,
+      "prediction_score": 0.639,
+      "actual": 0,
+      "predicted": 1,
+      "production_line": 4,
+      "sensor_reading": 62.38
+    },
+    {
+      "id": 425,
+      "prediction_score": 0.271,
+      "actual": 0,
+      "predicted": 0,
+      "production_line": 3,
+      "sensor_reading": 34.13
+    },
+    {
+      "id": 426,
+      "prediction_score": 0.664,
+      "actual": 0,
+      "predicted": 1,
+      "production_line": 2,
+      "sensor_reading": 21.11
+    },
+    {
+      "id": 427,
+      "prediction_score": 0.278,
+      "actual": 0,
+      "predicted": 0,
+      "production_line": 1,
+      "sensor_reading": 74.7
+    },
+    {
+      "id": 428,
+      "prediction_score": 0.855,
+      "actual": 1,
+      "predicted": 1,
+      "production_line": 5,
+      "sensor_reading": 25.93
+    },
+    {
+      "id": 429,
+      "prediction_score": 0.425,
+      "actual": 0,
+      "predicted": 0,
+      "production_line": 1,
+      "sensor_reading": 43.38
+    },
+    {
+      "id": 430,
+      "prediction_score": 0.16,
+      "actual": 0,
+      "predicted": 0,
+      "production_line": 1,
+      "sensor_reading": 0.58
+    },
+    {
+      "id": 431,
+      "prediction_score": 0.166,
+      "actual": 0,
+      "predicted": 0,
+      "production_line": 1,
+      "sensor_reading": 1.33
+    },
+    {
+      "id": 432,
+      "prediction_score": 0.463,
+      "actual": 0,
+      "predicted": 0,
+      "production_line": 4,
+      "sensor_reading": 46.02
+    },
+    {
+      "id": 433,
+      "prediction_score": 0.644,
+      "actual": 0,
+      "predicted": 1,
+      "production_line": 4,
+      "sensor_reading": 86.88
+    },
+    {
+      "id": 434,
+      "prediction_score": 0.279,
+      "actual": 0,
+      "predicted": 0,
+      "production_line": 5,
+      "sensor_reading": 72.59
+    },
+    {
+      "id": 435,
+      "prediction_score": 0.339,
+      "actual": 0,
+      "predicted": 0,
+      "production_line": 3,
+      "sensor_reading": 61.85
+    },
+    {
+      "id": 436,
+      "prediction_score": 0.726,
+      "actual": 0,
+      "predicted": 1,
+      "production_line": 5,
+      "sensor_reading": 36.07
+    },
+    {
+      "id": 437,
+      "prediction_score": 0.031,
+      "actual": 0,
+      "predicted": 0,
+      "production_line": 4,
+      "sensor_reading": 80.46
+    },
+    {
+      "id": 438,
+      "prediction_score": 0.052,
+      "actual": 0,
+      "predicted": 0,
+      "production_line": 1,
+      "sensor_reading": 12.51
+    },
+    {
+      "id": 439,
+      "prediction_score": 0.266,
+      "actual": 0,
+      "predicted": 0,
+      "production_line": 1,
+      "sensor_reading": 19.08
+    },
+    {
+      "id": 440,
+      "prediction_score": 0.021,
+      "actual": 0,
+      "predicted": 0,
+      "production_line": 1,
+      "sensor_reading": 69.6
+    },
+    {
+      "id": 441,
+      "prediction_score": 0.489,
+      "actual": 0,
+      "predicted": 0,
+      "production_line": 2,
+      "sensor_reading": 85.9
+    },
+    {
+      "id": 442,
+      "prediction_score": 0.3,
+      "actual": 0,
+      "predicted": 0,
+      "production_line": 2,
+      "sensor_reading": 48.11
+    },
+    {
+      "id": 443,
+      "prediction_score": 0.518,
+      "actual": 0,
+      "predicted": 1,
+      "production_line": 2,
+      "sensor_reading": 64.97
+    },
+    {
+      "id": 444,
+      "prediction_score": 0.561,
+      "actual": 0,
+      "predicted": 1,
+      "production_line": 4,
+      "sensor_reading": 84.21
+    },
+    {
+      "id": 445,
+      "prediction_score": 0.35,
+      "actual": 0,
+      "predicted": 0,
+      "production_line": 5,
+      "sensor_reading": 19.09
+    },
+    {
+      "id": 446,
+      "prediction_score": 0.202,
+      "actual": 0,
+      "predicted": 0,
+      "production_line": 3,
+      "sensor_reading": 76.97
+    },
+    {
+      "id": 447,
+      "prediction_score": 0.592,
+      "actual": 0,
+      "predicted": 1,
+      "production_line": 2,
+      "sensor_reading": 47.4
+    },
+    {
+      "id": 448,
+      "prediction_score": 0.648,
+      "actual": 0,
+      "predicted": 1,
+      "production_line": 1,
+      "sensor_reading": 11.65
+    },
+    {
+      "id": 449,
+      "prediction_score": 0.431,
+      "actual": 0,
+      "predicted": 0,
+      "production_line": 2,
+      "sensor_reading": 73.88
+    },
+    {
+      "id": 450,
+      "prediction_score": 0.162,
+      "actual": 0,
+      "predicted": 0,
+      "production_line": 4,
+      "sensor_reading": 96.39
+    },
+    {
+      "id": 451,
+      "prediction_score": 0.128,
+      "actual": 0,
+      "predicted": 0,
+      "production_line": 4,
+      "sensor_reading": 1.96
+    },
+    {
+      "id": 452,
+      "prediction_score": 0.671,
+      "actual": 0,
+      "predicted": 1,
+      "production_line": 4,
+      "sensor_reading": 58.52
+    },
+    {
+      "id": 453,
+      "prediction_score": 0.495,
+      "actual": 0,
+      "predicted": 0,
+      "production_line": 2,
+      "sensor_reading": 29.48
+    },
+    {
+      "id": 454,
+      "prediction_score": 0.51,
+      "actual": 0,
+      "predicted": 1,
+      "production_line": 4,
+      "sensor_reading": 5.09
+    },
+    {
+      "id": 455,
+      "prediction_score": 0.056,
+      "actual": 0,
+      "predicted": 0,
+      "production_line": 1,
+      "sensor_reading": 10.27
+    },
+    {
+      "id": 456,
+      "prediction_score": 0.082,
+      "actual": 0,
+      "predicted": 0,
+      "production_line": 4,
+      "sensor_reading": 97.95
+    },
+    {
+      "id": 457,
+      "prediction_score": 0.252,
+      "actual": 0,
+      "predicted": 0,
+      "production_line": 4,
+      "sensor_reading": 73.71
+    },
+    {
+      "id": 458,
+      "prediction_score": 0.923,
+      "actual": 1,
+      "predicted": 1,
+      "production_line": 5,
+      "sensor_reading": 73.11
+    },
+    {
+      "id": 459,
+      "prediction_score": 0.086,
+      "actual": 0,
+      "predicted": 0,
+      "production_line": 3,
+      "sensor_reading": 3.7
+    },
+    {
+      "id": 460,
+      "prediction_score": 0.166,
+      "actual": 0,
+      "predicted": 0,
+      "production_line": 4,
+      "sensor_reading": 48.61
+    },
+    {
+      "id": 461,
+      "prediction_score": 0.247,
+      "actual": 0,
+      "predicted": 0,
+      "production_line": 5,
+      "sensor_reading": 72.46
+    },
+    {
+      "id": 462,
+      "prediction_score": 0.105,
+      "actual": 0,
+      "predicted": 0,
+      "production_line": 4,
+      "sensor_reading": 23.19
+    },
+    {
+      "id": 463,
+      "prediction_score": 0.509,
+      "actual": 0,
+      "predicted": 1,
+      "production_line": 1,
+      "sensor_reading": 52.83
+    },
+    {
+      "id": 464,
+      "prediction_score": 0.367,
+      "actual": 0,
+      "predicted": 0,
+      "production_line": 4,
+      "sensor_reading": 57.64
+    },
+    {
+      "id": 465,
+      "prediction_score": 0.228,
+      "actual": 0,
+      "predicted": 0,
+      "production_line": 5,
+      "sensor_reading": 6.35
+    },
+    {
+      "id": 466,
+      "prediction_score": 0.587,
+      "actual": 1,
+      "predicted": 1,
+      "production_line": 4,
+      "sensor_reading": 88.91
+    },
+    {
+      "id": 467,
+      "prediction_score": 0.694,
+      "actual": 0,
+      "predicted": 1,
+      "production_line": 1,
+      "sensor_reading": 49.48
+    },
+    {
+      "id": 468,
+      "prediction_score": 0.159,
+      "actual": 0,
+      "predicted": 0,
+      "production_line": 3,
+      "sensor_reading": 44.83
+    },
+    {
+      "id": 469,
+      "prediction_score": 0.589,
+      "actual": 0,
+      "predicted": 1,
+      "production_line": 4,
+      "sensor_reading": 2.08
+    },
+    {
+      "id": 470,
+      "prediction_score": 0.103,
+      "actual": 0,
+      "predicted": 0,
+      "production_line": 3,
+      "sensor_reading": 72.62
+    },
+    {
+      "id": 471,
+      "prediction_score": 0.059,
+      "actual": 0,
+      "predicted": 0,
+      "production_line": 4,
+      "sensor_reading": 34.38
+    },
+    {
+      "id": 472,
+      "prediction_score": 0.165,
+      "actual": 0,
+      "predicted": 0,
+      "production_line": 2,
+      "sensor_reading": 50.76
+    },
+    {
+      "id": 473,
+      "prediction_score": 0.277,
+      "actual": 0,
+      "predicted": 0,
+      "production_line": 5,
+      "sensor_reading": 90.91
+    },
+    {
+      "id": 474,
+      "prediction_score": 0.461,
+      "actual": 0,
+      "predicted": 0,
+      "production_line": 3,
+      "sensor_reading": 92.17
+    },
+    {
+      "id": 475,
+      "prediction_score": 0.858,
+      "actual": 1,
+      "predicted": 1,
+      "production_line": 4,
+      "sensor_reading": 13.12
+    },
+    {
+      "id": 476,
+      "prediction_score": 0.265,
+      "actual": 0,
+      "predicted": 0,
+      "production_line": 3,
+      "sensor_reading": 72.3
+    },
+    {
+      "id": 477,
+      "prediction_score": 0.431,
+      "actual": 0,
+      "predicted": 0,
+      "production_line": 4,
+      "sensor_reading": 95.98
+    },
+    {
+      "id": 478,
+      "prediction_score": 0.407,
+      "actual": 0,
+      "predicted": 0,
+      "production_line": 3,
+      "sensor_reading": 79.6
+    },
+    {
+      "id": 479,
+      "prediction_score": 0.48,
+      "actual": 0,
+      "predicted": 0,
+      "production_line": 2,
+      "sensor_reading": 62.18
+    },
+    {
+      "id": 480,
+      "prediction_score": 0.489,
+      "actual": 0,
+      "predicted": 0,
+      "production_line": 3,
+      "sensor_reading": 69.07
+    },
+    {
+      "id": 481,
+      "prediction_score": 0.457,
+      "actual": 0,
+      "predicted": 0,
+      "production_line": 1,
+      "sensor_reading": 66.71
+    },
+    {
+      "id": 482,
+      "prediction_score": 0.188,
+      "actual": 0,
+      "predicted": 0,
+      "production_line": 2,
+      "sensor_reading": 17.33
+    },
+    {
+      "id": 483,
+      "prediction_score": 0.281,
+      "actual": 0,
+      "predicted": 0,
+      "production_line": 2,
+      "sensor_reading": 60.57
+    },
+    {
+      "id": 484,
+      "prediction_score": 0.322,
+      "actual": 0,
+      "predicted": 0,
+      "production_line": 1,
+      "sensor_reading": 79.35
+    },
+    {
+      "id": 485,
+      "prediction_score": 0.144,
+      "actual": 0,
+      "predicted": 0,
+      "production_line": 4,
+      "sensor_reading": 30.37
+    },
+    {
+      "id": 486,
+      "prediction_score": 0.175,
+      "actual": 0,
+      "predicted": 0,
+      "production_line": 2,
+      "sensor_reading": 55.68
+    },
+    {
+      "id": 487,
+      "prediction_score": 0.736,
+      "actual": 0,
+      "predicted": 1,
+      "production_line": 1,
+      "sensor_reading": 35.88
+    },
+    {
+      "id": 488,
+      "prediction_score": 0.475,
+      "actual": 0,
+      "predicted": 0,
+      "production_line": 3,
+      "sensor_reading": 35.7
+    },
+    {
+      "id": 489,
+      "prediction_score": 0.265,
+      "actual": 0,
+      "predicted": 0,
+      "production_line": 2,
+      "sensor_reading": 17.47
+    },
+    {
+      "id": 490,
+      "prediction_score": 0.101,
+      "actual": 0,
+      "predicted": 0,
+      "production_line": 5,
+      "sensor_reading": 3.2
+    },
+    {
+      "id": 491,
+      "prediction_score": 0.683,
+      "actual": 0,
+      "predicted": 1,
+      "production_line": 1,
+      "sensor_reading": 33.77
+    },
+    {
+      "id": 492,
+      "prediction_score": 0.193,
+      "actual": 0,
+      "predicted": 0,
+      "production_line": 1,
+      "sensor_reading": 61.76
+    },
+    {
+      "id": 493,
+      "prediction_score": 0.105,
+      "actual": 0,
+      "predicted": 0,
+      "production_line": 1,
+      "sensor_reading": 56.2
+    },
+    {
+      "id": 494,
+      "prediction_score": 0.313,
+      "actual": 0,
+      "predicted": 0,
+      "production_line": 4,
+      "sensor_reading": 25.78
+    },
+    {
+      "id": 495,
+      "prediction_score": 0.255,
+      "actual": 0,
+      "predicted": 0,
+      "production_line": 3,
+      "sensor_reading": 78.49
+    },
+    {
+      "id": 496,
+      "prediction_score": 0.359,
+      "actual": 0,
+      "predicted": 0,
+      "production_line": 1,
+      "sensor_reading": 77.01
+    },
+    {
+      "id": 497,
+      "prediction_score": 0.537,
+      "actual": 0,
+      "predicted": 1,
+      "production_line": 5,
+      "sensor_reading": 26.75
+    },
+    {
+      "id": 498,
+      "prediction_score": 0.721,
+      "actual": 0,
+      "predicted": 1,
+      "production_line": 2,
+      "sensor_reading": 85.34
+    },
+    {
+      "id": 499,
+      "prediction_score": 0.662,
+      "actual": 0,
+      "predicted": 1,
+      "production_line": 5,
+      "sensor_reading": 60.43
+    },
+    {
+      "id": 500,
+      "prediction_score": 0.864,
+      "actual": 1,
+      "predicted": 1,
+      "production_line": 1,
+      "sensor_reading": 70.64
+    },
+    {
+      "id": 501,
+      "prediction_score": 0.01,
+      "actual": 0,
+      "predicted": 0,
+      "production_line": 4,
+      "sensor_reading": 79.9
+    },
+    {
+      "id": 502,
+      "prediction_score": 0.37,
+      "actual": 0,
+      "predicted": 0,
+      "production_line": 1,
+      "sensor_reading": 97.47
+    },
+    {
+      "id": 503,
+      "prediction_score": 0.559,
+      "actual": 0,
+      "predicted": 1,
+      "production_line": 5,
+      "sensor_reading": 60.97
+    },
+    {
+      "id": 504,
+      "prediction_score": 0.246,
+      "actual": 0,
+      "predicted": 0,
+      "production_line": 1,
+      "sensor_reading": 82.36
+    },
+    {
+      "id": 505,
+      "prediction_score": 0.561,
+      "actual": 0,
+      "predicted": 1,
+      "production_line": 1,
+      "sensor_reading": 50.73
+    },
+    {
+      "id": 506,
+      "prediction_score": 0.275,
+      "actual": 0,
+      "predicted": 0,
+      "production_line": 2,
+      "sensor_reading": 62.99
+    },
+    {
+      "id": 507,
+      "prediction_score": 0.084,
+      "actual": 0,
+      "predicted": 0,
+      "production_line": 2,
+      "sensor_reading": 91.1
+    },
+    {
+      "id": 508,
+      "prediction_score": 0.454,
+      "actual": 0,
+      "predicted": 0,
+      "production_line": 2,
+      "sensor_reading": 72.83
+    },
+    {
+      "id": 509,
+      "prediction_score": 0.036,
+      "actual": 0,
+      "predicted": 0,
+      "production_line": 4,
+      "sensor_reading": 76.2
+    },
+    {
+      "id": 510,
+      "prediction_score": 0.057,
+      "actual": 0,
+      "predicted": 0,
+      "production_line": 4,
+      "sensor_reading": 73.26
+    },
+    {
+      "id": 511,
+      "prediction_score": 0.368,
+      "actual": 1,
+      "predicted": 0,
+      "production_line": 1,
+      "sensor_reading": 15.43
+    },
+    {
+      "id": 512,
+      "prediction_score": 0.06,
+      "actual": 0,
+      "predicted": 0,
+      "production_line": 3,
+      "sensor_reading": 33.46
+    },
+    {
+      "id": 513,
+      "prediction_score": 0.337,
+      "actual": 0,
+      "predicted": 0,
+      "production_line": 2,
+      "sensor_reading": 12.3
+    },
+    {
+      "id": 514,
+      "prediction_score": 0.448,
+      "actual": 0,
+      "predicted": 0,
+      "production_line": 2,
+      "sensor_reading": 43.91
+    },
+    {
+      "id": 515,
+      "prediction_score": 0.193,
+      "actual": 0,
+      "predicted": 0,
+      "production_line": 4,
+      "sensor_reading": 76.92
+    },
+    {
+      "id": 516,
+      "prediction_score": 0.835,
+      "actual": 1,
+      "predicted": 1,
+      "production_line": 1,
+      "sensor_reading": 24.53
+    },
+    {
+      "id": 517,
+      "prediction_score": 0.3,
+      "actual": 0,
+      "predicted": 0,
+      "production_line": 4,
+      "sensor_reading": 34.13
+    },
+    {
+      "id": 518,
+      "prediction_score": 0.086,
+      "actual": 0,
+      "predicted": 0,
+      "production_line": 5,
+      "sensor_reading": 17.13
+    },
+    {
+      "id": 519,
+      "prediction_score": 0.428,
+      "actual": 0,
+      "predicted": 0,
+      "production_line": 3,
+      "sensor_reading": 37.24
+    },
+    {
+      "id": 520,
+      "prediction_score": 0.359,
+      "actual": 0,
+      "predicted": 0,
+      "production_line": 4,
+      "sensor_reading": 36.06
+    },
+    {
+      "id": 521,
+      "prediction_score": 0.142,
+      "actual": 0,
+      "predicted": 0,
+      "production_line": 2,
+      "sensor_reading": 15.16
+    },
+    {
+      "id": 522,
+      "prediction_score": 0.612,
+      "actual": 0,
+      "predicted": 1,
+      "production_line": 5,
+      "sensor_reading": 42.17
+    },
+    {
+      "id": 523,
+      "prediction_score": 0.717,
+      "actual": 1,
+      "predicted": 1,
+      "production_line": 2,
+      "sensor_reading": 13.8
+    },
+    {
+      "id": 524,
+      "prediction_score": 0.471,
+      "actual": 0,
+      "predicted": 0,
+      "production_line": 4,
+      "sensor_reading": 41.34
+    },
+    {
+      "id": 525,
+      "prediction_score": 0.585,
+      "actual": 0,
+      "predicted": 1,
+      "production_line": 4,
+      "sensor_reading": 89.81
+    },
+    {
+      "id": 526,
+      "prediction_score": 0.193,
+      "actual": 0,
+      "predicted": 0,
+      "production_line": 5,
+      "sensor_reading": 79.46
+    },
+    {
+      "id": 527,
+      "prediction_score": 0.443,
+      "actual": 0,
+      "predicted": 0,
+      "production_line": 3,
+      "sensor_reading": 94.37
+    },
+    {
+      "id": 528,
+      "prediction_score": 0.494,
+      "actual": 0,
+      "predicted": 0,
+      "production_line": 4,
+      "sensor_reading": 14.56
+    },
+    {
+      "id": 529,
+      "prediction_score": 0.101,
+      "actual": 0,
+      "predicted": 0,
+      "production_line": 1,
+      "sensor_reading": 71.76
+    },
+    {
+      "id": 530,
+      "prediction_score": 0.738,
+      "actual": 0,
+      "predicted": 1,
+      "production_line": 5,
+      "sensor_reading": 94.36
+    },
+    {
+      "id": 531,
+      "prediction_score": 0.767,
+      "actual": 1,
+      "predicted": 1,
+      "production_line": 1,
+      "sensor_reading": 33.83
+    },
+    {
+      "id": 532,
+      "prediction_score": 0.262,
+      "actual": 0,
+      "predicted": 0,
+      "production_line": 4,
+      "sensor_reading": 98.19
+    },
+    {
+      "id": 533,
+      "prediction_score": 0.245,
+      "actual": 0,
+      "predicted": 0,
+      "production_line": 2,
+      "sensor_reading": 43.41
+    },
+    {
+      "id": 534,
+      "prediction_score": 0.153,
+      "actual": 0,
+      "predicted": 0,
+      "production_line": 4,
+      "sensor_reading": 75.92
+    },
+    {
+      "id": 535,
+      "prediction_score": 0.588,
+      "actual": 0,
+      "predicted": 1,
+      "production_line": 2,
+      "sensor_reading": 90.25
+    },
+    {
+      "id": 536,
+      "prediction_score": 0.09,
+      "actual": 0,
+      "predicted": 0,
+      "production_line": 1,
+      "sensor_reading": 97.77
+    },
+    {
+      "id": 537,
+      "prediction_score": 0.303,
+      "actual": 1,
+      "predicted": 0,
+      "production_line": 5,
+      "sensor_reading": 97.27
+    },
+    {
+      "id": 538,
+      "prediction_score": 0.357,
+      "actual": 0,
+      "predicted": 0,
+      "production_line": 4,
+      "sensor_reading": 40.2
+    },
+    {
+      "id": 539,
+      "prediction_score": 0.61,
+      "actual": 0,
+      "predicted": 1,
+      "production_line": 5,
+      "sensor_reading": 87.35
+    },
+    {
+      "id": 540,
+      "prediction_score": 0.485,
+      "actual": 0,
+      "predicted": 0,
+      "production_line": 3,
+      "sensor_reading": 90.92
+    },
+    {
+      "id": 541,
+      "prediction_score": 0.501,
+      "actual": 0,
+      "predicted": 1,
+      "production_line": 1,
+      "sensor_reading": 82.7
+    },
+    {
+      "id": 542,
+      "prediction_score": 0.371,
+      "actual": 0,
+      "predicted": 0,
+      "production_line": 5,
+      "sensor_reading": 61.04
+    },
+    {
+      "id": 543,
+      "prediction_score": 0.829,
+      "actual": 0,
+      "predicted": 1,
+      "production_line": 2,
+      "sensor_reading": 70.03
+    },
+    {
+      "id": 544,
+      "prediction_score": 0.371,
+      "actual": 0,
+      "predicted": 0,
+      "production_line": 4,
+      "sensor_reading": 64.39
+    },
+    {
+      "id": 545,
+      "prediction_score": 0.105,
+      "actual": 0,
+      "predicted": 0,
+      "production_line": 5,
+      "sensor_reading": 62.44
+    },
+    {
+      "id": 546,
+      "prediction_score": 0.602,
+      "actual": 0,
+      "predicted": 1,
+      "production_line": 5,
+      "sensor_reading": 65.2
+    },
+    {
+      "id": 547,
+      "prediction_score": 0.494,
+      "actual": 0,
+      "predicted": 0,
+      "production_line": 3,
+      "sensor_reading": 88.77
+    },
+    {
+      "id": 548,
+      "prediction_score": 0.416,
+      "actual": 0,
+      "predicted": 0,
+      "production_line": 4,
+      "sensor_reading": 77.54
+    },
+    {
+      "id": 549,
+      "prediction_score": 0.335,
+      "actual": 0,
+      "predicted": 0,
+      "production_line": 3,
+      "sensor_reading": 8.43
+    },
+    {
+      "id": 550,
+      "prediction_score": 0.709,
+      "actual": 0,
+      "predicted": 1,
+      "production_line": 5,
+      "sensor_reading": 33.45
+    },
+    {
+      "id": 551,
+      "prediction_score": 0.727,
+      "actual": 0,
+      "predicted": 1,
+      "production_line": 2,
+      "sensor_reading": 52.05
+    },
+    {
+      "id": 552,
+      "prediction_score": 0.434,
+      "actual": 0,
+      "predicted": 0,
+      "production_line": 5,
+      "sensor_reading": 28.39
+    },
+    {
+      "id": 553,
+      "prediction_score": 0.006,
+      "actual": 0,
+      "predicted": 0,
+      "production_line": 1,
+      "sensor_reading": 51.17
+    },
+    {
+      "id": 554,
+      "prediction_score": 0.332,
+      "actual": 0,
+      "predicted": 0,
+      "production_line": 3,
+      "sensor_reading": 52.13
+    },
+    {
+      "id": 555,
+      "prediction_score": 0.348,
+      "actual": 0,
+      "predicted": 0,
+      "production_line": 2,
+      "sensor_reading": 2.34
+    },
+    {
+      "id": 556,
+      "prediction_score": 0.138,
+      "actual": 0,
+      "predicted": 0,
+      "production_line": 5,
+      "sensor_reading": 59.25
+    },
+    {
+      "id": 557,
+      "prediction_score": 0.482,
+      "actual": 0,
+      "predicted": 0,
+      "production_line": 2,
+      "sensor_reading": 83.22
+    },
+    {
+      "id": 558,
+      "prediction_score": 0.087,
+      "actual": 0,
+      "predicted": 0,
+      "production_line": 3,
+      "sensor_reading": 72.65
+    },
+    {
+      "id": 559,
+      "prediction_score": 0.377,
+      "actual": 0,
+      "predicted": 0,
+      "production_line": 5,
+      "sensor_reading": 11.04
+    },
+    {
+      "id": 560,
+      "prediction_score": 0.42,
+      "actual": 0,
+      "predicted": 0,
+      "production_line": 1,
+      "sensor_reading": 84.16
+    },
+    {
+      "id": 561,
+      "prediction_score": 0.212,
+      "actual": 0,
+      "predicted": 0,
+      "production_line": 3,
+      "sensor_reading": 62.7
+    },
+    {
+      "id": 562,
+      "prediction_score": 0.413,
+      "actual": 0,
+      "predicted": 0,
+      "production_line": 3,
+      "sensor_reading": 12.38
+    },
+    {
+      "id": 563,
+      "prediction_score": 0.474,
+      "actual": 0,
+      "predicted": 0,
+      "production_line": 1,
+      "sensor_reading": 44.87
+    },
+    {
+      "id": 564,
+      "prediction_score": 0.443,
+      "actual": 0,
+      "predicted": 0,
+      "production_line": 5,
+      "sensor_reading": 73.69
+    },
+    {
+      "id": 565,
+      "prediction_score": 0.421,
+      "actual": 0,
+      "predicted": 0,
+      "production_line": 4,
+      "sensor_reading": 33.9
+    },
+    {
+      "id": 566,
+      "prediction_score": 0.239,
+      "actual": 0,
+      "predicted": 0,
+      "production_line": 2,
+      "sensor_reading": 80.54
+    },
+    {
+      "id": 567,
+      "prediction_score": 0.353,
+      "actual": 0,
+      "predicted": 0,
+      "production_line": 5,
+      "sensor_reading": 56.56
+    },
+    {
+      "id": 568,
+      "prediction_score": 0.439,
+      "actual": 0,
+      "predicted": 0,
+      "production_line": 5,
+      "sensor_reading": 84.45
+    },
+    {
+      "id": 569,
+      "prediction_score": 0.308,
+      "actual": 0,
+      "predicted": 0,
+      "production_line": 2,
+      "sensor_reading": 35.03
+    },
+    {
+      "id": 570,
+      "prediction_score": 0.245,
+      "actual": 0,
+      "predicted": 0,
+      "production_line": 3,
+      "sensor_reading": 66.69
+    },
+    {
+      "id": 571,
+      "prediction_score": 0.029,
+      "actual": 0,
+      "predicted": 0,
+      "production_line": 5,
+      "sensor_reading": 67.24
+    },
+    {
+      "id": 572,
+      "prediction_score": 0.462,
+      "actual": 0,
+      "predicted": 0,
+      "production_line": 4,
+      "sensor_reading": 51.97
+    },
+    {
+      "id": 573,
+      "prediction_score": 0.098,
+      "actual": 0,
+      "predicted": 0,
+      "production_line": 2,
+      "sensor_reading": 10.52
+    },
+    {
+      "id": 574,
+      "prediction_score": 0.398,
+      "actual": 0,
+      "predicted": 0,
+      "production_line": 5,
+      "sensor_reading": 58.24
+    },
+    {
+      "id": 575,
+      "prediction_score": 0.092,
+      "actual": 0,
+      "predicted": 0,
+      "production_line": 3,
+      "sensor_reading": 45.43
+    },
+    {
+      "id": 576,
+      "prediction_score": 0.379,
+      "actual": 0,
+      "predicted": 0,
+      "production_line": 2,
+      "sensor_reading": 71.16
+    },
+    {
+      "id": 577,
+      "prediction_score": 0.708,
+      "actual": 0,
+      "predicted": 1,
+      "production_line": 4,
+      "sensor_reading": 8.19
+    },
+    {
+      "id": 578,
+      "prediction_score": 0.399,
+      "actual": 0,
+      "predicted": 0,
+      "production_line": 1,
+      "sensor_reading": 42.49
+    },
+    {
+      "id": 579,
+      "prediction_score": 0.102,
+      "actual": 0,
+      "predicted": 0,
+      "production_line": 2,
+      "sensor_reading": 47.63
+    },
+    {
+      "id": 580,
+      "prediction_score": 0.422,
+      "actual": 0,
+      "predicted": 0,
+      "production_line": 4,
+      "sensor_reading": 7.81
+    },
+    {
+      "id": 581,
+      "prediction_score": 0.402,
+      "actual": 0,
+      "predicted": 0,
+      "production_line": 5,
+      "sensor_reading": 40.28
+    },
+    {
+      "id": 582,
+      "prediction_score": 0.087,
+      "actual": 0,
+      "predicted": 0,
+      "production_line": 5,
+      "sensor_reading": 51.89
+    },
+    {
+      "id": 583,
+      "prediction_score": 0.138,
+      "actual": 0,
+      "predicted": 0,
+      "production_line": 4,
+      "sensor_reading": 87.2
+    },
+    {
+      "id": 584,
+      "prediction_score": 0.216,
+      "actual": 0,
+      "predicted": 0,
+      "production_line": 5,
+      "sensor_reading": 49.88
+    },
+    {
+      "id": 585,
+      "prediction_score": 0.762,
+      "actual": 0,
+      "predicted": 1,
+      "production_line": 4,
+      "sensor_reading": 99.65
+    },
+    {
+      "id": 586,
+      "prediction_score": 0.16,
+      "actual": 0,
+      "predicted": 0,
+      "production_line": 4,
+      "sensor_reading": 73.17
+    },
+    {
+      "id": 587,
+      "prediction_score": 0.435,
+      "actual": 0,
+      "predicted": 0,
+      "production_line": 4,
+      "sensor_reading": 82.38
+    },
+    {
+      "id": 588,
+      "prediction_score": 0.265,
+      "actual": 0,
+      "predicted": 0,
+      "production_line": 2,
+      "sensor_reading": 50.58
+    },
+    {
+      "id": 589,
+      "prediction_score": 0.135,
+      "actual": 0,
+      "predicted": 0,
+      "production_line": 4,
+      "sensor_reading": 71.12
+    },
+    {
+      "id": 590,
+      "prediction_score": 0.207,
+      "actual": 0,
+      "predicted": 0,
+      "production_line": 2,
+      "sensor_reading": 96.8
+    },
+    {
+      "id": 591,
+      "prediction_score": 0.385,
+      "actual": 0,
+      "predicted": 0,
+      "production_line": 5,
+      "sensor_reading": 86.33
+    },
+    {
+      "id": 592,
+      "prediction_score": 0.134,
+      "actual": 0,
+      "predicted": 0,
+      "production_line": 1,
+      "sensor_reading": 69.45
+    },
+    {
+      "id": 593,
+      "prediction_score": 0.081,
+      "actual": 0,
+      "predicted": 0,
+      "production_line": 4,
+      "sensor_reading": 47.34
+    },
+    {
+      "id": 594,
+      "prediction_score": 0.624,
+      "actual": 0,
+      "predicted": 1,
+      "production_line": 2,
+      "sensor_reading": 94.41
+    },
+    {
+      "id": 595,
+      "prediction_score": 0.204,
+      "actual": 0,
+      "predicted": 0,
+      "production_line": 3,
+      "sensor_reading": 92.17
+    },
+    {
+      "id": 596,
+      "prediction_score": 0.13,
+      "actual": 0,
+      "predicted": 0,
+      "production_line": 1,
+      "sensor_reading": 60.16
+    },
+    {
+      "id": 597,
+      "prediction_score": 0.109,
+      "actual": 0,
+      "predicted": 0,
+      "production_line": 4,
+      "sensor_reading": 11.03
+    },
+    {
+      "id": 598,
+      "prediction_score": 0.187,
+      "actual": 0,
+      "predicted": 0,
+      "production_line": 3,
+      "sensor_reading": 57.18
+    },
+    {
+      "id": 599,
+      "prediction_score": 0.273,
+      "actual": 0,
+      "predicted": 0,
+      "production_line": 1,
+      "sensor_reading": 52.28
+    },
+    {
+      "id": 600,
+      "prediction_score": 0.736,
+      "actual": 0,
+      "predicted": 1,
+      "production_line": 1,
+      "sensor_reading": 37.15
+    },
+    {
+      "id": 601,
+      "prediction_score": 0.095,
+      "actual": 0,
+      "predicted": 0,
+      "production_line": 3,
+      "sensor_reading": 30.33
+    },
+    {
+      "id": 602,
+      "prediction_score": 0.402,
+      "actual": 0,
+      "predicted": 0,
+      "production_line": 4,
+      "sensor_reading": 2.8
+    },
+    {
+      "id": 603,
+      "prediction_score": 0.113,
+      "actual": 0,
+      "predicted": 0,
+      "production_line": 2,
+      "sensor_reading": 14.21
+    },
+    {
+      "id": 604,
+      "prediction_score": 0.246,
+      "actual": 0,
+      "predicted": 0,
+      "production_line": 5,
+      "sensor_reading": 42.18
+    },
+    {
+      "id": 605,
+      "prediction_score": 0.227,
+      "actual": 0,
+      "predicted": 0,
+      "production_line": 3,
+      "sensor_reading": 88.91
+    },
+    {
+      "id": 606,
+      "prediction_score": 0.021,
+      "actual": 0,
+      "predicted": 0,
+      "production_line": 2,
+      "sensor_reading": 18.31
+    },
+    {
+      "id": 607,
+      "prediction_score": 0.381,
+      "actual": 0,
+      "predicted": 0,
+      "production_line": 4,
+      "sensor_reading": 0.21
+    },
+    {
+      "id": 608,
+      "prediction_score": 0.213,
+      "actual": 0,
+      "predicted": 0,
+      "production_line": 5,
+      "sensor_reading": 34.86
+    },
+    {
+      "id": 609,
+      "prediction_score": 0.289,
+      "actual": 0,
+      "predicted": 0,
+      "production_line": 1,
+      "sensor_reading": 41.76
+    },
+    {
+      "id": 610,
+      "prediction_score": 0.307,
+      "actual": 0,
+      "predicted": 0,
+      "production_line": 5,
+      "sensor_reading": 30.97
+    },
+    {
+      "id": 611,
+      "prediction_score": 0.54,
+      "actual": 0,
+      "predicted": 1,
+      "production_line": 4,
+      "sensor_reading": 90.03
+    },
+    {
+      "id": 612,
+      "prediction_score": 0.559,
+      "actual": 0,
+      "predicted": 1,
+      "production_line": 4,
+      "sensor_reading": 47.52
+    },
+    {
+      "id": 613,
+      "prediction_score": 0.204,
+      "actual": 0,
+      "predicted": 0,
+      "production_line": 5,
+      "sensor_reading": 13.28
+    },
+    {
+      "id": 614,
+      "prediction_score": 0.102,
+      "actual": 0,
+      "predicted": 0,
+      "production_line": 2,
+      "sensor_reading": 50.48
+    },
+    {
+      "id": 615,
+      "prediction_score": 0.302,
+      "actual": 0,
+      "predicted": 0,
+      "production_line": 4,
+      "sensor_reading": 76.17
+    },
+    {
+      "id": 616,
+      "prediction_score": 0.611,
+      "actual": 1,
+      "predicted": 1,
+      "production_line": 4,
+      "sensor_reading": 14.9
+    },
+    {
+      "id": 617,
+      "prediction_score": 0.495,
+      "actual": 0,
+      "predicted": 0,
+      "production_line": 3,
+      "sensor_reading": 8.93
+    },
+    {
+      "id": 618,
+      "prediction_score": 0.166,
+      "actual": 0,
+      "predicted": 0,
+      "production_line": 5,
+      "sensor_reading": 66.45
+    },
+    {
+      "id": 619,
+      "prediction_score": 0.846,
+      "actual": 0,
+      "predicted": 1,
+      "production_line": 4,
+      "sensor_reading": 38.72
+    },
+    {
+      "id": 620,
+      "prediction_score": 0.691,
+      "actual": 0,
+      "predicted": 1,
+      "production_line": 4,
+      "sensor_reading": 33.9
+    },
+    {
+      "id": 621,
+      "prediction_score": 0.074,
+      "actual": 0,
+      "predicted": 0,
+      "production_line": 1,
+      "sensor_reading": 95.81
+    },
+    {
+      "id": 622,
+      "prediction_score": 0.928,
+      "actual": 1,
+      "predicted": 1,
+      "production_line": 4,
+      "sensor_reading": 73.59
+    },
+    {
+      "id": 623,
+      "prediction_score": 0.067,
+      "actual": 0,
+      "predicted": 0,
+      "production_line": 1,
+      "sensor_reading": 86.6
+    },
+    {
+      "id": 624,
+      "prediction_score": 0.298,
+      "actual": 0,
+      "predicted": 0,
+      "production_line": 1,
+      "sensor_reading": 57.2
+    },
+    {
+      "id": 625,
+      "prediction_score": 0.482,
+      "actual": 0,
+      "predicted": 0,
+      "production_line": 3,
+      "sensor_reading": 56.1
+    },
+    {
+      "id": 626,
+      "prediction_score": 0.484,
+      "actual": 0,
+      "predicted": 0,
+      "production_line": 1,
+      "sensor_reading": 64.39
+    },
+    {
+      "id": 627,
+      "prediction_score": 0.32,
+      "actual": 0,
+      "predicted": 0,
+      "production_line": 1,
+      "sensor_reading": 19.24
+    },
+    {
+      "id": 628,
+      "prediction_score": 0.491,
+      "actual": 0,
+      "predicted": 0,
+      "production_line": 5,
+      "sensor_reading": 54.18
+    },
+    {
+      "id": 629,
+      "prediction_score": 0.221,
+      "actual": 0,
+      "predicted": 0,
+      "production_line": 1,
+      "sensor_reading": 95.73
+    },
+    {
+      "id": 630,
+      "prediction_score": 0.84,
+      "actual": 0,
+      "predicted": 1,
+      "production_line": 5,
+      "sensor_reading": 18.94
+    },
+    {
+      "id": 631,
+      "prediction_score": 0.098,
+      "actual": 0,
+      "predicted": 0,
+      "production_line": 4,
+      "sensor_reading": 50.26
+    },
+    {
+      "id": 632,
+      "prediction_score": 0.196,
+      "actual": 0,
+      "predicted": 0,
+      "production_line": 1,
+      "sensor_reading": 12.03
+    },
+    {
+      "id": 633,
+      "prediction_score": 0.072,
+      "actual": 0,
+      "predicted": 0,
+      "production_line": 5,
+      "sensor_reading": 17.97
+    },
+    {
+      "id": 634,
+      "prediction_score": 0.072,
+      "actual": 0,
+      "predicted": 0,
+      "production_line": 1,
+      "sensor_reading": 27.5
+    },
+    {
+      "id": 635,
+      "prediction_score": 0.659,
+      "actual": 0,
+      "predicted": 1,
+      "production_line": 2,
+      "sensor_reading": 24.53
+    },
+    {
+      "id": 636,
+      "prediction_score": 0.747,
+      "actual": 0,
+      "predicted": 1,
+      "production_line": 5,
+      "sensor_reading": 44.42
+    },
+    {
+      "id": 637,
+      "prediction_score": 0.754,
+      "actual": 0,
+      "predicted": 1,
+      "production_line": 5,
+      "sensor_reading": 60.69
+    },
+    {
+      "id": 638,
+      "prediction_score": 0.17,
+      "actual": 0,
+      "predicted": 0,
+      "production_line": 4,
+      "sensor_reading": 58.89
+    },
+    {
+      "id": 639,
+      "prediction_score": 0.308,
+      "actual": 0,
+      "predicted": 0,
+      "production_line": 4,
+      "sensor_reading": 86.2
+    },
+    {
+      "id": 640,
+      "prediction_score": 0.228,
+      "actual": 1,
+      "predicted": 0,
+      "production_line": 1,
+      "sensor_reading": 34.0
+    },
+    {
+      "id": 641,
+      "prediction_score": 0.141,
+      "actual": 0,
+      "predicted": 0,
+      "production_line": 2,
+      "sensor_reading": 41.49
+    },
+    {
+      "id": 642,
+      "prediction_score": 0.119,
+      "actual": 0,
+      "predicted": 0,
+      "production_line": 5,
+      "sensor_reading": 31.74
+    },
+    {
+      "id": 643,
+      "prediction_score": 0.312,
+      "actual": 0,
+      "predicted": 0,
+      "production_line": 3,
+      "sensor_reading": 9.1
+    },
+    {
+      "id": 644,
+      "prediction_score": 0.261,
+      "actual": 0,
+      "predicted": 0,
+      "production_line": 1,
+      "sensor_reading": 54.18
+    },
+    {
+      "id": 645,
+      "prediction_score": 0.187,
+      "actual": 0,
+      "predicted": 0,
+      "production_line": 3,
+      "sensor_reading": 14.4
+    },
+    {
+      "id": 646,
+      "prediction_score": 0.144,
+      "actual": 0,
+      "predicted": 0,
+      "production_line": 3,
+      "sensor_reading": 76.83
+    },
+    {
+      "id": 647,
+      "prediction_score": 0.658,
+      "actual": 0,
+      "predicted": 1,
+      "production_line": 2,
+      "sensor_reading": 30.68
+    },
+    {
+      "id": 648,
+      "prediction_score": 0.291,
+      "actual": 0,
+      "predicted": 0,
+      "production_line": 4,
+      "sensor_reading": 67.86
+    },
+    {
+      "id": 649,
+      "prediction_score": 0.489,
+      "actual": 0,
+      "predicted": 0,
+      "production_line": 1,
+      "sensor_reading": 61.45
+    },
+    {
+      "id": 650,
+      "prediction_score": 0.471,
+      "actual": 0,
+      "predicted": 0,
+      "production_line": 3,
+      "sensor_reading": 18.15
+    },
+    {
+      "id": 651,
+      "prediction_score": 0.032,
+      "actual": 0,
+      "predicted": 0,
+      "production_line": 1,
+      "sensor_reading": 29.8
+    },
+    {
+      "id": 652,
+      "prediction_score": 0.648,
+      "actual": 1,
+      "predicted": 1,
+      "production_line": 1,
+      "sensor_reading": 32.0
+    },
+    {
+      "id": 653,
+      "prediction_score": 0.667,
+      "actual": 1,
+      "predicted": 1,
+      "production_line": 4,
+      "sensor_reading": 89.3
+    },
+    {
+      "id": 654,
+      "prediction_score": 0.573,
+      "actual": 0,
+      "predicted": 1,
+      "production_line": 3,
+      "sensor_reading": 37.55
+    },
+    {
+      "id": 655,
+      "prediction_score": 0.499,
+      "actual": 0,
+      "predicted": 0,
+      "production_line": 1,
+      "sensor_reading": 5.19
+    },
+    {
+      "id": 656,
+      "prediction_score": 0.141,
+      "actual": 0,
+      "predicted": 0,
+      "production_line": 2,
+      "sensor_reading": 75.21
+    },
+    {
+      "id": 657,
+      "prediction_score": 0.145,
+      "actual": 0,
+      "predicted": 0,
+      "production_line": 5,
+      "sensor_reading": 23.65
+    },
+    {
+      "id": 658,
+      "prediction_score": 0.073,
+      "actual": 0,
+      "predicted": 0,
+      "production_line": 5,
+      "sensor_reading": 75.24
+    },
+    {
+      "id": 659,
+      "prediction_score": 0.391,
+      "actual": 0,
+      "predicted": 0,
+      "production_line": 4,
+      "sensor_reading": 94.94
+    },
+    {
+      "id": 660,
+      "prediction_score": 0.61,
+      "actual": 0,
+      "predicted": 1,
+      "production_line": 3,
+      "sensor_reading": 6.06
+    },
+    {
+      "id": 661,
+      "prediction_score": 0.621,
+      "actual": 0,
+      "predicted": 1,
+      "production_line": 4,
+      "sensor_reading": 55.31
+    },
+    {
+      "id": 662,
+      "prediction_score": 0.276,
+      "actual": 0,
+      "predicted": 0,
+      "production_line": 1,
+      "sensor_reading": 48.42
+    },
+    {
+      "id": 663,
+      "prediction_score": 0.266,
+      "actual": 0,
+      "predicted": 0,
+      "production_line": 4,
+      "sensor_reading": 63.35
+    },
+    {
+      "id": 664,
+      "prediction_score": 0.208,
+      "actual": 0,
+      "predicted": 0,
+      "production_line": 1,
+      "sensor_reading": 26.92
+    },
+    {
+      "id": 665,
+      "prediction_score": 0.18,
+      "actual": 0,
+      "predicted": 0,
+      "production_line": 5,
+      "sensor_reading": 67.51
+    },
+    {
+      "id": 666,
+      "prediction_score": 0.442,
+      "actual": 0,
+      "predicted": 0,
+      "production_line": 2,
+      "sensor_reading": 76.3
+    },
+    {
+      "id": 667,
+      "prediction_score": 0.588,
+      "actual": 0,
+      "predicted": 1,
+      "production_line": 2,
+      "sensor_reading": 30.46
+    },
+    {
+      "id": 668,
+      "prediction_score": 0.254,
+      "actual": 0,
+      "predicted": 0,
+      "production_line": 4,
+      "sensor_reading": 44.6
+    },
+    {
+      "id": 669,
+      "prediction_score": 0.366,
+      "actual": 0,
+      "predicted": 0,
+      "production_line": 5,
+      "sensor_reading": 20.35
+    },
+    {
+      "id": 670,
+      "prediction_score": 0.928,
+      "actual": 0,
+      "predicted": 1,
+      "production_line": 2,
+      "sensor_reading": 37.33
+    },
+    {
+      "id": 671,
+      "prediction_score": 0.178,
+      "actual": 0,
+      "predicted": 0,
+      "production_line": 2,
+      "sensor_reading": 78.2
+    },
+    {
+      "id": 672,
+      "prediction_score": 0.07,
+      "actual": 0,
+      "predicted": 0,
+      "production_line": 5,
+      "sensor_reading": 95.26
+    },
+    {
+      "id": 673,
+      "prediction_score": 0.377,
+      "actual": 0,
+      "predicted": 0,
+      "production_line": 5,
+      "sensor_reading": 45.17
+    },
+    {
+      "id": 674,
+      "prediction_score": 0.642,
+      "actual": 0,
+      "predicted": 1,
+      "production_line": 1,
+      "sensor_reading": 81.26
+    },
+    {
+      "id": 675,
+      "prediction_score": 0.123,
+      "actual": 0,
+      "predicted": 0,
+      "production_line": 5,
+      "sensor_reading": 28.92
+    },
+    {
+      "id": 676,
+      "prediction_score": 0.484,
+      "actual": 0,
+      "predicted": 0,
+      "production_line": 2,
+      "sensor_reading": 0.05
+    },
+    {
+      "id": 677,
+      "prediction_score": 0.376,
+      "actual": 0,
+      "predicted": 0,
+      "production_line": 4,
+      "sensor_reading": 27.33
+    },
+    {
+      "id": 678,
+      "prediction_score": 0.53,
+      "actual": 0,
+      "predicted": 1,
+      "production_line": 3,
+      "sensor_reading": 83.95
+    },
+    {
+      "id": 679,
+      "prediction_score": 0.238,
+      "actual": 0,
+      "predicted": 0,
+      "production_line": 4,
+      "sensor_reading": 99.92
+    },
+    {
+      "id": 680,
+      "prediction_score": 0.436,
+      "actual": 0,
+      "predicted": 0,
+      "production_line": 2,
+      "sensor_reading": 58.52
+    },
+    {
+      "id": 681,
+      "prediction_score": 0.392,
+      "actual": 0,
+      "predicted": 0,
+      "production_line": 5,
+      "sensor_reading": 28.13
+    },
+    {
+      "id": 682,
+      "prediction_score": 0.765,
+      "actual": 0,
+      "predicted": 1,
+      "production_line": 2,
+      "sensor_reading": 73.92
+    },
+    {
+      "id": 683,
+      "prediction_score": 0.128,
+      "actual": 0,
+      "predicted": 0,
+      "production_line": 5,
+      "sensor_reading": 6.99
+    },
+    {
+      "id": 684,
+      "prediction_score": 0.497,
+      "actual": 0,
+      "predicted": 0,
+      "production_line": 1,
+      "sensor_reading": 39.53
+    },
+    {
+      "id": 685,
+      "prediction_score": 0.929,
+      "actual": 1,
+      "predicted": 1,
+      "production_line": 1,
+      "sensor_reading": 83.05
+    },
+    {
+      "id": 686,
+      "prediction_score": 0.474,
+      "actual": 0,
+      "predicted": 0,
+      "production_line": 5,
+      "sensor_reading": 99.88
+    },
+    {
+      "id": 687,
+      "prediction_score": 0.793,
+      "actual": 0,
+      "predicted": 1,
+      "production_line": 4,
+      "sensor_reading": 21.09
+    },
+    {
+      "id": 688,
+      "prediction_score": 0.511,
+      "actual": 0,
+      "predicted": 1,
+      "production_line": 5,
+      "sensor_reading": 95.74
+    },
+    {
+      "id": 689,
+      "prediction_score": 0.72,
+      "actual": 1,
+      "predicted": 1,
+      "production_line": 3,
+      "sensor_reading": 88.39
+    },
+    {
+      "id": 690,
+      "prediction_score": 0.305,
+      "actual": 0,
+      "predicted": 0,
+      "production_line": 3,
+      "sensor_reading": 63.52
+    },
+    {
+      "id": 691,
+      "prediction_score": 0.433,
+      "actual": 0,
+      "predicted": 0,
+      "production_line": 4,
+      "sensor_reading": 27.3
+    },
+    {
+      "id": 692,
+      "prediction_score": 0.226,
+      "actual": 0,
+      "predicted": 0,
+      "production_line": 3,
+      "sensor_reading": 34.16
+    },
+    {
+      "id": 693,
+      "prediction_score": 0.158,
+      "actual": 0,
+      "predicted": 0,
+      "production_line": 4,
+      "sensor_reading": 95.9
+    },
+    {
+      "id": 694,
+      "prediction_score": 0.06,
+      "actual": 0,
+      "predicted": 0,
+      "production_line": 3,
+      "sensor_reading": 1.59
+    },
+    {
+      "id": 695,
+      "prediction_score": 0.138,
+      "actual": 0,
+      "predicted": 0,
+      "production_line": 2,
+      "sensor_reading": 64.64
+    },
+    {
+      "id": 696,
+      "prediction_score": 0.422,
+      "actual": 0,
+      "predicted": 0,
+      "production_line": 1,
+      "sensor_reading": 60.88
+    },
+    {
+      "id": 697,
+      "prediction_score": 0.294,
+      "actual": 0,
+      "predicted": 0,
+      "production_line": 1,
+      "sensor_reading": 90.14
+    },
+    {
+      "id": 698,
+      "prediction_score": 0.896,
+      "actual": 0,
+      "predicted": 1,
+      "production_line": 2,
+      "sensor_reading": 41.32
+    },
+    {
+      "id": 699,
+      "prediction_score": 0.159,
+      "actual": 0,
+      "predicted": 0,
+      "production_line": 4,
+      "sensor_reading": 76.25
+    },
+    {
+      "id": 700,
+      "prediction_score": 0.441,
+      "actual": 0,
+      "predicted": 0,
+      "production_line": 5,
+      "sensor_reading": 8.11
+    },
+    {
+      "id": 701,
+      "prediction_score": 0.192,
+      "actual": 0,
+      "predicted": 0,
+      "production_line": 1,
+      "sensor_reading": 53.86
+    },
+    {
+      "id": 702,
+      "prediction_score": 0.182,
+      "actual": 0,
+      "predicted": 0,
+      "production_line": 4,
+      "sensor_reading": 67.22
+    },
+    {
+      "id": 703,
+      "prediction_score": 0.151,
+      "actual": 0,
+      "predicted": 0,
+      "production_line": 3,
+      "sensor_reading": 97.2
+    },
+    {
+      "id": 704,
+      "prediction_score": 0.761,
+      "actual": 0,
+      "predicted": 1,
+      "production_line": 4,
+      "sensor_reading": 82.75
+    },
+    {
+      "id": 705,
+      "prediction_score": 0.184,
+      "actual": 0,
+      "predicted": 0,
+      "production_line": 3,
+      "sensor_reading": 38.68
+    },
+    {
+      "id": 706,
+      "prediction_score": 0.633,
+      "actual": 0,
+      "predicted": 1,
+      "production_line": 1,
+      "sensor_reading": 12.48
+    },
+    {
+      "id": 707,
+      "prediction_score": 0.176,
+      "actual": 0,
+      "predicted": 0,
+      "production_line": 3,
+      "sensor_reading": 93.62
+    },
+    {
+      "id": 708,
+      "prediction_score": 0.13,
+      "actual": 0,
+      "predicted": 0,
+      "production_line": 4,
+      "sensor_reading": 0.94
+    },
+    {
+      "id": 709,
+      "prediction_score": 0.15,
+      "actual": 0,
+      "predicted": 0,
+      "production_line": 1,
+      "sensor_reading": 75.84
+    },
+    {
+      "id": 710,
+      "prediction_score": 0.235,
+      "actual": 0,
+      "predicted": 0,
+      "production_line": 3,
+      "sensor_reading": 19.15
+    },
+    {
+      "id": 711,
+      "prediction_score": 0.586,
+      "actual": 1,
+      "predicted": 1,
+      "production_line": 5,
+      "sensor_reading": 62.52
+    },
+    {
+      "id": 712,
+      "prediction_score": 0.193,
+      "actual": 0,
+      "predicted": 0,
+      "production_line": 2,
+      "sensor_reading": 23.43
+    },
+    {
+      "id": 713,
+      "prediction_score": 0.56,
+      "actual": 0,
+      "predicted": 1,
+      "production_line": 4,
+      "sensor_reading": 96.73
+    },
+    {
+      "id": 714,
+      "prediction_score": 0.728,
+      "actual": 0,
+      "predicted": 1,
+      "production_line": 1,
+      "sensor_reading": 28.08
+    },
+    {
+      "id": 715,
+      "prediction_score": 0.613,
+      "actual": 0,
+      "predicted": 1,
+      "production_line": 5,
+      "sensor_reading": 20.91
+    },
+    {
+      "id": 716,
+      "prediction_score": 0.179,
+      "actual": 0,
+      "predicted": 0,
+      "production_line": 2,
+      "sensor_reading": 98.43
+    },
+    {
+      "id": 717,
+      "prediction_score": 0.617,
+      "actual": 0,
+      "predicted": 1,
+      "production_line": 4,
+      "sensor_reading": 11.09
+    },
+    {
+      "id": 718,
+      "prediction_score": 0.242,
+      "actual": 0,
+      "predicted": 0,
+      "production_line": 3,
+      "sensor_reading": 56.91
+    },
+    {
+      "id": 719,
+      "prediction_score": 0.406,
+      "actual": 0,
+      "predicted": 0,
+      "production_line": 4,
+      "sensor_reading": 17.05
+    },
+    {
+      "id": 720,
+      "prediction_score": 0.319,
+      "actual": 0,
+      "predicted": 0,
+      "production_line": 2,
+      "sensor_reading": 65.98
+    },
+    {
+      "id": 721,
+      "prediction_score": 0.696,
+      "actual": 0,
+      "predicted": 1,
+      "production_line": 5,
+      "sensor_reading": 67.22
+    },
+    {
+      "id": 722,
+      "prediction_score": 0.563,
+      "actual": 0,
+      "predicted": 1,
+      "production_line": 5,
+      "sensor_reading": 56.51
+    },
+    {
+      "id": 723,
+      "prediction_score": 0.291,
+      "actual": 0,
+      "predicted": 0,
+      "production_line": 1,
+      "sensor_reading": 58.82
+    },
+    {
+      "id": 724,
+      "prediction_score": 0.28,
+      "actual": 0,
+      "predicted": 0,
+      "production_line": 1,
+      "sensor_reading": 12.74
+    },
+    {
+      "id": 725,
+      "prediction_score": 0.207,
+      "actual": 0,
+      "predicted": 0,
+      "production_line": 5,
+      "sensor_reading": 85.55
+    },
+    {
+      "id": 726,
+      "prediction_score": 0.499,
+      "actual": 0,
+      "predicted": 0,
+      "production_line": 5,
+      "sensor_reading": 72.89
+    },
+    {
+      "id": 727,
+      "prediction_score": 0.439,
+      "actual": 0,
+      "predicted": 0,
+      "production_line": 3,
+      "sensor_reading": 19.19
+    },
+    {
+      "id": 728,
+      "prediction_score": 0.384,
+      "actual": 0,
+      "predicted": 0,
+      "production_line": 1,
+      "sensor_reading": 99.2
+    },
+    {
+      "id": 729,
+      "prediction_score": 0.757,
+      "actual": 0,
+      "predicted": 1,
+      "production_line": 5,
+      "sensor_reading": 61.45
+    },
+    {
+      "id": 730,
+      "prediction_score": 0.216,
+      "actual": 0,
+      "predicted": 0,
+      "production_line": 5,
+      "sensor_reading": 88.31
+    },
+    {
+      "id": 731,
+      "prediction_score": 0.068,
+      "actual": 0,
+      "predicted": 0,
+      "production_line": 1,
+      "sensor_reading": 93.79
+    },
+    {
+      "id": 732,
+      "prediction_score": 0.496,
+      "actual": 0,
+      "predicted": 0,
+      "production_line": 1,
+      "sensor_reading": 85.39
+    },
+    {
+      "id": 733,
+      "prediction_score": 0.499,
+      "actual": 0,
+      "predicted": 0,
+      "production_line": 3,
+      "sensor_reading": 43.25
+    },
+    {
+      "id": 734,
+      "prediction_score": 0.825,
+      "actual": 1,
+      "predicted": 1,
+      "production_line": 4,
+      "sensor_reading": 27.4
+    },
+    {
+      "id": 735,
+      "prediction_score": 0.264,
+      "actual": 0,
+      "predicted": 0,
+      "production_line": 5,
+      "sensor_reading": 46.66
+    },
+    {
+      "id": 736,
+      "prediction_score": 0.451,
+      "actual": 0,
+      "predicted": 0,
+      "production_line": 3,
+      "sensor_reading": 51.73
+    },
+    {
+      "id": 737,
+      "prediction_score": 0.307,
+      "actual": 0,
+      "predicted": 0,
+      "production_line": 1,
+      "sensor_reading": 88.38
+    },
+    {
+      "id": 738,
+      "prediction_score": 0.161,
+      "actual": 0,
+      "predicted": 0,
+      "production_line": 2,
+      "sensor_reading": 4.7
+    },
+    {
+      "id": 739,
+      "prediction_score": 0.523,
+      "actual": 0,
+      "predicted": 1,
+      "production_line": 4,
+      "sensor_reading": 53.24
+    },
+    {
+      "id": 740,
+      "prediction_score": 0.331,
+      "actual": 0,
+      "predicted": 0,
+      "production_line": 3,
+      "sensor_reading": 0.52
+    },
+    {
+      "id": 741,
+      "prediction_score": 0.154,
+      "actual": 0,
+      "predicted": 0,
+      "production_line": 2,
+      "sensor_reading": 33.47
+    },
+    {
+      "id": 742,
+      "prediction_score": 0.358,
+      "actual": 0,
+      "predicted": 0,
+      "production_line": 5,
+      "sensor_reading": 80.77
+    },
+    {
+      "id": 743,
+      "prediction_score": 0.378,
+      "actual": 0,
+      "predicted": 0,
+      "production_line": 2,
+      "sensor_reading": 97.81
+    },
+    {
+      "id": 744,
+      "prediction_score": 0.193,
+      "actual": 0,
+      "predicted": 0,
+      "production_line": 4,
+      "sensor_reading": 95.78
+    },
+    {
+      "id": 745,
+      "prediction_score": 0.595,
+      "actual": 0,
+      "predicted": 1,
+      "production_line": 2,
+      "sensor_reading": 19.69
+    },
+    {
+      "id": 746,
+      "prediction_score": 0.746,
+      "actual": 1,
+      "predicted": 1,
+      "production_line": 3,
+      "sensor_reading": 31.08
+    },
+    {
+      "id": 747,
+      "prediction_score": 0.47,
+      "actual": 0,
+      "predicted": 0,
+      "production_line": 1,
+      "sensor_reading": 2.79
+    },
+    {
+      "id": 748,
+      "prediction_score": 0.507,
+      "actual": 0,
+      "predicted": 1,
+      "production_line": 4,
+      "sensor_reading": 80.81
+    },
+    {
+      "id": 749,
+      "prediction_score": 0.419,
+      "actual": 0,
+      "predicted": 0,
+      "production_line": 5,
+      "sensor_reading": 79.72
+    },
+    {
+      "id": 750,
+      "prediction_score": 0.288,
+      "actual": 0,
+      "predicted": 0,
+      "production_line": 3,
+      "sensor_reading": 84.05
+    },
+    {
+      "id": 751,
+      "prediction_score": 0.195,
+      "actual": 0,
+      "predicted": 0,
+      "production_line": 2,
+      "sensor_reading": 10.78
+    },
+    {
+      "id": 752,
+      "prediction_score": 0.183,
+      "actual": 0,
+      "predicted": 0,
+      "production_line": 2,
+      "sensor_reading": 95.88
+    },
+    {
+      "id": 753,
+      "prediction_score": 0.269,
+      "actual": 0,
+      "predicted": 0,
+      "production_line": 1,
+      "sensor_reading": 82.16
+    },
+    {
+      "id": 754,
+      "prediction_score": 0.535,
+      "actual": 0,
+      "predicted": 1,
+      "production_line": 5,
+      "sensor_reading": 79.41
+    },
+    {
+      "id": 755,
+      "prediction_score": 0.178,
+      "actual": 0,
+      "predicted": 0,
+      "production_line": 1,
+      "sensor_reading": 77.57
+    },
+    {
+      "id": 756,
+      "prediction_score": 0.18,
+      "actual": 0,
+      "predicted": 0,
+      "production_line": 5,
+      "sensor_reading": 43.85
+    },
+    {
+      "id": 757,
+      "prediction_score": 0.222,
+      "actual": 0,
+      "predicted": 0,
+      "production_line": 1,
+      "sensor_reading": 62.53
+    },
+    {
+      "id": 758,
+      "prediction_score": 0.37,
+      "actual": 0,
+      "predicted": 0,
+      "production_line": 5,
+      "sensor_reading": 12.48
+    },
+    {
+      "id": 759,
+      "prediction_score": 0.267,
+      "actual": 0,
+      "predicted": 0,
+      "production_line": 1,
+      "sensor_reading": 91.67
+    },
+    {
+      "id": 760,
+      "prediction_score": 0.104,
+      "actual": 0,
+      "predicted": 0,
+      "production_line": 4,
+      "sensor_reading": 31.33
+    },
+    {
+      "id": 761,
+      "prediction_score": 0.595,
+      "actual": 0,
+      "predicted": 1,
+      "production_line": 1,
+      "sensor_reading": 78.26
+    },
+    {
+      "id": 762,
+      "prediction_score": 0.439,
+      "actual": 0,
+      "predicted": 0,
+      "production_line": 1,
+      "sensor_reading": 91.91
+    },
+    {
+      "id": 763,
+      "prediction_score": 0.025,
+      "actual": 0,
+      "predicted": 0,
+      "production_line": 4,
+      "sensor_reading": 5.48
+    },
+    {
+      "id": 764,
+      "prediction_score": 0.543,
+      "actual": 0,
+      "predicted": 1,
+      "production_line": 5,
+      "sensor_reading": 62.62
+    },
+    {
+      "id": 765,
+      "prediction_score": 0.053,
+      "actual": 0,
+      "predicted": 0,
+      "production_line": 1,
+      "sensor_reading": 10.18
+    },
+    {
+      "id": 766,
+      "prediction_score": 0.61,
+      "actual": 0,
+      "predicted": 1,
+      "production_line": 1,
+      "sensor_reading": 55.93
+    },
+    {
+      "id": 767,
+      "prediction_score": 0.541,
+      "actual": 0,
+      "predicted": 1,
+      "production_line": 3,
+      "sensor_reading": 84.99
+    },
+    {
+      "id": 768,
+      "prediction_score": 0.768,
+      "actual": 0,
+      "predicted": 1,
+      "production_line": 4,
+      "sensor_reading": 9.58
+    },
+    {
+      "id": 769,
+      "prediction_score": 0.219,
+      "actual": 0,
+      "predicted": 0,
+      "production_line": 4,
+      "sensor_reading": 23.31
+    },
+    {
+      "id": 770,
+      "prediction_score": 0.253,
+      "actual": 1,
+      "predicted": 0,
+      "production_line": 5,
+      "sensor_reading": 78.75
+    },
+    {
+      "id": 771,
+      "prediction_score": 0.114,
+      "actual": 0,
+      "predicted": 0,
+      "production_line": 5,
+      "sensor_reading": 1.06
+    },
+    {
+      "id": 772,
+      "prediction_score": 0.433,
+      "actual": 0,
+      "predicted": 0,
+      "production_line": 4,
+      "sensor_reading": 46.42
+    },
+    {
+      "id": 773,
+      "prediction_score": 0.382,
+      "actual": 0,
+      "predicted": 0,
+      "production_line": 4,
+      "sensor_reading": 87.99
+    },
+    {
+      "id": 774,
+      "prediction_score": 0.336,
+      "actual": 0,
+      "predicted": 0,
+      "production_line": 5,
+      "sensor_reading": 10.13
+    },
+    {
+      "id": 775,
+      "prediction_score": 0.742,
+      "actual": 1,
+      "predicted": 1,
+      "production_line": 1,
+      "sensor_reading": 45.41
+    },
+    {
+      "id": 776,
+      "prediction_score": 0.115,
+      "actual": 0,
+      "predicted": 0,
+      "production_line": 3,
+      "sensor_reading": 58.78
+    },
+    {
+      "id": 777,
+      "prediction_score": 0.652,
+      "actual": 0,
+      "predicted": 1,
+      "production_line": 1,
+      "sensor_reading": 10.27
+    },
+    {
+      "id": 778,
+      "prediction_score": 0.308,
+      "actual": 0,
+      "predicted": 0,
+      "production_line": 5,
+      "sensor_reading": 71.33
+    },
+    {
+      "id": 779,
+      "prediction_score": 0.528,
+      "actual": 0,
+      "predicted": 1,
+      "production_line": 5,
+      "sensor_reading": 78.94
+    },
+    {
+      "id": 780,
+      "prediction_score": 0.476,
+      "actual": 0,
+      "predicted": 0,
+      "production_line": 2,
+      "sensor_reading": 90.44
+    },
+    {
+      "id": 781,
+      "prediction_score": 0.23,
+      "actual": 0,
+      "predicted": 0,
+      "production_line": 2,
+      "sensor_reading": 63.74
+    },
+    {
+      "id": 782,
+      "prediction_score": 0.254,
+      "actual": 0,
+      "predicted": 0,
+      "production_line": 3,
+      "sensor_reading": 35.54
+    },
+    {
+      "id": 783,
+      "prediction_score": 0.649,
+      "actual": 0,
+      "predicted": 1,
+      "production_line": 4,
+      "sensor_reading": 72.46
+    },
+    {
+      "id": 784,
+      "prediction_score": 0.182,
+      "actual": 0,
+      "predicted": 0,
+      "production_line": 4,
+      "sensor_reading": 18.59
+    },
+    {
+      "id": 785,
+      "prediction_score": 0.45,
+      "actual": 0,
+      "predicted": 0,
+      "production_line": 2,
+      "sensor_reading": 79.7
+    },
+    {
+      "id": 786,
+      "prediction_score": 0.269,
+      "actual": 0,
+      "predicted": 0,
+      "production_line": 1,
+      "sensor_reading": 12.77
+    },
+    {
+      "id": 787,
+      "prediction_score": 0.101,
+      "actual": 0,
+      "predicted": 0,
+      "production_line": 5,
+      "sensor_reading": 43.58
+    },
+    {
+      "id": 788,
+      "prediction_score": 0.394,
+      "actual": 0,
+      "predicted": 0,
+      "production_line": 3,
+      "sensor_reading": 31.12
+    },
+    {
+      "id": 789,
+      "prediction_score": 0.584,
+      "actual": 0,
+      "predicted": 1,
+      "production_line": 5,
+      "sensor_reading": 77.55
+    },
+    {
+      "id": 790,
+      "prediction_score": 0.329,
+      "actual": 0,
+      "predicted": 0,
+      "production_line": 2,
+      "sensor_reading": 46.95
+    },
+    {
+      "id": 791,
+      "prediction_score": 0.018,
+      "actual": 0,
+      "predicted": 0,
+      "production_line": 5,
+      "sensor_reading": 34.29
+    },
+    {
+      "id": 792,
+      "prediction_score": 0.599,
+      "actual": 1,
+      "predicted": 1,
+      "production_line": 3,
+      "sensor_reading": 97.03
+    },
+    {
+      "id": 793,
+      "prediction_score": 0.22,
+      "actual": 0,
+      "predicted": 0,
+      "production_line": 5,
+      "sensor_reading": 58.64
+    },
+    {
+      "id": 794,
+      "prediction_score": 0.44,
+      "actual": 0,
+      "predicted": 0,
+      "production_line": 2,
+      "sensor_reading": 5.73
+    },
+    {
+      "id": 795,
+      "prediction_score": 0.235,
+      "actual": 0,
+      "predicted": 0,
+      "production_line": 5,
+      "sensor_reading": 81.92
+    },
+    {
+      "id": 796,
+      "prediction_score": 0.207,
+      "actual": 0,
+      "predicted": 0,
+      "production_line": 5,
+      "sensor_reading": 85.87
+    },
+    {
+      "id": 797,
+      "prediction_score": 0.498,
+      "actual": 0,
+      "predicted": 0,
+      "production_line": 4,
+      "sensor_reading": 34.38
+    },
+    {
+      "id": 798,
+      "prediction_score": 0.24,
+      "actual": 0,
+      "predicted": 0,
+      "production_line": 2,
+      "sensor_reading": 64.06
+    },
+    {
+      "id": 799,
+      "prediction_score": 0.388,
+      "actual": 0,
+      "predicted": 0,
+      "production_line": 2,
+      "sensor_reading": 78.53
+    },
+    {
+      "id": 800,
+      "prediction_score": 0.798,
+      "actual": 1,
+      "predicted": 1,
+      "production_line": 3,
+      "sensor_reading": 18.94
+    },
+    {
+      "id": 801,
+      "prediction_score": 0.733,
+      "actual": 0,
+      "predicted": 1,
+      "production_line": 4,
+      "sensor_reading": 69.48
+    },
+    {
+      "id": 802,
+      "prediction_score": 0.19,
+      "actual": 0,
+      "predicted": 0,
+      "production_line": 4,
+      "sensor_reading": 59.98
+    },
+    {
+      "id": 803,
+      "prediction_score": 0.487,
+      "actual": 0,
+      "predicted": 0,
+      "production_line": 3,
+      "sensor_reading": 85.2
+    },
+    {
+      "id": 804,
+      "prediction_score": 0.631,
+      "actual": 0,
+      "predicted": 1,
+      "production_line": 5,
+      "sensor_reading": 96.31
+    },
+    {
+      "id": 805,
+      "prediction_score": 0.675,
+      "actual": 0,
+      "predicted": 1,
+      "production_line": 5,
+      "sensor_reading": 29.96
+    },
+    {
+      "id": 806,
+      "prediction_score": 0.1,
+      "actual": 0,
+      "predicted": 0,
+      "production_line": 3,
+      "sensor_reading": 16.23
+    },
+    {
+      "id": 807,
+      "prediction_score": 0.175,
+      "actual": 0,
+      "predicted": 0,
+      "production_line": 4,
+      "sensor_reading": 87.61
+    },
+    {
+      "id": 808,
+      "prediction_score": 0.071,
+      "actual": 0,
+      "predicted": 0,
+      "production_line": 1,
+      "sensor_reading": 49.59
+    },
+    {
+      "id": 809,
+      "prediction_score": 0.244,
+      "actual": 0,
+      "predicted": 0,
+      "production_line": 1,
+      "sensor_reading": 63.88
+    },
+    {
+      "id": 810,
+      "prediction_score": 0.17,
+      "actual": 0,
+      "predicted": 0,
+      "production_line": 2,
+      "sensor_reading": 46.65
+    },
+    {
+      "id": 811,
+      "prediction_score": 0.656,
+      "actual": 0,
+      "predicted": 1,
+      "production_line": 2,
+      "sensor_reading": 23.9
+    },
+    {
+      "id": 812,
+      "prediction_score": 0.209,
+      "actual": 0,
+      "predicted": 0,
+      "production_line": 3,
+      "sensor_reading": 80.73
+    },
+    {
+      "id": 813,
+      "prediction_score": 0.468,
+      "actual": 0,
+      "predicted": 0,
+      "production_line": 4,
+      "sensor_reading": 20.53
+    },
+    {
+      "id": 814,
+      "prediction_score": 0.597,
+      "actual": 0,
+      "predicted": 1,
+      "production_line": 2,
+      "sensor_reading": 82.61
+    },
+    {
+      "id": 815,
+      "prediction_score": 0.18,
+      "actual": 0,
+      "predicted": 0,
+      "production_line": 1,
+      "sensor_reading": 36.28
+    },
+    {
+      "id": 816,
+      "prediction_score": 0.441,
+      "actual": 0,
+      "predicted": 0,
+      "production_line": 1,
+      "sensor_reading": 35.79
+    },
+    {
+      "id": 817,
+      "prediction_score": 0.437,
+      "actual": 0,
+      "predicted": 0,
+      "production_line": 5,
+      "sensor_reading": 11.52
+    },
+    {
+      "id": 818,
+      "prediction_score": 0.27,
+      "actual": 0,
+      "predicted": 0,
+      "production_line": 3,
+      "sensor_reading": 44.04
+    },
+    {
+      "id": 819,
+      "prediction_score": 0.082,
+      "actual": 0,
+      "predicted": 0,
+      "production_line": 5,
+      "sensor_reading": 91.27
+    },
+    {
+      "id": 820,
+      "prediction_score": 0.115,
+      "actual": 0,
+      "predicted": 0,
+      "production_line": 3,
+      "sensor_reading": 4.39
+    },
+    {
+      "id": 821,
+      "prediction_score": 0.434,
+      "actual": 0,
+      "predicted": 0,
+      "production_line": 1,
+      "sensor_reading": 19.91
+    },
+    {
+      "id": 822,
+      "prediction_score": 0.714,
+      "actual": 1,
+      "predicted": 1,
+      "production_line": 3,
+      "sensor_reading": 17.41
+    },
+    {
+      "id": 823,
+      "prediction_score": 0.178,
+      "actual": 0,
+      "predicted": 0,
+      "production_line": 3,
+      "sensor_reading": 71.88
+    },
+    {
+      "id": 824,
+      "prediction_score": 0.195,
+      "actual": 0,
+      "predicted": 0,
+      "production_line": 3,
+      "sensor_reading": 84.75
+    },
+    {
+      "id": 825,
+      "prediction_score": 0.106,
+      "actual": 0,
+      "predicted": 0,
+      "production_line": 2,
+      "sensor_reading": 17.85
+    },
+    {
+      "id": 826,
+      "prediction_score": 0.141,
+      "actual": 0,
+      "predicted": 0,
+      "production_line": 1,
+      "sensor_reading": 17.61
+    },
+    {
+      "id": 827,
+      "prediction_score": 0.114,
+      "actual": 0,
+      "predicted": 0,
+      "production_line": 3,
+      "sensor_reading": 91.06
+    },
+    {
+      "id": 828,
+      "prediction_score": 0.886,
+      "actual": 1,
+      "predicted": 1,
+      "production_line": 1,
+      "sensor_reading": 83.14
+    },
+    {
+      "id": 829,
+      "prediction_score": 0.309,
+      "actual": 0,
+      "predicted": 0,
+      "production_line": 2,
+      "sensor_reading": 37.89
+    },
+    {
+      "id": 830,
+      "prediction_score": 0.568,
+      "actual": 0,
+      "predicted": 1,
+      "production_line": 1,
+      "sensor_reading": 33.84
+    },
+    {
+      "id": 831,
+      "prediction_score": 0.306,
+      "actual": 0,
+      "predicted": 0,
+      "production_line": 2,
+      "sensor_reading": 30.51
+    },
+    {
+      "id": 832,
+      "prediction_score": 0.59,
+      "actual": 0,
+      "predicted": 1,
+      "production_line": 2,
+      "sensor_reading": 36.96
+    },
+    {
+      "id": 833,
+      "prediction_score": 0.409,
+      "actual": 0,
+      "predicted": 0,
+      "production_line": 3,
+      "sensor_reading": 66.09
+    },
+    {
+      "id": 834,
+      "prediction_score": 0.188,
+      "actual": 0,
+      "predicted": 0,
+      "production_line": 5,
+      "sensor_reading": 97.71
+    },
+    {
+      "id": 835,
+      "prediction_score": 0.195,
+      "actual": 1,
+      "predicted": 0,
+      "production_line": 5,
+      "sensor_reading": 88.17
+    },
+    {
+      "id": 836,
+      "prediction_score": 0.439,
+      "actual": 0,
+      "predicted": 0,
+      "production_line": 1,
+      "sensor_reading": 11.85
+    },
+    {
+      "id": 837,
+      "prediction_score": 0.05,
+      "actual": 0,
+      "predicted": 0,
+      "production_line": 2,
+      "sensor_reading": 79.49
+    },
+    {
+      "id": 838,
+      "prediction_score": 0.36,
+      "actual": 0,
+      "predicted": 0,
+      "production_line": 2,
+      "sensor_reading": 53.26
+    },
+    {
+      "id": 839,
+      "prediction_score": 0.437,
+      "actual": 0,
+      "predicted": 0,
+      "production_line": 3,
+      "sensor_reading": 31.8
+    },
+    {
+      "id": 840,
+      "prediction_score": 0.154,
+      "actual": 0,
+      "predicted": 0,
+      "production_line": 4,
+      "sensor_reading": 97.7
+    },
+    {
+      "id": 841,
+      "prediction_score": 0.271,
+      "actual": 0,
+      "predicted": 0,
+      "production_line": 2,
+      "sensor_reading": 92.1
+    },
+    {
+      "id": 842,
+      "prediction_score": 0.06,
+      "actual": 0,
+      "predicted": 0,
+      "production_line": 5,
+      "sensor_reading": 58.73
+    },
+    {
+      "id": 843,
+      "prediction_score": 0.606,
+      "actual": 0,
+      "predicted": 1,
+      "production_line": 5,
+      "sensor_reading": 29.42
+    },
+    {
+      "id": 844,
+      "prediction_score": 0.456,
+      "actual": 0,
+      "predicted": 0,
+      "production_line": 2,
+      "sensor_reading": 32.77
+    },
+    {
+      "id": 845,
+      "prediction_score": 0.436,
+      "actual": 0,
+      "predicted": 0,
+      "production_line": 1,
+      "sensor_reading": 62.95
+    },
+    {
+      "id": 846,
+      "prediction_score": 0.502,
+      "actual": 0,
+      "predicted": 1,
+      "production_line": 3,
+      "sensor_reading": 87.29
+    },
+    {
+      "id": 847,
+      "prediction_score": 0.076,
+      "actual": 0,
+      "predicted": 0,
+      "production_line": 5,
+      "sensor_reading": 96.84
+    },
+    {
+      "id": 848,
+      "prediction_score": 0.086,
+      "actual": 0,
+      "predicted": 0,
+      "production_line": 4,
+      "sensor_reading": 20.92
+    },
+    {
+      "id": 849,
+      "prediction_score": 0.777,
+      "actual": 0,
+      "predicted": 1,
+      "production_line": 1,
+      "sensor_reading": 78.47
+    },
+    {
+      "id": 850,
+      "prediction_score": 0.441,
+      "actual": 0,
+      "predicted": 0,
+      "production_line": 5,
+      "sensor_reading": 6.49
+    },
+    {
+      "id": 851,
+      "prediction_score": 0.341,
+      "actual": 0,
+      "predicted": 0,
+      "production_line": 5,
+      "sensor_reading": 38.81
+    },
+    {
+      "id": 852,
+      "prediction_score": 0.194,
+      "actual": 0,
+      "predicted": 0,
+      "production_line": 5,
+      "sensor_reading": 37.43
+    },
+    {
+      "id": 853,
+      "prediction_score": 0.665,
+      "actual": 0,
+      "predicted": 1,
+      "production_line": 5,
+      "sensor_reading": 46.43
+    },
+    {
+      "id": 854,
+      "prediction_score": 0.069,
+      "actual": 0,
+      "predicted": 0,
+      "production_line": 3,
+      "sensor_reading": 71.25
+    },
+    {
+      "id": 855,
+      "prediction_score": 0.204,
+      "actual": 0,
+      "predicted": 0,
+      "production_line": 5,
+      "sensor_reading": 69.45
+    },
+    {
+      "id": 856,
+      "prediction_score": 0.597,
+      "actual": 1,
+      "predicted": 1,
+      "production_line": 4,
+      "sensor_reading": 47.38
+    },
+    {
+      "id": 857,
+      "prediction_score": 0.269,
+      "actual": 0,
+      "predicted": 0,
+      "production_line": 5,
+      "sensor_reading": 40.09
+    },
+    {
+      "id": 858,
+      "prediction_score": 0.676,
+      "actual": 0,
+      "predicted": 1,
+      "production_line": 5,
+      "sensor_reading": 64.97
+    },
+    {
+      "id": 859,
+      "prediction_score": 0.134,
+      "actual": 0,
+      "predicted": 0,
+      "production_line": 2,
+      "sensor_reading": 21.95
+    },
+    {
+      "id": 860,
+      "prediction_score": 0.201,
+      "actual": 0,
+      "predicted": 0,
+      "production_line": 2,
+      "sensor_reading": 45.21
+    },
+    {
+      "id": 861,
+      "prediction_score": 0.781,
+      "actual": 1,
+      "predicted": 1,
+      "production_line": 2,
+      "sensor_reading": 39.59
+    },
+    {
+      "id": 862,
+      "prediction_score": 0.334,
+      "actual": 0,
+      "predicted": 0,
+      "production_line": 3,
+      "sensor_reading": 42.5
+    },
+    {
+      "id": 863,
+      "prediction_score": 0.312,
+      "actual": 0,
+      "predicted": 0,
+      "production_line": 4,
+      "sensor_reading": 57.14
+    },
+    {
+      "id": 864,
+      "prediction_score": 0.468,
+      "actual": 0,
+      "predicted": 0,
+      "production_line": 3,
+      "sensor_reading": 25.45
+    },
+    {
+      "id": 865,
+      "prediction_score": 0.039,
+      "actual": 0,
+      "predicted": 0,
+      "production_line": 1,
+      "sensor_reading": 13.43
+    },
+    {
+      "id": 866,
+      "prediction_score": 0.04,
+      "actual": 0,
+      "predicted": 0,
+      "production_line": 1,
+      "sensor_reading": 29.5
+    },
+    {
+      "id": 867,
+      "prediction_score": 0.555,
+      "actual": 0,
+      "predicted": 1,
+      "production_line": 5,
+      "sensor_reading": 35.16
+    },
+    {
+      "id": 868,
+      "prediction_score": 0.417,
+      "actual": 0,
+      "predicted": 0,
+      "production_line": 5,
+      "sensor_reading": 4.11
+    },
+    {
+      "id": 869,
+      "prediction_score": 0.911,
+      "actual": 1,
+      "predicted": 1,
+      "production_line": 5,
+      "sensor_reading": 62.11
+    },
+    {
+      "id": 870,
+      "prediction_score": 0.16,
+      "actual": 0,
+      "predicted": 0,
+      "production_line": 4,
+      "sensor_reading": 45.12
+    },
+    {
+      "id": 871,
+      "prediction_score": 0.488,
+      "actual": 0,
+      "predicted": 0,
+      "production_line": 4,
+      "sensor_reading": 40.9
+    },
+    {
+      "id": 872,
+      "prediction_score": 0.217,
+      "actual": 0,
+      "predicted": 0,
+      "production_line": 4,
+      "sensor_reading": 31.7
+    },
+    {
+      "id": 873,
+      "prediction_score": 0.141,
+      "actual": 0,
+      "predicted": 0,
+      "production_line": 4,
+      "sensor_reading": 2.47
+    },
+    {
+      "id": 874,
+      "prediction_score": 0.511,
+      "actual": 0,
+      "predicted": 1,
+      "production_line": 4,
+      "sensor_reading": 23.38
+    },
+    {
+      "id": 875,
+      "prediction_score": 0.25,
+      "actual": 0,
+      "predicted": 0,
+      "production_line": 1,
+      "sensor_reading": 35.91
+    },
+    {
+      "id": 876,
+      "prediction_score": 0.181,
+      "actual": 0,
+      "predicted": 0,
+      "production_line": 1,
+      "sensor_reading": 29.45
+    },
+    {
+      "id": 877,
+      "prediction_score": 0.491,
+      "actual": 0,
+      "predicted": 0,
+      "production_line": 5,
+      "sensor_reading": 51.28
+    },
+    {
+      "id": 878,
+      "prediction_score": 0.377,
+      "actual": 0,
+      "predicted": 0,
+      "production_line": 1,
+      "sensor_reading": 78.59
+    },
+    {
+      "id": 879,
+      "prediction_score": 0.095,
+      "actual": 0,
+      "predicted": 0,
+      "production_line": 2,
+      "sensor_reading": 9.84
+    },
+    {
+      "id": 880,
+      "prediction_score": 0.345,
+      "actual": 0,
+      "predicted": 0,
+      "production_line": 1,
+      "sensor_reading": 36.02
+    },
+    {
+      "id": 881,
+      "prediction_score": 0.692,
+      "actual": 0,
+      "predicted": 1,
+      "production_line": 5,
+      "sensor_reading": 20.03
+    },
+    {
+      "id": 882,
+      "prediction_score": 0.338,
+      "actual": 0,
+      "predicted": 0,
+      "production_line": 2,
+      "sensor_reading": 67.51
+    },
+    {
+      "id": 883,
+      "prediction_score": 0.331,
+      "actual": 0,
+      "predicted": 0,
+      "production_line": 3,
+      "sensor_reading": 30.27
+    },
+    {
+      "id": 884,
+      "prediction_score": 0.567,
+      "actual": 0,
+      "predicted": 1,
+      "production_line": 3,
+      "sensor_reading": 19.06
+    },
+    {
+      "id": 885,
+      "prediction_score": 0.73,
+      "actual": 1,
+      "predicted": 1,
+      "production_line": 5,
+      "sensor_reading": 99.8
+    },
+    {
+      "id": 886,
+      "prediction_score": 0.318,
+      "actual": 0,
+      "predicted": 0,
+      "production_line": 5,
+      "sensor_reading": 91.24
+    },
+    {
+      "id": 887,
+      "prediction_score": 0.355,
+      "actual": 0,
+      "predicted": 0,
+      "production_line": 1,
+      "sensor_reading": 77.01
+    },
+    {
+      "id": 888,
+      "prediction_score": 0.769,
+      "actual": 1,
+      "predicted": 1,
+      "production_line": 3,
+      "sensor_reading": 82.23
+    },
+    {
+      "id": 889,
+      "prediction_score": 0.495,
+      "actual": 0,
+      "predicted": 0,
+      "production_line": 4,
+      "sensor_reading": 94.58
+    },
+    {
+      "id": 890,
+      "prediction_score": 0.316,
+      "actual": 0,
+      "predicted": 0,
+      "production_line": 5,
+      "sensor_reading": 75.78
+    },
+    {
+      "id": 891,
+      "prediction_score": 0.05,
+      "actual": 0,
+      "predicted": 0,
+      "production_line": 1,
+      "sensor_reading": 47.2
+    },
+    {
+      "id": 892,
+      "prediction_score": 0.607,
+      "actual": 0,
+      "predicted": 1,
+      "production_line": 5,
+      "sensor_reading": 98.93
+    },
+    {
+      "id": 893,
+      "prediction_score": 0.09,
+      "actual": 0,
+      "predicted": 0,
+      "production_line": 2,
+      "sensor_reading": 86.55
+    },
+    {
+      "id": 894,
+      "prediction_score": 0.174,
+      "actual": 0,
+      "predicted": 0,
+      "production_line": 2,
+      "sensor_reading": 22.69
+    },
+    {
+      "id": 895,
+      "prediction_score": 0.529,
+      "actual": 0,
+      "predicted": 1,
+      "production_line": 2,
+      "sensor_reading": 47.44
+    },
+    {
+      "id": 896,
+      "prediction_score": 0.086,
+      "actual": 0,
+      "predicted": 0,
+      "production_line": 5,
+      "sensor_reading": 58.7
+    },
+    {
+      "id": 897,
+      "prediction_score": 0.45,
+      "actual": 1,
+      "predicted": 0,
+      "production_line": 5,
+      "sensor_reading": 75.76
+    },
+    {
+      "id": 898,
+      "prediction_score": 0.335,
+      "actual": 0,
+      "predicted": 0,
+      "production_line": 4,
+      "sensor_reading": 34.07
+    },
+    {
+      "id": 899,
+      "prediction_score": 0.798,
+      "actual": 0,
+      "predicted": 1,
+      "production_line": 1,
+      "sensor_reading": 31.31
+    },
+    {
+      "id": 900,
+      "prediction_score": 0.368,
+      "actual": 0,
+      "predicted": 0,
+      "production_line": 2,
+      "sensor_reading": 42.88
+    },
+    {
+      "id": 901,
+      "prediction_score": 0.619,
+      "actual": 0,
+      "predicted": 1,
+      "production_line": 4,
+      "sensor_reading": 20.96
+    },
+    {
+      "id": 902,
+      "prediction_score": 0.651,
+      "actual": 0,
+      "predicted": 1,
+      "production_line": 4,
+      "sensor_reading": 85.29
+    },
+    {
+      "id": 903,
+      "prediction_score": 0.264,
+      "actual": 0,
+      "predicted": 0,
+      "production_line": 1,
+      "sensor_reading": 37.47
+    },
+    {
+      "id": 904,
+      "prediction_score": 0.209,
+      "actual": 0,
+      "predicted": 0,
+      "production_line": 5,
+      "sensor_reading": 87.38
+    },
+    {
+      "id": 905,
+      "prediction_score": 0.398,
+      "actual": 0,
+      "predicted": 0,
+      "production_line": 3,
+      "sensor_reading": 94.34
+    },
+    {
+      "id": 906,
+      "prediction_score": 0.599,
+      "actual": 0,
+      "predicted": 1,
+      "production_line": 1,
+      "sensor_reading": 49.98
+    },
+    {
+      "id": 907,
+      "prediction_score": 0.043,
+      "actual": 0,
+      "predicted": 0,
+      "production_line": 3,
+      "sensor_reading": 33.98
+    },
+    {
+      "id": 908,
+      "prediction_score": 0.079,
+      "actual": 0,
+      "predicted": 0,
+      "production_line": 4,
+      "sensor_reading": 42.57
+    },
+    {
+      "id": 909,
+      "prediction_score": 0.035,
+      "actual": 0,
+      "predicted": 0,
+      "production_line": 4,
+      "sensor_reading": 76.28
+    },
+    {
+      "id": 910,
+      "prediction_score": 0.225,
+      "actual": 0,
+      "predicted": 0,
+      "production_line": 5,
+      "sensor_reading": 29.96
+    },
+    {
+      "id": 911,
+      "prediction_score": 0.72,
+      "actual": 1,
+      "predicted": 1,
+      "production_line": 5,
+      "sensor_reading": 2.32
+    },
+    {
+      "id": 912,
+      "prediction_score": 0.123,
+      "actual": 0,
+      "predicted": 0,
+      "production_line": 1,
+      "sensor_reading": 92.21
+    },
+    {
+      "id": 913,
+      "prediction_score": 0.307,
+      "actual": 0,
+      "predicted": 0,
+      "production_line": 2,
+      "sensor_reading": 97.72
+    },
+    {
+      "id": 914,
+      "prediction_score": 0.333,
+      "actual": 0,
+      "predicted": 0,
+      "production_line": 3,
+      "sensor_reading": 56.82
+    },
+    {
+      "id": 915,
+      "prediction_score": 0.39,
+      "actual": 0,
+      "predicted": 0,
+      "production_line": 5,
+      "sensor_reading": 91.38
+    },
+    {
+      "id": 916,
+      "prediction_score": 0.276,
+      "actual": 0,
+      "predicted": 0,
+      "production_line": 5,
+      "sensor_reading": 86.69
+    },
+    {
+      "id": 917,
+      "prediction_score": 0.326,
+      "actual": 0,
+      "predicted": 0,
+      "production_line": 4,
+      "sensor_reading": 20.42
+    },
+    {
+      "id": 918,
+      "prediction_score": 0.512,
+      "actual": 0,
+      "predicted": 1,
+      "production_line": 4,
+      "sensor_reading": 6.37
+    },
+    {
+      "id": 919,
+      "prediction_score": 0.293,
+      "actual": 0,
+      "predicted": 0,
+      "production_line": 4,
+      "sensor_reading": 18.83
+    },
+    {
+      "id": 920,
+      "prediction_score": 0.66,
+      "actual": 0,
+      "predicted": 1,
+      "production_line": 1,
+      "sensor_reading": 32.88
+    },
+    {
+      "id": 921,
+      "prediction_score": 0.18,
+      "actual": 0,
+      "predicted": 0,
+      "production_line": 4,
+      "sensor_reading": 63.9
+    },
+    {
+      "id": 922,
+      "prediction_score": 0.042,
+      "actual": 0,
+      "predicted": 0,
+      "production_line": 3,
+      "sensor_reading": 9.32
+    },
+    {
+      "id": 923,
+      "prediction_score": 0.183,
+      "actual": 0,
+      "predicted": 0,
+      "production_line": 1,
+      "sensor_reading": 67.49
+    },
+    {
+      "id": 924,
+      "prediction_score": 0.22,
+      "actual": 0,
+      "predicted": 0,
+      "production_line": 2,
+      "sensor_reading": 3.21
+    },
+    {
+      "id": 925,
+      "prediction_score": 0.114,
+      "actual": 0,
+      "predicted": 0,
+      "production_line": 5,
+      "sensor_reading": 48.86
+    },
+    {
+      "id": 926,
+      "prediction_score": 0.271,
+      "actual": 0,
+      "predicted": 0,
+      "production_line": 2,
+      "sensor_reading": 19.9
+    },
+    {
+      "id": 927,
+      "prediction_score": 0.247,
+      "actual": 0,
+      "predicted": 0,
+      "production_line": 4,
+      "sensor_reading": 28.38
+    },
+    {
+      "id": 928,
+      "prediction_score": 0.58,
+      "actual": 0,
+      "predicted": 1,
+      "production_line": 2,
+      "sensor_reading": 29.11
+    },
+    {
+      "id": 929,
+      "prediction_score": 0.201,
+      "actual": 0,
+      "predicted": 0,
+      "production_line": 5,
+      "sensor_reading": 7.0
+    },
+    {
+      "id": 930,
+      "prediction_score": 0.104,
+      "actual": 0,
+      "predicted": 0,
+      "production_line": 1,
+      "sensor_reading": 36.87
+    },
+    {
+      "id": 931,
+      "prediction_score": 0.226,
+      "actual": 0,
+      "predicted": 0,
+      "production_line": 1,
+      "sensor_reading": 17.18
+    },
+    {
+      "id": 932,
+      "prediction_score": 0.38,
+      "actual": 0,
+      "predicted": 0,
+      "production_line": 4,
+      "sensor_reading": 39.11
+    },
+    {
+      "id": 933,
+      "prediction_score": 0.046,
+      "actual": 0,
+      "predicted": 0,
+      "production_line": 1,
+      "sensor_reading": 12.91
+    },
+    {
+      "id": 934,
+      "prediction_score": 0.262,
+      "actual": 0,
+      "predicted": 0,
+      "production_line": 4,
+      "sensor_reading": 47.83
+    },
+    {
+      "id": 935,
+      "prediction_score": 0.392,
+      "actual": 0,
+      "predicted": 0,
+      "production_line": 1,
+      "sensor_reading": 38.9
+    },
+    {
+      "id": 936,
+      "prediction_score": 0.118,
+      "actual": 0,
+      "predicted": 0,
+      "production_line": 2,
+      "sensor_reading": 12.99
+    },
+    {
+      "id": 937,
+      "prediction_score": 0.21,
+      "actual": 0,
+      "predicted": 0,
+      "production_line": 2,
+      "sensor_reading": 30.98
+    },
+    {
+      "id": 938,
+      "prediction_score": 0.821,
+      "actual": 0,
+      "predicted": 1,
+      "production_line": 4,
+      "sensor_reading": 15.88
+    },
+    {
+      "id": 939,
+      "prediction_score": 0.423,
+      "actual": 0,
+      "predicted": 0,
+      "production_line": 5,
+      "sensor_reading": 93.92
+    },
+    {
+      "id": 940,
+      "prediction_score": 0.083,
+      "actual": 0,
+      "predicted": 0,
+      "production_line": 5,
+      "sensor_reading": 20.3
+    },
+    {
+      "id": 941,
+      "prediction_score": 0.139,
+      "actual": 0,
+      "predicted": 0,
+      "production_line": 4,
+      "sensor_reading": 27.54
+    },
+    {
+      "id": 942,
+      "prediction_score": 0.546,
+      "actual": 0,
+      "predicted": 1,
+      "production_line": 1,
+      "sensor_reading": 99.11
+    },
+    {
+      "id": 943,
+      "prediction_score": 0.069,
+      "actual": 0,
+      "predicted": 0,
+      "production_line": 4,
+      "sensor_reading": 6.4
+    },
+    {
+      "id": 944,
+      "prediction_score": 0.711,
+      "actual": 1,
+      "predicted": 1,
+      "production_line": 4,
+      "sensor_reading": 60.48
+    },
+    {
+      "id": 945,
+      "prediction_score": 0.141,
+      "actual": 0,
+      "predicted": 0,
+      "production_line": 2,
+      "sensor_reading": 52.59
+    },
+    {
+      "id": 946,
+      "prediction_score": 0.062,
+      "actual": 0,
+      "predicted": 0,
+      "production_line": 5,
+      "sensor_reading": 87.92
+    },
+    {
+      "id": 947,
+      "prediction_score": 0.193,
+      "actual": 0,
+      "predicted": 0,
+      "production_line": 4,
+      "sensor_reading": 46.27
+    },
+    {
+      "id": 948,
+      "prediction_score": 0.093,
+      "actual": 0,
+      "predicted": 0,
+      "production_line": 1,
+      "sensor_reading": 73.73
+    },
+    {
+      "id": 949,
+      "prediction_score": 0.188,
+      "actual": 0,
+      "predicted": 0,
+      "production_line": 3,
+      "sensor_reading": 64.63
+    },
+    {
+      "id": 950,
+      "prediction_score": 0.364,
+      "actual": 0,
+      "predicted": 0,
+      "production_line": 4,
+      "sensor_reading": 34.68
+    },
+    {
+      "id": 951,
+      "prediction_score": 0.8,
+      "actual": 1,
+      "predicted": 1,
+      "production_line": 3,
+      "sensor_reading": 39.11
+    },
+    {
+      "id": 952,
+      "prediction_score": 0.106,
+      "actual": 0,
+      "predicted": 0,
+      "production_line": 2,
+      "sensor_reading": 41.51
+    },
+    {
+      "id": 953,
+      "prediction_score": 0.195,
+      "actual": 0,
+      "predicted": 0,
+      "production_line": 2,
+      "sensor_reading": 90.0
+    },
+    {
+      "id": 954,
+      "prediction_score": 0.162,
+      "actual": 0,
+      "predicted": 0,
+      "production_line": 4,
+      "sensor_reading": 45.78
+    },
+    {
+      "id": 955,
+      "prediction_score": 0.156,
+      "actual": 0,
+      "predicted": 0,
+      "production_line": 2,
+      "sensor_reading": 69.85
+    },
+    {
+      "id": 956,
+      "prediction_score": 0.62,
+      "actual": 1,
+      "predicted": 1,
+      "production_line": 1,
+      "sensor_reading": 39.36
+    },
+    {
+      "id": 957,
+      "prediction_score": 0.023,
+      "actual": 0,
+      "predicted": 0,
+      "production_line": 1,
+      "sensor_reading": 23.97
+    },
+    {
+      "id": 958,
+      "prediction_score": 0.423,
+      "actual": 0,
+      "predicted": 0,
+      "production_line": 2,
+      "sensor_reading": 27.38
+    },
+    {
+      "id": 959,
+      "prediction_score": 0.033,
+      "actual": 0,
+      "predicted": 0,
+      "production_line": 5,
+      "sensor_reading": 29.19
+    },
+    {
+      "id": 960,
+      "prediction_score": 0.676,
+      "actual": 0,
+      "predicted": 1,
+      "production_line": 1,
+      "sensor_reading": 69.8
+    },
+    {
+      "id": 961,
+      "prediction_score": 0.294,
+      "actual": 0,
+      "predicted": 0,
+      "production_line": 2,
+      "sensor_reading": 90.87
+    },
+    {
+      "id": 962,
+      "prediction_score": 0.26,
+      "actual": 0,
+      "predicted": 0,
+      "production_line": 4,
+      "sensor_reading": 99.24
+    },
+    {
+      "id": 963,
+      "prediction_score": 0.183,
+      "actual": 0,
+      "predicted": 0,
+      "production_line": 5,
+      "sensor_reading": 12.12
+    },
+    {
+      "id": 964,
+      "prediction_score": 0.401,
+      "actual": 0,
+      "predicted": 0,
+      "production_line": 3,
+      "sensor_reading": 7.65
+    },
+    {
+      "id": 965,
+      "prediction_score": 0.207,
+      "actual": 0,
+      "predicted": 0,
+      "production_line": 1,
+      "sensor_reading": 50.44
+    },
+    {
+      "id": 966,
+      "prediction_score": 0.378,
+      "actual": 0,
+      "predicted": 0,
+      "production_line": 3,
+      "sensor_reading": 41.01
+    },
+    {
+      "id": 967,
+      "prediction_score": 0.04,
+      "actual": 0,
+      "predicted": 0,
+      "production_line": 2,
+      "sensor_reading": 25.28
+    },
+    {
+      "id": 968,
+      "prediction_score": 0.364,
+      "actual": 0,
+      "predicted": 0,
+      "production_line": 5,
+      "sensor_reading": 4.46
+    },
+    {
+      "id": 969,
+      "prediction_score": 0.701,
+      "actual": 0,
+      "predicted": 1,
+      "production_line": 1,
+      "sensor_reading": 7.32
+    },
+    {
+      "id": 970,
+      "prediction_score": 0.181,
+      "actual": 0,
+      "predicted": 0,
+      "production_line": 4,
+      "sensor_reading": 38.12
+    },
+    {
+      "id": 971,
+      "prediction_score": 0.376,
+      "actual": 0,
+      "predicted": 0,
+      "production_line": 4,
+      "sensor_reading": 85.58
+    },
+    {
+      "id": 972,
+      "prediction_score": 0.008,
+      "actual": 0,
+      "predicted": 0,
+      "production_line": 4,
+      "sensor_reading": 3.78
+    },
+    {
+      "id": 973,
+      "prediction_score": 0.514,
+      "actual": 1,
+      "predicted": 1,
+      "production_line": 3,
+      "sensor_reading": 11.47
+    },
+    {
+      "id": 974,
+      "prediction_score": 0.75,
+      "actual": 0,
+      "predicted": 1,
+      "production_line": 2,
+      "sensor_reading": 32.71
+    },
+    {
+      "id": 975,
+      "prediction_score": 0.323,
+      "actual": 0,
+      "predicted": 0,
+      "production_line": 4,
+      "sensor_reading": 48.48
+    },
+    {
+      "id": 976,
+      "prediction_score": 0.365,
+      "actual": 0,
+      "predicted": 0,
+      "production_line": 1,
+      "sensor_reading": 8.25
+    },
+    {
+      "id": 977,
+      "prediction_score": 0.081,
+      "actual": 0,
+      "predicted": 0,
+      "production_line": 2,
+      "sensor_reading": 71.36
+    },
+    {
+      "id": 978,
+      "prediction_score": 0.2,
+      "actual": 0,
+      "predicted": 0,
+      "production_line": 4,
+      "sensor_reading": 14.03
+    },
+    {
+      "id": 979,
+      "prediction_score": 0.401,
+      "actual": 0,
+      "predicted": 0,
+      "production_line": 3,
+      "sensor_reading": 84.16
+    },
+    {
+      "id": 980,
+      "prediction_score": 0.825,
+      "actual": 1,
+      "predicted": 1,
+      "production_line": 2,
+      "sensor_reading": 83.85
+    },
+    {
+      "id": 981,
+      "prediction_score": 0.122,
+      "actual": 0,
+      "predicted": 0,
+      "production_line": 5,
+      "sensor_reading": 10.05
+    },
+    {
+      "id": 982,
+      "prediction_score": 0.134,
+      "actual": 0,
+      "predicted": 0,
+      "production_line": 3,
+      "sensor_reading": 12.42
+    },
+    {
+      "id": 983,
+      "prediction_score": 0.153,
+      "actual": 0,
+      "predicted": 0,
+      "production_line": 4,
+      "sensor_reading": 16.85
+    },
+    {
+      "id": 984,
+      "prediction_score": 0.686,
+      "actual": 0,
+      "predicted": 1,
+      "production_line": 1,
+      "sensor_reading": 67.74
+    },
+    {
+      "id": 985,
+      "prediction_score": 0.424,
+      "actual": 0,
+      "predicted": 0,
+      "production_line": 2,
+      "sensor_reading": 44.07
+    },
+    {
+      "id": 986,
+      "prediction_score": 0.343,
+      "actual": 0,
+      "predicted": 0,
+      "production_line": 2,
+      "sensor_reading": 21.67
+    },
+    {
+      "id": 987,
+      "prediction_score": 0.294,
+      "actual": 0,
+      "predicted": 0,
+      "production_line": 1,
+      "sensor_reading": 89.27
+    },
+    {
+      "id": 988,
+      "prediction_score": 0.237,
+      "actual": 0,
+      "predicted": 0,
+      "production_line": 5,
+      "sensor_reading": 21.62
+    },
+    {
+      "id": 989,
+      "prediction_score": 0.518,
+      "actual": 0,
+      "predicted": 1,
+      "production_line": 1,
+      "sensor_reading": 83.65
+    },
+    {
+      "id": 990,
+      "prediction_score": 0.021,
+      "actual": 0,
+      "predicted": 0,
+      "production_line": 5,
+      "sensor_reading": 64.1
+    },
+    {
+      "id": 991,
+      "prediction_score": 0.321,
+      "actual": 0,
+      "predicted": 0,
+      "production_line": 1,
+      "sensor_reading": 39.06
+    },
+    {
+      "id": 992,
+      "prediction_score": 0.453,
+      "actual": 0,
+      "predicted": 0,
+      "production_line": 3,
+      "sensor_reading": 44.4
+    },
+    {
+      "id": 993,
+      "prediction_score": 0.314,
+      "actual": 0,
+      "predicted": 0,
+      "production_line": 5,
+      "sensor_reading": 0.47
+    },
+    {
+      "id": 994,
+      "prediction_score": 0.115,
+      "actual": 0,
+      "predicted": 0,
+      "production_line": 4,
+      "sensor_reading": 76.71
+    },
+    {
+      "id": 995,
+      "prediction_score": 0.281,
+      "actual": 0,
+      "predicted": 0,
+      "production_line": 2,
+      "sensor_reading": 37.46
+    },
+    {
+      "id": 996,
+      "prediction_score": 0.487,
+      "actual": 0,
+      "predicted": 0,
+      "production_line": 2,
+      "sensor_reading": 20.0
+    },
+    {
+      "id": 997,
+      "prediction_score": 0.5,
+      "actual": 0,
+      "predicted": 1,
+      "production_line": 1,
+      "sensor_reading": 42.17
+    },
+    {
+      "id": 998,
+      "prediction_score": 0.271,
+      "actual": 0,
+      "predicted": 0,
+      "production_line": 1,
+      "sensor_reading": 33.71
+    },
+    {
+      "id": 999,
+      "prediction_score": 0.466,
+      "actual": 0,
+      "predicted": 0,
+      "production_line": 2,
+      "sensor_reading": 68.0
+    },
+    {
+      "id": 1000,
+      "prediction_score": 0.26,
+      "actual": 0,
+      "predicted": 0,
+      "production_line": 1,
+      "sensor_reading": 22.06
+    }
+  ]
+}

@@ -1,0 +1,8013 @@
+{
+  "scenario": "Credit Card Fraud Detection",
+  "description": "Transaction monitoring system for detecting fraudulent credit card transactions",
+  "cost_matrix": {
+    "false_positive": "Legitimate transaction blocked, customer frustration ($50-200)",
+    "false_negative": "Fraudulent transaction approved, financial loss ($500-5000)"
+  },
+  "priority": "Balance Both Types",
+  "optimal_threshold": 0.4,
+  "prevalence": 0.02,
+  "data": [
+    {
+      "id": 1,
+      "prediction_score": 0.391,
+      "actual": 0,
+      "predicted": 0,
+      "transaction_amount": 2393.72,
+      "merchant_risk": 4
+    },
+    {
+      "id": 2,
+      "prediction_score": 0.037,
+      "actual": 0,
+      "predicted": 0,
+      "transaction_amount": 1921.52,
+      "merchant_risk": 2
+    },
+    {
+      "id": 3,
+      "prediction_score": 0.048,
+      "actual": 0,
+      "predicted": 0,
+      "transaction_amount": 524.98,
+      "merchant_risk": 6
+    },
+    {
+      "id": 4,
+      "prediction_score": 0.53,
+      "actual": 0,
+      "predicted": 1,
+      "transaction_amount": 4406.14,
+      "merchant_risk": 3
+    },
+    {
+      "id": 5,
+      "prediction_score": 0.386,
+      "actual": 0,
+      "predicted": 0,
+      "transaction_amount": 1919.78,
+      "merchant_risk": 3
+    },
+    {
+      "id": 6,
+      "prediction_score": 0.072,
+      "actual": 0,
+      "predicted": 0,
+      "transaction_amount": 3211.46,
+      "merchant_risk": 3
+    },
+    {
+      "id": 7,
+      "prediction_score": 0.186,
+      "actual": 0,
+      "predicted": 0,
+      "transaction_amount": 351.37,
+      "merchant_risk": 10
+    },
+    {
+      "id": 8,
+      "prediction_score": 0.108,
+      "actual": 0,
+      "predicted": 0,
+      "transaction_amount": 52.29,
+      "merchant_risk": 3
+    },
+    {
+      "id": 9,
+      "prediction_score": 0.386,
+      "actual": 0,
+      "predicted": 0,
+      "transaction_amount": 2206.1,
+      "merchant_risk": 4
+    },
+    {
+      "id": 10,
+      "prediction_score": 0.171,
+      "actual": 0,
+      "predicted": 0,
+      "transaction_amount": 3144.12,
+      "merchant_risk": 3
+    },
+    {
+      "id": 11,
+      "prediction_score": 0.48,
+      "actual": 0,
+      "predicted": 0,
+      "transaction_amount": 4600.27,
+      "merchant_risk": 10
+    },
+    {
+      "id": 12,
+      "prediction_score": 0.374,
+      "actual": 0,
+      "predicted": 0,
+      "transaction_amount": 3435.97,
+      "merchant_risk": 4
+    },
+    {
+      "id": 13,
+      "prediction_score": 0.322,
+      "actual": 0,
+      "predicted": 0,
+      "transaction_amount": 442.57,
+      "merchant_risk": 2
+    },
+    {
+      "id": 14,
+      "prediction_score": 0.255,
+      "actual": 0,
+      "predicted": 0,
+      "transaction_amount": 708.67,
+      "merchant_risk": 2
+    },
+    {
+      "id": 15,
+      "prediction_score": 0.294,
+      "actual": 0,
+      "predicted": 0,
+      "transaction_amount": 2951.97,
+      "merchant_risk": 7
+    },
+    {
+      "id": 16,
+      "prediction_score": 0.508,
+      "actual": 0,
+      "predicted": 1,
+      "transaction_amount": 1764.16,
+      "merchant_risk": 7
+    },
+    {
+      "id": 17,
+      "prediction_score": 0.058,
+      "actual": 0,
+      "predicted": 0,
+      "transaction_amount": 1579.37,
+      "merchant_risk": 3
+    },
+    {
+      "id": 18,
+      "prediction_score": 0.134,
+      "actual": 0,
+      "predicted": 0,
+      "transaction_amount": 1246.45,
+      "merchant_risk": 2
+    },
+    {
+      "id": 19,
+      "prediction_score": 0.492,
+      "actual": 0,
+      "predicted": 0,
+      "transaction_amount": 1248.35,
+      "merchant_risk": 10
+    },
+    {
+      "id": 20,
+      "prediction_score": 0.22,
+      "actual": 0,
+      "predicted": 0,
+      "transaction_amount": 3004.04,
+      "merchant_risk": 10
+    },
+    {
+      "id": 21,
+      "prediction_score": 0.069,
+      "actual": 0,
+      "predicted": 0,
+      "transaction_amount": 1431.75,
+      "merchant_risk": 1
+    },
+    {
+      "id": 22,
+      "prediction_score": 0.156,
+      "actual": 0,
+      "predicted": 0,
+      "transaction_amount": 4240.98,
+      "merchant_risk": 5
+    },
+    {
+      "id": 23,
+      "prediction_score": 0.306,
+      "actual": 0,
+      "predicted": 0,
+      "transaction_amount": 1035.17,
+      "merchant_risk": 10
+    },
+    {
+      "id": 24,
+      "prediction_score": 0.664,
+      "actual": 0,
+      "predicted": 1,
+      "transaction_amount": 2552.52,
+      "merchant_risk": 7
+    },
+    {
+      "id": 25,
+      "prediction_score": 0.047,
+      "actual": 0,
+      "predicted": 0,
+      "transaction_amount": 1484.75,
+      "merchant_risk": 1
+    },
+    {
+      "id": 26,
+      "prediction_score": 0.235,
+      "actual": 0,
+      "predicted": 0,
+      "transaction_amount": 3921.17,
+      "merchant_risk": 4
+    },
+    {
+      "id": 27,
+      "prediction_score": 0.051,
+      "actual": 0,
+      "predicted": 0,
+      "transaction_amount": 2479.49,
+      "merchant_risk": 2
+    },
+    {
+      "id": 28,
+      "prediction_score": 0.316,
+      "actual": 0,
+      "predicted": 0,
+      "transaction_amount": 1213.0,
+      "merchant_risk": 10
+    },
+    {
+      "id": 29,
+      "prediction_score": 0.071,
+      "actual": 0,
+      "predicted": 0,
+      "transaction_amount": 364.35,
+      "merchant_risk": 1
+    },
+    {
+      "id": 30,
+      "prediction_score": 0.483,
+      "actual": 0,
+      "predicted": 0,
+      "transaction_amount": 4934.54,
+      "merchant_risk": 6
+    },
+    {
+      "id": 31,
+      "prediction_score": 0.297,
+      "actual": 0,
+      "predicted": 0,
+      "transaction_amount": 668.59,
+      "merchant_risk": 10
+    },
+    {
+      "id": 32,
+      "prediction_score": 0.475,
+      "actual": 0,
+      "predicted": 0,
+      "transaction_amount": 2110.11,
+      "merchant_risk": 9
+    },
+    {
+      "id": 33,
+      "prediction_score": 0.058,
+      "actual": 0,
+      "predicted": 0,
+      "transaction_amount": 3417.88,
+      "merchant_risk": 8
+    },
+    {
+      "id": 34,
+      "prediction_score": 0.264,
+      "actual": 0,
+      "predicted": 0,
+      "transaction_amount": 4772.72,
+      "merchant_risk": 2
+    },
+    {
+      "id": 35,
+      "prediction_score": 0.51,
+      "actual": 0,
+      "predicted": 1,
+      "transaction_amount": 93.28,
+      "merchant_risk": 2
+    },
+    {
+      "id": 36,
+      "prediction_score": 0.204,
+      "actual": 0,
+      "predicted": 0,
+      "transaction_amount": 78.83,
+      "merchant_risk": 4
+    },
+    {
+      "id": 37,
+      "prediction_score": 0.468,
+      "actual": 0,
+      "predicted": 0,
+      "transaction_amount": 208.74,
+      "merchant_risk": 1
+    },
+    {
+      "id": 38,
+      "prediction_score": 0.066,
+      "actual": 0,
+      "predicted": 0,
+      "transaction_amount": 4743.91,
+      "merchant_risk": 7
+    },
+    {
+      "id": 39,
+      "prediction_score": 0.081,
+      "actual": 0,
+      "predicted": 0,
+      "transaction_amount": 2537.99,
+      "merchant_risk": 9
+    },
+    {
+      "id": 40,
+      "prediction_score": 0.318,
+      "actual": 0,
+      "predicted": 0,
+      "transaction_amount": 3837.88,
+      "merchant_risk": 7
+    },
+    {
+      "id": 41,
+      "prediction_score": 0.267,
+      "actual": 0,
+      "predicted": 0,
+      "transaction_amount": 3512.04,
+      "merchant_risk": 2
+    },
+    {
+      "id": 42,
+      "prediction_score": 0.21,
+      "actual": 0,
+      "predicted": 0,
+      "transaction_amount": 3206.28,
+      "merchant_risk": 9
+    },
+    {
+      "id": 43,
+      "prediction_score": 0.341,
+      "actual": 0,
+      "predicted": 0,
+      "transaction_amount": 3084.07,
+      "merchant_risk": 5
+    },
+    {
+      "id": 44,
+      "prediction_score": 0.211,
+      "actual": 0,
+      "predicted": 0,
+      "transaction_amount": 427.15,
+      "merchant_risk": 2
+    },
+    {
+      "id": 45,
+      "prediction_score": 0.196,
+      "actual": 0,
+      "predicted": 0,
+      "transaction_amount": 2561.41,
+      "merchant_risk": 4
+    },
+    {
+      "id": 46,
+      "prediction_score": 0.437,
+      "actual": 0,
+      "predicted": 0,
+      "transaction_amount": 4871.82,
+      "merchant_risk": 3
+    },
+    {
+      "id": 47,
+      "prediction_score": 0.106,
+      "actual": 0,
+      "predicted": 0,
+      "transaction_amount": 2686.59,
+      "merchant_risk": 7
+    },
+    {
+      "id": 48,
+      "prediction_score": 0.123,
+      "actual": 0,
+      "predicted": 0,
+      "transaction_amount": 2936.32,
+      "merchant_risk": 2
+    },
+    {
+      "id": 49,
+      "prediction_score": 0.185,
+      "actual": 0,
+      "predicted": 0,
+      "transaction_amount": 1557.75,
+      "merchant_risk": 7
+    },
+    {
+      "id": 50,
+      "prediction_score": 0.191,
+      "actual": 0,
+      "predicted": 0,
+      "transaction_amount": 3652.49,
+      "merchant_risk": 4
+    },
+    {
+      "id": 51,
+      "prediction_score": 0.322,
+      "actual": 0,
+      "predicted": 0,
+      "transaction_amount": 298.95,
+      "merchant_risk": 2
+    },
+    {
+      "id": 52,
+      "prediction_score": 0.378,
+      "actual": 0,
+      "predicted": 0,
+      "transaction_amount": 4623.89,
+      "merchant_risk": 2
+    },
+    {
+      "id": 53,
+      "prediction_score": 0.203,
+      "actual": 0,
+      "predicted": 0,
+      "transaction_amount": 2272.33,
+      "merchant_risk": 10
+    },
+    {
+      "id": 54,
+      "prediction_score": 0.241,
+      "actual": 0,
+      "predicted": 0,
+      "transaction_amount": 284.59,
+      "merchant_risk": 3
+    },
+    {
+      "id": 55,
+      "prediction_score": 0.073,
+      "actual": 0,
+      "predicted": 0,
+      "transaction_amount": 606.02,
+      "merchant_risk": 3
+    },
+    {
+      "id": 56,
+      "prediction_score": 0.315,
+      "actual": 0,
+      "predicted": 0,
+      "transaction_amount": 3510.48,
+      "merchant_risk": 3
+    },
+    {
+      "id": 57,
+      "prediction_score": 0.586,
+      "actual": 0,
+      "predicted": 1,
+      "transaction_amount": 2487.1,
+      "merchant_risk": 6
+    },
+    {
+      "id": 58,
+      "prediction_score": 0.866,
+      "actual": 0,
+      "predicted": 1,
+      "transaction_amount": 2619.8,
+      "merchant_risk": 5
+    },
+    {
+      "id": 59,
+      "prediction_score": 0.316,
+      "actual": 0,
+      "predicted": 0,
+      "transaction_amount": 843.15,
+      "merchant_risk": 3
+    },
+    {
+      "id": 60,
+      "prediction_score": 0.539,
+      "actual": 0,
+      "predicted": 1,
+      "transaction_amount": 3751.38,
+      "merchant_risk": 5
+    },
+    {
+      "id": 61,
+      "prediction_score": 0.691,
+      "actual": 0,
+      "predicted": 1,
+      "transaction_amount": 3667.35,
+      "merchant_risk": 2
+    },
+    {
+      "id": 62,
+      "prediction_score": 0.718,
+      "actual": 0,
+      "predicted": 1,
+      "transaction_amount": 3859.44,
+      "merchant_risk": 1
+    },
+    {
+      "id": 63,
+      "prediction_score": 0.274,
+      "actual": 0,
+      "predicted": 0,
+      "transaction_amount": 1681.71,
+      "merchant_risk": 7
+    },
+    {
+      "id": 64,
+      "prediction_score": 0.373,
+      "actual": 0,
+      "predicted": 0,
+      "transaction_amount": 1367.18,
+      "merchant_risk": 2
+    },
+    {
+      "id": 65,
+      "prediction_score": 0.695,
+      "actual": 0,
+      "predicted": 1,
+      "transaction_amount": 1322.12,
+      "merchant_risk": 10
+    },
+    {
+      "id": 66,
+      "prediction_score": 0.378,
+      "actual": 0,
+      "predicted": 0,
+      "transaction_amount": 3141.39,
+      "merchant_risk": 8
+    },
+    {
+      "id": 67,
+      "prediction_score": 0.574,
+      "actual": 0,
+      "predicted": 1,
+      "transaction_amount": 2281.44,
+      "merchant_risk": 6
+    },
+    {
+      "id": 68,
+      "prediction_score": 0.691,
+      "actual": 0,
+      "predicted": 1,
+      "transaction_amount": 286.64,
+      "merchant_risk": 10
+    },
+    {
+      "id": 69,
+      "prediction_score": 0.994,
+      "actual": 1,
+      "predicted": 1,
+      "transaction_amount": 842.74,
+      "merchant_risk": 3
+    },
+    {
+      "id": 70,
+      "prediction_score": 0.536,
+      "actual": 0,
+      "predicted": 1,
+      "transaction_amount": 1283.03,
+      "merchant_risk": 2
+    },
+    {
+      "id": 71,
+      "prediction_score": 0.095,
+      "actual": 0,
+      "predicted": 0,
+      "transaction_amount": 4472.4,
+      "merchant_risk": 2
+    },
+    {
+      "id": 72,
+      "prediction_score": 0.253,
+      "actual": 0,
+      "predicted": 0,
+      "transaction_amount": 1149.74,
+      "merchant_risk": 9
+    },
+    {
+      "id": 73,
+      "prediction_score": 0.068,
+      "actual": 0,
+      "predicted": 0,
+      "transaction_amount": 22.82,
+      "merchant_risk": 1
+    },
+    {
+      "id": 74,
+      "prediction_score": 0.326,
+      "actual": 0,
+      "predicted": 0,
+      "transaction_amount": 1230.31,
+      "merchant_risk": 8
+    },
+    {
+      "id": 75,
+      "prediction_score": 0.424,
+      "actual": 0,
+      "predicted": 0,
+      "transaction_amount": 1826.24,
+      "merchant_risk": 3
+    },
+    {
+      "id": 76,
+      "prediction_score": 0.295,
+      "actual": 0,
+      "predicted": 0,
+      "transaction_amount": 903.02,
+      "merchant_risk": 1
+    },
+    {
+      "id": 77,
+      "prediction_score": 0.205,
+      "actual": 0,
+      "predicted": 0,
+      "transaction_amount": 2768.8,
+      "merchant_risk": 7
+    },
+    {
+      "id": 78,
+      "prediction_score": 0.584,
+      "actual": 0,
+      "predicted": 1,
+      "transaction_amount": 1130.33,
+      "merchant_risk": 4
+    },
+    {
+      "id": 79,
+      "prediction_score": 0.108,
+      "actual": 0,
+      "predicted": 0,
+      "transaction_amount": 2087.12,
+      "merchant_risk": 6
+    },
+    {
+      "id": 80,
+      "prediction_score": 0.226,
+      "actual": 0,
+      "predicted": 0,
+      "transaction_amount": 1363.58,
+      "merchant_risk": 2
+    },
+    {
+      "id": 81,
+      "prediction_score": 0.325,
+      "actual": 0,
+      "predicted": 0,
+      "transaction_amount": 2861.96,
+      "merchant_risk": 2
+    },
+    {
+      "id": 82,
+      "prediction_score": 0.753,
+      "actual": 0,
+      "predicted": 1,
+      "transaction_amount": 2515.18,
+      "merchant_risk": 1
+    },
+    {
+      "id": 83,
+      "prediction_score": 0.158,
+      "actual": 0,
+      "predicted": 0,
+      "transaction_amount": 904.93,
+      "merchant_risk": 9
+    },
+    {
+      "id": 84,
+      "prediction_score": 0.463,
+      "actual": 0,
+      "predicted": 0,
+      "transaction_amount": 4907.26,
+      "merchant_risk": 7
+    },
+    {
+      "id": 85,
+      "prediction_score": 0.645,
+      "actual": 0,
+      "predicted": 1,
+      "transaction_amount": 353.94,
+      "merchant_risk": 8
+    },
+    {
+      "id": 86,
+      "prediction_score": 0.4,
+      "actual": 0,
+      "predicted": 0,
+      "transaction_amount": 4331.5,
+      "merchant_risk": 5
+    },
+    {
+      "id": 87,
+      "prediction_score": 0.476,
+      "actual": 0,
+      "predicted": 0,
+      "transaction_amount": 1643.23,
+      "merchant_risk": 9
+    },
+    {
+      "id": 88,
+      "prediction_score": 0.757,
+      "actual": 0,
+      "predicted": 1,
+      "transaction_amount": 2289.16,
+      "merchant_risk": 6
+    },
+    {
+      "id": 89,
+      "prediction_score": 0.234,
+      "actual": 0,
+      "predicted": 0,
+      "transaction_amount": 1011.35,
+      "merchant_risk": 10
+    },
+    {
+      "id": 90,
+      "prediction_score": 0.293,
+      "actual": 0,
+      "predicted": 0,
+      "transaction_amount": 3924.69,
+      "merchant_risk": 10
+    },
+    {
+      "id": 91,
+      "prediction_score": 0.081,
+      "actual": 0,
+      "predicted": 0,
+      "transaction_amount": 1220.49,
+      "merchant_risk": 6
+    },
+    {
+      "id": 92,
+      "prediction_score": 0.189,
+      "actual": 0,
+      "predicted": 0,
+      "transaction_amount": 2962.54,
+      "merchant_risk": 8
+    },
+    {
+      "id": 93,
+      "prediction_score": 0.595,
+      "actual": 0,
+      "predicted": 1,
+      "transaction_amount": 4988.96,
+      "merchant_risk": 4
+    },
+    {
+      "id": 94,
+      "prediction_score": 0.576,
+      "actual": 0,
+      "predicted": 1,
+      "transaction_amount": 3664.99,
+      "merchant_risk": 9
+    },
+    {
+      "id": 95,
+      "prediction_score": 0.032,
+      "actual": 0,
+      "predicted": 0,
+      "transaction_amount": 3804.81,
+      "merchant_risk": 4
+    },
+    {
+      "id": 96,
+      "prediction_score": 0.281,
+      "actual": 0,
+      "predicted": 0,
+      "transaction_amount": 761.33,
+      "merchant_risk": 7
+    },
+    {
+      "id": 97,
+      "prediction_score": 0.34,
+      "actual": 0,
+      "predicted": 0,
+      "transaction_amount": 129.31,
+      "merchant_risk": 9
+    },
+    {
+      "id": 98,
+      "prediction_score": 0.363,
+      "actual": 0,
+      "predicted": 0,
+      "transaction_amount": 1738.65,
+      "merchant_risk": 1
+    },
+    {
+      "id": 99,
+      "prediction_score": 0.466,
+      "actual": 0,
+      "predicted": 0,
+      "transaction_amount": 4755.44,
+      "merchant_risk": 1
+    },
+    {
+      "id": 100,
+      "prediction_score": 0.617,
+      "actual": 0,
+      "predicted": 1,
+      "transaction_amount": 3797.06,
+      "merchant_risk": 7
+    },
+    {
+      "id": 101,
+      "prediction_score": 0.477,
+      "actual": 0,
+      "predicted": 0,
+      "transaction_amount": 4246.54,
+      "merchant_risk": 5
+    },
+    {
+      "id": 102,
+      "prediction_score": 0.07,
+      "actual": 0,
+      "predicted": 0,
+      "transaction_amount": 528.71,
+      "merchant_risk": 9
+    },
+    {
+      "id": 103,
+      "prediction_score": 0.228,
+      "actual": 0,
+      "predicted": 0,
+      "transaction_amount": 4915.75,
+      "merchant_risk": 7
+    },
+    {
+      "id": 104,
+      "prediction_score": 0.098,
+      "actual": 0,
+      "predicted": 0,
+      "transaction_amount": 2465.22,
+      "merchant_risk": 1
+    },
+    {
+      "id": 105,
+      "prediction_score": 0.377,
+      "actual": 0,
+      "predicted": 0,
+      "transaction_amount": 4863.07,
+      "merchant_risk": 3
+    },
+    {
+      "id": 106,
+      "prediction_score": 0.293,
+      "actual": 0,
+      "predicted": 0,
+      "transaction_amount": 3561.15,
+      "merchant_risk": 2
+    },
+    {
+      "id": 107,
+      "prediction_score": 0.145,
+      "actual": 0,
+      "predicted": 0,
+      "transaction_amount": 229.06,
+      "merchant_risk": 4
+    },
+    {
+      "id": 108,
+      "prediction_score": 0.065,
+      "actual": 0,
+      "predicted": 0,
+      "transaction_amount": 4487.46,
+      "merchant_risk": 9
+    },
+    {
+      "id": 109,
+      "prediction_score": 0.275,
+      "actual": 0,
+      "predicted": 0,
+      "transaction_amount": 2071.15,
+      "merchant_risk": 6
+    },
+    {
+      "id": 110,
+      "prediction_score": 0.366,
+      "actual": 0,
+      "predicted": 0,
+      "transaction_amount": 2297.71,
+      "merchant_risk": 2
+    },
+    {
+      "id": 111,
+      "prediction_score": 0.172,
+      "actual": 0,
+      "predicted": 0,
+      "transaction_amount": 2908.05,
+      "merchant_risk": 9
+    },
+    {
+      "id": 112,
+      "prediction_score": 0.504,
+      "actual": 0,
+      "predicted": 1,
+      "transaction_amount": 676.23,
+      "merchant_risk": 7
+    },
+    {
+      "id": 113,
+      "prediction_score": 0.655,
+      "actual": 0,
+      "predicted": 1,
+      "transaction_amount": 383.4,
+      "merchant_risk": 10
+    },
+    {
+      "id": 114,
+      "prediction_score": 0.304,
+      "actual": 0,
+      "predicted": 0,
+      "transaction_amount": 320.79,
+      "merchant_risk": 3
+    },
+    {
+      "id": 115,
+      "prediction_score": 0.541,
+      "actual": 0,
+      "predicted": 1,
+      "transaction_amount": 1191.49,
+      "merchant_risk": 5
+    },
+    {
+      "id": 116,
+      "prediction_score": 0.222,
+      "actual": 0,
+      "predicted": 0,
+      "transaction_amount": 4256.06,
+      "merchant_risk": 7
+    },
+    {
+      "id": 117,
+      "prediction_score": 0.194,
+      "actual": 0,
+      "predicted": 0,
+      "transaction_amount": 3506.62,
+      "merchant_risk": 6
+    },
+    {
+      "id": 118,
+      "prediction_score": 0.849,
+      "actual": 0,
+      "predicted": 1,
+      "transaction_amount": 1597.11,
+      "merchant_risk": 5
+    },
+    {
+      "id": 119,
+      "prediction_score": 0.201,
+      "actual": 0,
+      "predicted": 0,
+      "transaction_amount": 1175.72,
+      "merchant_risk": 4
+    },
+    {
+      "id": 120,
+      "prediction_score": 0.163,
+      "actual": 0,
+      "predicted": 0,
+      "transaction_amount": 689.2,
+      "merchant_risk": 10
+    },
+    {
+      "id": 121,
+      "prediction_score": 0.147,
+      "actual": 0,
+      "predicted": 0,
+      "transaction_amount": 553.77,
+      "merchant_risk": 2
+    },
+    {
+      "id": 122,
+      "prediction_score": 0.674,
+      "actual": 0,
+      "predicted": 1,
+      "transaction_amount": 830.23,
+      "merchant_risk": 8
+    },
+    {
+      "id": 123,
+      "prediction_score": 0.355,
+      "actual": 0,
+      "predicted": 0,
+      "transaction_amount": 1577.03,
+      "merchant_risk": 2
+    },
+    {
+      "id": 124,
+      "prediction_score": 0.126,
+      "actual": 0,
+      "predicted": 0,
+      "transaction_amount": 2684.26,
+      "merchant_risk": 4
+    },
+    {
+      "id": 125,
+      "prediction_score": 0.516,
+      "actual": 0,
+      "predicted": 1,
+      "transaction_amount": 2265.07,
+      "merchant_risk": 8
+    },
+    {
+      "id": 126,
+      "prediction_score": 0.116,
+      "actual": 0,
+      "predicted": 0,
+      "transaction_amount": 1332.39,
+      "merchant_risk": 2
+    },
+    {
+      "id": 127,
+      "prediction_score": 0.004,
+      "actual": 0,
+      "predicted": 0,
+      "transaction_amount": 461.2,
+      "merchant_risk": 5
+    },
+    {
+      "id": 128,
+      "prediction_score": 0.534,
+      "actual": 0,
+      "predicted": 1,
+      "transaction_amount": 4133.67,
+      "merchant_risk": 10
+    },
+    {
+      "id": 129,
+      "prediction_score": 0.009,
+      "actual": 0,
+      "predicted": 0,
+      "transaction_amount": 211.25,
+      "merchant_risk": 6
+    },
+    {
+      "id": 130,
+      "prediction_score": 0.615,
+      "actual": 0,
+      "predicted": 1,
+      "transaction_amount": 750.14,
+      "merchant_risk": 4
+    },
+    {
+      "id": 131,
+      "prediction_score": 0.472,
+      "actual": 0,
+      "predicted": 0,
+      "transaction_amount": 4842.32,
+      "merchant_risk": 7
+    },
+    {
+      "id": 132,
+      "prediction_score": 0.225,
+      "actual": 0,
+      "predicted": 0,
+      "transaction_amount": 2572.16,
+      "merchant_risk": 5
+    },
+    {
+      "id": 133,
+      "prediction_score": 0.241,
+      "actual": 0,
+      "predicted": 0,
+      "transaction_amount": 1308.23,
+      "merchant_risk": 3
+    },
+    {
+      "id": 134,
+      "prediction_score": 0.155,
+      "actual": 0,
+      "predicted": 0,
+      "transaction_amount": 165.1,
+      "merchant_risk": 7
+    },
+    {
+      "id": 135,
+      "prediction_score": 0.064,
+      "actual": 0,
+      "predicted": 0,
+      "transaction_amount": 4274.46,
+      "merchant_risk": 9
+    },
+    {
+      "id": 136,
+      "prediction_score": 0.03,
+      "actual": 0,
+      "predicted": 0,
+      "transaction_amount": 3742.91,
+      "merchant_risk": 4
+    },
+    {
+      "id": 137,
+      "prediction_score": 0.325,
+      "actual": 0,
+      "predicted": 0,
+      "transaction_amount": 482.68,
+      "merchant_risk": 2
+    },
+    {
+      "id": 138,
+      "prediction_score": 0.237,
+      "actual": 0,
+      "predicted": 0,
+      "transaction_amount": 4021.44,
+      "merchant_risk": 3
+    },
+    {
+      "id": 139,
+      "prediction_score": 0.256,
+      "actual": 0,
+      "predicted": 0,
+      "transaction_amount": 616.05,
+      "merchant_risk": 1
+    },
+    {
+      "id": 140,
+      "prediction_score": 0.043,
+      "actual": 0,
+      "predicted": 0,
+      "transaction_amount": 4153.56,
+      "merchant_risk": 4
+    },
+    {
+      "id": 141,
+      "prediction_score": 0.076,
+      "actual": 0,
+      "predicted": 0,
+      "transaction_amount": 662.27,
+      "merchant_risk": 7
+    },
+    {
+      "id": 142,
+      "prediction_score": 0.429,
+      "actual": 0,
+      "predicted": 0,
+      "transaction_amount": 1867.48,
+      "merchant_risk": 2
+    },
+    {
+      "id": 143,
+      "prediction_score": 0.337,
+      "actual": 0,
+      "predicted": 0,
+      "transaction_amount": 2915.8,
+      "merchant_risk": 5
+    },
+    {
+      "id": 144,
+      "prediction_score": 0.604,
+      "actual": 0,
+      "predicted": 1,
+      "transaction_amount": 4587.97,
+      "merchant_risk": 2
+    },
+    {
+      "id": 145,
+      "prediction_score": 0.224,
+      "actual": 0,
+      "predicted": 0,
+      "transaction_amount": 118.78,
+      "merchant_risk": 2
+    },
+    {
+      "id": 146,
+      "prediction_score": 0.396,
+      "actual": 0,
+      "predicted": 0,
+      "transaction_amount": 996.77,
+      "merchant_risk": 8
+    },
+    {
+      "id": 147,
+      "prediction_score": 0.512,
+      "actual": 0,
+      "predicted": 1,
+      "transaction_amount": 4048.4,
+      "merchant_risk": 2
+    },
+    {
+      "id": 148,
+      "prediction_score": 0.427,
+      "actual": 0,
+      "predicted": 0,
+      "transaction_amount": 4526.34,
+      "merchant_risk": 6
+    },
+    {
+      "id": 149,
+      "prediction_score": 0.279,
+      "actual": 0,
+      "predicted": 0,
+      "transaction_amount": 621.41,
+      "merchant_risk": 8
+    },
+    {
+      "id": 150,
+      "prediction_score": 0.066,
+      "actual": 0,
+      "predicted": 0,
+      "transaction_amount": 262.68,
+      "merchant_risk": 10
+    },
+    {
+      "id": 151,
+      "prediction_score": 0.209,
+      "actual": 0,
+      "predicted": 0,
+      "transaction_amount": 2171.45,
+      "merchant_risk": 7
+    },
+    {
+      "id": 152,
+      "prediction_score": 0.734,
+      "actual": 0,
+      "predicted": 1,
+      "transaction_amount": 2485.67,
+      "merchant_risk": 7
+    },
+    {
+      "id": 153,
+      "prediction_score": 0.222,
+      "actual": 0,
+      "predicted": 0,
+      "transaction_amount": 3419.23,
+      "merchant_risk": 3
+    },
+    {
+      "id": 154,
+      "prediction_score": 0.189,
+      "actual": 0,
+      "predicted": 0,
+      "transaction_amount": 1776.18,
+      "merchant_risk": 3
+    },
+    {
+      "id": 155,
+      "prediction_score": 0.249,
+      "actual": 0,
+      "predicted": 0,
+      "transaction_amount": 1382.16,
+      "merchant_risk": 8
+    },
+    {
+      "id": 156,
+      "prediction_score": 0.469,
+      "actual": 0,
+      "predicted": 0,
+      "transaction_amount": 4418.28,
+      "merchant_risk": 1
+    },
+    {
+      "id": 157,
+      "prediction_score": 0.118,
+      "actual": 0,
+      "predicted": 0,
+      "transaction_amount": 3074.39,
+      "merchant_risk": 10
+    },
+    {
+      "id": 158,
+      "prediction_score": 0.318,
+      "actual": 0,
+      "predicted": 0,
+      "transaction_amount": 1236.47,
+      "merchant_risk": 5
+    },
+    {
+      "id": 159,
+      "prediction_score": 0.518,
+      "actual": 0,
+      "predicted": 1,
+      "transaction_amount": 2499.47,
+      "merchant_risk": 9
+    },
+    {
+      "id": 160,
+      "prediction_score": 0.631,
+      "actual": 0,
+      "predicted": 1,
+      "transaction_amount": 2400.36,
+      "merchant_risk": 2
+    },
+    {
+      "id": 161,
+      "prediction_score": 0.533,
+      "actual": 0,
+      "predicted": 1,
+      "transaction_amount": 1406.08,
+      "merchant_risk": 3
+    },
+    {
+      "id": 162,
+      "prediction_score": 0.594,
+      "actual": 0,
+      "predicted": 1,
+      "transaction_amount": 2101.98,
+      "merchant_risk": 9
+    },
+    {
+      "id": 163,
+      "prediction_score": 0.182,
+      "actual": 0,
+      "predicted": 0,
+      "transaction_amount": 1253.25,
+      "merchant_risk": 9
+    },
+    {
+      "id": 164,
+      "prediction_score": 0.351,
+      "actual": 0,
+      "predicted": 0,
+      "transaction_amount": 3976.28,
+      "merchant_risk": 7
+    },
+    {
+      "id": 165,
+      "prediction_score": 0.147,
+      "actual": 0,
+      "predicted": 0,
+      "transaction_amount": 3911.76,
+      "merchant_risk": 6
+    },
+    {
+      "id": 166,
+      "prediction_score": 0.285,
+      "actual": 0,
+      "predicted": 0,
+      "transaction_amount": 2403.63,
+      "merchant_risk": 8
+    },
+    {
+      "id": 167,
+      "prediction_score": 0.351,
+      "actual": 0,
+      "predicted": 0,
+      "transaction_amount": 1726.73,
+      "merchant_risk": 10
+    },
+    {
+      "id": 168,
+      "prediction_score": 0.056,
+      "actual": 0,
+      "predicted": 0,
+      "transaction_amount": 2516.94,
+      "merchant_risk": 7
+    },
+    {
+      "id": 169,
+      "prediction_score": 0.228,
+      "actual": 0,
+      "predicted": 0,
+      "transaction_amount": 1359.47,
+      "merchant_risk": 1
+    },
+    {
+      "id": 170,
+      "prediction_score": 0.726,
+      "actual": 0,
+      "predicted": 1,
+      "transaction_amount": 1601.2,
+      "merchant_risk": 4
+    },
+    {
+      "id": 171,
+      "prediction_score": 0.551,
+      "actual": 0,
+      "predicted": 1,
+      "transaction_amount": 156.22,
+      "merchant_risk": 5
+    },
+    {
+      "id": 172,
+      "prediction_score": 0.18,
+      "actual": 0,
+      "predicted": 0,
+      "transaction_amount": 302.37,
+      "merchant_risk": 8
+    },
+    {
+      "id": 173,
+      "prediction_score": 0.439,
+      "actual": 0,
+      "predicted": 0,
+      "transaction_amount": 2651.87,
+      "merchant_risk": 10
+    },
+    {
+      "id": 174,
+      "prediction_score": 0.559,
+      "actual": 0,
+      "predicted": 1,
+      "transaction_amount": 4998.03,
+      "merchant_risk": 3
+    },
+    {
+      "id": 175,
+      "prediction_score": 0.635,
+      "actual": 0,
+      "predicted": 1,
+      "transaction_amount": 509.67,
+      "merchant_risk": 4
+    },
+    {
+      "id": 176,
+      "prediction_score": 0.437,
+      "actual": 0,
+      "predicted": 0,
+      "transaction_amount": 1339.97,
+      "merchant_risk": 1
+    },
+    {
+      "id": 177,
+      "prediction_score": 0.353,
+      "actual": 0,
+      "predicted": 0,
+      "transaction_amount": 3822.61,
+      "merchant_risk": 4
+    },
+    {
+      "id": 178,
+      "prediction_score": 0.446,
+      "actual": 0,
+      "predicted": 0,
+      "transaction_amount": 2882.7,
+      "merchant_risk": 7
+    },
+    {
+      "id": 179,
+      "prediction_score": 0.236,
+      "actual": 0,
+      "predicted": 0,
+      "transaction_amount": 1780.48,
+      "merchant_risk": 3
+    },
+    {
+      "id": 180,
+      "prediction_score": 0.583,
+      "actual": 0,
+      "predicted": 1,
+      "transaction_amount": 888.74,
+      "merchant_risk": 10
+    },
+    {
+      "id": 181,
+      "prediction_score": 0.14,
+      "actual": 0,
+      "predicted": 0,
+      "transaction_amount": 1596.84,
+      "merchant_risk": 6
+    },
+    {
+      "id": 182,
+      "prediction_score": 0.302,
+      "actual": 0,
+      "predicted": 0,
+      "transaction_amount": 4570.76,
+      "merchant_risk": 1
+    },
+    {
+      "id": 183,
+      "prediction_score": 0.131,
+      "actual": 0,
+      "predicted": 0,
+      "transaction_amount": 3520.23,
+      "merchant_risk": 6
+    },
+    {
+      "id": 184,
+      "prediction_score": 0.354,
+      "actual": 0,
+      "predicted": 0,
+      "transaction_amount": 4738.32,
+      "merchant_risk": 10
+    },
+    {
+      "id": 185,
+      "prediction_score": 0.159,
+      "actual": 0,
+      "predicted": 0,
+      "transaction_amount": 719.09,
+      "merchant_risk": 4
+    },
+    {
+      "id": 186,
+      "prediction_score": 0.145,
+      "actual": 0,
+      "predicted": 0,
+      "transaction_amount": 4185.12,
+      "merchant_risk": 8
+    },
+    {
+      "id": 187,
+      "prediction_score": 0.206,
+      "actual": 0,
+      "predicted": 0,
+      "transaction_amount": 2715.2,
+      "merchant_risk": 3
+    },
+    {
+      "id": 188,
+      "prediction_score": 0.587,
+      "actual": 0,
+      "predicted": 1,
+      "transaction_amount": 2457.28,
+      "merchant_risk": 2
+    },
+    {
+      "id": 189,
+      "prediction_score": 0.46,
+      "actual": 0,
+      "predicted": 0,
+      "transaction_amount": 290.28,
+      "merchant_risk": 10
+    },
+    {
+      "id": 190,
+      "prediction_score": 0.173,
+      "actual": 0,
+      "predicted": 0,
+      "transaction_amount": 1101.86,
+      "merchant_risk": 9
+    },
+    {
+      "id": 191,
+      "prediction_score": 0.255,
+      "actual": 0,
+      "predicted": 0,
+      "transaction_amount": 2395.17,
+      "merchant_risk": 6
+    },
+    {
+      "id": 192,
+      "prediction_score": 0.463,
+      "actual": 0,
+      "predicted": 0,
+      "transaction_amount": 4590.3,
+      "merchant_risk": 4
+    },
+    {
+      "id": 193,
+      "prediction_score": 0.518,
+      "actual": 0,
+      "predicted": 1,
+      "transaction_amount": 4034.16,
+      "merchant_risk": 6
+    },
+    {
+      "id": 194,
+      "prediction_score": 0.595,
+      "actual": 0,
+      "predicted": 1,
+      "transaction_amount": 3587.52,
+      "merchant_risk": 6
+    },
+    {
+      "id": 195,
+      "prediction_score": 0.504,
+      "actual": 0,
+      "predicted": 1,
+      "transaction_amount": 307.18,
+      "merchant_risk": 3
+    },
+    {
+      "id": 196,
+      "prediction_score": 0.17,
+      "actual": 0,
+      "predicted": 0,
+      "transaction_amount": 2937.18,
+      "merchant_risk": 3
+    },
+    {
+      "id": 197,
+      "prediction_score": 0.518,
+      "actual": 0,
+      "predicted": 1,
+      "transaction_amount": 3874.09,
+      "merchant_risk": 9
+    },
+    {
+      "id": 198,
+      "prediction_score": 0.426,
+      "actual": 0,
+      "predicted": 0,
+      "transaction_amount": 4304.74,
+      "merchant_risk": 2
+    },
+    {
+      "id": 199,
+      "prediction_score": 0.258,
+      "actual": 0,
+      "predicted": 0,
+      "transaction_amount": 1874.22,
+      "merchant_risk": 7
+    },
+    {
+      "id": 200,
+      "prediction_score": 0.388,
+      "actual": 0,
+      "predicted": 0,
+      "transaction_amount": 2934.22,
+      "merchant_risk": 6
+    },
+    {
+      "id": 201,
+      "prediction_score": 0.521,
+      "actual": 0,
+      "predicted": 1,
+      "transaction_amount": 1515.81,
+      "merchant_risk": 3
+    },
+    {
+      "id": 202,
+      "prediction_score": 0.066,
+      "actual": 0,
+      "predicted": 0,
+      "transaction_amount": 4879.54,
+      "merchant_risk": 7
+    },
+    {
+      "id": 203,
+      "prediction_score": 0.095,
+      "actual": 0,
+      "predicted": 0,
+      "transaction_amount": 3961.29,
+      "merchant_risk": 8
+    },
+    {
+      "id": 204,
+      "prediction_score": 0.121,
+      "actual": 0,
+      "predicted": 0,
+      "transaction_amount": 3249.41,
+      "merchant_risk": 3
+    },
+    {
+      "id": 205,
+      "prediction_score": 0.33,
+      "actual": 0,
+      "predicted": 0,
+      "transaction_amount": 3538.84,
+      "merchant_risk": 9
+    },
+    {
+      "id": 206,
+      "prediction_score": 0.643,
+      "actual": 0,
+      "predicted": 1,
+      "transaction_amount": 3470.87,
+      "merchant_risk": 10
+    },
+    {
+      "id": 207,
+      "prediction_score": 0.399,
+      "actual": 0,
+      "predicted": 0,
+      "transaction_amount": 3937.09,
+      "merchant_risk": 4
+    },
+    {
+      "id": 208,
+      "prediction_score": 0.356,
+      "actual": 0,
+      "predicted": 0,
+      "transaction_amount": 3331.0,
+      "merchant_risk": 3
+    },
+    {
+      "id": 209,
+      "prediction_score": 0.664,
+      "actual": 0,
+      "predicted": 1,
+      "transaction_amount": 1898.14,
+      "merchant_risk": 5
+    },
+    {
+      "id": 210,
+      "prediction_score": 0.345,
+      "actual": 0,
+      "predicted": 0,
+      "transaction_amount": 645.47,
+      "merchant_risk": 1
+    },
+    {
+      "id": 211,
+      "prediction_score": 0.552,
+      "actual": 0,
+      "predicted": 1,
+      "transaction_amount": 4744.45,
+      "merchant_risk": 10
+    },
+    {
+      "id": 212,
+      "prediction_score": 0.374,
+      "actual": 0,
+      "predicted": 0,
+      "transaction_amount": 1964.09,
+      "merchant_risk": 10
+    },
+    {
+      "id": 213,
+      "prediction_score": 0.166,
+      "actual": 0,
+      "predicted": 0,
+      "transaction_amount": 171.59,
+      "merchant_risk": 10
+    },
+    {
+      "id": 214,
+      "prediction_score": 0.096,
+      "actual": 0,
+      "predicted": 0,
+      "transaction_amount": 1597.9,
+      "merchant_risk": 10
+    },
+    {
+      "id": 215,
+      "prediction_score": 0.266,
+      "actual": 0,
+      "predicted": 0,
+      "transaction_amount": 1112.27,
+      "merchant_risk": 10
+    },
+    {
+      "id": 216,
+      "prediction_score": 0.315,
+      "actual": 0,
+      "predicted": 0,
+      "transaction_amount": 529.51,
+      "merchant_risk": 8
+    },
+    {
+      "id": 217,
+      "prediction_score": 0.018,
+      "actual": 0,
+      "predicted": 0,
+      "transaction_amount": 711.81,
+      "merchant_risk": 2
+    },
+    {
+      "id": 218,
+      "prediction_score": 0.079,
+      "actual": 0,
+      "predicted": 0,
+      "transaction_amount": 1197.6,
+      "merchant_risk": 6
+    },
+    {
+      "id": 219,
+      "prediction_score": 0.653,
+      "actual": 0,
+      "predicted": 1,
+      "transaction_amount": 847.76,
+      "merchant_risk": 2
+    },
+    {
+      "id": 220,
+      "prediction_score": 0.117,
+      "actual": 0,
+      "predicted": 0,
+      "transaction_amount": 4110.09,
+      "merchant_risk": 6
+    },
+    {
+      "id": 221,
+      "prediction_score": 0.549,
+      "actual": 0,
+      "predicted": 1,
+      "transaction_amount": 2238.68,
+      "merchant_risk": 5
+    },
+    {
+      "id": 222,
+      "prediction_score": 0.847,
+      "actual": 0,
+      "predicted": 1,
+      "transaction_amount": 1056.32,
+      "merchant_risk": 2
+    },
+    {
+      "id": 223,
+      "prediction_score": 0.483,
+      "actual": 0,
+      "predicted": 0,
+      "transaction_amount": 1758.9,
+      "merchant_risk": 2
+    },
+    {
+      "id": 224,
+      "prediction_score": 0.105,
+      "actual": 0,
+      "predicted": 0,
+      "transaction_amount": 3604.86,
+      "merchant_risk": 1
+    },
+    {
+      "id": 225,
+      "prediction_score": 0.384,
+      "actual": 0,
+      "predicted": 0,
+      "transaction_amount": 1935.83,
+      "merchant_risk": 7
+    },
+    {
+      "id": 226,
+      "prediction_score": 0.175,
+      "actual": 0,
+      "predicted": 0,
+      "transaction_amount": 4845.82,
+      "merchant_risk": 7
+    },
+    {
+      "id": 227,
+      "prediction_score": 0.14,
+      "actual": 0,
+      "predicted": 0,
+      "transaction_amount": 2470.48,
+      "merchant_risk": 7
+    },
+    {
+      "id": 228,
+      "prediction_score": 0.271,
+      "actual": 0,
+      "predicted": 0,
+      "transaction_amount": 1762.64,
+      "merchant_risk": 7
+    },
+    {
+      "id": 229,
+      "prediction_score": 0.018,
+      "actual": 0,
+      "predicted": 0,
+      "transaction_amount": 516.13,
+      "merchant_risk": 8
+    },
+    {
+      "id": 230,
+      "prediction_score": 0.231,
+      "actual": 0,
+      "predicted": 0,
+      "transaction_amount": 3945.76,
+      "merchant_risk": 10
+    },
+    {
+      "id": 231,
+      "prediction_score": 0.303,
+      "actual": 0,
+      "predicted": 0,
+      "transaction_amount": 3258.34,
+      "merchant_risk": 4
+    },
+    {
+      "id": 232,
+      "prediction_score": 0.537,
+      "actual": 0,
+      "predicted": 1,
+      "transaction_amount": 821.66,
+      "merchant_risk": 2
+    },
+    {
+      "id": 233,
+      "prediction_score": 0.59,
+      "actual": 0,
+      "predicted": 1,
+      "transaction_amount": 3997.98,
+      "merchant_risk": 1
+    },
+    {
+      "id": 234,
+      "prediction_score": 0.606,
+      "actual": 1,
+      "predicted": 1,
+      "transaction_amount": 1481.59,
+      "merchant_risk": 6
+    },
+    {
+      "id": 235,
+      "prediction_score": 0.192,
+      "actual": 0,
+      "predicted": 0,
+      "transaction_amount": 1313.03,
+      "merchant_risk": 2
+    },
+    {
+      "id": 236,
+      "prediction_score": 0.11,
+      "actual": 0,
+      "predicted": 0,
+      "transaction_amount": 380.26,
+      "merchant_risk": 3
+    },
+    {
+      "id": 237,
+      "prediction_score": 0.129,
+      "actual": 0,
+      "predicted": 0,
+      "transaction_amount": 4440.78,
+      "merchant_risk": 3
+    },
+    {
+      "id": 238,
+      "prediction_score": 0.031,
+      "actual": 0,
+      "predicted": 0,
+      "transaction_amount": 3662.61,
+      "merchant_risk": 9
+    },
+    {
+      "id": 239,
+      "prediction_score": 0.341,
+      "actual": 0,
+      "predicted": 0,
+      "transaction_amount": 4709.75,
+      "merchant_risk": 2
+    },
+    {
+      "id": 240,
+      "prediction_score": 0.128,
+      "actual": 0,
+      "predicted": 0,
+      "transaction_amount": 1696.37,
+      "merchant_risk": 10
+    },
+    {
+      "id": 241,
+      "prediction_score": 0.189,
+      "actual": 0,
+      "predicted": 0,
+      "transaction_amount": 4467.2,
+      "merchant_risk": 1
+    },
+    {
+      "id": 242,
+      "prediction_score": 0.228,
+      "actual": 0,
+      "predicted": 0,
+      "transaction_amount": 2162.3,
+      "merchant_risk": 3
+    },
+    {
+      "id": 243,
+      "prediction_score": 0.5,
+      "actual": 0,
+      "predicted": 1,
+      "transaction_amount": 3040.51,
+      "merchant_risk": 7
+    },
+    {
+      "id": 244,
+      "prediction_score": 0.367,
+      "actual": 0,
+      "predicted": 0,
+      "transaction_amount": 793.95,
+      "merchant_risk": 2
+    },
+    {
+      "id": 245,
+      "prediction_score": 0.173,
+      "actual": 0,
+      "predicted": 0,
+      "transaction_amount": 1662.16,
+      "merchant_risk": 4
+    },
+    {
+      "id": 246,
+      "prediction_score": 0.371,
+      "actual": 0,
+      "predicted": 0,
+      "transaction_amount": 2052.31,
+      "merchant_risk": 9
+    },
+    {
+      "id": 247,
+      "prediction_score": 0.241,
+      "actual": 0,
+      "predicted": 0,
+      "transaction_amount": 3612.97,
+      "merchant_risk": 9
+    },
+    {
+      "id": 248,
+      "prediction_score": 0.23,
+      "actual": 0,
+      "predicted": 0,
+      "transaction_amount": 1333.67,
+      "merchant_risk": 5
+    },
+    {
+      "id": 249,
+      "prediction_score": 0.537,
+      "actual": 0,
+      "predicted": 1,
+      "transaction_amount": 1494.03,
+      "merchant_risk": 2
+    },
+    {
+      "id": 250,
+      "prediction_score": 0.072,
+      "actual": 0,
+      "predicted": 0,
+      "transaction_amount": 257.68,
+      "merchant_risk": 10
+    },
+    {
+      "id": 251,
+      "prediction_score": 0.633,
+      "actual": 0,
+      "predicted": 1,
+      "transaction_amount": 2752.82,
+      "merchant_risk": 8
+    },
+    {
+      "id": 252,
+      "prediction_score": 0.149,
+      "actual": 0,
+      "predicted": 0,
+      "transaction_amount": 776.41,
+      "merchant_risk": 6
+    },
+    {
+      "id": 253,
+      "prediction_score": 0.2,
+      "actual": 0,
+      "predicted": 0,
+      "transaction_amount": 29.04,
+      "merchant_risk": 2
+    },
+    {
+      "id": 254,
+      "prediction_score": 0.398,
+      "actual": 0,
+      "predicted": 0,
+      "transaction_amount": 1479.8,
+      "merchant_risk": 10
+    },
+    {
+      "id": 255,
+      "prediction_score": 0.181,
+      "actual": 0,
+      "predicted": 0,
+      "transaction_amount": 2406.84,
+      "merchant_risk": 2
+    },
+    {
+      "id": 256,
+      "prediction_score": 0.109,
+      "actual": 0,
+      "predicted": 0,
+      "transaction_amount": 138.42,
+      "merchant_risk": 3
+    },
+    {
+      "id": 257,
+      "prediction_score": 0.469,
+      "actual": 0,
+      "predicted": 0,
+      "transaction_amount": 3194.57,
+      "merchant_risk": 2
+    },
+    {
+      "id": 258,
+      "prediction_score": 0.183,
+      "actual": 0,
+      "predicted": 0,
+      "transaction_amount": 2373.12,
+      "merchant_risk": 2
+    },
+    {
+      "id": 259,
+      "prediction_score": 0.52,
+      "actual": 0,
+      "predicted": 1,
+      "transaction_amount": 1548.68,
+      "merchant_risk": 7
+    },
+    {
+      "id": 260,
+      "prediction_score": 0.275,
+      "actual": 0,
+      "predicted": 0,
+      "transaction_amount": 2360.01,
+      "merchant_risk": 5
+    },
+    {
+      "id": 261,
+      "prediction_score": 0.129,
+      "actual": 0,
+      "predicted": 0,
+      "transaction_amount": 464.77,
+      "merchant_risk": 9
+    },
+    {
+      "id": 262,
+      "prediction_score": 0.456,
+      "actual": 0,
+      "predicted": 0,
+      "transaction_amount": 1943.76,
+      "merchant_risk": 6
+    },
+    {
+      "id": 263,
+      "prediction_score": 0.282,
+      "actual": 0,
+      "predicted": 0,
+      "transaction_amount": 4428.61,
+      "merchant_risk": 6
+    },
+    {
+      "id": 264,
+      "prediction_score": 0.313,
+      "actual": 0,
+      "predicted": 0,
+      "transaction_amount": 941.05,
+      "merchant_risk": 1
+    },
+    {
+      "id": 265,
+      "prediction_score": 0.66,
+      "actual": 0,
+      "predicted": 1,
+      "transaction_amount": 1323.85,
+      "merchant_risk": 8
+    },
+    {
+      "id": 266,
+      "prediction_score": 0.105,
+      "actual": 0,
+      "predicted": 0,
+      "transaction_amount": 1324.37,
+      "merchant_risk": 5
+    },
+    {
+      "id": 267,
+      "prediction_score": 0.287,
+      "actual": 0,
+      "predicted": 0,
+      "transaction_amount": 2825.59,
+      "merchant_risk": 3
+    },
+    {
+      "id": 268,
+      "prediction_score": 0.419,
+      "actual": 0,
+      "predicted": 0,
+      "transaction_amount": 3763.65,
+      "merchant_risk": 2
+    },
+    {
+      "id": 269,
+      "prediction_score": 0.195,
+      "actual": 0,
+      "predicted": 0,
+      "transaction_amount": 437.68,
+      "merchant_risk": 6
+    },
+    {
+      "id": 270,
+      "prediction_score": 0.072,
+      "actual": 0,
+      "predicted": 0,
+      "transaction_amount": 4042.82,
+      "merchant_risk": 7
+    },
+    {
+      "id": 271,
+      "prediction_score": 0.589,
+      "actual": 1,
+      "predicted": 1,
+      "transaction_amount": 4853.82,
+      "merchant_risk": 10
+    },
+    {
+      "id": 272,
+      "prediction_score": 0.712,
+      "actual": 0,
+      "predicted": 1,
+      "transaction_amount": 1145.29,
+      "merchant_risk": 1
+    },
+    {
+      "id": 273,
+      "prediction_score": 0.253,
+      "actual": 0,
+      "predicted": 0,
+      "transaction_amount": 4205.58,
+      "merchant_risk": 9
+    },
+    {
+      "id": 274,
+      "prediction_score": 0.329,
+      "actual": 0,
+      "predicted": 0,
+      "transaction_amount": 2098.97,
+      "merchant_risk": 9
+    },
+    {
+      "id": 275,
+      "prediction_score": 0.395,
+      "actual": 0,
+      "predicted": 0,
+      "transaction_amount": 3438.47,
+      "merchant_risk": 8
+    },
+    {
+      "id": 276,
+      "prediction_score": 0.153,
+      "actual": 0,
+      "predicted": 0,
+      "transaction_amount": 2867.84,
+      "merchant_risk": 4
+    },
+    {
+      "id": 277,
+      "prediction_score": 0.081,
+      "actual": 0,
+      "predicted": 0,
+      "transaction_amount": 2386.55,
+      "merchant_risk": 2
+    },
+    {
+      "id": 278,
+      "prediction_score": 0.626,
+      "actual": 0,
+      "predicted": 1,
+      "transaction_amount": 1980.07,
+      "merchant_risk": 1
+    },
+    {
+      "id": 279,
+      "prediction_score": 0.02,
+      "actual": 0,
+      "predicted": 0,
+      "transaction_amount": 2515.49,
+      "merchant_risk": 9
+    },
+    {
+      "id": 280,
+      "prediction_score": 0.646,
+      "actual": 0,
+      "predicted": 1,
+      "transaction_amount": 4004.25,
+      "merchant_risk": 10
+    },
+    {
+      "id": 281,
+      "prediction_score": 0.744,
+      "actual": 0,
+      "predicted": 1,
+      "transaction_amount": 745.76,
+      "merchant_risk": 8
+    },
+    {
+      "id": 282,
+      "prediction_score": 0.149,
+      "actual": 0,
+      "predicted": 0,
+      "transaction_amount": 872.67,
+      "merchant_risk": 3
+    },
+    {
+      "id": 283,
+      "prediction_score": 0.469,
+      "actual": 0,
+      "predicted": 0,
+      "transaction_amount": 4861.1,
+      "merchant_risk": 4
+    },
+    {
+      "id": 284,
+      "prediction_score": 0.195,
+      "actual": 0,
+      "predicted": 0,
+      "transaction_amount": 639.67,
+      "merchant_risk": 7
+    },
+    {
+      "id": 285,
+      "prediction_score": 0.388,
+      "actual": 0,
+      "predicted": 0,
+      "transaction_amount": 401.06,
+      "merchant_risk": 7
+    },
+    {
+      "id": 286,
+      "prediction_score": 0.383,
+      "actual": 0,
+      "predicted": 0,
+      "transaction_amount": 1017.58,
+      "merchant_risk": 3
+    },
+    {
+      "id": 287,
+      "prediction_score": 0.293,
+      "actual": 0,
+      "predicted": 0,
+      "transaction_amount": 4172.2,
+      "merchant_risk": 5
+    },
+    {
+      "id": 288,
+      "prediction_score": 0.574,
+      "actual": 0,
+      "predicted": 1,
+      "transaction_amount": 1605.55,
+      "merchant_risk": 2
+    },
+    {
+      "id": 289,
+      "prediction_score": 0.085,
+      "actual": 0,
+      "predicted": 0,
+      "transaction_amount": 444.27,
+      "merchant_risk": 9
+    },
+    {
+      "id": 290,
+      "prediction_score": 0.501,
+      "actual": 1,
+      "predicted": 1,
+      "transaction_amount": 1992.8,
+      "merchant_risk": 6
+    },
+    {
+      "id": 291,
+      "prediction_score": 0.103,
+      "actual": 0,
+      "predicted": 0,
+      "transaction_amount": 4284.55,
+      "merchant_risk": 9
+    },
+    {
+      "id": 292,
+      "prediction_score": 0.027,
+      "actual": 0,
+      "predicted": 0,
+      "transaction_amount": 2296.2,
+      "merchant_risk": 1
+    },
+    {
+      "id": 293,
+      "prediction_score": 0.194,
+      "actual": 0,
+      "predicted": 0,
+      "transaction_amount": 3934.89,
+      "merchant_risk": 10
+    },
+    {
+      "id": 294,
+      "prediction_score": 0.878,
+      "actual": 0,
+      "predicted": 1,
+      "transaction_amount": 2942.0,
+      "merchant_risk": 7
+    },
+    {
+      "id": 295,
+      "prediction_score": 0.314,
+      "actual": 0,
+      "predicted": 0,
+      "transaction_amount": 571.47,
+      "merchant_risk": 3
+    },
+    {
+      "id": 296,
+      "prediction_score": 0.091,
+      "actual": 0,
+      "predicted": 0,
+      "transaction_amount": 749.52,
+      "merchant_risk": 10
+    },
+    {
+      "id": 297,
+      "prediction_score": 0.329,
+      "actual": 0,
+      "predicted": 0,
+      "transaction_amount": 2917.56,
+      "merchant_risk": 2
+    },
+    {
+      "id": 298,
+      "prediction_score": 0.51,
+      "actual": 0,
+      "predicted": 1,
+      "transaction_amount": 4625.39,
+      "merchant_risk": 10
+    },
+    {
+      "id": 299,
+      "prediction_score": 0.099,
+      "actual": 0,
+      "predicted": 0,
+      "transaction_amount": 3899.93,
+      "merchant_risk": 5
+    },
+    {
+      "id": 300,
+      "prediction_score": 0.779,
+      "actual": 0,
+      "predicted": 1,
+      "transaction_amount": 4338.7,
+      "merchant_risk": 6
+    },
+    {
+      "id": 301,
+      "prediction_score": 0.469,
+      "actual": 0,
+      "predicted": 0,
+      "transaction_amount": 4390.69,
+      "merchant_risk": 5
+    },
+    {
+      "id": 302,
+      "prediction_score": 0.363,
+      "actual": 0,
+      "predicted": 0,
+      "transaction_amount": 1921.39,
+      "merchant_risk": 8
+    },
+    {
+      "id": 303,
+      "prediction_score": 0.403,
+      "actual": 0,
+      "predicted": 0,
+      "transaction_amount": 2864.4,
+      "merchant_risk": 8
+    },
+    {
+      "id": 304,
+      "prediction_score": 0.035,
+      "actual": 0,
+      "predicted": 0,
+      "transaction_amount": 196.95,
+      "merchant_risk": 5
+    },
+    {
+      "id": 305,
+      "prediction_score": 0.36,
+      "actual": 0,
+      "predicted": 0,
+      "transaction_amount": 2020.84,
+      "merchant_risk": 10
+    },
+    {
+      "id": 306,
+      "prediction_score": 0.958,
+      "actual": 1,
+      "predicted": 1,
+      "transaction_amount": 3047.19,
+      "merchant_risk": 7
+    },
+    {
+      "id": 307,
+      "prediction_score": 0.153,
+      "actual": 0,
+      "predicted": 0,
+      "transaction_amount": 203.52,
+      "merchant_risk": 6
+    },
+    {
+      "id": 308,
+      "prediction_score": 0.48,
+      "actual": 1,
+      "predicted": 0,
+      "transaction_amount": 3455.66,
+      "merchant_risk": 1
+    },
+    {
+      "id": 309,
+      "prediction_score": 0.463,
+      "actual": 0,
+      "predicted": 0,
+      "transaction_amount": 3731.29,
+      "merchant_risk": 5
+    },
+    {
+      "id": 310,
+      "prediction_score": 0.292,
+      "actual": 0,
+      "predicted": 0,
+      "transaction_amount": 4486.19,
+      "merchant_risk": 1
+    },
+    {
+      "id": 311,
+      "prediction_score": 0.074,
+      "actual": 0,
+      "predicted": 0,
+      "transaction_amount": 1695.95,
+      "merchant_risk": 5
+    },
+    {
+      "id": 312,
+      "prediction_score": 0.285,
+      "actual": 0,
+      "predicted": 0,
+      "transaction_amount": 1561.64,
+      "merchant_risk": 8
+    },
+    {
+      "id": 313,
+      "prediction_score": 0.066,
+      "actual": 0,
+      "predicted": 0,
+      "transaction_amount": 4292.59,
+      "merchant_risk": 2
+    },
+    {
+      "id": 314,
+      "prediction_score": 0.121,
+      "actual": 0,
+      "predicted": 0,
+      "transaction_amount": 4862.76,
+      "merchant_risk": 4
+    },
+    {
+      "id": 315,
+      "prediction_score": 0.334,
+      "actual": 0,
+      "predicted": 0,
+      "transaction_amount": 680.58,
+      "merchant_risk": 8
+    },
+    {
+      "id": 316,
+      "prediction_score": 0.22,
+      "actual": 0,
+      "predicted": 0,
+      "transaction_amount": 3872.41,
+      "merchant_risk": 6
+    },
+    {
+      "id": 317,
+      "prediction_score": 0.126,
+      "actual": 0,
+      "predicted": 0,
+      "transaction_amount": 1354.41,
+      "merchant_risk": 7
+    },
+    {
+      "id": 318,
+      "prediction_score": 0.543,
+      "actual": 0,
+      "predicted": 1,
+      "transaction_amount": 3028.85,
+      "merchant_risk": 2
+    },
+    {
+      "id": 319,
+      "prediction_score": 0.626,
+      "actual": 0,
+      "predicted": 1,
+      "transaction_amount": 947.8,
+      "merchant_risk": 4
+    },
+    {
+      "id": 320,
+      "prediction_score": 0.363,
+      "actual": 0,
+      "predicted": 0,
+      "transaction_amount": 4568.03,
+      "merchant_risk": 7
+    },
+    {
+      "id": 321,
+      "prediction_score": 0.301,
+      "actual": 0,
+      "predicted": 0,
+      "transaction_amount": 3707.31,
+      "merchant_risk": 9
+    },
+    {
+      "id": 322,
+      "prediction_score": 0.184,
+      "actual": 0,
+      "predicted": 0,
+      "transaction_amount": 4337.27,
+      "merchant_risk": 1
+    },
+    {
+      "id": 323,
+      "prediction_score": 0.273,
+      "actual": 0,
+      "predicted": 0,
+      "transaction_amount": 2581.2,
+      "merchant_risk": 3
+    },
+    {
+      "id": 324,
+      "prediction_score": 0.069,
+      "actual": 0,
+      "predicted": 0,
+      "transaction_amount": 337.43,
+      "merchant_risk": 9
+    },
+    {
+      "id": 325,
+      "prediction_score": 0.134,
+      "actual": 0,
+      "predicted": 0,
+      "transaction_amount": 2022.89,
+      "merchant_risk": 9
+    },
+    {
+      "id": 326,
+      "prediction_score": 0.11,
+      "actual": 0,
+      "predicted": 0,
+      "transaction_amount": 4397.87,
+      "merchant_risk": 1
+    },
+    {
+      "id": 327,
+      "prediction_score": 0.482,
+      "actual": 0,
+      "predicted": 0,
+      "transaction_amount": 876.95,
+      "merchant_risk": 4
+    },
+    {
+      "id": 328,
+      "prediction_score": 0.183,
+      "actual": 0,
+      "predicted": 0,
+      "transaction_amount": 4186.51,
+      "merchant_risk": 4
+    },
+    {
+      "id": 329,
+      "prediction_score": 0.226,
+      "actual": 0,
+      "predicted": 0,
+      "transaction_amount": 175.02,
+      "merchant_risk": 1
+    },
+    {
+      "id": 330,
+      "prediction_score": 0.472,
+      "actual": 0,
+      "predicted": 0,
+      "transaction_amount": 4590.98,
+      "merchant_risk": 4
+    },
+    {
+      "id": 331,
+      "prediction_score": 0.085,
+      "actual": 0,
+      "predicted": 0,
+      "transaction_amount": 1377.15,
+      "merchant_risk": 8
+    },
+    {
+      "id": 332,
+      "prediction_score": 0.385,
+      "actual": 0,
+      "predicted": 0,
+      "transaction_amount": 2530.58,
+      "merchant_risk": 2
+    },
+    {
+      "id": 333,
+      "prediction_score": 0.766,
+      "actual": 0,
+      "predicted": 1,
+      "transaction_amount": 3409.06,
+      "merchant_risk": 4
+    },
+    {
+      "id": 334,
+      "prediction_score": 0.441,
+      "actual": 0,
+      "predicted": 0,
+      "transaction_amount": 1868.61,
+      "merchant_risk": 10
+    },
+    {
+      "id": 335,
+      "prediction_score": 0.456,
+      "actual": 0,
+      "predicted": 0,
+      "transaction_amount": 2236.06,
+      "merchant_risk": 8
+    },
+    {
+      "id": 336,
+      "prediction_score": 0.149,
+      "actual": 0,
+      "predicted": 0,
+      "transaction_amount": 2938.53,
+      "merchant_risk": 6
+    },
+    {
+      "id": 337,
+      "prediction_score": 0.285,
+      "actual": 0,
+      "predicted": 0,
+      "transaction_amount": 1727.8,
+      "merchant_risk": 5
+    },
+    {
+      "id": 338,
+      "prediction_score": 0.348,
+      "actual": 0,
+      "predicted": 0,
+      "transaction_amount": 3747.32,
+      "merchant_risk": 2
+    },
+    {
+      "id": 339,
+      "prediction_score": 0.716,
+      "actual": 1,
+      "predicted": 1,
+      "transaction_amount": 1432.5,
+      "merchant_risk": 7
+    },
+    {
+      "id": 340,
+      "prediction_score": 0.524,
+      "actual": 0,
+      "predicted": 1,
+      "transaction_amount": 257.76,
+      "merchant_risk": 10
+    },
+    {
+      "id": 341,
+      "prediction_score": 0.164,
+      "actual": 0,
+      "predicted": 0,
+      "transaction_amount": 3901.35,
+      "merchant_risk": 4
+    },
+    {
+      "id": 342,
+      "prediction_score": 0.523,
+      "actual": 0,
+      "predicted": 1,
+      "transaction_amount": 4286.98,
+      "merchant_risk": 4
+    },
+    {
+      "id": 343,
+      "prediction_score": 0.21,
+      "actual": 0,
+      "predicted": 0,
+      "transaction_amount": 3391.7,
+      "merchant_risk": 5
+    },
+    {
+      "id": 344,
+      "prediction_score": 0.352,
+      "actual": 0,
+      "predicted": 0,
+      "transaction_amount": 3261.42,
+      "merchant_risk": 9
+    },
+    {
+      "id": 345,
+      "prediction_score": 0.227,
+      "actual": 0,
+      "predicted": 0,
+      "transaction_amount": 110.06,
+      "merchant_risk": 1
+    },
+    {
+      "id": 346,
+      "prediction_score": 0.358,
+      "actual": 0,
+      "predicted": 0,
+      "transaction_amount": 2375.75,
+      "merchant_risk": 3
+    },
+    {
+      "id": 347,
+      "prediction_score": 0.056,
+      "actual": 0,
+      "predicted": 0,
+      "transaction_amount": 3240.38,
+      "merchant_risk": 10
+    },
+    {
+      "id": 348,
+      "prediction_score": 0.214,
+      "actual": 0,
+      "predicted": 0,
+      "transaction_amount": 4006.32,
+      "merchant_risk": 4
+    },
+    {
+      "id": 349,
+      "prediction_score": 0.14,
+      "actual": 0,
+      "predicted": 0,
+      "transaction_amount": 1269.43,
+      "merchant_risk": 5
+    },
+    {
+      "id": 350,
+      "prediction_score": 0.203,
+      "actual": 0,
+      "predicted": 0,
+      "transaction_amount": 3566.58,
+      "merchant_risk": 5
+    },
+    {
+      "id": 351,
+      "prediction_score": 0.068,
+      "actual": 0,
+      "predicted": 0,
+      "transaction_amount": 2124.8,
+      "merchant_risk": 7
+    },
+    {
+      "id": 352,
+      "prediction_score": 0.121,
+      "actual": 0,
+      "predicted": 0,
+      "transaction_amount": 4259.42,
+      "merchant_risk": 8
+    },
+    {
+      "id": 353,
+      "prediction_score": 0.186,
+      "actual": 0,
+      "predicted": 0,
+      "transaction_amount": 1267.47,
+      "merchant_risk": 8
+    },
+    {
+      "id": 354,
+      "prediction_score": 0.575,
+      "actual": 0,
+      "predicted": 1,
+      "transaction_amount": 1517.7,
+      "merchant_risk": 9
+    },
+    {
+      "id": 355,
+      "prediction_score": 0.587,
+      "actual": 0,
+      "predicted": 1,
+      "transaction_amount": 4123.31,
+      "merchant_risk": 7
+    },
+    {
+      "id": 356,
+      "prediction_score": 0.306,
+      "actual": 0,
+      "predicted": 0,
+      "transaction_amount": 2926.59,
+      "merchant_risk": 1
+    },
+    {
+      "id": 357,
+      "prediction_score": 0.488,
+      "actual": 0,
+      "predicted": 0,
+      "transaction_amount": 2562.45,
+      "merchant_risk": 6
+    },
+    {
+      "id": 358,
+      "prediction_score": 0.869,
+      "actual": 0,
+      "predicted": 1,
+      "transaction_amount": 2811.67,
+      "merchant_risk": 10
+    },
+    {
+      "id": 359,
+      "prediction_score": 0.3,
+      "actual": 0,
+      "predicted": 0,
+      "transaction_amount": 3049.16,
+      "merchant_risk": 5
+    },
+    {
+      "id": 360,
+      "prediction_score": 0.894,
+      "actual": 0,
+      "predicted": 1,
+      "transaction_amount": 3425.22,
+      "merchant_risk": 8
+    },
+    {
+      "id": 361,
+      "prediction_score": 0.556,
+      "actual": 0,
+      "predicted": 1,
+      "transaction_amount": 328.55,
+      "merchant_risk": 5
+    },
+    {
+      "id": 362,
+      "prediction_score": 0.37,
+      "actual": 0,
+      "predicted": 0,
+      "transaction_amount": 3206.57,
+      "merchant_risk": 5
+    },
+    {
+      "id": 363,
+      "prediction_score": 0.885,
+      "actual": 0,
+      "predicted": 1,
+      "transaction_amount": 1313.12,
+      "merchant_risk": 5
+    },
+    {
+      "id": 364,
+      "prediction_score": 0.411,
+      "actual": 0,
+      "predicted": 0,
+      "transaction_amount": 949.92,
+      "merchant_risk": 9
+    },
+    {
+      "id": 365,
+      "prediction_score": 0.199,
+      "actual": 0,
+      "predicted": 0,
+      "transaction_amount": 3829.72,
+      "merchant_risk": 1
+    },
+    {
+      "id": 366,
+      "prediction_score": 0.506,
+      "actual": 0,
+      "predicted": 1,
+      "transaction_amount": 4029.09,
+      "merchant_risk": 10
+    },
+    {
+      "id": 367,
+      "prediction_score": 0.862,
+      "actual": 0,
+      "predicted": 1,
+      "transaction_amount": 2026.45,
+      "merchant_risk": 6
+    },
+    {
+      "id": 368,
+      "prediction_score": 0.323,
+      "actual": 0,
+      "predicted": 0,
+      "transaction_amount": 3406.97,
+      "merchant_risk": 1
+    },
+    {
+      "id": 369,
+      "prediction_score": 0.264,
+      "actual": 0,
+      "predicted": 0,
+      "transaction_amount": 3280.45,
+      "merchant_risk": 5
+    },
+    {
+      "id": 370,
+      "prediction_score": 0.453,
+      "actual": 0,
+      "predicted": 0,
+      "transaction_amount": 1304.54,
+      "merchant_risk": 7
+    },
+    {
+      "id": 371,
+      "prediction_score": 0.603,
+      "actual": 0,
+      "predicted": 1,
+      "transaction_amount": 2028.95,
+      "merchant_risk": 1
+    },
+    {
+      "id": 372,
+      "prediction_score": 0.403,
+      "actual": 0,
+      "predicted": 0,
+      "transaction_amount": 2919.29,
+      "merchant_risk": 10
+    },
+    {
+      "id": 373,
+      "prediction_score": 0.692,
+      "actual": 0,
+      "predicted": 1,
+      "transaction_amount": 4081.91,
+      "merchant_risk": 6
+    },
+    {
+      "id": 374,
+      "prediction_score": 0.26,
+      "actual": 0,
+      "predicted": 0,
+      "transaction_amount": 3635.48,
+      "merchant_risk": 4
+    },
+    {
+      "id": 375,
+      "prediction_score": 0.509,
+      "actual": 1,
+      "predicted": 1,
+      "transaction_amount": 3434.73,
+      "merchant_risk": 8
+    },
+    {
+      "id": 376,
+      "prediction_score": 0.78,
+      "actual": 0,
+      "predicted": 1,
+      "transaction_amount": 4533.57,
+      "merchant_risk": 6
+    },
+    {
+      "id": 377,
+      "prediction_score": 0.127,
+      "actual": 0,
+      "predicted": 0,
+      "transaction_amount": 2541.5,
+      "merchant_risk": 3
+    },
+    {
+      "id": 378,
+      "prediction_score": 0.059,
+      "actual": 0,
+      "predicted": 0,
+      "transaction_amount": 4204.79,
+      "merchant_risk": 9
+    },
+    {
+      "id": 379,
+      "prediction_score": 0.012,
+      "actual": 0,
+      "predicted": 0,
+      "transaction_amount": 913.87,
+      "merchant_risk": 2
+    },
+    {
+      "id": 380,
+      "prediction_score": 0.18,
+      "actual": 0,
+      "predicted": 0,
+      "transaction_amount": 2359.2,
+      "merchant_risk": 5
+    },
+    {
+      "id": 381,
+      "prediction_score": 0.527,
+      "actual": 0,
+      "predicted": 1,
+      "transaction_amount": 3628.68,
+      "merchant_risk": 9
+    },
+    {
+      "id": 382,
+      "prediction_score": 0.182,
+      "actual": 0,
+      "predicted": 0,
+      "transaction_amount": 3816.96,
+      "merchant_risk": 3
+    },
+    {
+      "id": 383,
+      "prediction_score": 0.583,
+      "actual": 0,
+      "predicted": 1,
+      "transaction_amount": 4735.15,
+      "merchant_risk": 6
+    },
+    {
+      "id": 384,
+      "prediction_score": 0.503,
+      "actual": 0,
+      "predicted": 1,
+      "transaction_amount": 3275.63,
+      "merchant_risk": 4
+    },
+    {
+      "id": 385,
+      "prediction_score": 0.478,
+      "actual": 0,
+      "predicted": 0,
+      "transaction_amount": 1782.86,
+      "merchant_risk": 5
+    },
+    {
+      "id": 386,
+      "prediction_score": 0.119,
+      "actual": 0,
+      "predicted": 0,
+      "transaction_amount": 2108.16,
+      "merchant_risk": 6
+    },
+    {
+      "id": 387,
+      "prediction_score": 0.165,
+      "actual": 0,
+      "predicted": 0,
+      "transaction_amount": 1864.7,
+      "merchant_risk": 10
+    },
+    {
+      "id": 388,
+      "prediction_score": 0.719,
+      "actual": 0,
+      "predicted": 1,
+      "transaction_amount": 1477.32,
+      "merchant_risk": 2
+    },
+    {
+      "id": 389,
+      "prediction_score": 0.349,
+      "actual": 0,
+      "predicted": 0,
+      "transaction_amount": 2357.98,
+      "merchant_risk": 10
+    },
+    {
+      "id": 390,
+      "prediction_score": 0.322,
+      "actual": 0,
+      "predicted": 0,
+      "transaction_amount": 2905.76,
+      "merchant_risk": 10
+    },
+    {
+      "id": 391,
+      "prediction_score": 0.282,
+      "actual": 0,
+      "predicted": 0,
+      "transaction_amount": 365.37,
+      "merchant_risk": 4
+    },
+    {
+      "id": 392,
+      "prediction_score": 0.091,
+      "actual": 0,
+      "predicted": 0,
+      "transaction_amount": 2507.38,
+      "merchant_risk": 7
+    },
+    {
+      "id": 393,
+      "prediction_score": 0.138,
+      "actual": 0,
+      "predicted": 0,
+      "transaction_amount": 2653.89,
+      "merchant_risk": 7
+    },
+    {
+      "id": 394,
+      "prediction_score": 0.687,
+      "actual": 1,
+      "predicted": 1,
+      "transaction_amount": 279.77,
+      "merchant_risk": 3
+    },
+    {
+      "id": 395,
+      "prediction_score": 0.484,
+      "actual": 0,
+      "predicted": 0,
+      "transaction_amount": 695.45,
+      "merchant_risk": 4
+    },
+    {
+      "id": 396,
+      "prediction_score": 0.336,
+      "actual": 0,
+      "predicted": 0,
+      "transaction_amount": 1719.92,
+      "merchant_risk": 10
+    },
+    {
+      "id": 397,
+      "prediction_score": 0.267,
+      "actual": 0,
+      "predicted": 0,
+      "transaction_amount": 4465.3,
+      "merchant_risk": 8
+    },
+    {
+      "id": 398,
+      "prediction_score": 0.228,
+      "actual": 0,
+      "predicted": 0,
+      "transaction_amount": 724.69,
+      "merchant_risk": 3
+    },
+    {
+      "id": 399,
+      "prediction_score": 0.37,
+      "actual": 0,
+      "predicted": 0,
+      "transaction_amount": 3896.92,
+      "merchant_risk": 8
+    },
+    {
+      "id": 400,
+      "prediction_score": 0.298,
+      "actual": 0,
+      "predicted": 0,
+      "transaction_amount": 1669.82,
+      "merchant_risk": 3
+    },
+    {
+      "id": 401,
+      "prediction_score": 0.345,
+      "actual": 0,
+      "predicted": 0,
+      "transaction_amount": 1573.94,
+      "merchant_risk": 1
+    },
+    {
+      "id": 402,
+      "prediction_score": 0.216,
+      "actual": 0,
+      "predicted": 0,
+      "transaction_amount": 33.52,
+      "merchant_risk": 5
+    },
+    {
+      "id": 403,
+      "prediction_score": 0.51,
+      "actual": 0,
+      "predicted": 1,
+      "transaction_amount": 1054.82,
+      "merchant_risk": 3
+    },
+    {
+      "id": 404,
+      "prediction_score": 0.295,
+      "actual": 0,
+      "predicted": 0,
+      "transaction_amount": 2885.63,
+      "merchant_risk": 3
+    },
+    {
+      "id": 405,
+      "prediction_score": 0.437,
+      "actual": 0,
+      "predicted": 0,
+      "transaction_amount": 2452.99,
+      "merchant_risk": 2
+    },
+    {
+      "id": 406,
+      "prediction_score": 0.607,
+      "actual": 0,
+      "predicted": 1,
+      "transaction_amount": 655.74,
+      "merchant_risk": 7
+    },
+    {
+      "id": 407,
+      "prediction_score": 0.398,
+      "actual": 0,
+      "predicted": 0,
+      "transaction_amount": 3171.1,
+      "merchant_risk": 7
+    },
+    {
+      "id": 408,
+      "prediction_score": 0.536,
+      "actual": 0,
+      "predicted": 1,
+      "transaction_amount": 2150.84,
+      "merchant_risk": 8
+    },
+    {
+      "id": 409,
+      "prediction_score": 0.6,
+      "actual": 0,
+      "predicted": 1,
+      "transaction_amount": 1922.75,
+      "merchant_risk": 1
+    },
+    {
+      "id": 410,
+      "prediction_score": 0.283,
+      "actual": 0,
+      "predicted": 0,
+      "transaction_amount": 2673.58,
+      "merchant_risk": 6
+    },
+    {
+      "id": 411,
+      "prediction_score": 0.36,
+      "actual": 0,
+      "predicted": 0,
+      "transaction_amount": 4750.84,
+      "merchant_risk": 6
+    },
+    {
+      "id": 412,
+      "prediction_score": 0.301,
+      "actual": 0,
+      "predicted": 0,
+      "transaction_amount": 3786.67,
+      "merchant_risk": 9
+    },
+    {
+      "id": 413,
+      "prediction_score": 0.032,
+      "actual": 0,
+      "predicted": 0,
+      "transaction_amount": 960.98,
+      "merchant_risk": 1
+    },
+    {
+      "id": 414,
+      "prediction_score": 0.123,
+      "actual": 0,
+      "predicted": 0,
+      "transaction_amount": 3137.17,
+      "merchant_risk": 4
+    },
+    {
+      "id": 415,
+      "prediction_score": 0.506,
+      "actual": 0,
+      "predicted": 1,
+      "transaction_amount": 1139.07,
+      "merchant_risk": 6
+    },
+    {
+      "id": 416,
+      "prediction_score": 0.069,
+      "actual": 0,
+      "predicted": 0,
+      "transaction_amount": 1567.34,
+      "merchant_risk": 2
+    },
+    {
+      "id": 417,
+      "prediction_score": 0.705,
+      "actual": 0,
+      "predicted": 1,
+      "transaction_amount": 1923.92,
+      "merchant_risk": 10
+    },
+    {
+      "id": 418,
+      "prediction_score": 0.331,
+      "actual": 1,
+      "predicted": 0,
+      "transaction_amount": 1537.51,
+      "merchant_risk": 2
+    },
+    {
+      "id": 419,
+      "prediction_score": 0.399,
+      "actual": 0,
+      "predicted": 0,
+      "transaction_amount": 4120.98,
+      "merchant_risk": 5
+    },
+    {
+      "id": 420,
+      "prediction_score": 0.135,
+      "actual": 0,
+      "predicted": 0,
+      "transaction_amount": 4742.83,
+      "merchant_risk": 8
+    },
+    {
+      "id": 421,
+      "prediction_score": 0.508,
+      "actual": 0,
+      "predicted": 1,
+      "transaction_amount": 3641.88,
+      "merchant_risk": 10
+    },
+    {
+      "id": 422,
+      "prediction_score": 0.4,
+      "actual": 0,
+      "predicted": 0,
+      "transaction_amount": 2625.35,
+      "merchant_risk": 7
+    },
+    {
+      "id": 423,
+      "prediction_score": 0.161,
+      "actual": 0,
+      "predicted": 0,
+      "transaction_amount": 4440.99,
+      "merchant_risk": 3
+    },
+    {
+      "id": 424,
+      "prediction_score": 0.073,
+      "actual": 0,
+      "predicted": 0,
+      "transaction_amount": 1720.24,
+      "merchant_risk": 8
+    },
+    {
+      "id": 425,
+      "prediction_score": 0.735,
+      "actual": 0,
+      "predicted": 1,
+      "transaction_amount": 1802.66,
+      "merchant_risk": 4
+    },
+    {
+      "id": 426,
+      "prediction_score": 0.331,
+      "actual": 0,
+      "predicted": 0,
+      "transaction_amount": 832.77,
+      "merchant_risk": 7
+    },
+    {
+      "id": 427,
+      "prediction_score": 0.212,
+      "actual": 0,
+      "predicted": 0,
+      "transaction_amount": 105.43,
+      "merchant_risk": 4
+    },
+    {
+      "id": 428,
+      "prediction_score": 0.043,
+      "actual": 0,
+      "predicted": 0,
+      "transaction_amount": 3638.57,
+      "merchant_risk": 3
+    },
+    {
+      "id": 429,
+      "prediction_score": 0.103,
+      "actual": 0,
+      "predicted": 0,
+      "transaction_amount": 1063.84,
+      "merchant_risk": 1
+    },
+    {
+      "id": 430,
+      "prediction_score": 0.142,
+      "actual": 0,
+      "predicted": 0,
+      "transaction_amount": 2952.57,
+      "merchant_risk": 3
+    },
+    {
+      "id": 431,
+      "prediction_score": 0.32,
+      "actual": 0,
+      "predicted": 0,
+      "transaction_amount": 624.58,
+      "merchant_risk": 1
+    },
+    {
+      "id": 432,
+      "prediction_score": 0.745,
+      "actual": 0,
+      "predicted": 1,
+      "transaction_amount": 1882.21,
+      "merchant_risk": 5
+    },
+    {
+      "id": 433,
+      "prediction_score": 0.426,
+      "actual": 0,
+      "predicted": 0,
+      "transaction_amount": 3858.54,
+      "merchant_risk": 10
+    },
+    {
+      "id": 434,
+      "prediction_score": 0.056,
+      "actual": 0,
+      "predicted": 0,
+      "transaction_amount": 252.45,
+      "merchant_risk": 1
+    },
+    {
+      "id": 435,
+      "prediction_score": 0.432,
+      "actual": 0,
+      "predicted": 0,
+      "transaction_amount": 3313.23,
+      "merchant_risk": 1
+    },
+    {
+      "id": 436,
+      "prediction_score": 0.482,
+      "actual": 0,
+      "predicted": 0,
+      "transaction_amount": 250.69,
+      "merchant_risk": 2
+    },
+    {
+      "id": 437,
+      "prediction_score": 0.345,
+      "actual": 0,
+      "predicted": 0,
+      "transaction_amount": 2089.71,
+      "merchant_risk": 7
+    },
+    {
+      "id": 438,
+      "prediction_score": 0.349,
+      "actual": 0,
+      "predicted": 0,
+      "transaction_amount": 626.74,
+      "merchant_risk": 5
+    },
+    {
+      "id": 439,
+      "prediction_score": 0.026,
+      "actual": 0,
+      "predicted": 0,
+      "transaction_amount": 2377.24,
+      "merchant_risk": 3
+    },
+    {
+      "id": 440,
+      "prediction_score": 0.752,
+      "actual": 0,
+      "predicted": 1,
+      "transaction_amount": 1035.42,
+      "merchant_risk": 1
+    },
+    {
+      "id": 441,
+      "prediction_score": 0.572,
+      "actual": 0,
+      "predicted": 1,
+      "transaction_amount": 1512.57,
+      "merchant_risk": 2
+    },
+    {
+      "id": 442,
+      "prediction_score": 0.225,
+      "actual": 0,
+      "predicted": 0,
+      "transaction_amount": 3315.79,
+      "merchant_risk": 5
+    },
+    {
+      "id": 443,
+      "prediction_score": 0.449,
+      "actual": 0,
+      "predicted": 0,
+      "transaction_amount": 3117.76,
+      "merchant_risk": 3
+    },
+    {
+      "id": 444,
+      "prediction_score": 0.016,
+      "actual": 0,
+      "predicted": 0,
+      "transaction_amount": 2099.94,
+      "merchant_risk": 2
+    },
+    {
+      "id": 445,
+      "prediction_score": 0.334,
+      "actual": 0,
+      "predicted": 0,
+      "transaction_amount": 2562.81,
+      "merchant_risk": 10
+    },
+    {
+      "id": 446,
+      "prediction_score": 0.16,
+      "actual": 0,
+      "predicted": 0,
+      "transaction_amount": 597.5,
+      "merchant_risk": 2
+    },
+    {
+      "id": 447,
+      "prediction_score": 0.393,
+      "actual": 0,
+      "predicted": 0,
+      "transaction_amount": 3925.95,
+      "merchant_risk": 8
+    },
+    {
+      "id": 448,
+      "prediction_score": 0.284,
+      "actual": 0,
+      "predicted": 0,
+      "transaction_amount": 1001.25,
+      "merchant_risk": 4
+    },
+    {
+      "id": 449,
+      "prediction_score": 0.639,
+      "actual": 0,
+      "predicted": 1,
+      "transaction_amount": 3892.01,
+      "merchant_risk": 9
+    },
+    {
+      "id": 450,
+      "prediction_score": 0.085,
+      "actual": 0,
+      "predicted": 0,
+      "transaction_amount": 4865.87,
+      "merchant_risk": 6
+    },
+    {
+      "id": 451,
+      "prediction_score": 0.145,
+      "actual": 0,
+      "predicted": 0,
+      "transaction_amount": 3520.15,
+      "merchant_risk": 5
+    },
+    {
+      "id": 452,
+      "prediction_score": 0.244,
+      "actual": 0,
+      "predicted": 0,
+      "transaction_amount": 810.26,
+      "merchant_risk": 9
+    },
+    {
+      "id": 453,
+      "prediction_score": 0.449,
+      "actual": 0,
+      "predicted": 0,
+      "transaction_amount": 2486.81,
+      "merchant_risk": 4
+    },
+    {
+      "id": 454,
+      "prediction_score": 0.676,
+      "actual": 0,
+      "predicted": 1,
+      "transaction_amount": 3444.14,
+      "merchant_risk": 8
+    },
+    {
+      "id": 455,
+      "prediction_score": 0.195,
+      "actual": 0,
+      "predicted": 0,
+      "transaction_amount": 1659.71,
+      "merchant_risk": 1
+    },
+    {
+      "id": 456,
+      "prediction_score": 0.554,
+      "actual": 0,
+      "predicted": 1,
+      "transaction_amount": 73.62,
+      "merchant_risk": 2
+    },
+    {
+      "id": 457,
+      "prediction_score": 0.678,
+      "actual": 0,
+      "predicted": 1,
+      "transaction_amount": 4535.33,
+      "merchant_risk": 10
+    },
+    {
+      "id": 458,
+      "prediction_score": 0.397,
+      "actual": 0,
+      "predicted": 0,
+      "transaction_amount": 3348.42,
+      "merchant_risk": 3
+    },
+    {
+      "id": 459,
+      "prediction_score": 0.649,
+      "actual": 0,
+      "predicted": 1,
+      "transaction_amount": 4747.74,
+      "merchant_risk": 9
+    },
+    {
+      "id": 460,
+      "prediction_score": 0.285,
+      "actual": 0,
+      "predicted": 0,
+      "transaction_amount": 384.49,
+      "merchant_risk": 2
+    },
+    {
+      "id": 461,
+      "prediction_score": 0.27,
+      "actual": 0,
+      "predicted": 0,
+      "transaction_amount": 4524.85,
+      "merchant_risk": 4
+    },
+    {
+      "id": 462,
+      "prediction_score": 0.034,
+      "actual": 0,
+      "predicted": 0,
+      "transaction_amount": 2289.19,
+      "merchant_risk": 5
+    },
+    {
+      "id": 463,
+      "prediction_score": 0.274,
+      "actual": 0,
+      "predicted": 0,
+      "transaction_amount": 1327.98,
+      "merchant_risk": 1
+    },
+    {
+      "id": 464,
+      "prediction_score": 0.153,
+      "actual": 0,
+      "predicted": 0,
+      "transaction_amount": 508.05,
+      "merchant_risk": 3
+    },
+    {
+      "id": 465,
+      "prediction_score": 0.125,
+      "actual": 0,
+      "predicted": 0,
+      "transaction_amount": 4371.96,
+      "merchant_risk": 5
+    },
+    {
+      "id": 466,
+      "prediction_score": 0.096,
+      "actual": 0,
+      "predicted": 0,
+      "transaction_amount": 1807.47,
+      "merchant_risk": 6
+    },
+    {
+      "id": 467,
+      "prediction_score": 0.151,
+      "actual": 0,
+      "predicted": 0,
+      "transaction_amount": 2135.72,
+      "merchant_risk": 2
+    },
+    {
+      "id": 468,
+      "prediction_score": 0.128,
+      "actual": 0,
+      "predicted": 0,
+      "transaction_amount": 484.04,
+      "merchant_risk": 1
+    },
+    {
+      "id": 469,
+      "prediction_score": 0.411,
+      "actual": 0,
+      "predicted": 0,
+      "transaction_amount": 58.26,
+      "merchant_risk": 3
+    },
+    {
+      "id": 470,
+      "prediction_score": 0.376,
+      "actual": 0,
+      "predicted": 0,
+      "transaction_amount": 3320.14,
+      "merchant_risk": 3
+    },
+    {
+      "id": 471,
+      "prediction_score": 0.229,
+      "actual": 0,
+      "predicted": 0,
+      "transaction_amount": 1650.02,
+      "merchant_risk": 8
+    },
+    {
+      "id": 472,
+      "prediction_score": 0.161,
+      "actual": 0,
+      "predicted": 0,
+      "transaction_amount": 4775.89,
+      "merchant_risk": 5
+    },
+    {
+      "id": 473,
+      "prediction_score": 0.093,
+      "actual": 0,
+      "predicted": 0,
+      "transaction_amount": 4393.59,
+      "merchant_risk": 2
+    },
+    {
+      "id": 474,
+      "prediction_score": 0.392,
+      "actual": 0,
+      "predicted": 0,
+      "transaction_amount": 1869.38,
+      "merchant_risk": 6
+    },
+    {
+      "id": 475,
+      "prediction_score": 0.335,
+      "actual": 0,
+      "predicted": 0,
+      "transaction_amount": 922.52,
+      "merchant_risk": 7
+    },
+    {
+      "id": 476,
+      "prediction_score": 0.009,
+      "actual": 0,
+      "predicted": 0,
+      "transaction_amount": 2007.25,
+      "merchant_risk": 8
+    },
+    {
+      "id": 477,
+      "prediction_score": 0.228,
+      "actual": 0,
+      "predicted": 0,
+      "transaction_amount": 1366.45,
+      "merchant_risk": 7
+    },
+    {
+      "id": 478,
+      "prediction_score": 0.214,
+      "actual": 0,
+      "predicted": 0,
+      "transaction_amount": 3452.61,
+      "merchant_risk": 8
+    },
+    {
+      "id": 479,
+      "prediction_score": 0.459,
+      "actual": 0,
+      "predicted": 0,
+      "transaction_amount": 4001.5,
+      "merchant_risk": 3
+    },
+    {
+      "id": 480,
+      "prediction_score": 0.347,
+      "actual": 0,
+      "predicted": 0,
+      "transaction_amount": 574.15,
+      "merchant_risk": 1
+    },
+    {
+      "id": 481,
+      "prediction_score": 0.589,
+      "actual": 0,
+      "predicted": 1,
+      "transaction_amount": 4908.03,
+      "merchant_risk": 3
+    },
+    {
+      "id": 482,
+      "prediction_score": 0.521,
+      "actual": 0,
+      "predicted": 1,
+      "transaction_amount": 527.53,
+      "merchant_risk": 10
+    },
+    {
+      "id": 483,
+      "prediction_score": 0.374,
+      "actual": 0,
+      "predicted": 0,
+      "transaction_amount": 2418.55,
+      "merchant_risk": 10
+    },
+    {
+      "id": 484,
+      "prediction_score": 0.198,
+      "actual": 0,
+      "predicted": 0,
+      "transaction_amount": 3395.18,
+      "merchant_risk": 3
+    },
+    {
+      "id": 485,
+      "prediction_score": 0.801,
+      "actual": 1,
+      "predicted": 1,
+      "transaction_amount": 3060.5,
+      "merchant_risk": 6
+    },
+    {
+      "id": 486,
+      "prediction_score": 0.353,
+      "actual": 0,
+      "predicted": 0,
+      "transaction_amount": 3060.68,
+      "merchant_risk": 3
+    },
+    {
+      "id": 487,
+      "prediction_score": 0.097,
+      "actual": 0,
+      "predicted": 0,
+      "transaction_amount": 2420.57,
+      "merchant_risk": 8
+    },
+    {
+      "id": 488,
+      "prediction_score": 0.645,
+      "actual": 0,
+      "predicted": 1,
+      "transaction_amount": 573.56,
+      "merchant_risk": 7
+    },
+    {
+      "id": 489,
+      "prediction_score": 0.192,
+      "actual": 0,
+      "predicted": 0,
+      "transaction_amount": 2209.03,
+      "merchant_risk": 2
+    },
+    {
+      "id": 490,
+      "prediction_score": 0.181,
+      "actual": 0,
+      "predicted": 0,
+      "transaction_amount": 1315.45,
+      "merchant_risk": 6
+    },
+    {
+      "id": 491,
+      "prediction_score": 0.188,
+      "actual": 0,
+      "predicted": 0,
+      "transaction_amount": 71.68,
+      "merchant_risk": 9
+    },
+    {
+      "id": 492,
+      "prediction_score": 0.51,
+      "actual": 0,
+      "predicted": 1,
+      "transaction_amount": 3839.97,
+      "merchant_risk": 10
+    },
+    {
+      "id": 493,
+      "prediction_score": 0.198,
+      "actual": 0,
+      "predicted": 0,
+      "transaction_amount": 3621.63,
+      "merchant_risk": 4
+    },
+    {
+      "id": 494,
+      "prediction_score": 0.096,
+      "actual": 0,
+      "predicted": 0,
+      "transaction_amount": 4889.7,
+      "merchant_risk": 6
+    },
+    {
+      "id": 495,
+      "prediction_score": 0.462,
+      "actual": 0,
+      "predicted": 0,
+      "transaction_amount": 2600.31,
+      "merchant_risk": 10
+    },
+    {
+      "id": 496,
+      "prediction_score": 0.205,
+      "actual": 0,
+      "predicted": 0,
+      "transaction_amount": 485.26,
+      "merchant_risk": 4
+    },
+    {
+      "id": 497,
+      "prediction_score": 0.304,
+      "actual": 0,
+      "predicted": 0,
+      "transaction_amount": 2414.83,
+      "merchant_risk": 7
+    },
+    {
+      "id": 498,
+      "prediction_score": 0.33,
+      "actual": 0,
+      "predicted": 0,
+      "transaction_amount": 751.79,
+      "merchant_risk": 9
+    },
+    {
+      "id": 499,
+      "prediction_score": 0.344,
+      "actual": 0,
+      "predicted": 0,
+      "transaction_amount": 4461.39,
+      "merchant_risk": 10
+    },
+    {
+      "id": 500,
+      "prediction_score": 0.708,
+      "actual": 0,
+      "predicted": 1,
+      "transaction_amount": 282.28,
+      "merchant_risk": 3
+    },
+    {
+      "id": 501,
+      "prediction_score": 0.184,
+      "actual": 0,
+      "predicted": 0,
+      "transaction_amount": 2532.78,
+      "merchant_risk": 8
+    },
+    {
+      "id": 502,
+      "prediction_score": 0.389,
+      "actual": 0,
+      "predicted": 0,
+      "transaction_amount": 4260.84,
+      "merchant_risk": 3
+    },
+    {
+      "id": 503,
+      "prediction_score": 0.135,
+      "actual": 0,
+      "predicted": 0,
+      "transaction_amount": 383.58,
+      "merchant_risk": 8
+    },
+    {
+      "id": 504,
+      "prediction_score": 0.289,
+      "actual": 0,
+      "predicted": 0,
+      "transaction_amount": 1609.96,
+      "merchant_risk": 6
+    },
+    {
+      "id": 505,
+      "prediction_score": 0.595,
+      "actual": 0,
+      "predicted": 1,
+      "transaction_amount": 4851.02,
+      "merchant_risk": 1
+    },
+    {
+      "id": 506,
+      "prediction_score": 0.451,
+      "actual": 0,
+      "predicted": 0,
+      "transaction_amount": 2539.58,
+      "merchant_risk": 9
+    },
+    {
+      "id": 507,
+      "prediction_score": 0.418,
+      "actual": 0,
+      "predicted": 0,
+      "transaction_amount": 3220.15,
+      "merchant_risk": 7
+    },
+    {
+      "id": 508,
+      "prediction_score": 0.57,
+      "actual": 0,
+      "predicted": 1,
+      "transaction_amount": 4087.35,
+      "merchant_risk": 2
+    },
+    {
+      "id": 509,
+      "prediction_score": 0.479,
+      "actual": 0,
+      "predicted": 0,
+      "transaction_amount": 2300.88,
+      "merchant_risk": 10
+    },
+    {
+      "id": 510,
+      "prediction_score": 0.097,
+      "actual": 0,
+      "predicted": 0,
+      "transaction_amount": 2246.01,
+      "merchant_risk": 8
+    },
+    {
+      "id": 511,
+      "prediction_score": 0.53,
+      "actual": 0,
+      "predicted": 1,
+      "transaction_amount": 2240.87,
+      "merchant_risk": 2
+    },
+    {
+      "id": 512,
+      "prediction_score": 0.383,
+      "actual": 0,
+      "predicted": 0,
+      "transaction_amount": 4903.55,
+      "merchant_risk": 1
+    },
+    {
+      "id": 513,
+      "prediction_score": 0.311,
+      "actual": 1,
+      "predicted": 0,
+      "transaction_amount": 522.19,
+      "merchant_risk": 7
+    },
+    {
+      "id": 514,
+      "prediction_score": 0.155,
+      "actual": 0,
+      "predicted": 0,
+      "transaction_amount": 188.8,
+      "merchant_risk": 9
+    },
+    {
+      "id": 515,
+      "prediction_score": 0.495,
+      "actual": 0,
+      "predicted": 0,
+      "transaction_amount": 10.85,
+      "merchant_risk": 2
+    },
+    {
+      "id": 516,
+      "prediction_score": 0.244,
+      "actual": 0,
+      "predicted": 0,
+      "transaction_amount": 3961.0,
+      "merchant_risk": 10
+    },
+    {
+      "id": 517,
+      "prediction_score": 0.351,
+      "actual": 0,
+      "predicted": 0,
+      "transaction_amount": 3191.32,
+      "merchant_risk": 9
+    },
+    {
+      "id": 518,
+      "prediction_score": 0.265,
+      "actual": 0,
+      "predicted": 0,
+      "transaction_amount": 2816.04,
+      "merchant_risk": 8
+    },
+    {
+      "id": 519,
+      "prediction_score": 0.81,
+      "actual": 1,
+      "predicted": 1,
+      "transaction_amount": 4752.27,
+      "merchant_risk": 6
+    },
+    {
+      "id": 520,
+      "prediction_score": 0.174,
+      "actual": 0,
+      "predicted": 0,
+      "transaction_amount": 4128.3,
+      "merchant_risk": 4
+    },
+    {
+      "id": 521,
+      "prediction_score": 0.265,
+      "actual": 0,
+      "predicted": 0,
+      "transaction_amount": 4223.14,
+      "merchant_risk": 6
+    },
+    {
+      "id": 522,
+      "prediction_score": 0.218,
+      "actual": 0,
+      "predicted": 0,
+      "transaction_amount": 2805.15,
+      "merchant_risk": 10
+    },
+    {
+      "id": 523,
+      "prediction_score": 0.125,
+      "actual": 0,
+      "predicted": 0,
+      "transaction_amount": 3003.76,
+      "merchant_risk": 6
+    },
+    {
+      "id": 524,
+      "prediction_score": 0.357,
+      "actual": 0,
+      "predicted": 0,
+      "transaction_amount": 3582.41,
+      "merchant_risk": 2
+    },
+    {
+      "id": 525,
+      "prediction_score": 0.325,
+      "actual": 0,
+      "predicted": 0,
+      "transaction_amount": 496.21,
+      "merchant_risk": 4
+    },
+    {
+      "id": 526,
+      "prediction_score": 0.341,
+      "actual": 0,
+      "predicted": 0,
+      "transaction_amount": 20.96,
+      "merchant_risk": 6
+    },
+    {
+      "id": 527,
+      "prediction_score": 0.027,
+      "actual": 0,
+      "predicted": 0,
+      "transaction_amount": 4151.12,
+      "merchant_risk": 5
+    },
+    {
+      "id": 528,
+      "prediction_score": 0.315,
+      "actual": 0,
+      "predicted": 0,
+      "transaction_amount": 2742.98,
+      "merchant_risk": 6
+    },
+    {
+      "id": 529,
+      "prediction_score": 0.239,
+      "actual": 0,
+      "predicted": 0,
+      "transaction_amount": 3513.46,
+      "merchant_risk": 1
+    },
+    {
+      "id": 530,
+      "prediction_score": 0.226,
+      "actual": 0,
+      "predicted": 0,
+      "transaction_amount": 4485.42,
+      "merchant_risk": 8
+    },
+    {
+      "id": 531,
+      "prediction_score": 0.362,
+      "actual": 0,
+      "predicted": 0,
+      "transaction_amount": 710.84,
+      "merchant_risk": 7
+    },
+    {
+      "id": 532,
+      "prediction_score": 0.224,
+      "actual": 0,
+      "predicted": 0,
+      "transaction_amount": 543.74,
+      "merchant_risk": 10
+    },
+    {
+      "id": 533,
+      "prediction_score": 0.284,
+      "actual": 0,
+      "predicted": 0,
+      "transaction_amount": 987.65,
+      "merchant_risk": 2
+    },
+    {
+      "id": 534,
+      "prediction_score": 0.323,
+      "actual": 0,
+      "predicted": 0,
+      "transaction_amount": 4651.78,
+      "merchant_risk": 7
+    },
+    {
+      "id": 535,
+      "prediction_score": 0.262,
+      "actual": 0,
+      "predicted": 0,
+      "transaction_amount": 1085.79,
+      "merchant_risk": 4
+    },
+    {
+      "id": 536,
+      "prediction_score": 0.524,
+      "actual": 0,
+      "predicted": 1,
+      "transaction_amount": 3586.77,
+      "merchant_risk": 2
+    },
+    {
+      "id": 537,
+      "prediction_score": 0.312,
+      "actual": 0,
+      "predicted": 0,
+      "transaction_amount": 3788.18,
+      "merchant_risk": 1
+    },
+    {
+      "id": 538,
+      "prediction_score": 0.495,
+      "actual": 0,
+      "predicted": 0,
+      "transaction_amount": 4633.87,
+      "merchant_risk": 10
+    },
+    {
+      "id": 539,
+      "prediction_score": 0.291,
+      "actual": 0,
+      "predicted": 0,
+      "transaction_amount": 624.86,
+      "merchant_risk": 8
+    },
+    {
+      "id": 540,
+      "prediction_score": 0.521,
+      "actual": 0,
+      "predicted": 1,
+      "transaction_amount": 2292.37,
+      "merchant_risk": 10
+    },
+    {
+      "id": 541,
+      "prediction_score": 0.757,
+      "actual": 0,
+      "predicted": 1,
+      "transaction_amount": 4781.39,
+      "merchant_risk": 3
+    },
+    {
+      "id": 542,
+      "prediction_score": 0.123,
+      "actual": 0,
+      "predicted": 0,
+      "transaction_amount": 4819.64,
+      "merchant_risk": 1
+    },
+    {
+      "id": 543,
+      "prediction_score": 0.577,
+      "actual": 0,
+      "predicted": 1,
+      "transaction_amount": 2656.52,
+      "merchant_risk": 1
+    },
+    {
+      "id": 544,
+      "prediction_score": 0.371,
+      "actual": 0,
+      "predicted": 0,
+      "transaction_amount": 2770.6,
+      "merchant_risk": 7
+    },
+    {
+      "id": 545,
+      "prediction_score": 0.141,
+      "actual": 0,
+      "predicted": 0,
+      "transaction_amount": 4195.69,
+      "merchant_risk": 8
+    },
+    {
+      "id": 546,
+      "prediction_score": 0.65,
+      "actual": 0,
+      "predicted": 1,
+      "transaction_amount": 4622.61,
+      "merchant_risk": 3
+    },
+    {
+      "id": 547,
+      "prediction_score": 0.538,
+      "actual": 0,
+      "predicted": 1,
+      "transaction_amount": 3462.17,
+      "merchant_risk": 3
+    },
+    {
+      "id": 548,
+      "prediction_score": 0.103,
+      "actual": 0,
+      "predicted": 0,
+      "transaction_amount": 3655.17,
+      "merchant_risk": 3
+    },
+    {
+      "id": 549,
+      "prediction_score": 0.418,
+      "actual": 0,
+      "predicted": 0,
+      "transaction_amount": 526.73,
+      "merchant_risk": 10
+    },
+    {
+      "id": 550,
+      "prediction_score": 0.555,
+      "actual": 0,
+      "predicted": 1,
+      "transaction_amount": 3034.74,
+      "merchant_risk": 6
+    },
+    {
+      "id": 551,
+      "prediction_score": 0.429,
+      "actual": 0,
+      "predicted": 0,
+      "transaction_amount": 2525.51,
+      "merchant_risk": 7
+    },
+    {
+      "id": 552,
+      "prediction_score": 0.06,
+      "actual": 0,
+      "predicted": 0,
+      "transaction_amount": 2099.14,
+      "merchant_risk": 10
+    },
+    {
+      "id": 553,
+      "prediction_score": 0.278,
+      "actual": 0,
+      "predicted": 0,
+      "transaction_amount": 4580.39,
+      "merchant_risk": 4
+    },
+    {
+      "id": 554,
+      "prediction_score": 0.27,
+      "actual": 0,
+      "predicted": 0,
+      "transaction_amount": 1375.24,
+      "merchant_risk": 6
+    },
+    {
+      "id": 555,
+      "prediction_score": 0.418,
+      "actual": 0,
+      "predicted": 0,
+      "transaction_amount": 4852.75,
+      "merchant_risk": 8
+    },
+    {
+      "id": 556,
+      "prediction_score": 0.604,
+      "actual": 0,
+      "predicted": 1,
+      "transaction_amount": 4025.94,
+      "merchant_risk": 3
+    },
+    {
+      "id": 557,
+      "prediction_score": 0.486,
+      "actual": 0,
+      "predicted": 0,
+      "transaction_amount": 2069.6,
+      "merchant_risk": 9
+    },
+    {
+      "id": 558,
+      "prediction_score": 0.453,
+      "actual": 0,
+      "predicted": 0,
+      "transaction_amount": 1501.58,
+      "merchant_risk": 9
+    },
+    {
+      "id": 559,
+      "prediction_score": 0.366,
+      "actual": 0,
+      "predicted": 0,
+      "transaction_amount": 4304.93,
+      "merchant_risk": 9
+    },
+    {
+      "id": 560,
+      "prediction_score": 0.181,
+      "actual": 0,
+      "predicted": 0,
+      "transaction_amount": 3166.59,
+      "merchant_risk": 4
+    },
+    {
+      "id": 561,
+      "prediction_score": 0.463,
+      "actual": 0,
+      "predicted": 0,
+      "transaction_amount": 1056.47,
+      "merchant_risk": 5
+    },
+    {
+      "id": 562,
+      "prediction_score": 0.221,
+      "actual": 0,
+      "predicted": 0,
+      "transaction_amount": 3436.19,
+      "merchant_risk": 3
+    },
+    {
+      "id": 563,
+      "prediction_score": 0.249,
+      "actual": 0,
+      "predicted": 0,
+      "transaction_amount": 4906.86,
+      "merchant_risk": 3
+    },
+    {
+      "id": 564,
+      "prediction_score": 0.452,
+      "actual": 0,
+      "predicted": 0,
+      "transaction_amount": 2524.43,
+      "merchant_risk": 6
+    },
+    {
+      "id": 565,
+      "prediction_score": 0.181,
+      "actual": 0,
+      "predicted": 0,
+      "transaction_amount": 3554.66,
+      "merchant_risk": 6
+    },
+    {
+      "id": 566,
+      "prediction_score": 0.643,
+      "actual": 0,
+      "predicted": 1,
+      "transaction_amount": 2815.78,
+      "merchant_risk": 10
+    },
+    {
+      "id": 567,
+      "prediction_score": 0.179,
+      "actual": 0,
+      "predicted": 0,
+      "transaction_amount": 2857.48,
+      "merchant_risk": 7
+    },
+    {
+      "id": 568,
+      "prediction_score": 0.381,
+      "actual": 0,
+      "predicted": 0,
+      "transaction_amount": 3374.47,
+      "merchant_risk": 9
+    },
+    {
+      "id": 569,
+      "prediction_score": 0.329,
+      "actual": 1,
+      "predicted": 0,
+      "transaction_amount": 1436.78,
+      "merchant_risk": 7
+    },
+    {
+      "id": 570,
+      "prediction_score": 0.116,
+      "actual": 0,
+      "predicted": 0,
+      "transaction_amount": 4043.44,
+      "merchant_risk": 9
+    },
+    {
+      "id": 571,
+      "prediction_score": 0.036,
+      "actual": 0,
+      "predicted": 0,
+      "transaction_amount": 541.29,
+      "merchant_risk": 7
+    },
+    {
+      "id": 572,
+      "prediction_score": 0.301,
+      "actual": 0,
+      "predicted": 0,
+      "transaction_amount": 735.18,
+      "merchant_risk": 1
+    },
+    {
+      "id": 573,
+      "prediction_score": 0.47,
+      "actual": 0,
+      "predicted": 0,
+      "transaction_amount": 1007.51,
+      "merchant_risk": 3
+    },
+    {
+      "id": 574,
+      "prediction_score": 0.663,
+      "actual": 0,
+      "predicted": 1,
+      "transaction_amount": 4917.83,
+      "merchant_risk": 5
+    },
+    {
+      "id": 575,
+      "prediction_score": 0.309,
+      "actual": 0,
+      "predicted": 0,
+      "transaction_amount": 740.68,
+      "merchant_risk": 1
+    },
+    {
+      "id": 576,
+      "prediction_score": 0.076,
+      "actual": 0,
+      "predicted": 0,
+      "transaction_amount": 3456.07,
+      "merchant_risk": 5
+    },
+    {
+      "id": 577,
+      "prediction_score": 0.42,
+      "actual": 0,
+      "predicted": 0,
+      "transaction_amount": 1027.96,
+      "merchant_risk": 9
+    },
+    {
+      "id": 578,
+      "prediction_score": 0.123,
+      "actual": 0,
+      "predicted": 0,
+      "transaction_amount": 171.21,
+      "merchant_risk": 8
+    },
+    {
+      "id": 579,
+      "prediction_score": 0.404,
+      "actual": 0,
+      "predicted": 0,
+      "transaction_amount": 521.38,
+      "merchant_risk": 9
+    },
+    {
+      "id": 580,
+      "prediction_score": 0.454,
+      "actual": 0,
+      "predicted": 0,
+      "transaction_amount": 4325.56,
+      "merchant_risk": 9
+    },
+    {
+      "id": 581,
+      "prediction_score": 0.504,
+      "actual": 0,
+      "predicted": 1,
+      "transaction_amount": 1950.54,
+      "merchant_risk": 9
+    },
+    {
+      "id": 582,
+      "prediction_score": 0.679,
+      "actual": 0,
+      "predicted": 1,
+      "transaction_amount": 3923.69,
+      "merchant_risk": 5
+    },
+    {
+      "id": 583,
+      "prediction_score": 0.501,
+      "actual": 0,
+      "predicted": 1,
+      "transaction_amount": 3467.75,
+      "merchant_risk": 1
+    },
+    {
+      "id": 584,
+      "prediction_score": 0.05,
+      "actual": 0,
+      "predicted": 0,
+      "transaction_amount": 4633.16,
+      "merchant_risk": 7
+    },
+    {
+      "id": 585,
+      "prediction_score": 0.314,
+      "actual": 0,
+      "predicted": 0,
+      "transaction_amount": 2088.67,
+      "merchant_risk": 6
+    },
+    {
+      "id": 586,
+      "prediction_score": 0.289,
+      "actual": 0,
+      "predicted": 0,
+      "transaction_amount": 4829.51,
+      "merchant_risk": 1
+    },
+    {
+      "id": 587,
+      "prediction_score": 0.647,
+      "actual": 1,
+      "predicted": 1,
+      "transaction_amount": 74.7,
+      "merchant_risk": 5
+    },
+    {
+      "id": 588,
+      "prediction_score": 0.079,
+      "actual": 0,
+      "predicted": 0,
+      "transaction_amount": 1023.41,
+      "merchant_risk": 8
+    },
+    {
+      "id": 589,
+      "prediction_score": 0.498,
+      "actual": 1,
+      "predicted": 0,
+      "transaction_amount": 4151.62,
+      "merchant_risk": 6
+    },
+    {
+      "id": 590,
+      "prediction_score": 0.518,
+      "actual": 0,
+      "predicted": 1,
+      "transaction_amount": 3777.99,
+      "merchant_risk": 9
+    },
+    {
+      "id": 591,
+      "prediction_score": 0.463,
+      "actual": 0,
+      "predicted": 0,
+      "transaction_amount": 3694.87,
+      "merchant_risk": 4
+    },
+    {
+      "id": 592,
+      "prediction_score": 0.153,
+      "actual": 0,
+      "predicted": 0,
+      "transaction_amount": 3882.97,
+      "merchant_risk": 4
+    },
+    {
+      "id": 593,
+      "prediction_score": 0.312,
+      "actual": 0,
+      "predicted": 0,
+      "transaction_amount": 1477.95,
+      "merchant_risk": 3
+    },
+    {
+      "id": 594,
+      "prediction_score": 0.58,
+      "actual": 0,
+      "predicted": 1,
+      "transaction_amount": 4917.43,
+      "merchant_risk": 2
+    },
+    {
+      "id": 595,
+      "prediction_score": 0.353,
+      "actual": 0,
+      "predicted": 0,
+      "transaction_amount": 943.01,
+      "merchant_risk": 3
+    },
+    {
+      "id": 596,
+      "prediction_score": 0.483,
+      "actual": 0,
+      "predicted": 0,
+      "transaction_amount": 3678.05,
+      "merchant_risk": 2
+    },
+    {
+      "id": 597,
+      "prediction_score": 0.355,
+      "actual": 0,
+      "predicted": 0,
+      "transaction_amount": 1892.22,
+      "merchant_risk": 7
+    },
+    {
+      "id": 598,
+      "prediction_score": 0.333,
+      "actual": 0,
+      "predicted": 0,
+      "transaction_amount": 1402.77,
+      "merchant_risk": 5
+    },
+    {
+      "id": 599,
+      "prediction_score": 0.283,
+      "actual": 0,
+      "predicted": 0,
+      "transaction_amount": 659.03,
+      "merchant_risk": 10
+    },
+    {
+      "id": 600,
+      "prediction_score": 0.674,
+      "actual": 0,
+      "predicted": 1,
+      "transaction_amount": 4231.61,
+      "merchant_risk": 1
+    },
+    {
+      "id": 601,
+      "prediction_score": 0.142,
+      "actual": 0,
+      "predicted": 0,
+      "transaction_amount": 1659.51,
+      "merchant_risk": 3
+    },
+    {
+      "id": 602,
+      "prediction_score": 0.107,
+      "actual": 0,
+      "predicted": 0,
+      "transaction_amount": 209.3,
+      "merchant_risk": 6
+    },
+    {
+      "id": 603,
+      "prediction_score": 0.496,
+      "actual": 0,
+      "predicted": 0,
+      "transaction_amount": 2988.43,
+      "merchant_risk": 10
+    },
+    {
+      "id": 604,
+      "prediction_score": 0.16,
+      "actual": 0,
+      "predicted": 0,
+      "transaction_amount": 4217.27,
+      "merchant_risk": 5
+    },
+    {
+      "id": 605,
+      "prediction_score": 0.764,
+      "actual": 0,
+      "predicted": 1,
+      "transaction_amount": 2457.85,
+      "merchant_risk": 10
+    },
+    {
+      "id": 606,
+      "prediction_score": 0.163,
+      "actual": 0,
+      "predicted": 0,
+      "transaction_amount": 2755.3,
+      "merchant_risk": 2
+    },
+    {
+      "id": 607,
+      "prediction_score": 0.492,
+      "actual": 0,
+      "predicted": 0,
+      "transaction_amount": 3922.32,
+      "merchant_risk": 6
+    },
+    {
+      "id": 608,
+      "prediction_score": 0.315,
+      "actual": 0,
+      "predicted": 0,
+      "transaction_amount": 2631.72,
+      "merchant_risk": 3
+    },
+    {
+      "id": 609,
+      "prediction_score": 0.32,
+      "actual": 0,
+      "predicted": 0,
+      "transaction_amount": 2607.83,
+      "merchant_risk": 9
+    },
+    {
+      "id": 610,
+      "prediction_score": 0.03,
+      "actual": 0,
+      "predicted": 0,
+      "transaction_amount": 805.26,
+      "merchant_risk": 9
+    },
+    {
+      "id": 611,
+      "prediction_score": 0.415,
+      "actual": 0,
+      "predicted": 0,
+      "transaction_amount": 2689.81,
+      "merchant_risk": 2
+    },
+    {
+      "id": 612,
+      "prediction_score": 0.548,
+      "actual": 1,
+      "predicted": 1,
+      "transaction_amount": 1753.52,
+      "merchant_risk": 4
+    },
+    {
+      "id": 613,
+      "prediction_score": 0.289,
+      "actual": 0,
+      "predicted": 0,
+      "transaction_amount": 3320.04,
+      "merchant_risk": 6
+    },
+    {
+      "id": 614,
+      "prediction_score": 0.038,
+      "actual": 0,
+      "predicted": 0,
+      "transaction_amount": 1810.38,
+      "merchant_risk": 4
+    },
+    {
+      "id": 615,
+      "prediction_score": 0.178,
+      "actual": 0,
+      "predicted": 0,
+      "transaction_amount": 4752.04,
+      "merchant_risk": 10
+    },
+    {
+      "id": 616,
+      "prediction_score": 0.258,
+      "actual": 0,
+      "predicted": 0,
+      "transaction_amount": 2657.19,
+      "merchant_risk": 9
+    },
+    {
+      "id": 617,
+      "prediction_score": 0.3,
+      "actual": 0,
+      "predicted": 0,
+      "transaction_amount": 4120.21,
+      "merchant_risk": 1
+    },
+    {
+      "id": 618,
+      "prediction_score": 0.035,
+      "actual": 0,
+      "predicted": 0,
+      "transaction_amount": 582.46,
+      "merchant_risk": 6
+    },
+    {
+      "id": 619,
+      "prediction_score": 0.207,
+      "actual": 0,
+      "predicted": 0,
+      "transaction_amount": 2233.88,
+      "merchant_risk": 10
+    },
+    {
+      "id": 620,
+      "prediction_score": 0.306,
+      "actual": 0,
+      "predicted": 0,
+      "transaction_amount": 4593.85,
+      "merchant_risk": 4
+    },
+    {
+      "id": 621,
+      "prediction_score": 0.63,
+      "actual": 0,
+      "predicted": 1,
+      "transaction_amount": 4794.9,
+      "merchant_risk": 6
+    },
+    {
+      "id": 622,
+      "prediction_score": 0.024,
+      "actual": 0,
+      "predicted": 0,
+      "transaction_amount": 1913.05,
+      "merchant_risk": 2
+    },
+    {
+      "id": 623,
+      "prediction_score": 0.441,
+      "actual": 0,
+      "predicted": 0,
+      "transaction_amount": 1935.52,
+      "merchant_risk": 9
+    },
+    {
+      "id": 624,
+      "prediction_score": 0.532,
+      "actual": 0,
+      "predicted": 1,
+      "transaction_amount": 3622.64,
+      "merchant_risk": 1
+    },
+    {
+      "id": 625,
+      "prediction_score": 0.128,
+      "actual": 0,
+      "predicted": 0,
+      "transaction_amount": 4557.57,
+      "merchant_risk": 6
+    },
+    {
+      "id": 626,
+      "prediction_score": 0.046,
+      "actual": 0,
+      "predicted": 0,
+      "transaction_amount": 2576.4,
+      "merchant_risk": 9
+    },
+    {
+      "id": 627,
+      "prediction_score": 0.587,
+      "actual": 0,
+      "predicted": 1,
+      "transaction_amount": 2233.33,
+      "merchant_risk": 1
+    },
+    {
+      "id": 628,
+      "prediction_score": 0.477,
+      "actual": 0,
+      "predicted": 0,
+      "transaction_amount": 1489.21,
+      "merchant_risk": 4
+    },
+    {
+      "id": 629,
+      "prediction_score": 0.352,
+      "actual": 0,
+      "predicted": 0,
+      "transaction_amount": 1608.36,
+      "merchant_risk": 2
+    },
+    {
+      "id": 630,
+      "prediction_score": 0.279,
+      "actual": 0,
+      "predicted": 0,
+      "transaction_amount": 4741.58,
+      "merchant_risk": 3
+    },
+    {
+      "id": 631,
+      "prediction_score": 0.166,
+      "actual": 0,
+      "predicted": 0,
+      "transaction_amount": 4858.43,
+      "merchant_risk": 9
+    },
+    {
+      "id": 632,
+      "prediction_score": 0.675,
+      "actual": 0,
+      "predicted": 1,
+      "transaction_amount": 2670.7,
+      "merchant_risk": 2
+    },
+    {
+      "id": 633,
+      "prediction_score": 0.2,
+      "actual": 0,
+      "predicted": 0,
+      "transaction_amount": 1061.8,
+      "merchant_risk": 4
+    },
+    {
+      "id": 634,
+      "prediction_score": 0.15,
+      "actual": 0,
+      "predicted": 0,
+      "transaction_amount": 4326.1,
+      "merchant_risk": 7
+    },
+    {
+      "id": 635,
+      "prediction_score": 0.423,
+      "actual": 0,
+      "predicted": 0,
+      "transaction_amount": 4179.97,
+      "merchant_risk": 4
+    },
+    {
+      "id": 636,
+      "prediction_score": 0.742,
+      "actual": 0,
+      "predicted": 1,
+      "transaction_amount": 2693.39,
+      "merchant_risk": 7
+    },
+    {
+      "id": 637,
+      "prediction_score": 0.491,
+      "actual": 0,
+      "predicted": 0,
+      "transaction_amount": 3236.34,
+      "merchant_risk": 2
+    },
+    {
+      "id": 638,
+      "prediction_score": 0.572,
+      "actual": 0,
+      "predicted": 1,
+      "transaction_amount": 3736.99,
+      "merchant_risk": 3
+    },
+    {
+      "id": 639,
+      "prediction_score": 0.434,
+      "actual": 0,
+      "predicted": 0,
+      "transaction_amount": 128.53,
+      "merchant_risk": 6
+    },
+    {
+      "id": 640,
+      "prediction_score": 0.215,
+      "actual": 0,
+      "predicted": 0,
+      "transaction_amount": 199.05,
+      "merchant_risk": 2
+    },
+    {
+      "id": 641,
+      "prediction_score": 0.131,
+      "actual": 0,
+      "predicted": 0,
+      "transaction_amount": 280.8,
+      "merchant_risk": 5
+    },
+    {
+      "id": 642,
+      "prediction_score": 0.285,
+      "actual": 0,
+      "predicted": 0,
+      "transaction_amount": 2794.84,
+      "merchant_risk": 10
+    },
+    {
+      "id": 643,
+      "prediction_score": 0.141,
+      "actual": 0,
+      "predicted": 0,
+      "transaction_amount": 4109.88,
+      "merchant_risk": 5
+    },
+    {
+      "id": 644,
+      "prediction_score": 0.252,
+      "actual": 0,
+      "predicted": 0,
+      "transaction_amount": 2044.09,
+      "merchant_risk": 8
+    },
+    {
+      "id": 645,
+      "prediction_score": 0.442,
+      "actual": 0,
+      "predicted": 0,
+      "transaction_amount": 3154.78,
+      "merchant_risk": 7
+    },
+    {
+      "id": 646,
+      "prediction_score": 0.159,
+      "actual": 0,
+      "predicted": 0,
+      "transaction_amount": 1588.86,
+      "merchant_risk": 7
+    },
+    {
+      "id": 647,
+      "prediction_score": 0.122,
+      "actual": 0,
+      "predicted": 0,
+      "transaction_amount": 3369.76,
+      "merchant_risk": 9
+    },
+    {
+      "id": 648,
+      "prediction_score": 0.455,
+      "actual": 0,
+      "predicted": 0,
+      "transaction_amount": 39.44,
+      "merchant_risk": 10
+    },
+    {
+      "id": 649,
+      "prediction_score": 0.067,
+      "actual": 0,
+      "predicted": 0,
+      "transaction_amount": 325.56,
+      "merchant_risk": 10
+    },
+    {
+      "id": 650,
+      "prediction_score": 0.782,
+      "actual": 0,
+      "predicted": 1,
+      "transaction_amount": 237.13,
+      "merchant_risk": 2
+    },
+    {
+      "id": 651,
+      "prediction_score": 0.181,
+      "actual": 0,
+      "predicted": 0,
+      "transaction_amount": 1794.92,
+      "merchant_risk": 9
+    },
+    {
+      "id": 652,
+      "prediction_score": 0.589,
+      "actual": 0,
+      "predicted": 1,
+      "transaction_amount": 539.62,
+      "merchant_risk": 5
+    },
+    {
+      "id": 653,
+      "prediction_score": 0.325,
+      "actual": 0,
+      "predicted": 0,
+      "transaction_amount": 3036.76,
+      "merchant_risk": 5
+    },
+    {
+      "id": 654,
+      "prediction_score": 0.868,
+      "actual": 0,
+      "predicted": 1,
+      "transaction_amount": 3828.72,
+      "merchant_risk": 8
+    },
+    {
+      "id": 655,
+      "prediction_score": 0.104,
+      "actual": 0,
+      "predicted": 0,
+      "transaction_amount": 1913.25,
+      "merchant_risk": 1
+    },
+    {
+      "id": 656,
+      "prediction_score": 0.434,
+      "actual": 0,
+      "predicted": 0,
+      "transaction_amount": 2375.2,
+      "merchant_risk": 9
+    },
+    {
+      "id": 657,
+      "prediction_score": 0.416,
+      "actual": 0,
+      "predicted": 0,
+      "transaction_amount": 1107.13,
+      "merchant_risk": 7
+    },
+    {
+      "id": 658,
+      "prediction_score": 0.243,
+      "actual": 0,
+      "predicted": 0,
+      "transaction_amount": 3985.88,
+      "merchant_risk": 9
+    },
+    {
+      "id": 659,
+      "prediction_score": 0.117,
+      "actual": 0,
+      "predicted": 0,
+      "transaction_amount": 1481.94,
+      "merchant_risk": 3
+    },
+    {
+      "id": 660,
+      "prediction_score": 0.701,
+      "actual": 0,
+      "predicted": 1,
+      "transaction_amount": 1497.3,
+      "merchant_risk": 6
+    },
+    {
+      "id": 661,
+      "prediction_score": 0.038,
+      "actual": 0,
+      "predicted": 0,
+      "transaction_amount": 4787.38,
+      "merchant_risk": 1
+    },
+    {
+      "id": 662,
+      "prediction_score": 0.361,
+      "actual": 0,
+      "predicted": 0,
+      "transaction_amount": 2772.09,
+      "merchant_risk": 9
+    },
+    {
+      "id": 663,
+      "prediction_score": 0.146,
+      "actual": 0,
+      "predicted": 0,
+      "transaction_amount": 715.46,
+      "merchant_risk": 1
+    },
+    {
+      "id": 664,
+      "prediction_score": 0.144,
+      "actual": 0,
+      "predicted": 0,
+      "transaction_amount": 35.1,
+      "merchant_risk": 10
+    },
+    {
+      "id": 665,
+      "prediction_score": 0.502,
+      "actual": 0,
+      "predicted": 1,
+      "transaction_amount": 1976.47,
+      "merchant_risk": 9
+    },
+    {
+      "id": 666,
+      "prediction_score": 0.248,
+      "actual": 0,
+      "predicted": 0,
+      "transaction_amount": 4735.43,
+      "merchant_risk": 5
+    },
+    {
+      "id": 667,
+      "prediction_score": 0.095,
+      "actual": 0,
+      "predicted": 0,
+      "transaction_amount": 1058.16,
+      "merchant_risk": 6
+    },
+    {
+      "id": 668,
+      "prediction_score": 0.151,
+      "actual": 0,
+      "predicted": 0,
+      "transaction_amount": 1066.57,
+      "merchant_risk": 9
+    },
+    {
+      "id": 669,
+      "prediction_score": 0.25,
+      "actual": 0,
+      "predicted": 0,
+      "transaction_amount": 720.85,
+      "merchant_risk": 3
+    },
+    {
+      "id": 670,
+      "prediction_score": 0.27,
+      "actual": 0,
+      "predicted": 0,
+      "transaction_amount": 1111.73,
+      "merchant_risk": 5
+    },
+    {
+      "id": 671,
+      "prediction_score": 0.217,
+      "actual": 0,
+      "predicted": 0,
+      "transaction_amount": 979.69,
+      "merchant_risk": 3
+    },
+    {
+      "id": 672,
+      "prediction_score": 0.337,
+      "actual": 0,
+      "predicted": 0,
+      "transaction_amount": 3358.18,
+      "merchant_risk": 10
+    },
+    {
+      "id": 673,
+      "prediction_score": 0.325,
+      "actual": 0,
+      "predicted": 0,
+      "transaction_amount": 4262.73,
+      "merchant_risk": 9
+    },
+    {
+      "id": 674,
+      "prediction_score": 0.568,
+      "actual": 0,
+      "predicted": 1,
+      "transaction_amount": 2311.71,
+      "merchant_risk": 9
+    },
+    {
+      "id": 675,
+      "prediction_score": 0.565,
+      "actual": 0,
+      "predicted": 1,
+      "transaction_amount": 374.99,
+      "merchant_risk": 2
+    },
+    {
+      "id": 676,
+      "prediction_score": 0.316,
+      "actual": 0,
+      "predicted": 0,
+      "transaction_amount": 1260.93,
+      "merchant_risk": 4
+    },
+    {
+      "id": 677,
+      "prediction_score": 0.225,
+      "actual": 0,
+      "predicted": 0,
+      "transaction_amount": 3630.69,
+      "merchant_risk": 8
+    },
+    {
+      "id": 678,
+      "prediction_score": 0.505,
+      "actual": 0,
+      "predicted": 1,
+      "transaction_amount": 4758.18,
+      "merchant_risk": 6
+    },
+    {
+      "id": 679,
+      "prediction_score": 0.602,
+      "actual": 0,
+      "predicted": 1,
+      "transaction_amount": 649.79,
+      "merchant_risk": 4
+    },
+    {
+      "id": 680,
+      "prediction_score": 0.8,
+      "actual": 0,
+      "predicted": 1,
+      "transaction_amount": 509.22,
+      "merchant_risk": 10
+    },
+    {
+      "id": 681,
+      "prediction_score": 0.691,
+      "actual": 0,
+      "predicted": 1,
+      "transaction_amount": 358.35,
+      "merchant_risk": 4
+    },
+    {
+      "id": 682,
+      "prediction_score": 0.361,
+      "actual": 0,
+      "predicted": 0,
+      "transaction_amount": 1595.75,
+      "merchant_risk": 8
+    },
+    {
+      "id": 683,
+      "prediction_score": 0.115,
+      "actual": 0,
+      "predicted": 0,
+      "transaction_amount": 1648.45,
+      "merchant_risk": 5
+    },
+    {
+      "id": 684,
+      "prediction_score": 0.24,
+      "actual": 0,
+      "predicted": 0,
+      "transaction_amount": 3470.36,
+      "merchant_risk": 3
+    },
+    {
+      "id": 685,
+      "prediction_score": 0.071,
+      "actual": 0,
+      "predicted": 0,
+      "transaction_amount": 2832.1,
+      "merchant_risk": 6
+    },
+    {
+      "id": 686,
+      "prediction_score": 0.2,
+      "actual": 0,
+      "predicted": 0,
+      "transaction_amount": 4040.42,
+      "merchant_risk": 7
+    },
+    {
+      "id": 687,
+      "prediction_score": 0.203,
+      "actual": 0,
+      "predicted": 0,
+      "transaction_amount": 851.51,
+      "merchant_risk": 6
+    },
+    {
+      "id": 688,
+      "prediction_score": 0.212,
+      "actual": 0,
+      "predicted": 0,
+      "transaction_amount": 1238.41,
+      "merchant_risk": 4
+    },
+    {
+      "id": 689,
+      "prediction_score": 0.208,
+      "actual": 0,
+      "predicted": 0,
+      "transaction_amount": 3563.87,
+      "merchant_risk": 7
+    },
+    {
+      "id": 690,
+      "prediction_score": 0.231,
+      "actual": 0,
+      "predicted": 0,
+      "transaction_amount": 1390.63,
+      "merchant_risk": 6
+    },
+    {
+      "id": 691,
+      "prediction_score": 0.141,
+      "actual": 0,
+      "predicted": 0,
+      "transaction_amount": 680.19,
+      "merchant_risk": 6
+    },
+    {
+      "id": 692,
+      "prediction_score": 0.327,
+      "actual": 0,
+      "predicted": 0,
+      "transaction_amount": 4390.65,
+      "merchant_risk": 8
+    },
+    {
+      "id": 693,
+      "prediction_score": 0.622,
+      "actual": 0,
+      "predicted": 1,
+      "transaction_amount": 2232.34,
+      "merchant_risk": 5
+    },
+    {
+      "id": 694,
+      "prediction_score": 0.051,
+      "actual": 0,
+      "predicted": 0,
+      "transaction_amount": 2439.99,
+      "merchant_risk": 2
+    },
+    {
+      "id": 695,
+      "prediction_score": 0.204,
+      "actual": 0,
+      "predicted": 0,
+      "transaction_amount": 887.09,
+      "merchant_risk": 10
+    },
+    {
+      "id": 696,
+      "prediction_score": 0.454,
+      "actual": 0,
+      "predicted": 0,
+      "transaction_amount": 419.05,
+      "merchant_risk": 5
+    },
+    {
+      "id": 697,
+      "prediction_score": 0.516,
+      "actual": 0,
+      "predicted": 1,
+      "transaction_amount": 4294.98,
+      "merchant_risk": 3
+    },
+    {
+      "id": 698,
+      "prediction_score": 0.066,
+      "actual": 0,
+      "predicted": 0,
+      "transaction_amount": 4457.57,
+      "merchant_risk": 4
+    },
+    {
+      "id": 699,
+      "prediction_score": 0.225,
+      "actual": 0,
+      "predicted": 0,
+      "transaction_amount": 1323.54,
+      "merchant_risk": 2
+    },
+    {
+      "id": 700,
+      "prediction_score": 0.567,
+      "actual": 0,
+      "predicted": 1,
+      "transaction_amount": 3639.85,
+      "merchant_risk": 1
+    },
+    {
+      "id": 701,
+      "prediction_score": 0.374,
+      "actual": 0,
+      "predicted": 0,
+      "transaction_amount": 4249.44,
+      "merchant_risk": 1
+    },
+    {
+      "id": 702,
+      "prediction_score": 0.459,
+      "actual": 0,
+      "predicted": 0,
+      "transaction_amount": 4065.09,
+      "merchant_risk": 10
+    },
+    {
+      "id": 703,
+      "prediction_score": 0.609,
+      "actual": 0,
+      "predicted": 1,
+      "transaction_amount": 2031.62,
+      "merchant_risk": 10
+    },
+    {
+      "id": 704,
+      "prediction_score": 0.529,
+      "actual": 0,
+      "predicted": 1,
+      "transaction_amount": 1071.68,
+      "merchant_risk": 1
+    },
+    {
+      "id": 705,
+      "prediction_score": 0.079,
+      "actual": 0,
+      "predicted": 0,
+      "transaction_amount": 2762.45,
+      "merchant_risk": 9
+    },
+    {
+      "id": 706,
+      "prediction_score": 0.283,
+      "actual": 0,
+      "predicted": 0,
+      "transaction_amount": 4470.99,
+      "merchant_risk": 9
+    },
+    {
+      "id": 707,
+      "prediction_score": 0.248,
+      "actual": 0,
+      "predicted": 0,
+      "transaction_amount": 2365.8,
+      "merchant_risk": 3
+    },
+    {
+      "id": 708,
+      "prediction_score": 0.255,
+      "actual": 0,
+      "predicted": 0,
+      "transaction_amount": 1835.43,
+      "merchant_risk": 4
+    },
+    {
+      "id": 709,
+      "prediction_score": 0.371,
+      "actual": 0,
+      "predicted": 0,
+      "transaction_amount": 4458.27,
+      "merchant_risk": 10
+    },
+    {
+      "id": 710,
+      "prediction_score": 0.644,
+      "actual": 0,
+      "predicted": 1,
+      "transaction_amount": 3668.8,
+      "merchant_risk": 5
+    },
+    {
+      "id": 711,
+      "prediction_score": 0.11,
+      "actual": 0,
+      "predicted": 0,
+      "transaction_amount": 678.07,
+      "merchant_risk": 9
+    },
+    {
+      "id": 712,
+      "prediction_score": 0.218,
+      "actual": 0,
+      "predicted": 0,
+      "transaction_amount": 2556.96,
+      "merchant_risk": 7
+    },
+    {
+      "id": 713,
+      "prediction_score": 0.644,
+      "actual": 0,
+      "predicted": 1,
+      "transaction_amount": 1825.69,
+      "merchant_risk": 1
+    },
+    {
+      "id": 714,
+      "prediction_score": 0.573,
+      "actual": 0,
+      "predicted": 1,
+      "transaction_amount": 3316.77,
+      "merchant_risk": 10
+    },
+    {
+      "id": 715,
+      "prediction_score": 0.371,
+      "actual": 0,
+      "predicted": 0,
+      "transaction_amount": 3423.97,
+      "merchant_risk": 9
+    },
+    {
+      "id": 716,
+      "prediction_score": 0.026,
+      "actual": 0,
+      "predicted": 0,
+      "transaction_amount": 710.45,
+      "merchant_risk": 3
+    },
+    {
+      "id": 717,
+      "prediction_score": 0.267,
+      "actual": 0,
+      "predicted": 0,
+      "transaction_amount": 903.93,
+      "merchant_risk": 10
+    },
+    {
+      "id": 718,
+      "prediction_score": 0.576,
+      "actual": 0,
+      "predicted": 1,
+      "transaction_amount": 3300.47,
+      "merchant_risk": 3
+    },
+    {
+      "id": 719,
+      "prediction_score": 0.198,
+      "actual": 0,
+      "predicted": 0,
+      "transaction_amount": 3682.24,
+      "merchant_risk": 8
+    },
+    {
+      "id": 720,
+      "prediction_score": 0.308,
+      "actual": 0,
+      "predicted": 0,
+      "transaction_amount": 4696.48,
+      "merchant_risk": 1
+    },
+    {
+      "id": 721,
+      "prediction_score": 0.805,
+      "actual": 0,
+      "predicted": 1,
+      "transaction_amount": 1101.91,
+      "merchant_risk": 8
+    },
+    {
+      "id": 722,
+      "prediction_score": 0.295,
+      "actual": 0,
+      "predicted": 0,
+      "transaction_amount": 1166.43,
+      "merchant_risk": 5
+    },
+    {
+      "id": 723,
+      "prediction_score": 0.765,
+      "actual": 0,
+      "predicted": 1,
+      "transaction_amount": 1853.48,
+      "merchant_risk": 1
+    },
+    {
+      "id": 724,
+      "prediction_score": 0.39,
+      "actual": 0,
+      "predicted": 0,
+      "transaction_amount": 3346.24,
+      "merchant_risk": 9
+    },
+    {
+      "id": 725,
+      "prediction_score": 0.038,
+      "actual": 0,
+      "predicted": 0,
+      "transaction_amount": 4539.55,
+      "merchant_risk": 6
+    },
+    {
+      "id": 726,
+      "prediction_score": 0.113,
+      "actual": 0,
+      "predicted": 0,
+      "transaction_amount": 1946.58,
+      "merchant_risk": 8
+    },
+    {
+      "id": 727,
+      "prediction_score": 0.517,
+      "actual": 0,
+      "predicted": 1,
+      "transaction_amount": 4408.94,
+      "merchant_risk": 1
+    },
+    {
+      "id": 728,
+      "prediction_score": 0.169,
+      "actual": 0,
+      "predicted": 0,
+      "transaction_amount": 4903.14,
+      "merchant_risk": 6
+    },
+    {
+      "id": 729,
+      "prediction_score": 0.09,
+      "actual": 0,
+      "predicted": 0,
+      "transaction_amount": 525.09,
+      "merchant_risk": 9
+    },
+    {
+      "id": 730,
+      "prediction_score": 0.363,
+      "actual": 0,
+      "predicted": 0,
+      "transaction_amount": 3171.5,
+      "merchant_risk": 5
+    },
+    {
+      "id": 731,
+      "prediction_score": 0.138,
+      "actual": 0,
+      "predicted": 0,
+      "transaction_amount": 4176.01,
+      "merchant_risk": 5
+    },
+    {
+      "id": 732,
+      "prediction_score": 0.507,
+      "actual": 0,
+      "predicted": 1,
+      "transaction_amount": 2897.37,
+      "merchant_risk": 10
+    },
+    {
+      "id": 733,
+      "prediction_score": 0.192,
+      "actual": 0,
+      "predicted": 0,
+      "transaction_amount": 877.51,
+      "merchant_risk": 7
+    },
+    {
+      "id": 734,
+      "prediction_score": 0.316,
+      "actual": 0,
+      "predicted": 0,
+      "transaction_amount": 1832.83,
+      "merchant_risk": 2
+    },
+    {
+      "id": 735,
+      "prediction_score": 0.349,
+      "actual": 0,
+      "predicted": 0,
+      "transaction_amount": 2588.15,
+      "merchant_risk": 7
+    },
+    {
+      "id": 736,
+      "prediction_score": 0.043,
+      "actual": 0,
+      "predicted": 0,
+      "transaction_amount": 4863.64,
+      "merchant_risk": 4
+    },
+    {
+      "id": 737,
+      "prediction_score": 0.416,
+      "actual": 0,
+      "predicted": 0,
+      "transaction_amount": 2586.7,
+      "merchant_risk": 6
+    },
+    {
+      "id": 738,
+      "prediction_score": 0.11,
+      "actual": 0,
+      "predicted": 0,
+      "transaction_amount": 4088.01,
+      "merchant_risk": 6
+    },
+    {
+      "id": 739,
+      "prediction_score": 0.686,
+      "actual": 0,
+      "predicted": 1,
+      "transaction_amount": 2439.44,
+      "merchant_risk": 8
+    },
+    {
+      "id": 740,
+      "prediction_score": 0.488,
+      "actual": 0,
+      "predicted": 0,
+      "transaction_amount": 4436.99,
+      "merchant_risk": 1
+    },
+    {
+      "id": 741,
+      "prediction_score": 0.715,
+      "actual": 0,
+      "predicted": 1,
+      "transaction_amount": 2514.17,
+      "merchant_risk": 3
+    },
+    {
+      "id": 742,
+      "prediction_score": 0.022,
+      "actual": 0,
+      "predicted": 0,
+      "transaction_amount": 2205.09,
+      "merchant_risk": 4
+    },
+    {
+      "id": 743,
+      "prediction_score": 0.283,
+      "actual": 0,
+      "predicted": 0,
+      "transaction_amount": 394.67,
+      "merchant_risk": 5
+    },
+    {
+      "id": 744,
+      "prediction_score": 0.383,
+      "actual": 0,
+      "predicted": 0,
+      "transaction_amount": 1065.47,
+      "merchant_risk": 3
+    },
+    {
+      "id": 745,
+      "prediction_score": 0.343,
+      "actual": 0,
+      "predicted": 0,
+      "transaction_amount": 795.21,
+      "merchant_risk": 10
+    },
+    {
+      "id": 746,
+      "prediction_score": 0.553,
+      "actual": 0,
+      "predicted": 1,
+      "transaction_amount": 3589.34,
+      "merchant_risk": 2
+    },
+    {
+      "id": 747,
+      "prediction_score": 0.201,
+      "actual": 0,
+      "predicted": 0,
+      "transaction_amount": 3308.94,
+      "merchant_risk": 7
+    },
+    {
+      "id": 748,
+      "prediction_score": 0.454,
+      "actual": 0,
+      "predicted": 0,
+      "transaction_amount": 4057.75,
+      "merchant_risk": 2
+    },
+    {
+      "id": 749,
+      "prediction_score": 0.486,
+      "actual": 0,
+      "predicted": 0,
+      "transaction_amount": 2412.77,
+      "merchant_risk": 8
+    },
+    {
+      "id": 750,
+      "prediction_score": 0.685,
+      "actual": 0,
+      "predicted": 1,
+      "transaction_amount": 2400.32,
+      "merchant_risk": 10
+    },
+    {
+      "id": 751,
+      "prediction_score": 0.504,
+      "actual": 0,
+      "predicted": 1,
+      "transaction_amount": 814.62,
+      "merchant_risk": 7
+    },
+    {
+      "id": 752,
+      "prediction_score": 0.051,
+      "actual": 0,
+      "predicted": 0,
+      "transaction_amount": 122.01,
+      "merchant_risk": 1
+    },
+    {
+      "id": 753,
+      "prediction_score": 0.376,
+      "actual": 0,
+      "predicted": 0,
+      "transaction_amount": 648.15,
+      "merchant_risk": 10
+    },
+    {
+      "id": 754,
+      "prediction_score": 0.261,
+      "actual": 0,
+      "predicted": 0,
+      "transaction_amount": 814.03,
+      "merchant_risk": 9
+    },
+    {
+      "id": 755,
+      "prediction_score": 0.398,
+      "actual": 0,
+      "predicted": 0,
+      "transaction_amount": 205.56,
+      "merchant_risk": 10
+    },
+    {
+      "id": 756,
+      "prediction_score": 0.058,
+      "actual": 0,
+      "predicted": 0,
+      "transaction_amount": 742.86,
+      "merchant_risk": 3
+    },
+    {
+      "id": 757,
+      "prediction_score": 0.431,
+      "actual": 0,
+      "predicted": 0,
+      "transaction_amount": 1298.72,
+      "merchant_risk": 3
+    },
+    {
+      "id": 758,
+      "prediction_score": 0.226,
+      "actual": 0,
+      "predicted": 0,
+      "transaction_amount": 2588.04,
+      "merchant_risk": 7
+    },
+    {
+      "id": 759,
+      "prediction_score": 0.144,
+      "actual": 0,
+      "predicted": 0,
+      "transaction_amount": 3000.79,
+      "merchant_risk": 10
+    },
+    {
+      "id": 760,
+      "prediction_score": 0.265,
+      "actual": 0,
+      "predicted": 0,
+      "transaction_amount": 3191.74,
+      "merchant_risk": 5
+    },
+    {
+      "id": 761,
+      "prediction_score": 0.225,
+      "actual": 0,
+      "predicted": 0,
+      "transaction_amount": 4736.8,
+      "merchant_risk": 4
+    },
+    {
+      "id": 762,
+      "prediction_score": 0.303,
+      "actual": 0,
+      "predicted": 0,
+      "transaction_amount": 2251.52,
+      "merchant_risk": 8
+    },
+    {
+      "id": 763,
+      "prediction_score": 0.406,
+      "actual": 0,
+      "predicted": 0,
+      "transaction_amount": 4337.84,
+      "merchant_risk": 3
+    },
+    {
+      "id": 764,
+      "prediction_score": 0.381,
+      "actual": 0,
+      "predicted": 0,
+      "transaction_amount": 1104.63,
+      "merchant_risk": 7
+    },
+    {
+      "id": 765,
+      "prediction_score": 0.084,
+      "actual": 0,
+      "predicted": 0,
+      "transaction_amount": 3008.19,
+      "merchant_risk": 10
+    },
+    {
+      "id": 766,
+      "prediction_score": 0.284,
+      "actual": 0,
+      "predicted": 0,
+      "transaction_amount": 4104.06,
+      "merchant_risk": 3
+    },
+    {
+      "id": 767,
+      "prediction_score": 0.675,
+      "actual": 0,
+      "predicted": 1,
+      "transaction_amount": 3119.83,
+      "merchant_risk": 9
+    },
+    {
+      "id": 768,
+      "prediction_score": 0.076,
+      "actual": 0,
+      "predicted": 0,
+      "transaction_amount": 1329.96,
+      "merchant_risk": 6
+    },
+    {
+      "id": 769,
+      "prediction_score": 0.582,
+      "actual": 0,
+      "predicted": 1,
+      "transaction_amount": 4612.54,
+      "merchant_risk": 10
+    },
+    {
+      "id": 770,
+      "prediction_score": 0.161,
+      "actual": 0,
+      "predicted": 0,
+      "transaction_amount": 2957.07,
+      "merchant_risk": 4
+    },
+    {
+      "id": 771,
+      "prediction_score": 0.049,
+      "actual": 0,
+      "predicted": 0,
+      "transaction_amount": 1897.27,
+      "merchant_risk": 3
+    },
+    {
+      "id": 772,
+      "prediction_score": 0.416,
+      "actual": 0,
+      "predicted": 0,
+      "transaction_amount": 551.76,
+      "merchant_risk": 4
+    },
+    {
+      "id": 773,
+      "prediction_score": 0.465,
+      "actual": 0,
+      "predicted": 0,
+      "transaction_amount": 2618.33,
+      "merchant_risk": 9
+    },
+    {
+      "id": 774,
+      "prediction_score": 0.156,
+      "actual": 0,
+      "predicted": 0,
+      "transaction_amount": 3425.0,
+      "merchant_risk": 3
+    },
+    {
+      "id": 775,
+      "prediction_score": 0.468,
+      "actual": 0,
+      "predicted": 0,
+      "transaction_amount": 3031.5,
+      "merchant_risk": 3
+    },
+    {
+      "id": 776,
+      "prediction_score": 0.415,
+      "actual": 0,
+      "predicted": 0,
+      "transaction_amount": 2384.59,
+      "merchant_risk": 10
+    },
+    {
+      "id": 777,
+      "prediction_score": 0.388,
+      "actual": 0,
+      "predicted": 0,
+      "transaction_amount": 3003.07,
+      "merchant_risk": 9
+    },
+    {
+      "id": 778,
+      "prediction_score": 0.307,
+      "actual": 0,
+      "predicted": 0,
+      "transaction_amount": 2521.61,
+      "merchant_risk": 2
+    },
+    {
+      "id": 779,
+      "prediction_score": 0.785,
+      "actual": 0,
+      "predicted": 1,
+      "transaction_amount": 475.02,
+      "merchant_risk": 3
+    },
+    {
+      "id": 780,
+      "prediction_score": 0.305,
+      "actual": 0,
+      "predicted": 0,
+      "transaction_amount": 4510.9,
+      "merchant_risk": 9
+    },
+    {
+      "id": 781,
+      "prediction_score": 0.471,
+      "actual": 0,
+      "predicted": 0,
+      "transaction_amount": 4139.33,
+      "merchant_risk": 7
+    },
+    {
+      "id": 782,
+      "prediction_score": 0.053,
+      "actual": 0,
+      "predicted": 0,
+      "transaction_amount": 2615.0,
+      "merchant_risk": 6
+    },
+    {
+      "id": 783,
+      "prediction_score": 0.602,
+      "actual": 0,
+      "predicted": 1,
+      "transaction_amount": 4375.37,
+      "merchant_risk": 9
+    },
+    {
+      "id": 784,
+      "prediction_score": 0.245,
+      "actual": 0,
+      "predicted": 0,
+      "transaction_amount": 2150.49,
+      "merchant_risk": 8
+    },
+    {
+      "id": 785,
+      "prediction_score": 0.126,
+      "actual": 0,
+      "predicted": 0,
+      "transaction_amount": 3949.88,
+      "merchant_risk": 7
+    },
+    {
+      "id": 786,
+      "prediction_score": 0.748,
+      "actual": 0,
+      "predicted": 1,
+      "transaction_amount": 1759.08,
+      "merchant_risk": 10
+    },
+    {
+      "id": 787,
+      "prediction_score": 0.102,
+      "actual": 0,
+      "predicted": 0,
+      "transaction_amount": 497.61,
+      "merchant_risk": 3
+    },
+    {
+      "id": 788,
+      "prediction_score": 0.112,
+      "actual": 0,
+      "predicted": 0,
+      "transaction_amount": 1280.04,
+      "merchant_risk": 4
+    },
+    {
+      "id": 789,
+      "prediction_score": 0.292,
+      "actual": 0,
+      "predicted": 0,
+      "transaction_amount": 4551.33,
+      "merchant_risk": 2
+    },
+    {
+      "id": 790,
+      "prediction_score": 0.129,
+      "actual": 0,
+      "predicted": 0,
+      "transaction_amount": 1423.5,
+      "merchant_risk": 9
+    },
+    {
+      "id": 791,
+      "prediction_score": 0.252,
+      "actual": 0,
+      "predicted": 0,
+      "transaction_amount": 2049.15,
+      "merchant_risk": 4
+    },
+    {
+      "id": 792,
+      "prediction_score": 0.343,
+      "actual": 0,
+      "predicted": 0,
+      "transaction_amount": 37.29,
+      "merchant_risk": 1
+    },
+    {
+      "id": 793,
+      "prediction_score": 0.131,
+      "actual": 0,
+      "predicted": 0,
+      "transaction_amount": 2894.16,
+      "merchant_risk": 2
+    },
+    {
+      "id": 794,
+      "prediction_score": 0.189,
+      "actual": 0,
+      "predicted": 0,
+      "transaction_amount": 2603.61,
+      "merchant_risk": 7
+    },
+    {
+      "id": 795,
+      "prediction_score": 0.408,
+      "actual": 0,
+      "predicted": 0,
+      "transaction_amount": 3276.19,
+      "merchant_risk": 6
+    },
+    {
+      "id": 796,
+      "prediction_score": 0.017,
+      "actual": 0,
+      "predicted": 0,
+      "transaction_amount": 2050.14,
+      "merchant_risk": 2
+    },
+    {
+      "id": 797,
+      "prediction_score": 0.32,
+      "actual": 0,
+      "predicted": 0,
+      "transaction_amount": 782.35,
+      "merchant_risk": 10
+    },
+    {
+      "id": 798,
+      "prediction_score": 0.282,
+      "actual": 0,
+      "predicted": 0,
+      "transaction_amount": 1275.63,
+      "merchant_risk": 9
+    },
+    {
+      "id": 799,
+      "prediction_score": 0.391,
+      "actual": 0,
+      "predicted": 0,
+      "transaction_amount": 2123.57,
+      "merchant_risk": 6
+    },
+    {
+      "id": 800,
+      "prediction_score": 0.737,
+      "actual": 0,
+      "predicted": 1,
+      "transaction_amount": 3063.28,
+      "merchant_risk": 7
+    },
+    {
+      "id": 801,
+      "prediction_score": 0.373,
+      "actual": 0,
+      "predicted": 0,
+      "transaction_amount": 3777.31,
+      "merchant_risk": 7
+    },
+    {
+      "id": 802,
+      "prediction_score": 0.444,
+      "actual": 0,
+      "predicted": 0,
+      "transaction_amount": 2765.0,
+      "merchant_risk": 9
+    },
+    {
+      "id": 803,
+      "prediction_score": 0.611,
+      "actual": 0,
+      "predicted": 1,
+      "transaction_amount": 2417.51,
+      "merchant_risk": 6
+    },
+    {
+      "id": 804,
+      "prediction_score": 0.753,
+      "actual": 0,
+      "predicted": 1,
+      "transaction_amount": 2799.88,
+      "merchant_risk": 8
+    },
+    {
+      "id": 805,
+      "prediction_score": 0.037,
+      "actual": 0,
+      "predicted": 0,
+      "transaction_amount": 1276.35,
+      "merchant_risk": 5
+    },
+    {
+      "id": 806,
+      "prediction_score": 0.104,
+      "actual": 0,
+      "predicted": 0,
+      "transaction_amount": 2892.48,
+      "merchant_risk": 7
+    },
+    {
+      "id": 807,
+      "prediction_score": 0.038,
+      "actual": 0,
+      "predicted": 0,
+      "transaction_amount": 3681.55,
+      "merchant_risk": 2
+    },
+    {
+      "id": 808,
+      "prediction_score": 0.711,
+      "actual": 0,
+      "predicted": 1,
+      "transaction_amount": 3741.59,
+      "merchant_risk": 8
+    },
+    {
+      "id": 809,
+      "prediction_score": 0.265,
+      "actual": 0,
+      "predicted": 0,
+      "transaction_amount": 3917.72,
+      "merchant_risk": 3
+    },
+    {
+      "id": 810,
+      "prediction_score": 0.052,
+      "actual": 0,
+      "predicted": 0,
+      "transaction_amount": 510.39,
+      "merchant_risk": 9
+    },
+    {
+      "id": 811,
+      "prediction_score": 0.941,
+      "actual": 1,
+      "predicted": 1,
+      "transaction_amount": 2008.8,
+      "merchant_risk": 6
+    },
+    {
+      "id": 812,
+      "prediction_score": 0.922,
+      "actual": 0,
+      "predicted": 1,
+      "transaction_amount": 4006.26,
+      "merchant_risk": 10
+    },
+    {
+      "id": 813,
+      "prediction_score": 0.528,
+      "actual": 0,
+      "predicted": 1,
+      "transaction_amount": 3488.32,
+      "merchant_risk": 1
+    },
+    {
+      "id": 814,
+      "prediction_score": 0.485,
+      "actual": 0,
+      "predicted": 0,
+      "transaction_amount": 812.08,
+      "merchant_risk": 1
+    },
+    {
+      "id": 815,
+      "prediction_score": 0.398,
+      "actual": 0,
+      "predicted": 0,
+      "transaction_amount": 4023.8,
+      "merchant_risk": 3
+    },
+    {
+      "id": 816,
+      "prediction_score": 0.635,
+      "actual": 0,
+      "predicted": 1,
+      "transaction_amount": 2363.63,
+      "merchant_risk": 10
+    },
+    {
+      "id": 817,
+      "prediction_score": 0.25,
+      "actual": 0,
+      "predicted": 0,
+      "transaction_amount": 2182.53,
+      "merchant_risk": 2
+    },
+    {
+      "id": 818,
+      "prediction_score": 0.71,
+      "actual": 0,
+      "predicted": 1,
+      "transaction_amount": 1322.83,
+      "merchant_risk": 6
+    },
+    {
+      "id": 819,
+      "prediction_score": 0.201,
+      "actual": 0,
+      "predicted": 0,
+      "transaction_amount": 409.4,
+      "merchant_risk": 1
+    },
+    {
+      "id": 820,
+      "prediction_score": 0.124,
+      "actual": 0,
+      "predicted": 0,
+      "transaction_amount": 3625.23,
+      "merchant_risk": 7
+    },
+    {
+      "id": 821,
+      "prediction_score": 0.435,
+      "actual": 0,
+      "predicted": 0,
+      "transaction_amount": 3073.69,
+      "merchant_risk": 9
+    },
+    {
+      "id": 822,
+      "prediction_score": 0.293,
+      "actual": 0,
+      "predicted": 0,
+      "transaction_amount": 1439.48,
+      "merchant_risk": 10
+    },
+    {
+      "id": 823,
+      "prediction_score": 0.005,
+      "actual": 0,
+      "predicted": 0,
+      "transaction_amount": 296.74,
+      "merchant_risk": 3
+    },
+    {
+      "id": 824,
+      "prediction_score": 0.214,
+      "actual": 0,
+      "predicted": 0,
+      "transaction_amount": 3205.05,
+      "merchant_risk": 8
+    },
+    {
+      "id": 825,
+      "prediction_score": 0.915,
+      "actual": 0,
+      "predicted": 1,
+      "transaction_amount": 63.44,
+      "merchant_risk": 9
+    },
+    {
+      "id": 826,
+      "prediction_score": 0.392,
+      "actual": 0,
+      "predicted": 0,
+      "transaction_amount": 1437.17,
+      "merchant_risk": 1
+    },
+    {
+      "id": 827,
+      "prediction_score": 0.166,
+      "actual": 0,
+      "predicted": 0,
+      "transaction_amount": 3921.96,
+      "merchant_risk": 9
+    },
+    {
+      "id": 828,
+      "prediction_score": 0.166,
+      "actual": 0,
+      "predicted": 0,
+      "transaction_amount": 2583.91,
+      "merchant_risk": 4
+    },
+    {
+      "id": 829,
+      "prediction_score": 0.646,
+      "actual": 0,
+      "predicted": 1,
+      "transaction_amount": 3079.8,
+      "merchant_risk": 1
+    },
+    {
+      "id": 830,
+      "prediction_score": 0.518,
+      "actual": 0,
+      "predicted": 1,
+      "transaction_amount": 1805.1,
+      "merchant_risk": 1
+    },
+    {
+      "id": 831,
+      "prediction_score": 0.155,
+      "actual": 0,
+      "predicted": 0,
+      "transaction_amount": 4878.47,
+      "merchant_risk": 2
+    },
+    {
+      "id": 832,
+      "prediction_score": 0.019,
+      "actual": 0,
+      "predicted": 0,
+      "transaction_amount": 4984.12,
+      "merchant_risk": 7
+    },
+    {
+      "id": 833,
+      "prediction_score": 0.131,
+      "actual": 0,
+      "predicted": 0,
+      "transaction_amount": 1772.11,
+      "merchant_risk": 7
+    },
+    {
+      "id": 834,
+      "prediction_score": 0.521,
+      "actual": 0,
+      "predicted": 1,
+      "transaction_amount": 2033.2,
+      "merchant_risk": 4
+    },
+    {
+      "id": 835,
+      "prediction_score": 0.091,
+      "actual": 0,
+      "predicted": 0,
+      "transaction_amount": 2593.54,
+      "merchant_risk": 2
+    },
+    {
+      "id": 836,
+      "prediction_score": 0.513,
+      "actual": 0,
+      "predicted": 1,
+      "transaction_amount": 4596.7,
+      "merchant_risk": 9
+    },
+    {
+      "id": 837,
+      "prediction_score": 0.237,
+      "actual": 0,
+      "predicted": 0,
+      "transaction_amount": 1429.62,
+      "merchant_risk": 9
+    },
+    {
+      "id": 838,
+      "prediction_score": 0.061,
+      "actual": 0,
+      "predicted": 0,
+      "transaction_amount": 4575.89,
+      "merchant_risk": 6
+    },
+    {
+      "id": 839,
+      "prediction_score": 0.195,
+      "actual": 0,
+      "predicted": 0,
+      "transaction_amount": 1743.9,
+      "merchant_risk": 5
+    },
+    {
+      "id": 840,
+      "prediction_score": 0.597,
+      "actual": 0,
+      "predicted": 1,
+      "transaction_amount": 1139.21,
+      "merchant_risk": 4
+    },
+    {
+      "id": 841,
+      "prediction_score": 0.234,
+      "actual": 0,
+      "predicted": 0,
+      "transaction_amount": 2279.25,
+      "merchant_risk": 7
+    },
+    {
+      "id": 842,
+      "prediction_score": 0.449,
+      "actual": 0,
+      "predicted": 0,
+      "transaction_amount": 2878.78,
+      "merchant_risk": 5
+    },
+    {
+      "id": 843,
+      "prediction_score": 0.47,
+      "actual": 0,
+      "predicted": 0,
+      "transaction_amount": 883.42,
+      "merchant_risk": 9
+    },
+    {
+      "id": 844,
+      "prediction_score": 0.072,
+      "actual": 0,
+      "predicted": 0,
+      "transaction_amount": 541.26,
+      "merchant_risk": 2
+    },
+    {
+      "id": 845,
+      "prediction_score": 0.198,
+      "actual": 0,
+      "predicted": 0,
+      "transaction_amount": 2520.81,
+      "merchant_risk": 6
+    },
+    {
+      "id": 846,
+      "prediction_score": 0.212,
+      "actual": 0,
+      "predicted": 0,
+      "transaction_amount": 4735.61,
+      "merchant_risk": 9
+    },
+    {
+      "id": 847,
+      "prediction_score": 0.128,
+      "actual": 0,
+      "predicted": 0,
+      "transaction_amount": 4783.98,
+      "merchant_risk": 9
+    },
+    {
+      "id": 848,
+      "prediction_score": 0.228,
+      "actual": 0,
+      "predicted": 0,
+      "transaction_amount": 4067.61,
+      "merchant_risk": 10
+    },
+    {
+      "id": 849,
+      "prediction_score": 0.418,
+      "actual": 0,
+      "predicted": 0,
+      "transaction_amount": 1258.21,
+      "merchant_risk": 8
+    },
+    {
+      "id": 850,
+      "prediction_score": 0.006,
+      "actual": 0,
+      "predicted": 0,
+      "transaction_amount": 4830.62,
+      "merchant_risk": 10
+    },
+    {
+      "id": 851,
+      "prediction_score": 0.142,
+      "actual": 0,
+      "predicted": 0,
+      "transaction_amount": 2423.31,
+      "merchant_risk": 4
+    },
+    {
+      "id": 852,
+      "prediction_score": 0.334,
+      "actual": 0,
+      "predicted": 0,
+      "transaction_amount": 3789.79,
+      "merchant_risk": 8
+    },
+    {
+      "id": 853,
+      "prediction_score": 0.062,
+      "actual": 0,
+      "predicted": 0,
+      "transaction_amount": 3411.16,
+      "merchant_risk": 10
+    },
+    {
+      "id": 854,
+      "prediction_score": 0.237,
+      "actual": 0,
+      "predicted": 0,
+      "transaction_amount": 4311.5,
+      "merchant_risk": 8
+    },
+    {
+      "id": 855,
+      "prediction_score": 0.154,
+      "actual": 0,
+      "predicted": 0,
+      "transaction_amount": 590.18,
+      "merchant_risk": 2
+    },
+    {
+      "id": 856,
+      "prediction_score": 0.466,
+      "actual": 0,
+      "predicted": 0,
+      "transaction_amount": 1919.54,
+      "merchant_risk": 4
+    },
+    {
+      "id": 857,
+      "prediction_score": 0.508,
+      "actual": 0,
+      "predicted": 1,
+      "transaction_amount": 3387.8,
+      "merchant_risk": 4
+    },
+    {
+      "id": 858,
+      "prediction_score": 0.15,
+      "actual": 0,
+      "predicted": 0,
+      "transaction_amount": 4002.81,
+      "merchant_risk": 7
+    },
+    {
+      "id": 859,
+      "prediction_score": 0.117,
+      "actual": 0,
+      "predicted": 0,
+      "transaction_amount": 4777.67,
+      "merchant_risk": 9
+    },
+    {
+      "id": 860,
+      "prediction_score": 0.163,
+      "actual": 0,
+      "predicted": 0,
+      "transaction_amount": 2682.9,
+      "merchant_risk": 5
+    },
+    {
+      "id": 861,
+      "prediction_score": 0.134,
+      "actual": 0,
+      "predicted": 0,
+      "transaction_amount": 1248.81,
+      "merchant_risk": 2
+    },
+    {
+      "id": 862,
+      "prediction_score": 0.759,
+      "actual": 0,
+      "predicted": 1,
+      "transaction_amount": 2000.66,
+      "merchant_risk": 6
+    },
+    {
+      "id": 863,
+      "prediction_score": 0.406,
+      "actual": 0,
+      "predicted": 0,
+      "transaction_amount": 389.38,
+      "merchant_risk": 3
+    },
+    {
+      "id": 864,
+      "prediction_score": 0.526,
+      "actual": 1,
+      "predicted": 1,
+      "transaction_amount": 2388.01,
+      "merchant_risk": 6
+    },
+    {
+      "id": 865,
+      "prediction_score": 0.387,
+      "actual": 0,
+      "predicted": 0,
+      "transaction_amount": 1100.65,
+      "merchant_risk": 10
+    },
+    {
+      "id": 866,
+      "prediction_score": 0.239,
+      "actual": 0,
+      "predicted": 0,
+      "transaction_amount": 1352.69,
+      "merchant_risk": 4
+    },
+    {
+      "id": 867,
+      "prediction_score": 0.323,
+      "actual": 0,
+      "predicted": 0,
+      "transaction_amount": 2500.01,
+      "merchant_risk": 4
+    },
+    {
+      "id": 868,
+      "prediction_score": 0.543,
+      "actual": 0,
+      "predicted": 1,
+      "transaction_amount": 1181.96,
+      "merchant_risk": 4
+    },
+    {
+      "id": 869,
+      "prediction_score": 0.367,
+      "actual": 0,
+      "predicted": 0,
+      "transaction_amount": 4364.99,
+      "merchant_risk": 4
+    },
+    {
+      "id": 870,
+      "prediction_score": 0.417,
+      "actual": 0,
+      "predicted": 0,
+      "transaction_amount": 1153.75,
+      "merchant_risk": 4
+    },
+    {
+      "id": 871,
+      "prediction_score": 0.11,
+      "actual": 0,
+      "predicted": 0,
+      "transaction_amount": 4183.31,
+      "merchant_risk": 6
+    },
+    {
+      "id": 872,
+      "prediction_score": 0.232,
+      "actual": 0,
+      "predicted": 0,
+      "transaction_amount": 788.42,
+      "merchant_risk": 2
+    },
+    {
+      "id": 873,
+      "prediction_score": 0.28,
+      "actual": 0,
+      "predicted": 0,
+      "transaction_amount": 608.19,
+      "merchant_risk": 2
+    },
+    {
+      "id": 874,
+      "prediction_score": 0.346,
+      "actual": 0,
+      "predicted": 0,
+      "transaction_amount": 3382.3,
+      "merchant_risk": 8
+    },
+    {
+      "id": 875,
+      "prediction_score": 0.304,
+      "actual": 0,
+      "predicted": 0,
+      "transaction_amount": 3073.0,
+      "merchant_risk": 9
+    },
+    {
+      "id": 876,
+      "prediction_score": 0.381,
+      "actual": 0,
+      "predicted": 0,
+      "transaction_amount": 4790.39,
+      "merchant_risk": 8
+    },
+    {
+      "id": 877,
+      "prediction_score": 0.382,
+      "actual": 0,
+      "predicted": 0,
+      "transaction_amount": 1862.27,
+      "merchant_risk": 6
+    },
+    {
+      "id": 878,
+      "prediction_score": 0.324,
+      "actual": 0,
+      "predicted": 0,
+      "transaction_amount": 2466.78,
+      "merchant_risk": 10
+    },
+    {
+      "id": 879,
+      "prediction_score": 0.374,
+      "actual": 0,
+      "predicted": 0,
+      "transaction_amount": 4345.16,
+      "merchant_risk": 8
+    },
+    {
+      "id": 880,
+      "prediction_score": 0.372,
+      "actual": 0,
+      "predicted": 0,
+      "transaction_amount": 922.53,
+      "merchant_risk": 9
+    },
+    {
+      "id": 881,
+      "prediction_score": 0.252,
+      "actual": 0,
+      "predicted": 0,
+      "transaction_amount": 1408.53,
+      "merchant_risk": 4
+    },
+    {
+      "id": 882,
+      "prediction_score": 0.593,
+      "actual": 0,
+      "predicted": 1,
+      "transaction_amount": 3753.35,
+      "merchant_risk": 3
+    },
+    {
+      "id": 883,
+      "prediction_score": 0.246,
+      "actual": 0,
+      "predicted": 0,
+      "transaction_amount": 280.2,
+      "merchant_risk": 7
+    },
+    {
+      "id": 884,
+      "prediction_score": 0.85,
+      "actual": 0,
+      "predicted": 1,
+      "transaction_amount": 2396.82,
+      "merchant_risk": 9
+    },
+    {
+      "id": 885,
+      "prediction_score": 0.033,
+      "actual": 0,
+      "predicted": 0,
+      "transaction_amount": 172.49,
+      "merchant_risk": 6
+    },
+    {
+      "id": 886,
+      "prediction_score": 0.289,
+      "actual": 0,
+      "predicted": 0,
+      "transaction_amount": 1974.65,
+      "merchant_risk": 3
+    },
+    {
+      "id": 887,
+      "prediction_score": 0.499,
+      "actual": 0,
+      "predicted": 0,
+      "transaction_amount": 2291.41,
+      "merchant_risk": 2
+    },
+    {
+      "id": 888,
+      "prediction_score": 0.232,
+      "actual": 0,
+      "predicted": 0,
+      "transaction_amount": 3494.24,
+      "merchant_risk": 8
+    },
+    {
+      "id": 889,
+      "prediction_score": 0.089,
+      "actual": 0,
+      "predicted": 0,
+      "transaction_amount": 1585.1,
+      "merchant_risk": 1
+    },
+    {
+      "id": 890,
+      "prediction_score": 0.269,
+      "actual": 0,
+      "predicted": 0,
+      "transaction_amount": 68.98,
+      "merchant_risk": 4
+    },
+    {
+      "id": 891,
+      "prediction_score": 0.225,
+      "actual": 0,
+      "predicted": 0,
+      "transaction_amount": 1903.35,
+      "merchant_risk": 2
+    },
+    {
+      "id": 892,
+      "prediction_score": 0.245,
+      "actual": 0,
+      "predicted": 0,
+      "transaction_amount": 1633.93,
+      "merchant_risk": 10
+    },
+    {
+      "id": 893,
+      "prediction_score": 0.665,
+      "actual": 0,
+      "predicted": 1,
+      "transaction_amount": 4310.59,
+      "merchant_risk": 3
+    },
+    {
+      "id": 894,
+      "prediction_score": 0.503,
+      "actual": 0,
+      "predicted": 1,
+      "transaction_amount": 2747.33,
+      "merchant_risk": 4
+    },
+    {
+      "id": 895,
+      "prediction_score": 0.083,
+      "actual": 0,
+      "predicted": 0,
+      "transaction_amount": 1354.35,
+      "merchant_risk": 10
+    },
+    {
+      "id": 896,
+      "prediction_score": 0.662,
+      "actual": 0,
+      "predicted": 1,
+      "transaction_amount": 1722.05,
+      "merchant_risk": 3
+    },
+    {
+      "id": 897,
+      "prediction_score": 0.304,
+      "actual": 0,
+      "predicted": 0,
+      "transaction_amount": 2498.86,
+      "merchant_risk": 4
+    },
+    {
+      "id": 898,
+      "prediction_score": 0.522,
+      "actual": 0,
+      "predicted": 1,
+      "transaction_amount": 2101.27,
+      "merchant_risk": 6
+    },
+    {
+      "id": 899,
+      "prediction_score": 0.383,
+      "actual": 0,
+      "predicted": 0,
+      "transaction_amount": 1831.74,
+      "merchant_risk": 7
+    },
+    {
+      "id": 900,
+      "prediction_score": 0.062,
+      "actual": 0,
+      "predicted": 0,
+      "transaction_amount": 1405.35,
+      "merchant_risk": 3
+    },
+    {
+      "id": 901,
+      "prediction_score": 0.628,
+      "actual": 0,
+      "predicted": 1,
+      "transaction_amount": 2861.33,
+      "merchant_risk": 10
+    },
+    {
+      "id": 902,
+      "prediction_score": 0.371,
+      "actual": 0,
+      "predicted": 0,
+      "transaction_amount": 3433.2,
+      "merchant_risk": 2
+    },
+    {
+      "id": 903,
+      "prediction_score": 0.448,
+      "actual": 0,
+      "predicted": 0,
+      "transaction_amount": 3606.87,
+      "merchant_risk": 4
+    },
+    {
+      "id": 904,
+      "prediction_score": 0.256,
+      "actual": 0,
+      "predicted": 0,
+      "transaction_amount": 2781.15,
+      "merchant_risk": 7
+    },
+    {
+      "id": 905,
+      "prediction_score": 0.028,
+      "actual": 0,
+      "predicted": 0,
+      "transaction_amount": 988.36,
+      "merchant_risk": 3
+    },
+    {
+      "id": 906,
+      "prediction_score": 0.48,
+      "actual": 0,
+      "predicted": 0,
+      "transaction_amount": 2370.21,
+      "merchant_risk": 1
+    },
+    {
+      "id": 907,
+      "prediction_score": 0.223,
+      "actual": 0,
+      "predicted": 0,
+      "transaction_amount": 891.27,
+      "merchant_risk": 8
+    },
+    {
+      "id": 908,
+      "prediction_score": 0.217,
+      "actual": 0,
+      "predicted": 0,
+      "transaction_amount": 681.01,
+      "merchant_risk": 9
+    },
+    {
+      "id": 909,
+      "prediction_score": 0.395,
+      "actual": 0,
+      "predicted": 0,
+      "transaction_amount": 2674.57,
+      "merchant_risk": 6
+    },
+    {
+      "id": 910,
+      "prediction_score": 0.327,
+      "actual": 0,
+      "predicted": 0,
+      "transaction_amount": 3928.81,
+      "merchant_risk": 5
+    },
+    {
+      "id": 911,
+      "prediction_score": 0.417,
+      "actual": 0,
+      "predicted": 0,
+      "transaction_amount": 1262.36,
+      "merchant_risk": 10
+    },
+    {
+      "id": 912,
+      "prediction_score": 0.529,
+      "actual": 0,
+      "predicted": 1,
+      "transaction_amount": 248.07,
+      "merchant_risk": 2
+    },
+    {
+      "id": 913,
+      "prediction_score": 0.103,
+      "actual": 0,
+      "predicted": 0,
+      "transaction_amount": 3455.81,
+      "merchant_risk": 1
+    },
+    {
+      "id": 914,
+      "prediction_score": 0.498,
+      "actual": 0,
+      "predicted": 0,
+      "transaction_amount": 1085.18,
+      "merchant_risk": 5
+    },
+    {
+      "id": 915,
+      "prediction_score": 0.44,
+      "actual": 0,
+      "predicted": 0,
+      "transaction_amount": 2387.93,
+      "merchant_risk": 2
+    },
+    {
+      "id": 916,
+      "prediction_score": 0.539,
+      "actual": 0,
+      "predicted": 1,
+      "transaction_amount": 2254.78,
+      "merchant_risk": 6
+    },
+    {
+      "id": 917,
+      "prediction_score": 0.197,
+      "actual": 0,
+      "predicted": 0,
+      "transaction_amount": 1306.25,
+      "merchant_risk": 6
+    },
+    {
+      "id": 918,
+      "prediction_score": 0.652,
+      "actual": 0,
+      "predicted": 1,
+      "transaction_amount": 2806.15,
+      "merchant_risk": 5
+    },
+    {
+      "id": 919,
+      "prediction_score": 0.039,
+      "actual": 0,
+      "predicted": 0,
+      "transaction_amount": 1727.26,
+      "merchant_risk": 7
+    },
+    {
+      "id": 920,
+      "prediction_score": 0.082,
+      "actual": 0,
+      "predicted": 0,
+      "transaction_amount": 614.98,
+      "merchant_risk": 10
+    },
+    {
+      "id": 921,
+      "prediction_score": 0.377,
+      "actual": 0,
+      "predicted": 0,
+      "transaction_amount": 1002.8,
+      "merchant_risk": 10
+    },
+    {
+      "id": 922,
+      "prediction_score": 0.278,
+      "actual": 0,
+      "predicted": 0,
+      "transaction_amount": 3252.83,
+      "merchant_risk": 9
+    },
+    {
+      "id": 923,
+      "prediction_score": 0.021,
+      "actual": 0,
+      "predicted": 0,
+      "transaction_amount": 880.95,
+      "merchant_risk": 5
+    },
+    {
+      "id": 924,
+      "prediction_score": 0.312,
+      "actual": 0,
+      "predicted": 0,
+      "transaction_amount": 1781.99,
+      "merchant_risk": 9
+    },
+    {
+      "id": 925,
+      "prediction_score": 0.452,
+      "actual": 0,
+      "predicted": 0,
+      "transaction_amount": 2442.59,
+      "merchant_risk": 8
+    },
+    {
+      "id": 926,
+      "prediction_score": 0.445,
+      "actual": 0,
+      "predicted": 0,
+      "transaction_amount": 4449.27,
+      "merchant_risk": 7
+    },
+    {
+      "id": 927,
+      "prediction_score": 0.454,
+      "actual": 0,
+      "predicted": 0,
+      "transaction_amount": 3072.18,
+      "merchant_risk": 8
+    },
+    {
+      "id": 928,
+      "prediction_score": 0.144,
+      "actual": 0,
+      "predicted": 0,
+      "transaction_amount": 3162.24,
+      "merchant_risk": 3
+    },
+    {
+      "id": 929,
+      "prediction_score": 0.524,
+      "actual": 0,
+      "predicted": 1,
+      "transaction_amount": 4342.61,
+      "merchant_risk": 6
+    },
+    {
+      "id": 930,
+      "prediction_score": 0.378,
+      "actual": 0,
+      "predicted": 0,
+      "transaction_amount": 2114.86,
+      "merchant_risk": 10
+    },
+    {
+      "id": 931,
+      "prediction_score": 0.285,
+      "actual": 0,
+      "predicted": 0,
+      "transaction_amount": 2862.47,
+      "merchant_risk": 2
+    },
+    {
+      "id": 932,
+      "prediction_score": 0.634,
+      "actual": 0,
+      "predicted": 1,
+      "transaction_amount": 404.77,
+      "merchant_risk": 6
+    },
+    {
+      "id": 933,
+      "prediction_score": 0.805,
+      "actual": 0,
+      "predicted": 1,
+      "transaction_amount": 1148.81,
+      "merchant_risk": 6
+    },
+    {
+      "id": 934,
+      "prediction_score": 0.342,
+      "actual": 0,
+      "predicted": 0,
+      "transaction_amount": 3268.54,
+      "merchant_risk": 5
+    },
+    {
+      "id": 935,
+      "prediction_score": 0.648,
+      "actual": 0,
+      "predicted": 1,
+      "transaction_amount": 3030.87,
+      "merchant_risk": 7
+    },
+    {
+      "id": 936,
+      "prediction_score": 0.184,
+      "actual": 0,
+      "predicted": 0,
+      "transaction_amount": 1363.53,
+      "merchant_risk": 8
+    },
+    {
+      "id": 937,
+      "prediction_score": 0.777,
+      "actual": 0,
+      "predicted": 1,
+      "transaction_amount": 3907.06,
+      "merchant_risk": 6
+    },
+    {
+      "id": 938,
+      "prediction_score": 0.224,
+      "actual": 0,
+      "predicted": 0,
+      "transaction_amount": 3742.0,
+      "merchant_risk": 9
+    },
+    {
+      "id": 939,
+      "prediction_score": 0.105,
+      "actual": 0,
+      "predicted": 0,
+      "transaction_amount": 4827.97,
+      "merchant_risk": 7
+    },
+    {
+      "id": 940,
+      "prediction_score": 0.306,
+      "actual": 0,
+      "predicted": 0,
+      "transaction_amount": 844.92,
+      "merchant_risk": 1
+    },
+    {
+      "id": 941,
+      "prediction_score": 0.453,
+      "actual": 0,
+      "predicted": 0,
+      "transaction_amount": 633.95,
+      "merchant_risk": 4
+    },
+    {
+      "id": 942,
+      "prediction_score": 0.038,
+      "actual": 0,
+      "predicted": 0,
+      "transaction_amount": 3313.49,
+      "merchant_risk": 2
+    },
+    {
+      "id": 943,
+      "prediction_score": 0.192,
+      "actual": 0,
+      "predicted": 0,
+      "transaction_amount": 1060.75,
+      "merchant_risk": 7
+    },
+    {
+      "id": 944,
+      "prediction_score": 0.315,
+      "actual": 0,
+      "predicted": 0,
+      "transaction_amount": 524.02,
+      "merchant_risk": 2
+    },
+    {
+      "id": 945,
+      "prediction_score": 0.27,
+      "actual": 0,
+      "predicted": 0,
+      "transaction_amount": 4684.6,
+      "merchant_risk": 8
+    },
+    {
+      "id": 946,
+      "prediction_score": 0.39,
+      "actual": 1,
+      "predicted": 0,
+      "transaction_amount": 2746.68,
+      "merchant_risk": 1
+    },
+    {
+      "id": 947,
+      "prediction_score": 0.577,
+      "actual": 0,
+      "predicted": 1,
+      "transaction_amount": 3856.96,
+      "merchant_risk": 9
+    },
+    {
+      "id": 948,
+      "prediction_score": 0.029,
+      "actual": 0,
+      "predicted": 0,
+      "transaction_amount": 3827.33,
+      "merchant_risk": 2
+    },
+    {
+      "id": 949,
+      "prediction_score": 0.591,
+      "actual": 0,
+      "predicted": 1,
+      "transaction_amount": 528.6,
+      "merchant_risk": 10
+    },
+    {
+      "id": 950,
+      "prediction_score": 0.247,
+      "actual": 0,
+      "predicted": 0,
+      "transaction_amount": 784.82,
+      "merchant_risk": 7
+    },
+    {
+      "id": 951,
+      "prediction_score": 0.244,
+      "actual": 0,
+      "predicted": 0,
+      "transaction_amount": 1553.76,
+      "merchant_risk": 4
+    },
+    {
+      "id": 952,
+      "prediction_score": 0.038,
+      "actual": 0,
+      "predicted": 0,
+      "transaction_amount": 3690.59,
+      "merchant_risk": 8
+    },
+    {
+      "id": 953,
+      "prediction_score": 0.063,
+      "actual": 0,
+      "predicted": 0,
+      "transaction_amount": 3136.14,
+      "merchant_risk": 3
+    },
+    {
+      "id": 954,
+      "prediction_score": 0.064,
+      "actual": 0,
+      "predicted": 0,
+      "transaction_amount": 2638.44,
+      "merchant_risk": 3
+    },
+    {
+      "id": 955,
+      "prediction_score": 0.2,
+      "actual": 0,
+      "predicted": 0,
+      "transaction_amount": 152.57,
+      "merchant_risk": 6
+    },
+    {
+      "id": 956,
+      "prediction_score": 0.121,
+      "actual": 0,
+      "predicted": 0,
+      "transaction_amount": 4303.24,
+      "merchant_risk": 6
+    },
+    {
+      "id": 957,
+      "prediction_score": 0.028,
+      "actual": 0,
+      "predicted": 0,
+      "transaction_amount": 4322.56,
+      "merchant_risk": 8
+    },
+    {
+      "id": 958,
+      "prediction_score": 0.119,
+      "actual": 0,
+      "predicted": 0,
+      "transaction_amount": 4875.16,
+      "merchant_risk": 9
+    },
+    {
+      "id": 959,
+      "prediction_score": 0.401,
+      "actual": 0,
+      "predicted": 0,
+      "transaction_amount": 4674.94,
+      "merchant_risk": 9
+    },
+    {
+      "id": 960,
+      "prediction_score": 0.149,
+      "actual": 0,
+      "predicted": 0,
+      "transaction_amount": 2229.78,
+      "merchant_risk": 9
+    },
+    {
+      "id": 961,
+      "prediction_score": 0.217,
+      "actual": 0,
+      "predicted": 0,
+      "transaction_amount": 893.41,
+      "merchant_risk": 10
+    },
+    {
+      "id": 962,
+      "prediction_score": 0.187,
+      "actual": 0,
+      "predicted": 0,
+      "transaction_amount": 2288.15,
+      "merchant_risk": 10
+    },
+    {
+      "id": 963,
+      "prediction_score": 0.223,
+      "actual": 0,
+      "predicted": 0,
+      "transaction_amount": 2180.54,
+      "merchant_risk": 9
+    },
+    {
+      "id": 964,
+      "prediction_score": 0.019,
+      "actual": 0,
+      "predicted": 0,
+      "transaction_amount": 1555.21,
+      "merchant_risk": 6
+    },
+    {
+      "id": 965,
+      "prediction_score": 0.453,
+      "actual": 0,
+      "predicted": 0,
+      "transaction_amount": 2413.44,
+      "merchant_risk": 4
+    },
+    {
+      "id": 966,
+      "prediction_score": 0.181,
+      "actual": 0,
+      "predicted": 0,
+      "transaction_amount": 4025.49,
+      "merchant_risk": 8
+    },
+    {
+      "id": 967,
+      "prediction_score": 0.178,
+      "actual": 0,
+      "predicted": 0,
+      "transaction_amount": 1546.26,
+      "merchant_risk": 7
+    },
+    {
+      "id": 968,
+      "prediction_score": 0.589,
+      "actual": 0,
+      "predicted": 1,
+      "transaction_amount": 1306.44,
+      "merchant_risk": 5
+    },
+    {
+      "id": 969,
+      "prediction_score": 0.443,
+      "actual": 0,
+      "predicted": 0,
+      "transaction_amount": 62.67,
+      "merchant_risk": 9
+    },
+    {
+      "id": 970,
+      "prediction_score": 0.052,
+      "actual": 0,
+      "predicted": 0,
+      "transaction_amount": 4078.75,
+      "merchant_risk": 3
+    },
+    {
+      "id": 971,
+      "prediction_score": 0.522,
+      "actual": 0,
+      "predicted": 1,
+      "transaction_amount": 1725.99,
+      "merchant_risk": 8
+    },
+    {
+      "id": 972,
+      "prediction_score": 0.151,
+      "actual": 0,
+      "predicted": 0,
+      "transaction_amount": 2680.14,
+      "merchant_risk": 8
+    },
+    {
+      "id": 973,
+      "prediction_score": 0.485,
+      "actual": 0,
+      "predicted": 0,
+      "transaction_amount": 4735.32,
+      "merchant_risk": 8
+    },
+    {
+      "id": 974,
+      "prediction_score": 0.214,
+      "actual": 0,
+      "predicted": 0,
+      "transaction_amount": 1505.06,
+      "merchant_risk": 7
+    },
+    {
+      "id": 975,
+      "prediction_score": 0.278,
+      "actual": 0,
+      "predicted": 0,
+      "transaction_amount": 3991.84,
+      "merchant_risk": 10
+    },
+    {
+      "id": 976,
+      "prediction_score": 0.341,
+      "actual": 0,
+      "predicted": 0,
+      "transaction_amount": 1163.76,
+      "merchant_risk": 1
+    },
+    {
+      "id": 977,
+      "prediction_score": 0.048,
+      "actual": 0,
+      "predicted": 0,
+      "transaction_amount": 2745.58,
+      "merchant_risk": 4
+    },
+    {
+      "id": 978,
+      "prediction_score": 0.285,
+      "actual": 0,
+      "predicted": 0,
+      "transaction_amount": 2064.56,
+      "merchant_risk": 9
+    },
+    {
+      "id": 979,
+      "prediction_score": 0.108,
+      "actual": 0,
+      "predicted": 0,
+      "transaction_amount": 2191.16,
+      "merchant_risk": 4
+    },
+    {
+      "id": 980,
+      "prediction_score": 0.777,
+      "actual": 0,
+      "predicted": 1,
+      "transaction_amount": 824.71,
+      "merchant_risk": 7
+    },
+    {
+      "id": 981,
+      "prediction_score": 0.814,
+      "actual": 0,
+      "predicted": 1,
+      "transaction_amount": 4143.85,
+      "merchant_risk": 4
+    },
+    {
+      "id": 982,
+      "prediction_score": 0.252,
+      "actual": 0,
+      "predicted": 0,
+      "transaction_amount": 1322.27,
+      "merchant_risk": 7
+    },
+    {
+      "id": 983,
+      "prediction_score": 0.406,
+      "actual": 0,
+      "predicted": 0,
+      "transaction_amount": 3130.36,
+      "merchant_risk": 9
+    },
+    {
+      "id": 984,
+      "prediction_score": 0.161,
+      "actual": 0,
+      "predicted": 0,
+      "transaction_amount": 3825.05,
+      "merchant_risk": 10
+    },
+    {
+      "id": 985,
+      "prediction_score": 0.242,
+      "actual": 0,
+      "predicted": 0,
+      "transaction_amount": 4039.8,
+      "merchant_risk": 5
+    },
+    {
+      "id": 986,
+      "prediction_score": 0.405,
+      "actual": 0,
+      "predicted": 0,
+      "transaction_amount": 1430.54,
+      "merchant_risk": 9
+    },
+    {
+      "id": 987,
+      "prediction_score": 0.37,
+      "actual": 0,
+      "predicted": 0,
+      "transaction_amount": 4045.96,
+      "merchant_risk": 7
+    },
+    {
+      "id": 988,
+      "prediction_score": 0.183,
+      "actual": 0,
+      "predicted": 0,
+      "transaction_amount": 948.12,
+      "merchant_risk": 2
+    },
+    {
+      "id": 989,
+      "prediction_score": 0.803,
+      "actual": 0,
+      "predicted": 1,
+      "transaction_amount": 920.21,
+      "merchant_risk": 5
+    },
+    {
+      "id": 990,
+      "prediction_score": 0.535,
+      "actual": 0,
+      "predicted": 1,
+      "transaction_amount": 560.68,
+      "merchant_risk": 8
+    },
+    {
+      "id": 991,
+      "prediction_score": 0.482,
+      "actual": 0,
+      "predicted": 0,
+      "transaction_amount": 3092.47,
+      "merchant_risk": 5
+    },
+    {
+      "id": 992,
+      "prediction_score": 0.311,
+      "actual": 0,
+      "predicted": 0,
+      "transaction_amount": 3505.36,
+      "merchant_risk": 8
+    },
+    {
+      "id": 993,
+      "prediction_score": 0.437,
+      "actual": 0,
+      "predicted": 0,
+      "transaction_amount": 947.07,
+      "merchant_risk": 1
+    },
+    {
+      "id": 994,
+      "prediction_score": 0.198,
+      "actual": 0,
+      "predicted": 0,
+      "transaction_amount": 769.23,
+      "merchant_risk": 9
+    },
+    {
+      "id": 995,
+      "prediction_score": 0.173,
+      "actual": 0,
+      "predicted": 0,
+      "transaction_amount": 120.43,
+      "merchant_risk": 2
+    },
+    {
+      "id": 996,
+      "prediction_score": 0.18,
+      "actual": 0,
+      "predicted": 0,
+      "transaction_amount": 1417.75,
+      "merchant_risk": 3
+    },
+    {
+      "id": 997,
+      "prediction_score": 0.247,
+      "actual": 0,
+      "predicted": 0,
+      "transaction_amount": 3578.83,
+      "merchant_risk": 1
+    },
+    {
+      "id": 998,
+      "prediction_score": 0.653,
+      "actual": 0,
+      "predicted": 1,
+      "transaction_amount": 1171.72,
+      "merchant_risk": 3
+    },
+    {
+      "id": 999,
+      "prediction_score": 0.094,
+      "actual": 0,
+      "predicted": 0,
+      "transaction_amount": 83.48,
+      "merchant_risk": 4
+    },
+    {
+      "id": 1000,
+      "prediction_score": 0.075,
+      "actual": 0,
+      "predicted": 0,
+      "transaction_amount": 1716.15,
+      "merchant_risk": 5
+    }
+  ]
+}

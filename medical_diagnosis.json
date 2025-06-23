@@ -1,0 +1,8013 @@
+{
+  "scenario": "Cancer Screening",
+  "description": "Medical diagnostic test results for cancer detection using mammography screening",
+  "cost_matrix": {
+    "false_positive": "Unnecessary anxiety, additional tests, potential biopsy ($500-2000)",
+    "false_negative": "Missed diagnosis, delayed treatment, potential death ($100,000+)"
+  },
+  "priority": "Minimize False Negatives",
+  "optimal_threshold": 0.3,
+  "prevalence": 0.05,
+  "data": [
+    {
+      "id": 1,
+      "prediction_score": 0.119,
+      "actual": 0,
+      "predicted": 0,
+      "patient_age": 75,
+      "risk_factors": 0
+    },
+    {
+      "id": 2,
+      "prediction_score": 0.559,
+      "actual": 0,
+      "predicted": 1,
+      "patient_age": 36,
+      "risk_factors": 5
+    },
+    {
+      "id": 3,
+      "prediction_score": 0.586,
+      "actual": 0,
+      "predicted": 1,
+      "patient_age": 52,
+      "risk_factors": 1
+    },
+    {
+      "id": 4,
+      "prediction_score": 0.311,
+      "actual": 0,
+      "predicted": 0,
+      "patient_age": 49,
+      "risk_factors": 1
+    },
+    {
+      "id": 5,
+      "prediction_score": 0.128,
+      "actual": 0,
+      "predicted": 0,
+      "patient_age": 82,
+      "risk_factors": 0
+    },
+    {
+      "id": 6,
+      "prediction_score": 0.145,
+      "actual": 0,
+      "predicted": 0,
+      "patient_age": 78,
+      "risk_factors": 5
+    },
+    {
+      "id": 7,
+      "prediction_score": 0.254,
+      "actual": 0,
+      "predicted": 0,
+      "patient_age": 69,
+      "risk_factors": 0
+    },
+    {
+      "id": 8,
+      "prediction_score": 0.606,
+      "actual": 0,
+      "predicted": 1,
+      "patient_age": 72,
+      "risk_factors": 3
+    },
+    {
+      "id": 9,
+      "prediction_score": 0.551,
+      "actual": 0,
+      "predicted": 1,
+      "patient_age": 37,
+      "risk_factors": 0
+    },
+    {
+      "id": 10,
+      "prediction_score": 0.24,
+      "actual": 0,
+      "predicted": 0,
+      "patient_age": 40,
+      "risk_factors": 1
+    },
+    {
+      "id": 11,
+      "prediction_score": 0.083,
+      "actual": 0,
+      "predicted": 0,
+      "patient_age": 49,
+      "risk_factors": 4
+    },
+    {
+      "id": 12,
+      "prediction_score": 0.326,
+      "actual": 0,
+      "predicted": 0,
+      "patient_age": 73,
+      "risk_factors": 0
+    },
+    {
+      "id": 13,
+      "prediction_score": 0.464,
+      "actual": 1,
+      "predicted": 0,
+      "patient_age": 70,
+      "risk_factors": 1
+    },
+    {
+      "id": 14,
+      "prediction_score": 0.303,
+      "actual": 0,
+      "predicted": 0,
+      "patient_age": 80,
+      "risk_factors": 5
+    },
+    {
+      "id": 15,
+      "prediction_score": 0.008,
+      "actual": 0,
+      "predicted": 0,
+      "patient_age": 79,
+      "risk_factors": 4
+    },
+    {
+      "id": 16,
+      "prediction_score": 0.269,
+      "actual": 0,
+      "predicted": 0,
+      "patient_age": 61,
+      "risk_factors": 1
+    },
+    {
+      "id": 17,
+      "prediction_score": 0.383,
+      "actual": 0,
+      "predicted": 0,
+      "patient_age": 63,
+      "risk_factors": 4
+    },
+    {
+      "id": 18,
+      "prediction_score": 0.225,
+      "actual": 0,
+      "predicted": 0,
+      "patient_age": 52,
+      "risk_factors": 0
+    },
+    {
+      "id": 19,
+      "prediction_score": 0.399,
+      "actual": 0,
+      "predicted": 0,
+      "patient_age": 83,
+      "risk_factors": 1
+    },
+    {
+      "id": 20,
+      "prediction_score": 0.359,
+      "actual": 0,
+      "predicted": 0,
+      "patient_age": 79,
+      "risk_factors": 3
+    },
+    {
+      "id": 21,
+      "prediction_score": 0.16,
+      "actual": 0,
+      "predicted": 0,
+      "patient_age": 56,
+      "risk_factors": 2
+    },
+    {
+      "id": 22,
+      "prediction_score": 0.853,
+      "actual": 0,
+      "predicted": 1,
+      "patient_age": 44,
+      "risk_factors": 1
+    },
+    {
+      "id": 23,
+      "prediction_score": 0.342,
+      "actual": 0,
+      "predicted": 0,
+      "patient_age": 83,
+      "risk_factors": 2
+    },
+    {
+      "id": 24,
+      "prediction_score": 0.506,
+      "actual": 0,
+      "predicted": 1,
+      "patient_age": 41,
+      "risk_factors": 0
+    },
+    {
+      "id": 25,
+      "prediction_score": 0.055,
+      "actual": 0,
+      "predicted": 0,
+      "patient_age": 59,
+      "risk_factors": 0
+    },
+    {
+      "id": 26,
+      "prediction_score": 0.575,
+      "actual": 0,
+      "predicted": 1,
+      "patient_age": 57,
+      "risk_factors": 2
+    },
+    {
+      "id": 27,
+      "prediction_score": 0.01,
+      "actual": 0,
+      "predicted": 0,
+      "patient_age": 73,
+      "risk_factors": 2
+    },
+    {
+      "id": 28,
+      "prediction_score": 0.119,
+      "actual": 0,
+      "predicted": 0,
+      "patient_age": 37,
+      "risk_factors": 5
+    },
+    {
+      "id": 29,
+      "prediction_score": 0.696,
+      "actual": 1,
+      "predicted": 1,
+      "patient_age": 64,
+      "risk_factors": 4
+    },
+    {
+      "id": 30,
+      "prediction_score": 0.325,
+      "actual": 0,
+      "predicted": 0,
+      "patient_age": 42,
+      "risk_factors": 3
+    },
+    {
+      "id": 31,
+      "prediction_score": 0.561,
+      "actual": 0,
+      "predicted": 1,
+      "patient_age": 40,
+      "risk_factors": 4
+    },
+    {
+      "id": 32,
+      "prediction_score": 0.675,
+      "actual": 0,
+      "predicted": 1,
+      "patient_age": 53,
+      "risk_factors": 5
+    },
+    {
+      "id": 33,
+      "prediction_score": 0.545,
+      "actual": 0,
+      "predicted": 1,
+      "patient_age": 74,
+      "risk_factors": 2
+    },
+    {
+      "id": 34,
+      "prediction_score": 0.311,
+      "actual": 0,
+      "predicted": 0,
+      "patient_age": 71,
+      "risk_factors": 1
+    },
+    {
+      "id": 35,
+      "prediction_score": 0.211,
+      "actual": 0,
+      "predicted": 0,
+      "patient_age": 80,
+      "risk_factors": 0
+    },
+    {
+      "id": 36,
+      "prediction_score": 0.396,
+      "actual": 0,
+      "predicted": 0,
+      "patient_age": 37,
+      "risk_factors": 5
+    },
+    {
+      "id": 37,
+      "prediction_score": 0.671,
+      "actual": 0,
+      "predicted": 1,
+      "patient_age": 49,
+      "risk_factors": 2
+    },
+    {
+      "id": 38,
+      "prediction_score": 0.292,
+      "actual": 0,
+      "predicted": 0,
+      "patient_age": 40,
+      "risk_factors": 1
+    },
+    {
+      "id": 39,
+      "prediction_score": 0.069,
+      "actual": 0,
+      "predicted": 0,
+      "patient_age": 41,
+      "risk_factors": 3
+    },
+    {
+      "id": 40,
+      "prediction_score": 0.356,
+      "actual": 0,
+      "predicted": 0,
+      "patient_age": 52,
+      "risk_factors": 3
+    },
+    {
+      "id": 41,
+      "prediction_score": 0.234,
+      "actual": 0,
+      "predicted": 0,
+      "patient_age": 75,
+      "risk_factors": 2
+    },
+    {
+      "id": 42,
+      "prediction_score": 0.184,
+      "actual": 0,
+      "predicted": 0,
+      "patient_age": 45,
+      "risk_factors": 2
+    },
+    {
+      "id": 43,
+      "prediction_score": 0.297,
+      "actual": 0,
+      "predicted": 0,
+      "patient_age": 57,
+      "risk_factors": 1
+    },
+    {
+      "id": 44,
+      "prediction_score": 0.314,
+      "actual": 0,
+      "predicted": 0,
+      "patient_age": 77,
+      "risk_factors": 2
+    },
+    {
+      "id": 45,
+      "prediction_score": 0.35,
+      "actual": 0,
+      "predicted": 0,
+      "patient_age": 79,
+      "risk_factors": 5
+    },
+    {
+      "id": 46,
+      "prediction_score": 0.633,
+      "actual": 0,
+      "predicted": 1,
+      "patient_age": 76,
+      "risk_factors": 0
+    },
+    {
+      "id": 47,
+      "prediction_score": 0.36,
+      "actual": 0,
+      "predicted": 0,
+      "patient_age": 73,
+      "risk_factors": 5
+    },
+    {
+      "id": 48,
+      "prediction_score": 0.231,
+      "actual": 0,
+      "predicted": 0,
+      "patient_age": 45,
+      "risk_factors": 4
+    },
+    {
+      "id": 49,
+      "prediction_score": 0.241,
+      "actual": 0,
+      "predicted": 0,
+      "patient_age": 81,
+      "risk_factors": 1
+    },
+    {
+      "id": 50,
+      "prediction_score": 0.508,
+      "actual": 0,
+      "predicted": 1,
+      "patient_age": 45,
+      "risk_factors": 3
+    },
+    {
+      "id": 51,
+      "prediction_score": 0.961,
+      "actual": 0,
+      "predicted": 1,
+      "patient_age": 59,
+      "risk_factors": 2
+    },
+    {
+      "id": 52,
+      "prediction_score": 0.458,
+      "actual": 0,
+      "predicted": 0,
+      "patient_age": 75,
+      "risk_factors": 5
+    },
+    {
+      "id": 53,
+      "prediction_score": 0.399,
+      "actual": 0,
+      "predicted": 0,
+      "patient_age": 70,
+      "risk_factors": 1
+    },
+    {
+      "id": 54,
+      "prediction_score": 0.262,
+      "actual": 0,
+      "predicted": 0,
+      "patient_age": 78,
+      "risk_factors": 2
+    },
+    {
+      "id": 55,
+      "prediction_score": 0.568,
+      "actual": 0,
+      "predicted": 1,
+      "patient_age": 84,
+      "risk_factors": 0
+    },
+    {
+      "id": 56,
+      "prediction_score": 0.089,
+      "actual": 0,
+      "predicted": 0,
+      "patient_age": 49,
+      "risk_factors": 0
+    },
+    {
+      "id": 57,
+      "prediction_score": 0.075,
+      "actual": 0,
+      "predicted": 0,
+      "patient_age": 55,
+      "risk_factors": 3
+    },
+    {
+      "id": 58,
+      "prediction_score": 0.766,
+      "actual": 0,
+      "predicted": 1,
+      "patient_age": 52,
+      "risk_factors": 0
+    },
+    {
+      "id": 59,
+      "prediction_score": 0.16,
+      "actual": 0,
+      "predicted": 0,
+      "patient_age": 48,
+      "risk_factors": 4
+    },
+    {
+      "id": 60,
+      "prediction_score": 0.654,
+      "actual": 0,
+      "predicted": 1,
+      "patient_age": 80,
+      "risk_factors": 2
+    },
+    {
+      "id": 61,
+      "prediction_score": 0.098,
+      "actual": 0,
+      "predicted": 0,
+      "patient_age": 48,
+      "risk_factors": 5
+    },
+    {
+      "id": 62,
+      "prediction_score": 0.437,
+      "actual": 0,
+      "predicted": 0,
+      "patient_age": 66,
+      "risk_factors": 3
+    },
+    {
+      "id": 63,
+      "prediction_score": 0.486,
+      "actual": 0,
+      "predicted": 0,
+      "patient_age": 76,
+      "risk_factors": 3
+    },
+    {
+      "id": 64,
+      "prediction_score": 0.364,
+      "actual": 0,
+      "predicted": 0,
+      "patient_age": 44,
+      "risk_factors": 2
+    },
+    {
+      "id": 65,
+      "prediction_score": 0.092,
+      "actual": 0,
+      "predicted": 0,
+      "patient_age": 43,
+      "risk_factors": 1
+    },
+    {
+      "id": 66,
+      "prediction_score": 0.336,
+      "actual": 0,
+      "predicted": 0,
+      "patient_age": 82,
+      "risk_factors": 4
+    },
+    {
+      "id": 67,
+      "prediction_score": 0.355,
+      "actual": 0,
+      "predicted": 0,
+      "patient_age": 69,
+      "risk_factors": 2
+    },
+    {
+      "id": 68,
+      "prediction_score": 0.607,
+      "actual": 0,
+      "predicted": 1,
+      "patient_age": 82,
+      "risk_factors": 4
+    },
+    {
+      "id": 69,
+      "prediction_score": 0.494,
+      "actual": 0,
+      "predicted": 0,
+      "patient_age": 62,
+      "risk_factors": 4
+    },
+    {
+      "id": 70,
+      "prediction_score": 0.481,
+      "actual": 0,
+      "predicted": 0,
+      "patient_age": 60,
+      "risk_factors": 2
+    },
+    {
+      "id": 71,
+      "prediction_score": 0.264,
+      "actual": 0,
+      "predicted": 0,
+      "patient_age": 49,
+      "risk_factors": 1
+    },
+    {
+      "id": 72,
+      "prediction_score": 0.24,
+      "actual": 0,
+      "predicted": 0,
+      "patient_age": 67,
+      "risk_factors": 3
+    },
+    {
+      "id": 73,
+      "prediction_score": 0.243,
+      "actual": 0,
+      "predicted": 0,
+      "patient_age": 40,
+      "risk_factors": 0
+    },
+    {
+      "id": 74,
+      "prediction_score": 0.067,
+      "actual": 0,
+      "predicted": 0,
+      "patient_age": 42,
+      "risk_factors": 1
+    },
+    {
+      "id": 75,
+      "prediction_score": 0.598,
+      "actual": 0,
+      "predicted": 1,
+      "patient_age": 75,
+      "risk_factors": 1
+    },
+    {
+      "id": 76,
+      "prediction_score": 0.461,
+      "actual": 0,
+      "predicted": 0,
+      "patient_age": 85,
+      "risk_factors": 5
+    },
+    {
+      "id": 77,
+      "prediction_score": 0.163,
+      "actual": 0,
+      "predicted": 0,
+      "patient_age": 62,
+      "risk_factors": 4
+    },
+    {
+      "id": 78,
+      "prediction_score": 0.337,
+      "actual": 0,
+      "predicted": 0,
+      "patient_age": 39,
+      "risk_factors": 3
+    },
+    {
+      "id": 79,
+      "prediction_score": 0.275,
+      "actual": 0,
+      "predicted": 0,
+      "patient_age": 59,
+      "risk_factors": 4
+    },
+    {
+      "id": 80,
+      "prediction_score": 0.098,
+      "actual": 0,
+      "predicted": 0,
+      "patient_age": 64,
+      "risk_factors": 4
+    },
+    {
+      "id": 81,
+      "prediction_score": 0.261,
+      "actual": 0,
+      "predicted": 0,
+      "patient_age": 51,
+      "risk_factors": 4
+    },
+    {
+      "id": 82,
+      "prediction_score": 0.528,
+      "actual": 0,
+      "predicted": 1,
+      "patient_age": 35,
+      "risk_factors": 5
+    },
+    {
+      "id": 83,
+      "prediction_score": 0.22,
+      "actual": 0,
+      "predicted": 0,
+      "patient_age": 81,
+      "risk_factors": 0
+    },
+    {
+      "id": 84,
+      "prediction_score": 0.608,
+      "actual": 1,
+      "predicted": 1,
+      "patient_age": 78,
+      "risk_factors": 4
+    },
+    {
+      "id": 85,
+      "prediction_score": 0.364,
+      "actual": 0,
+      "predicted": 0,
+      "patient_age": 83,
+      "risk_factors": 2
+    },
+    {
+      "id": 86,
+      "prediction_score": 0.267,
+      "actual": 0,
+      "predicted": 0,
+      "patient_age": 84,
+      "risk_factors": 5
+    },
+    {
+      "id": 87,
+      "prediction_score": 0.295,
+      "actual": 0,
+      "predicted": 0,
+      "patient_age": 56,
+      "risk_factors": 0
+    },
+    {
+      "id": 88,
+      "prediction_score": 0.268,
+      "actual": 0,
+      "predicted": 0,
+      "patient_age": 53,
+      "risk_factors": 3
+    },
+    {
+      "id": 89,
+      "prediction_score": 0.53,
+      "actual": 0,
+      "predicted": 1,
+      "patient_age": 45,
+      "risk_factors": 3
+    },
+    {
+      "id": 90,
+      "prediction_score": 0.183,
+      "actual": 0,
+      "predicted": 0,
+      "patient_age": 35,
+      "risk_factors": 5
+    },
+    {
+      "id": 91,
+      "prediction_score": 0.611,
+      "actual": 0,
+      "predicted": 1,
+      "patient_age": 81,
+      "risk_factors": 2
+    },
+    {
+      "id": 92,
+      "prediction_score": 0.484,
+      "actual": 0,
+      "predicted": 0,
+      "patient_age": 67,
+      "risk_factors": 1
+    },
+    {
+      "id": 93,
+      "prediction_score": 0.313,
+      "actual": 0,
+      "predicted": 0,
+      "patient_age": 67,
+      "risk_factors": 0
+    },
+    {
+      "id": 94,
+      "prediction_score": 0.506,
+      "actual": 0,
+      "predicted": 1,
+      "patient_age": 75,
+      "risk_factors": 2
+    },
+    {
+      "id": 95,
+      "prediction_score": 0.226,
+      "actual": 0,
+      "predicted": 0,
+      "patient_age": 75,
+      "risk_factors": 4
+    },
+    {
+      "id": 96,
+      "prediction_score": 0.684,
+      "actual": 0,
+      "predicted": 1,
+      "patient_age": 73,
+      "risk_factors": 1
+    },
+    {
+      "id": 97,
+      "prediction_score": 0.224,
+      "actual": 0,
+      "predicted": 0,
+      "patient_age": 44,
+      "risk_factors": 2
+    },
+    {
+      "id": 98,
+      "prediction_score": 0.568,
+      "actual": 0,
+      "predicted": 1,
+      "patient_age": 83,
+      "risk_factors": 1
+    },
+    {
+      "id": 99,
+      "prediction_score": 0.287,
+      "actual": 0,
+      "predicted": 0,
+      "patient_age": 69,
+      "risk_factors": 4
+    },
+    {
+      "id": 100,
+      "prediction_score": 0.25,
+      "actual": 0,
+      "predicted": 0,
+      "patient_age": 35,
+      "risk_factors": 4
+    },
+    {
+      "id": 101,
+      "prediction_score": 0.204,
+      "actual": 0,
+      "predicted": 0,
+      "patient_age": 55,
+      "risk_factors": 3
+    },
+    {
+      "id": 102,
+      "prediction_score": 0.079,
+      "actual": 0,
+      "predicted": 0,
+      "patient_age": 36,
+      "risk_factors": 0
+    },
+    {
+      "id": 103,
+      "prediction_score": 0.113,
+      "actual": 0,
+      "predicted": 0,
+      "patient_age": 58,
+      "risk_factors": 2
+    },
+    {
+      "id": 104,
+      "prediction_score": 0.626,
+      "actual": 0,
+      "predicted": 1,
+      "patient_age": 50,
+      "risk_factors": 0
+    },
+    {
+      "id": 105,
+      "prediction_score": 0.248,
+      "actual": 0,
+      "predicted": 0,
+      "patient_age": 50,
+      "risk_factors": 4
+    },
+    {
+      "id": 106,
+      "prediction_score": 0.004,
+      "actual": 0,
+      "predicted": 0,
+      "patient_age": 40,
+      "risk_factors": 0
+    },
+    {
+      "id": 107,
+      "prediction_score": 0.964,
+      "actual": 1,
+      "predicted": 1,
+      "patient_age": 81,
+      "risk_factors": 3
+    },
+    {
+      "id": 108,
+      "prediction_score": 0.126,
+      "actual": 0,
+      "predicted": 0,
+      "patient_age": 39,
+      "risk_factors": 4
+    },
+    {
+      "id": 109,
+      "prediction_score": 0.615,
+      "actual": 0,
+      "predicted": 1,
+      "patient_age": 84,
+      "risk_factors": 1
+    },
+    {
+      "id": 110,
+      "prediction_score": 0.387,
+      "actual": 0,
+      "predicted": 0,
+      "patient_age": 43,
+      "risk_factors": 5
+    },
+    {
+      "id": 111,
+      "prediction_score": 0.237,
+      "actual": 0,
+      "predicted": 0,
+      "patient_age": 65,
+      "risk_factors": 4
+    },
+    {
+      "id": 112,
+      "prediction_score": 0.292,
+      "actual": 0,
+      "predicted": 0,
+      "patient_age": 45,
+      "risk_factors": 2
+    },
+    {
+      "id": 113,
+      "prediction_score": 0.304,
+      "actual": 0,
+      "predicted": 0,
+      "patient_age": 68,
+      "risk_factors": 4
+    },
+    {
+      "id": 114,
+      "prediction_score": 0.354,
+      "actual": 0,
+      "predicted": 0,
+      "patient_age": 62,
+      "risk_factors": 1
+    },
+    {
+      "id": 115,
+      "prediction_score": 0.501,
+      "actual": 0,
+      "predicted": 1,
+      "patient_age": 69,
+      "risk_factors": 5
+    },
+    {
+      "id": 116,
+      "prediction_score": 0.144,
+      "actual": 0,
+      "predicted": 0,
+      "patient_age": 79,
+      "risk_factors": 1
+    },
+    {
+      "id": 117,
+      "prediction_score": 0.199,
+      "actual": 0,
+      "predicted": 0,
+      "patient_age": 80,
+      "risk_factors": 2
+    },
+    {
+      "id": 118,
+      "prediction_score": 0.299,
+      "actual": 0,
+      "predicted": 0,
+      "patient_age": 60,
+      "risk_factors": 5
+    },
+    {
+      "id": 119,
+      "prediction_score": 0.337,
+      "actual": 0,
+      "predicted": 0,
+      "patient_age": 76,
+      "risk_factors": 2
+    },
+    {
+      "id": 120,
+      "prediction_score": 0.187,
+      "actual": 0,
+      "predicted": 0,
+      "patient_age": 63,
+      "risk_factors": 4
+    },
+    {
+      "id": 121,
+      "prediction_score": 0.423,
+      "actual": 0,
+      "predicted": 0,
+      "patient_age": 63,
+      "risk_factors": 0
+    },
+    {
+      "id": 122,
+      "prediction_score": 0.248,
+      "actual": 0,
+      "predicted": 0,
+      "patient_age": 50,
+      "risk_factors": 1
+    },
+    {
+      "id": 123,
+      "prediction_score": 0.525,
+      "actual": 1,
+      "predicted": 1,
+      "patient_age": 39,
+      "risk_factors": 2
+    },
+    {
+      "id": 124,
+      "prediction_score": 0.28,
+      "actual": 0,
+      "predicted": 0,
+      "patient_age": 36,
+      "risk_factors": 4
+    },
+    {
+      "id": 125,
+      "prediction_score": 0.176,
+      "actual": 0,
+      "predicted": 0,
+      "patient_age": 70,
+      "risk_factors": 1
+    },
+    {
+      "id": 126,
+      "prediction_score": 0.637,
+      "actual": 0,
+      "predicted": 1,
+      "patient_age": 72,
+      "risk_factors": 1
+    },
+    {
+      "id": 127,
+      "prediction_score": 0.315,
+      "actual": 0,
+      "predicted": 0,
+      "patient_age": 35,
+      "risk_factors": 0
+    },
+    {
+      "id": 128,
+      "prediction_score": 0.518,
+      "actual": 0,
+      "predicted": 1,
+      "patient_age": 80,
+      "risk_factors": 5
+    },
+    {
+      "id": 129,
+      "prediction_score": 0.048,
+      "actual": 0,
+      "predicted": 0,
+      "patient_age": 38,
+      "risk_factors": 1
+    },
+    {
+      "id": 130,
+      "prediction_score": 0.51,
+      "actual": 0,
+      "predicted": 1,
+      "patient_age": 39,
+      "risk_factors": 0
+    },
+    {
+      "id": 131,
+      "prediction_score": 0.175,
+      "actual": 0,
+      "predicted": 0,
+      "patient_age": 56,
+      "risk_factors": 0
+    },
+    {
+      "id": 132,
+      "prediction_score": 0.102,
+      "actual": 0,
+      "predicted": 0,
+      "patient_age": 67,
+      "risk_factors": 1
+    },
+    {
+      "id": 133,
+      "prediction_score": 0.567,
+      "actual": 0,
+      "predicted": 1,
+      "patient_age": 52,
+      "risk_factors": 5
+    },
+    {
+      "id": 134,
+      "prediction_score": 0.207,
+      "actual": 0,
+      "predicted": 0,
+      "patient_age": 66,
+      "risk_factors": 1
+    },
+    {
+      "id": 135,
+      "prediction_score": 0.381,
+      "actual": 0,
+      "predicted": 0,
+      "patient_age": 69,
+      "risk_factors": 1
+    },
+    {
+      "id": 136,
+      "prediction_score": 0.056,
+      "actual": 0,
+      "predicted": 0,
+      "patient_age": 81,
+      "risk_factors": 4
+    },
+    {
+      "id": 137,
+      "prediction_score": 0.108,
+      "actual": 0,
+      "predicted": 0,
+      "patient_age": 71,
+      "risk_factors": 3
+    },
+    {
+      "id": 138,
+      "prediction_score": 0.041,
+      "actual": 0,
+      "predicted": 0,
+      "patient_age": 50,
+      "risk_factors": 3
+    },
+    {
+      "id": 139,
+      "prediction_score": 0.292,
+      "actual": 0,
+      "predicted": 0,
+      "patient_age": 61,
+      "risk_factors": 1
+    },
+    {
+      "id": 140,
+      "prediction_score": 0.288,
+      "actual": 0,
+      "predicted": 0,
+      "patient_age": 41,
+      "risk_factors": 0
+    },
+    {
+      "id": 141,
+      "prediction_score": 0.772,
+      "actual": 0,
+      "predicted": 1,
+      "patient_age": 77,
+      "risk_factors": 3
+    },
+    {
+      "id": 142,
+      "prediction_score": 0.209,
+      "actual": 0,
+      "predicted": 0,
+      "patient_age": 57,
+      "risk_factors": 3
+    },
+    {
+      "id": 143,
+      "prediction_score": 0.426,
+      "actual": 0,
+      "predicted": 0,
+      "patient_age": 61,
+      "risk_factors": 3
+    },
+    {
+      "id": 144,
+      "prediction_score": 0.036,
+      "actual": 0,
+      "predicted": 0,
+      "patient_age": 81,
+      "risk_factors": 0
+    },
+    {
+      "id": 145,
+      "prediction_score": 0.319,
+      "actual": 0,
+      "predicted": 0,
+      "patient_age": 78,
+      "risk_factors": 5
+    },
+    {
+      "id": 146,
+      "prediction_score": 0.1,
+      "actual": 0,
+      "predicted": 0,
+      "patient_age": 76,
+      "risk_factors": 0
+    },
+    {
+      "id": 147,
+      "prediction_score": 0.558,
+      "actual": 0,
+      "predicted": 1,
+      "patient_age": 38,
+      "risk_factors": 3
+    },
+    {
+      "id": 148,
+      "prediction_score": 0.316,
+      "actual": 0,
+      "predicted": 0,
+      "patient_age": 81,
+      "risk_factors": 2
+    },
+    {
+      "id": 149,
+      "prediction_score": 0.173,
+      "actual": 0,
+      "predicted": 0,
+      "patient_age": 41,
+      "risk_factors": 1
+    },
+    {
+      "id": 150,
+      "prediction_score": 0.243,
+      "actual": 0,
+      "predicted": 0,
+      "patient_age": 47,
+      "risk_factors": 1
+    },
+    {
+      "id": 151,
+      "prediction_score": 0.343,
+      "actual": 0,
+      "predicted": 0,
+      "patient_age": 69,
+      "risk_factors": 3
+    },
+    {
+      "id": 152,
+      "prediction_score": 0.623,
+      "actual": 0,
+      "predicted": 1,
+      "patient_age": 43,
+      "risk_factors": 3
+    },
+    {
+      "id": 153,
+      "prediction_score": 0.512,
+      "actual": 0,
+      "predicted": 1,
+      "patient_age": 46,
+      "risk_factors": 2
+    },
+    {
+      "id": 154,
+      "prediction_score": 0.68,
+      "actual": 0,
+      "predicted": 1,
+      "patient_age": 64,
+      "risk_factors": 1
+    },
+    {
+      "id": 155,
+      "prediction_score": 0.218,
+      "actual": 0,
+      "predicted": 0,
+      "patient_age": 39,
+      "risk_factors": 3
+    },
+    {
+      "id": 156,
+      "prediction_score": 0.288,
+      "actual": 0,
+      "predicted": 0,
+      "patient_age": 70,
+      "risk_factors": 0
+    },
+    {
+      "id": 157,
+      "prediction_score": 0.287,
+      "actual": 0,
+      "predicted": 0,
+      "patient_age": 38,
+      "risk_factors": 5
+    },
+    {
+      "id": 158,
+      "prediction_score": 0.405,
+      "actual": 0,
+      "predicted": 0,
+      "patient_age": 69,
+      "risk_factors": 0
+    },
+    {
+      "id": 159,
+      "prediction_score": 0.426,
+      "actual": 0,
+      "predicted": 0,
+      "patient_age": 40,
+      "risk_factors": 1
+    },
+    {
+      "id": 160,
+      "prediction_score": 0.045,
+      "actual": 0,
+      "predicted": 0,
+      "patient_age": 45,
+      "risk_factors": 3
+    },
+    {
+      "id": 161,
+      "prediction_score": 0.473,
+      "actual": 0,
+      "predicted": 0,
+      "patient_age": 66,
+      "risk_factors": 3
+    },
+    {
+      "id": 162,
+      "prediction_score": 0.098,
+      "actual": 0,
+      "predicted": 0,
+      "patient_age": 48,
+      "risk_factors": 3
+    },
+    {
+      "id": 163,
+      "prediction_score": 0.192,
+      "actual": 0,
+      "predicted": 0,
+      "patient_age": 38,
+      "risk_factors": 1
+    },
+    {
+      "id": 164,
+      "prediction_score": 0.182,
+      "actual": 0,
+      "predicted": 0,
+      "patient_age": 59,
+      "risk_factors": 0
+    },
+    {
+      "id": 165,
+      "prediction_score": 0.142,
+      "actual": 0,
+      "predicted": 0,
+      "patient_age": 59,
+      "risk_factors": 2
+    },
+    {
+      "id": 166,
+      "prediction_score": 0.529,
+      "actual": 0,
+      "predicted": 1,
+      "patient_age": 85,
+      "risk_factors": 3
+    },
+    {
+      "id": 167,
+      "prediction_score": 0.206,
+      "actual": 0,
+      "predicted": 0,
+      "patient_age": 53,
+      "risk_factors": 3
+    },
+    {
+      "id": 168,
+      "prediction_score": 0.183,
+      "actual": 0,
+      "predicted": 0,
+      "patient_age": 79,
+      "risk_factors": 5
+    },
+    {
+      "id": 169,
+      "prediction_score": 0.133,
+      "actual": 0,
+      "predicted": 0,
+      "patient_age": 85,
+      "risk_factors": 4
+    },
+    {
+      "id": 170,
+      "prediction_score": 0.335,
+      "actual": 0,
+      "predicted": 0,
+      "patient_age": 77,
+      "risk_factors": 5
+    },
+    {
+      "id": 171,
+      "prediction_score": 0.053,
+      "actual": 0,
+      "predicted": 0,
+      "patient_age": 66,
+      "risk_factors": 1
+    },
+    {
+      "id": 172,
+      "prediction_score": 0.072,
+      "actual": 0,
+      "predicted": 0,
+      "patient_age": 47,
+      "risk_factors": 2
+    },
+    {
+      "id": 173,
+      "prediction_score": 0.522,
+      "actual": 0,
+      "predicted": 1,
+      "patient_age": 48,
+      "risk_factors": 0
+    },
+    {
+      "id": 174,
+      "prediction_score": 0.357,
+      "actual": 0,
+      "predicted": 0,
+      "patient_age": 72,
+      "risk_factors": 5
+    },
+    {
+      "id": 175,
+      "prediction_score": 0.395,
+      "actual": 0,
+      "predicted": 0,
+      "patient_age": 69,
+      "risk_factors": 0
+    },
+    {
+      "id": 176,
+      "prediction_score": 0.178,
+      "actual": 0,
+      "predicted": 0,
+      "patient_age": 82,
+      "risk_factors": 2
+    },
+    {
+      "id": 177,
+      "prediction_score": 0.18,
+      "actual": 0,
+      "predicted": 0,
+      "patient_age": 38,
+      "risk_factors": 0
+    },
+    {
+      "id": 178,
+      "prediction_score": 0.182,
+      "actual": 0,
+      "predicted": 0,
+      "patient_age": 72,
+      "risk_factors": 3
+    },
+    {
+      "id": 179,
+      "prediction_score": 0.077,
+      "actual": 0,
+      "predicted": 0,
+      "patient_age": 67,
+      "risk_factors": 4
+    },
+    {
+      "id": 180,
+      "prediction_score": 0.664,
+      "actual": 1,
+      "predicted": 1,
+      "patient_age": 45,
+      "risk_factors": 0
+    },
+    {
+      "id": 181,
+      "prediction_score": 0.143,
+      "actual": 0,
+      "predicted": 0,
+      "patient_age": 67,
+      "risk_factors": 0
+    },
+    {
+      "id": 182,
+      "prediction_score": 0.466,
+      "actual": 0,
+      "predicted": 0,
+      "patient_age": 46,
+      "risk_factors": 0
+    },
+    {
+      "id": 183,
+      "prediction_score": 0.126,
+      "actual": 0,
+      "predicted": 0,
+      "patient_age": 73,
+      "risk_factors": 0
+    },
+    {
+      "id": 184,
+      "prediction_score": 0.782,
+      "actual": 0,
+      "predicted": 1,
+      "patient_age": 78,
+      "risk_factors": 1
+    },
+    {
+      "id": 185,
+      "prediction_score": 0.662,
+      "actual": 0,
+      "predicted": 1,
+      "patient_age": 60,
+      "risk_factors": 0
+    },
+    {
+      "id": 186,
+      "prediction_score": 0.975,
+      "actual": 1,
+      "predicted": 1,
+      "patient_age": 71,
+      "risk_factors": 1
+    },
+    {
+      "id": 187,
+      "prediction_score": 0.268,
+      "actual": 0,
+      "predicted": 0,
+      "patient_age": 72,
+      "risk_factors": 4
+    },
+    {
+      "id": 188,
+      "prediction_score": 0.604,
+      "actual": 0,
+      "predicted": 1,
+      "patient_age": 37,
+      "risk_factors": 4
+    },
+    {
+      "id": 189,
+      "prediction_score": 0.277,
+      "actual": 0,
+      "predicted": 0,
+      "patient_age": 40,
+      "risk_factors": 3
+    },
+    {
+      "id": 190,
+      "prediction_score": 0.156,
+      "actual": 0,
+      "predicted": 0,
+      "patient_age": 77,
+      "risk_factors": 4
+    },
+    {
+      "id": 191,
+      "prediction_score": 0.224,
+      "actual": 0,
+      "predicted": 0,
+      "patient_age": 71,
+      "risk_factors": 4
+    },
+    {
+      "id": 192,
+      "prediction_score": 0.302,
+      "actual": 0,
+      "predicted": 0,
+      "patient_age": 55,
+      "risk_factors": 2
+    },
+    {
+      "id": 193,
+      "prediction_score": 0.052,
+      "actual": 0,
+      "predicted": 0,
+      "patient_age": 48,
+      "risk_factors": 5
+    },
+    {
+      "id": 194,
+      "prediction_score": 0.575,
+      "actual": 0,
+      "predicted": 1,
+      "patient_age": 80,
+      "risk_factors": 2
+    },
+    {
+      "id": 195,
+      "prediction_score": 0.069,
+      "actual": 0,
+      "predicted": 0,
+      "patient_age": 50,
+      "risk_factors": 2
+    },
+    {
+      "id": 196,
+      "prediction_score": 0.21,
+      "actual": 0,
+      "predicted": 0,
+      "patient_age": 60,
+      "risk_factors": 1
+    },
+    {
+      "id": 197,
+      "prediction_score": 0.321,
+      "actual": 0,
+      "predicted": 0,
+      "patient_age": 77,
+      "risk_factors": 5
+    },
+    {
+      "id": 198,
+      "prediction_score": 0.504,
+      "actual": 0,
+      "predicted": 1,
+      "patient_age": 54,
+      "risk_factors": 3
+    },
+    {
+      "id": 199,
+      "prediction_score": 0.068,
+      "actual": 0,
+      "predicted": 0,
+      "patient_age": 55,
+      "risk_factors": 0
+    },
+    {
+      "id": 200,
+      "prediction_score": 0.028,
+      "actual": 0,
+      "predicted": 0,
+      "patient_age": 35,
+      "risk_factors": 3
+    },
+    {
+      "id": 201,
+      "prediction_score": 0.718,
+      "actual": 0,
+      "predicted": 1,
+      "patient_age": 74,
+      "risk_factors": 4
+    },
+    {
+      "id": 202,
+      "prediction_score": 0.709,
+      "actual": 0,
+      "predicted": 1,
+      "patient_age": 41,
+      "risk_factors": 0
+    },
+    {
+      "id": 203,
+      "prediction_score": 0.163,
+      "actual": 0,
+      "predicted": 0,
+      "patient_age": 69,
+      "risk_factors": 1
+    },
+    {
+      "id": 204,
+      "prediction_score": 0.187,
+      "actual": 0,
+      "predicted": 0,
+      "patient_age": 67,
+      "risk_factors": 2
+    },
+    {
+      "id": 205,
+      "prediction_score": 0.407,
+      "actual": 1,
+      "predicted": 0,
+      "patient_age": 43,
+      "risk_factors": 2
+    },
+    {
+      "id": 206,
+      "prediction_score": 0.022,
+      "actual": 0,
+      "predicted": 0,
+      "patient_age": 39,
+      "risk_factors": 1
+    },
+    {
+      "id": 207,
+      "prediction_score": 0.711,
+      "actual": 0,
+      "predicted": 1,
+      "patient_age": 58,
+      "risk_factors": 2
+    },
+    {
+      "id": 208,
+      "prediction_score": 0.682,
+      "actual": 0,
+      "predicted": 1,
+      "patient_age": 45,
+      "risk_factors": 3
+    },
+    {
+      "id": 209,
+      "prediction_score": 0.15,
+      "actual": 0,
+      "predicted": 0,
+      "patient_age": 69,
+      "risk_factors": 5
+    },
+    {
+      "id": 210,
+      "prediction_score": 0.506,
+      "actual": 0,
+      "predicted": 1,
+      "patient_age": 54,
+      "risk_factors": 4
+    },
+    {
+      "id": 211,
+      "prediction_score": 0.117,
+      "actual": 0,
+      "predicted": 0,
+      "patient_age": 76,
+      "risk_factors": 4
+    },
+    {
+      "id": 212,
+      "prediction_score": 0.56,
+      "actual": 0,
+      "predicted": 1,
+      "patient_age": 35,
+      "risk_factors": 5
+    },
+    {
+      "id": 213,
+      "prediction_score": 0.249,
+      "actual": 0,
+      "predicted": 0,
+      "patient_age": 70,
+      "risk_factors": 2
+    },
+    {
+      "id": 214,
+      "prediction_score": 0.259,
+      "actual": 0,
+      "predicted": 0,
+      "patient_age": 77,
+      "risk_factors": 0
+    },
+    {
+      "id": 215,
+      "prediction_score": 0.126,
+      "actual": 0,
+      "predicted": 0,
+      "patient_age": 43,
+      "risk_factors": 2
+    },
+    {
+      "id": 216,
+      "prediction_score": 0.271,
+      "actual": 0,
+      "predicted": 0,
+      "patient_age": 42,
+      "risk_factors": 0
+    },
+    {
+      "id": 217,
+      "prediction_score": 0.097,
+      "actual": 0,
+      "predicted": 0,
+      "patient_age": 82,
+      "risk_factors": 4
+    },
+    {
+      "id": 218,
+      "prediction_score": 0.531,
+      "actual": 0,
+      "predicted": 1,
+      "patient_age": 44,
+      "risk_factors": 2
+    },
+    {
+      "id": 219,
+      "prediction_score": 0.684,
+      "actual": 1,
+      "predicted": 1,
+      "patient_age": 53,
+      "risk_factors": 4
+    },
+    {
+      "id": 220,
+      "prediction_score": 0.579,
+      "actual": 0,
+      "predicted": 1,
+      "patient_age": 48,
+      "risk_factors": 5
+    },
+    {
+      "id": 221,
+      "prediction_score": 0.468,
+      "actual": 0,
+      "predicted": 0,
+      "patient_age": 56,
+      "risk_factors": 1
+    },
+    {
+      "id": 222,
+      "prediction_score": 0.347,
+      "actual": 0,
+      "predicted": 0,
+      "patient_age": 78,
+      "risk_factors": 5
+    },
+    {
+      "id": 223,
+      "prediction_score": 0.429,
+      "actual": 0,
+      "predicted": 0,
+      "patient_age": 51,
+      "risk_factors": 4
+    },
+    {
+      "id": 224,
+      "prediction_score": 0.065,
+      "actual": 0,
+      "predicted": 0,
+      "patient_age": 66,
+      "risk_factors": 2
+    },
+    {
+      "id": 225,
+      "prediction_score": 0.183,
+      "actual": 0,
+      "predicted": 0,
+      "patient_age": 38,
+      "risk_factors": 0
+    },
+    {
+      "id": 226,
+      "prediction_score": 0.08,
+      "actual": 0,
+      "predicted": 0,
+      "patient_age": 75,
+      "risk_factors": 3
+    },
+    {
+      "id": 227,
+      "prediction_score": 0.363,
+      "actual": 0,
+      "predicted": 0,
+      "patient_age": 52,
+      "risk_factors": 0
+    },
+    {
+      "id": 228,
+      "prediction_score": 0.228,
+      "actual": 0,
+      "predicted": 0,
+      "patient_age": 35,
+      "risk_factors": 2
+    },
+    {
+      "id": 229,
+      "prediction_score": 0.188,
+      "actual": 0,
+      "predicted": 0,
+      "patient_age": 84,
+      "risk_factors": 1
+    },
+    {
+      "id": 230,
+      "prediction_score": 0.291,
+      "actual": 0,
+      "predicted": 0,
+      "patient_age": 75,
+      "risk_factors": 2
+    },
+    {
+      "id": 231,
+      "prediction_score": 0.113,
+      "actual": 0,
+      "predicted": 0,
+      "patient_age": 45,
+      "risk_factors": 5
+    },
+    {
+      "id": 232,
+      "prediction_score": 0.112,
+      "actual": 0,
+      "predicted": 0,
+      "patient_age": 63,
+      "risk_factors": 4
+    },
+    {
+      "id": 233,
+      "prediction_score": 0.636,
+      "actual": 0,
+      "predicted": 1,
+      "patient_age": 80,
+      "risk_factors": 3
+    },
+    {
+      "id": 234,
+      "prediction_score": 0.534,
+      "actual": 0,
+      "predicted": 1,
+      "patient_age": 70,
+      "risk_factors": 0
+    },
+    {
+      "id": 235,
+      "prediction_score": 0.08,
+      "actual": 0,
+      "predicted": 0,
+      "patient_age": 42,
+      "risk_factors": 0
+    },
+    {
+      "id": 236,
+      "prediction_score": 0.741,
+      "actual": 1,
+      "predicted": 1,
+      "patient_age": 79,
+      "risk_factors": 1
+    },
+    {
+      "id": 237,
+      "prediction_score": 0.209,
+      "actual": 0,
+      "predicted": 0,
+      "patient_age": 69,
+      "risk_factors": 0
+    },
+    {
+      "id": 238,
+      "prediction_score": 0.27,
+      "actual": 0,
+      "predicted": 0,
+      "patient_age": 58,
+      "risk_factors": 4
+    },
+    {
+      "id": 239,
+      "prediction_score": 0.336,
+      "actual": 0,
+      "predicted": 0,
+      "patient_age": 70,
+      "risk_factors": 1
+    },
+    {
+      "id": 240,
+      "prediction_score": 0.555,
+      "actual": 1,
+      "predicted": 1,
+      "patient_age": 62,
+      "risk_factors": 1
+    },
+    {
+      "id": 241,
+      "prediction_score": 0.533,
+      "actual": 0,
+      "predicted": 1,
+      "patient_age": 37,
+      "risk_factors": 2
+    },
+    {
+      "id": 242,
+      "prediction_score": 0.505,
+      "actual": 0,
+      "predicted": 1,
+      "patient_age": 58,
+      "risk_factors": 0
+    },
+    {
+      "id": 243,
+      "prediction_score": 0.058,
+      "actual": 0,
+      "predicted": 0,
+      "patient_age": 57,
+      "risk_factors": 1
+    },
+    {
+      "id": 244,
+      "prediction_score": 0.3,
+      "actual": 0,
+      "predicted": 0,
+      "patient_age": 78,
+      "risk_factors": 1
+    },
+    {
+      "id": 245,
+      "prediction_score": 0.399,
+      "actual": 0,
+      "predicted": 0,
+      "patient_age": 77,
+      "risk_factors": 0
+    },
+    {
+      "id": 246,
+      "prediction_score": 0.682,
+      "actual": 0,
+      "predicted": 1,
+      "patient_age": 57,
+      "risk_factors": 4
+    },
+    {
+      "id": 247,
+      "prediction_score": 0.495,
+      "actual": 0,
+      "predicted": 0,
+      "patient_age": 61,
+      "risk_factors": 4
+    },
+    {
+      "id": 248,
+      "prediction_score": 0.346,
+      "actual": 0,
+      "predicted": 0,
+      "patient_age": 82,
+      "risk_factors": 1
+    },
+    {
+      "id": 249,
+      "prediction_score": 0.194,
+      "actual": 0,
+      "predicted": 0,
+      "patient_age": 50,
+      "risk_factors": 1
+    },
+    {
+      "id": 250,
+      "prediction_score": 0.278,
+      "actual": 0,
+      "predicted": 0,
+      "patient_age": 46,
+      "risk_factors": 3
+    },
+    {
+      "id": 251,
+      "prediction_score": 0.451,
+      "actual": 0,
+      "predicted": 0,
+      "patient_age": 36,
+      "risk_factors": 1
+    },
+    {
+      "id": 252,
+      "prediction_score": 0.215,
+      "actual": 0,
+      "predicted": 0,
+      "patient_age": 82,
+      "risk_factors": 2
+    },
+    {
+      "id": 253,
+      "prediction_score": 0.373,
+      "actual": 0,
+      "predicted": 0,
+      "patient_age": 85,
+      "risk_factors": 3
+    },
+    {
+      "id": 254,
+      "prediction_score": 0.743,
+      "actual": 0,
+      "predicted": 1,
+      "patient_age": 77,
+      "risk_factors": 5
+    },
+    {
+      "id": 255,
+      "prediction_score": 0.684,
+      "actual": 0,
+      "predicted": 1,
+      "patient_age": 50,
+      "risk_factors": 2
+    },
+    {
+      "id": 256,
+      "prediction_score": 0.396,
+      "actual": 0,
+      "predicted": 0,
+      "patient_age": 45,
+      "risk_factors": 5
+    },
+    {
+      "id": 257,
+      "prediction_score": 0.31,
+      "actual": 0,
+      "predicted": 0,
+      "patient_age": 41,
+      "risk_factors": 3
+    },
+    {
+      "id": 258,
+      "prediction_score": 0.542,
+      "actual": 0,
+      "predicted": 1,
+      "patient_age": 37,
+      "risk_factors": 3
+    },
+    {
+      "id": 259,
+      "prediction_score": 0.342,
+      "actual": 0,
+      "predicted": 0,
+      "patient_age": 49,
+      "risk_factors": 1
+    },
+    {
+      "id": 260,
+      "prediction_score": 0.144,
+      "actual": 0,
+      "predicted": 0,
+      "patient_age": 64,
+      "risk_factors": 2
+    },
+    {
+      "id": 261,
+      "prediction_score": 0.35,
+      "actual": 0,
+      "predicted": 0,
+      "patient_age": 54,
+      "risk_factors": 1
+    },
+    {
+      "id": 262,
+      "prediction_score": 0.674,
+      "actual": 1,
+      "predicted": 1,
+      "patient_age": 49,
+      "risk_factors": 0
+    },
+    {
+      "id": 263,
+      "prediction_score": 0.19,
+      "actual": 0,
+      "predicted": 0,
+      "patient_age": 77,
+      "risk_factors": 1
+    },
+    {
+      "id": 264,
+      "prediction_score": 0.43,
+      "actual": 0,
+      "predicted": 0,
+      "patient_age": 60,
+      "risk_factors": 2
+    },
+    {
+      "id": 265,
+      "prediction_score": 0.612,
+      "actual": 0,
+      "predicted": 1,
+      "patient_age": 52,
+      "risk_factors": 0
+    },
+    {
+      "id": 266,
+      "prediction_score": 0.553,
+      "actual": 0,
+      "predicted": 1,
+      "patient_age": 84,
+      "risk_factors": 2
+    },
+    {
+      "id": 267,
+      "prediction_score": 0.819,
+      "actual": 0,
+      "predicted": 1,
+      "patient_age": 57,
+      "risk_factors": 5
+    },
+    {
+      "id": 268,
+      "prediction_score": 0.585,
+      "actual": 0,
+      "predicted": 1,
+      "patient_age": 67,
+      "risk_factors": 3
+    },
+    {
+      "id": 269,
+      "prediction_score": 0.148,
+      "actual": 0,
+      "predicted": 0,
+      "patient_age": 78,
+      "risk_factors": 4
+    },
+    {
+      "id": 270,
+      "prediction_score": 0.617,
+      "actual": 0,
+      "predicted": 1,
+      "patient_age": 56,
+      "risk_factors": 0
+    },
+    {
+      "id": 271,
+      "prediction_score": 0.711,
+      "actual": 0,
+      "predicted": 1,
+      "patient_age": 42,
+      "risk_factors": 2
+    },
+    {
+      "id": 272,
+      "prediction_score": 0.119,
+      "actual": 0,
+      "predicted": 0,
+      "patient_age": 46,
+      "risk_factors": 4
+    },
+    {
+      "id": 273,
+      "prediction_score": 0.549,
+      "actual": 0,
+      "predicted": 1,
+      "patient_age": 51,
+      "risk_factors": 0
+    },
+    {
+      "id": 274,
+      "prediction_score": 0.379,
+      "actual": 0,
+      "predicted": 0,
+      "patient_age": 41,
+      "risk_factors": 4
+    },
+    {
+      "id": 275,
+      "prediction_score": 0.461,
+      "actual": 0,
+      "predicted": 0,
+      "patient_age": 62,
+      "risk_factors": 2
+    },
+    {
+      "id": 276,
+      "prediction_score": 0.202,
+      "actual": 0,
+      "predicted": 0,
+      "patient_age": 81,
+      "risk_factors": 2
+    },
+    {
+      "id": 277,
+      "prediction_score": 0.336,
+      "actual": 0,
+      "predicted": 0,
+      "patient_age": 62,
+      "risk_factors": 4
+    },
+    {
+      "id": 278,
+      "prediction_score": 0.46,
+      "actual": 0,
+      "predicted": 0,
+      "patient_age": 67,
+      "risk_factors": 0
+    },
+    {
+      "id": 279,
+      "prediction_score": 0.141,
+      "actual": 0,
+      "predicted": 0,
+      "patient_age": 59,
+      "risk_factors": 4
+    },
+    {
+      "id": 280,
+      "prediction_score": 0.187,
+      "actual": 0,
+      "predicted": 0,
+      "patient_age": 47,
+      "risk_factors": 2
+    },
+    {
+      "id": 281,
+      "prediction_score": 0.667,
+      "actual": 1,
+      "predicted": 1,
+      "patient_age": 37,
+      "risk_factors": 5
+    },
+    {
+      "id": 282,
+      "prediction_score": 0.489,
+      "actual": 0,
+      "predicted": 0,
+      "patient_age": 62,
+      "risk_factors": 0
+    },
+    {
+      "id": 283,
+      "prediction_score": 0.272,
+      "actual": 0,
+      "predicted": 0,
+      "patient_age": 68,
+      "risk_factors": 4
+    },
+    {
+      "id": 284,
+      "prediction_score": 0.525,
+      "actual": 0,
+      "predicted": 1,
+      "patient_age": 78,
+      "risk_factors": 5
+    },
+    {
+      "id": 285,
+      "prediction_score": 0.504,
+      "actual": 0,
+      "predicted": 1,
+      "patient_age": 82,
+      "risk_factors": 5
+    },
+    {
+      "id": 286,
+      "prediction_score": 0.526,
+      "actual": 0,
+      "predicted": 1,
+      "patient_age": 77,
+      "risk_factors": 1
+    },
+    {
+      "id": 287,
+      "prediction_score": 0.104,
+      "actual": 0,
+      "predicted": 0,
+      "patient_age": 58,
+      "risk_factors": 3
+    },
+    {
+      "id": 288,
+      "prediction_score": 0.107,
+      "actual": 0,
+      "predicted": 0,
+      "patient_age": 39,
+      "risk_factors": 5
+    },
+    {
+      "id": 289,
+      "prediction_score": 0.064,
+      "actual": 0,
+      "predicted": 0,
+      "patient_age": 56,
+      "risk_factors": 4
+    },
+    {
+      "id": 290,
+      "prediction_score": 0.235,
+      "actual": 0,
+      "predicted": 0,
+      "patient_age": 55,
+      "risk_factors": 5
+    },
+    {
+      "id": 291,
+      "prediction_score": 0.423,
+      "actual": 0,
+      "predicted": 0,
+      "patient_age": 42,
+      "risk_factors": 5
+    },
+    {
+      "id": 292,
+      "prediction_score": 0.384,
+      "actual": 0,
+      "predicted": 0,
+      "patient_age": 54,
+      "risk_factors": 4
+    },
+    {
+      "id": 293,
+      "prediction_score": 0.176,
+      "actual": 0,
+      "predicted": 0,
+      "patient_age": 54,
+      "risk_factors": 5
+    },
+    {
+      "id": 294,
+      "prediction_score": 0.433,
+      "actual": 0,
+      "predicted": 0,
+      "patient_age": 61,
+      "risk_factors": 2
+    },
+    {
+      "id": 295,
+      "prediction_score": 0.031,
+      "actual": 0,
+      "predicted": 0,
+      "patient_age": 60,
+      "risk_factors": 5
+    },
+    {
+      "id": 296,
+      "prediction_score": 0.16,
+      "actual": 0,
+      "predicted": 0,
+      "patient_age": 53,
+      "risk_factors": 4
+    },
+    {
+      "id": 297,
+      "prediction_score": 0.592,
+      "actual": 1,
+      "predicted": 1,
+      "patient_age": 43,
+      "risk_factors": 1
+    },
+    {
+      "id": 298,
+      "prediction_score": 0.625,
+      "actual": 0,
+      "predicted": 1,
+      "patient_age": 61,
+      "risk_factors": 5
+    },
+    {
+      "id": 299,
+      "prediction_score": 0.163,
+      "actual": 0,
+      "predicted": 0,
+      "patient_age": 59,
+      "risk_factors": 5
+    },
+    {
+      "id": 300,
+      "prediction_score": 0.315,
+      "actual": 0,
+      "predicted": 0,
+      "patient_age": 82,
+      "risk_factors": 1
+    },
+    {
+      "id": 301,
+      "prediction_score": 0.088,
+      "actual": 0,
+      "predicted": 0,
+      "patient_age": 74,
+      "risk_factors": 4
+    },
+    {
+      "id": 302,
+      "prediction_score": 0.156,
+      "actual": 0,
+      "predicted": 0,
+      "patient_age": 54,
+      "risk_factors": 3
+    },
+    {
+      "id": 303,
+      "prediction_score": 0.068,
+      "actual": 0,
+      "predicted": 0,
+      "patient_age": 70,
+      "risk_factors": 0
+    },
+    {
+      "id": 304,
+      "prediction_score": 0.268,
+      "actual": 0,
+      "predicted": 0,
+      "patient_age": 54,
+      "risk_factors": 2
+    },
+    {
+      "id": 305,
+      "prediction_score": 0.236,
+      "actual": 0,
+      "predicted": 0,
+      "patient_age": 48,
+      "risk_factors": 3
+    },
+    {
+      "id": 306,
+      "prediction_score": 0.154,
+      "actual": 0,
+      "predicted": 0,
+      "patient_age": 85,
+      "risk_factors": 4
+    },
+    {
+      "id": 307,
+      "prediction_score": 0.447,
+      "actual": 0,
+      "predicted": 0,
+      "patient_age": 73,
+      "risk_factors": 5
+    },
+    {
+      "id": 308,
+      "prediction_score": 0.364,
+      "actual": 0,
+      "predicted": 0,
+      "patient_age": 55,
+      "risk_factors": 3
+    },
+    {
+      "id": 309,
+      "prediction_score": 0.103,
+      "actual": 0,
+      "predicted": 0,
+      "patient_age": 63,
+      "risk_factors": 3
+    },
+    {
+      "id": 310,
+      "prediction_score": 0.525,
+      "actual": 0,
+      "predicted": 1,
+      "patient_age": 78,
+      "risk_factors": 1
+    },
+    {
+      "id": 311,
+      "prediction_score": 0.102,
+      "actual": 0,
+      "predicted": 0,
+      "patient_age": 67,
+      "risk_factors": 3
+    },
+    {
+      "id": 312,
+      "prediction_score": 0.674,
+      "actual": 0,
+      "predicted": 1,
+      "patient_age": 85,
+      "risk_factors": 5
+    },
+    {
+      "id": 313,
+      "prediction_score": 0.515,
+      "actual": 1,
+      "predicted": 1,
+      "patient_age": 45,
+      "risk_factors": 5
+    },
+    {
+      "id": 314,
+      "prediction_score": 0.593,
+      "actual": 0,
+      "predicted": 1,
+      "patient_age": 40,
+      "risk_factors": 2
+    },
+    {
+      "id": 315,
+      "prediction_score": 0.456,
+      "actual": 0,
+      "predicted": 0,
+      "patient_age": 67,
+      "risk_factors": 5
+    },
+    {
+      "id": 316,
+      "prediction_score": 0.65,
+      "actual": 0,
+      "predicted": 1,
+      "patient_age": 75,
+      "risk_factors": 4
+    },
+    {
+      "id": 317,
+      "prediction_score": 0.456,
+      "actual": 0,
+      "predicted": 0,
+      "patient_age": 56,
+      "risk_factors": 0
+    },
+    {
+      "id": 318,
+      "prediction_score": 0.728,
+      "actual": 0,
+      "predicted": 1,
+      "patient_age": 83,
+      "risk_factors": 1
+    },
+    {
+      "id": 319,
+      "prediction_score": 0.761,
+      "actual": 0,
+      "predicted": 1,
+      "patient_age": 78,
+      "risk_factors": 2
+    },
+    {
+      "id": 320,
+      "prediction_score": 0.758,
+      "actual": 0,
+      "predicted": 1,
+      "patient_age": 49,
+      "risk_factors": 1
+    },
+    {
+      "id": 321,
+      "prediction_score": 0.345,
+      "actual": 1,
+      "predicted": 0,
+      "patient_age": 44,
+      "risk_factors": 0
+    },
+    {
+      "id": 322,
+      "prediction_score": 0.306,
+      "actual": 0,
+      "predicted": 0,
+      "patient_age": 37,
+      "risk_factors": 1
+    },
+    {
+      "id": 323,
+      "prediction_score": 0.037,
+      "actual": 0,
+      "predicted": 0,
+      "patient_age": 65,
+      "risk_factors": 4
+    },
+    {
+      "id": 324,
+      "prediction_score": 0.456,
+      "actual": 0,
+      "predicted": 0,
+      "patient_age": 84,
+      "risk_factors": 0
+    },
+    {
+      "id": 325,
+      "prediction_score": 0.297,
+      "actual": 0,
+      "predicted": 0,
+      "patient_age": 64,
+      "risk_factors": 3
+    },
+    {
+      "id": 326,
+      "prediction_score": 0.094,
+      "actual": 0,
+      "predicted": 0,
+      "patient_age": 75,
+      "risk_factors": 4
+    },
+    {
+      "id": 327,
+      "prediction_score": 0.024,
+      "actual": 0,
+      "predicted": 0,
+      "patient_age": 47,
+      "risk_factors": 5
+    },
+    {
+      "id": 328,
+      "prediction_score": 0.299,
+      "actual": 0,
+      "predicted": 0,
+      "patient_age": 79,
+      "risk_factors": 3
+    },
+    {
+      "id": 329,
+      "prediction_score": 0.299,
+      "actual": 0,
+      "predicted": 0,
+      "patient_age": 66,
+      "risk_factors": 3
+    },
+    {
+      "id": 330,
+      "prediction_score": 0.043,
+      "actual": 0,
+      "predicted": 0,
+      "patient_age": 50,
+      "risk_factors": 1
+    },
+    {
+      "id": 331,
+      "prediction_score": 0.514,
+      "actual": 0,
+      "predicted": 1,
+      "patient_age": 76,
+      "risk_factors": 5
+    },
+    {
+      "id": 332,
+      "prediction_score": 0.463,
+      "actual": 0,
+      "predicted": 0,
+      "patient_age": 35,
+      "risk_factors": 0
+    },
+    {
+      "id": 333,
+      "prediction_score": 0.541,
+      "actual": 0,
+      "predicted": 1,
+      "patient_age": 84,
+      "risk_factors": 3
+    },
+    {
+      "id": 334,
+      "prediction_score": 0.425,
+      "actual": 0,
+      "predicted": 0,
+      "patient_age": 49,
+      "risk_factors": 1
+    },
+    {
+      "id": 335,
+      "prediction_score": 0.347,
+      "actual": 0,
+      "predicted": 0,
+      "patient_age": 79,
+      "risk_factors": 4
+    },
+    {
+      "id": 336,
+      "prediction_score": 0.358,
+      "actual": 0,
+      "predicted": 0,
+      "patient_age": 64,
+      "risk_factors": 0
+    },
+    {
+      "id": 337,
+      "prediction_score": 0.654,
+      "actual": 0,
+      "predicted": 1,
+      "patient_age": 70,
+      "risk_factors": 1
+    },
+    {
+      "id": 338,
+      "prediction_score": 0.433,
+      "actual": 0,
+      "predicted": 0,
+      "patient_age": 42,
+      "risk_factors": 3
+    },
+    {
+      "id": 339,
+      "prediction_score": 0.146,
+      "actual": 0,
+      "predicted": 0,
+      "patient_age": 43,
+      "risk_factors": 3
+    },
+    {
+      "id": 340,
+      "prediction_score": 0.672,
+      "actual": 1,
+      "predicted": 1,
+      "patient_age": 77,
+      "risk_factors": 4
+    },
+    {
+      "id": 341,
+      "prediction_score": 0.166,
+      "actual": 0,
+      "predicted": 0,
+      "patient_age": 70,
+      "risk_factors": 4
+    },
+    {
+      "id": 342,
+      "prediction_score": 0.387,
+      "actual": 0,
+      "predicted": 0,
+      "patient_age": 55,
+      "risk_factors": 3
+    },
+    {
+      "id": 343,
+      "prediction_score": 0.407,
+      "actual": 1,
+      "predicted": 0,
+      "patient_age": 74,
+      "risk_factors": 5
+    },
+    {
+      "id": 344,
+      "prediction_score": 0.398,
+      "actual": 0,
+      "predicted": 0,
+      "patient_age": 67,
+      "risk_factors": 3
+    },
+    {
+      "id": 345,
+      "prediction_score": 0.481,
+      "actual": 0,
+      "predicted": 0,
+      "patient_age": 70,
+      "risk_factors": 3
+    },
+    {
+      "id": 346,
+      "prediction_score": 0.322,
+      "actual": 0,
+      "predicted": 0,
+      "patient_age": 45,
+      "risk_factors": 5
+    },
+    {
+      "id": 347,
+      "prediction_score": 0.938,
+      "actual": 1,
+      "predicted": 1,
+      "patient_age": 65,
+      "risk_factors": 3
+    },
+    {
+      "id": 348,
+      "prediction_score": 0.095,
+      "actual": 0,
+      "predicted": 0,
+      "patient_age": 51,
+      "risk_factors": 1
+    },
+    {
+      "id": 349,
+      "prediction_score": 0.64,
+      "actual": 0,
+      "predicted": 1,
+      "patient_age": 75,
+      "risk_factors": 2
+    },
+    {
+      "id": 350,
+      "prediction_score": 0.168,
+      "actual": 0,
+      "predicted": 0,
+      "patient_age": 84,
+      "risk_factors": 4
+    },
+    {
+      "id": 351,
+      "prediction_score": 0.132,
+      "actual": 0,
+      "predicted": 0,
+      "patient_age": 66,
+      "risk_factors": 5
+    },
+    {
+      "id": 352,
+      "prediction_score": 0.25,
+      "actual": 0,
+      "predicted": 0,
+      "patient_age": 50,
+      "risk_factors": 2
+    },
+    {
+      "id": 353,
+      "prediction_score": 0.278,
+      "actual": 0,
+      "predicted": 0,
+      "patient_age": 63,
+      "risk_factors": 0
+    },
+    {
+      "id": 354,
+      "prediction_score": 0.399,
+      "actual": 0,
+      "predicted": 0,
+      "patient_age": 80,
+      "risk_factors": 2
+    },
+    {
+      "id": 355,
+      "prediction_score": 0.503,
+      "actual": 0,
+      "predicted": 1,
+      "patient_age": 50,
+      "risk_factors": 2
+    },
+    {
+      "id": 356,
+      "prediction_score": 0.346,
+      "actual": 0,
+      "predicted": 0,
+      "patient_age": 56,
+      "risk_factors": 2
+    },
+    {
+      "id": 357,
+      "prediction_score": 0.852,
+      "actual": 1,
+      "predicted": 1,
+      "patient_age": 69,
+      "risk_factors": 0
+    },
+    {
+      "id": 358,
+      "prediction_score": 0.456,
+      "actual": 0,
+      "predicted": 0,
+      "patient_age": 43,
+      "risk_factors": 1
+    },
+    {
+      "id": 359,
+      "prediction_score": 0.428,
+      "actual": 0,
+      "predicted": 0,
+      "patient_age": 49,
+      "risk_factors": 3
+    },
+    {
+      "id": 360,
+      "prediction_score": 0.288,
+      "actual": 0,
+      "predicted": 0,
+      "patient_age": 79,
+      "risk_factors": 1
+    },
+    {
+      "id": 361,
+      "prediction_score": 0.247,
+      "actual": 0,
+      "predicted": 0,
+      "patient_age": 80,
+      "risk_factors": 1
+    },
+    {
+      "id": 362,
+      "prediction_score": 0.616,
+      "actual": 0,
+      "predicted": 1,
+      "patient_age": 39,
+      "risk_factors": 3
+    },
+    {
+      "id": 363,
+      "prediction_score": 0.469,
+      "actual": 0,
+      "predicted": 0,
+      "patient_age": 61,
+      "risk_factors": 2
+    },
+    {
+      "id": 364,
+      "prediction_score": 0.426,
+      "actual": 1,
+      "predicted": 0,
+      "patient_age": 69,
+      "risk_factors": 3
+    },
+    {
+      "id": 365,
+      "prediction_score": 0.426,
+      "actual": 0,
+      "predicted": 0,
+      "patient_age": 61,
+      "risk_factors": 0
+    },
+    {
+      "id": 366,
+      "prediction_score": 0.079,
+      "actual": 0,
+      "predicted": 0,
+      "patient_age": 48,
+      "risk_factors": 3
+    },
+    {
+      "id": 367,
+      "prediction_score": 0.063,
+      "actual": 0,
+      "predicted": 0,
+      "patient_age": 59,
+      "risk_factors": 4
+    },
+    {
+      "id": 368,
+      "prediction_score": 0.116,
+      "actual": 0,
+      "predicted": 0,
+      "patient_age": 79,
+      "risk_factors": 0
+    },
+    {
+      "id": 369,
+      "prediction_score": 0.398,
+      "actual": 0,
+      "predicted": 0,
+      "patient_age": 83,
+      "risk_factors": 4
+    },
+    {
+      "id": 370,
+      "prediction_score": 0.193,
+      "actual": 0,
+      "predicted": 0,
+      "patient_age": 59,
+      "risk_factors": 3
+    },
+    {
+      "id": 371,
+      "prediction_score": 0.171,
+      "actual": 0,
+      "predicted": 0,
+      "patient_age": 35,
+      "risk_factors": 2
+    },
+    {
+      "id": 372,
+      "prediction_score": 0.477,
+      "actual": 0,
+      "predicted": 0,
+      "patient_age": 54,
+      "risk_factors": 3
+    },
+    {
+      "id": 373,
+      "prediction_score": 0.225,
+      "actual": 0,
+      "predicted": 0,
+      "patient_age": 61,
+      "risk_factors": 4
+    },
+    {
+      "id": 374,
+      "prediction_score": 0.591,
+      "actual": 0,
+      "predicted": 1,
+      "patient_age": 82,
+      "risk_factors": 5
+    },
+    {
+      "id": 375,
+      "prediction_score": 0.268,
+      "actual": 0,
+      "predicted": 0,
+      "patient_age": 69,
+      "risk_factors": 4
+    },
+    {
+      "id": 376,
+      "prediction_score": 0.176,
+      "actual": 0,
+      "predicted": 0,
+      "patient_age": 49,
+      "risk_factors": 3
+    },
+    {
+      "id": 377,
+      "prediction_score": 0.109,
+      "actual": 0,
+      "predicted": 0,
+      "patient_age": 49,
+      "risk_factors": 2
+    },
+    {
+      "id": 378,
+      "prediction_score": 0.218,
+      "actual": 0,
+      "predicted": 0,
+      "patient_age": 62,
+      "risk_factors": 3
+    },
+    {
+      "id": 379,
+      "prediction_score": 0.086,
+      "actual": 0,
+      "predicted": 0,
+      "patient_age": 36,
+      "risk_factors": 3
+    },
+    {
+      "id": 380,
+      "prediction_score": 0.074,
+      "actual": 0,
+      "predicted": 0,
+      "patient_age": 56,
+      "risk_factors": 5
+    },
+    {
+      "id": 381,
+      "prediction_score": 0.476,
+      "actual": 0,
+      "predicted": 0,
+      "patient_age": 78,
+      "risk_factors": 3
+    },
+    {
+      "id": 382,
+      "prediction_score": 0.355,
+      "actual": 0,
+      "predicted": 0,
+      "patient_age": 81,
+      "risk_factors": 1
+    },
+    {
+      "id": 383,
+      "prediction_score": 0.553,
+      "actual": 0,
+      "predicted": 1,
+      "patient_age": 64,
+      "risk_factors": 1
+    },
+    {
+      "id": 384,
+      "prediction_score": 0.114,
+      "actual": 0,
+      "predicted": 0,
+      "patient_age": 74,
+      "risk_factors": 4
+    },
+    {
+      "id": 385,
+      "prediction_score": 0.261,
+      "actual": 0,
+      "predicted": 0,
+      "patient_age": 36,
+      "risk_factors": 3
+    },
+    {
+      "id": 386,
+      "prediction_score": 0.736,
+      "actual": 0,
+      "predicted": 1,
+      "patient_age": 72,
+      "risk_factors": 4
+    },
+    {
+      "id": 387,
+      "prediction_score": 0.09,
+      "actual": 0,
+      "predicted": 0,
+      "patient_age": 77,
+      "risk_factors": 0
+    },
+    {
+      "id": 388,
+      "prediction_score": 0.546,
+      "actual": 0,
+      "predicted": 1,
+      "patient_age": 40,
+      "risk_factors": 5
+    },
+    {
+      "id": 389,
+      "prediction_score": 0.483,
+      "actual": 0,
+      "predicted": 0,
+      "patient_age": 62,
+      "risk_factors": 1
+    },
+    {
+      "id": 390,
+      "prediction_score": 0.379,
+      "actual": 0,
+      "predicted": 0,
+      "patient_age": 64,
+      "risk_factors": 1
+    },
+    {
+      "id": 391,
+      "prediction_score": 0.198,
+      "actual": 0,
+      "predicted": 0,
+      "patient_age": 38,
+      "risk_factors": 2
+    },
+    {
+      "id": 392,
+      "prediction_score": 0.306,
+      "actual": 0,
+      "predicted": 0,
+      "patient_age": 59,
+      "risk_factors": 2
+    },
+    {
+      "id": 393,
+      "prediction_score": 0.234,
+      "actual": 0,
+      "predicted": 0,
+      "patient_age": 48,
+      "risk_factors": 3
+    },
+    {
+      "id": 394,
+      "prediction_score": 0.207,
+      "actual": 0,
+      "predicted": 0,
+      "patient_age": 55,
+      "risk_factors": 2
+    },
+    {
+      "id": 395,
+      "prediction_score": 0.559,
+      "actual": 0,
+      "predicted": 1,
+      "patient_age": 83,
+      "risk_factors": 3
+    },
+    {
+      "id": 396,
+      "prediction_score": 0.416,
+      "actual": 0,
+      "predicted": 0,
+      "patient_age": 52,
+      "risk_factors": 3
+    },
+    {
+      "id": 397,
+      "prediction_score": 0.207,
+      "actual": 0,
+      "predicted": 0,
+      "patient_age": 51,
+      "risk_factors": 0
+    },
+    {
+      "id": 398,
+      "prediction_score": 0.295,
+      "actual": 0,
+      "predicted": 0,
+      "patient_age": 65,
+      "risk_factors": 0
+    },
+    {
+      "id": 399,
+      "prediction_score": 0.108,
+      "actual": 0,
+      "predicted": 0,
+      "patient_age": 82,
+      "risk_factors": 4
+    },
+    {
+      "id": 400,
+      "prediction_score": 0.028,
+      "actual": 0,
+      "predicted": 0,
+      "patient_age": 38,
+      "risk_factors": 2
+    },
+    {
+      "id": 401,
+      "prediction_score": 0.311,
+      "actual": 0,
+      "predicted": 0,
+      "patient_age": 49,
+      "risk_factors": 5
+    },
+    {
+      "id": 402,
+      "prediction_score": 0.303,
+      "actual": 0,
+      "predicted": 0,
+      "patient_age": 39,
+      "risk_factors": 5
+    },
+    {
+      "id": 403,
+      "prediction_score": 0.125,
+      "actual": 0,
+      "predicted": 0,
+      "patient_age": 37,
+      "risk_factors": 0
+    },
+    {
+      "id": 404,
+      "prediction_score": 0.056,
+      "actual": 0,
+      "predicted": 0,
+      "patient_age": 50,
+      "risk_factors": 1
+    },
+    {
+      "id": 405,
+      "prediction_score": 0.341,
+      "actual": 0,
+      "predicted": 0,
+      "patient_age": 36,
+      "risk_factors": 4
+    },
+    {
+      "id": 406,
+      "prediction_score": 0.184,
+      "actual": 0,
+      "predicted": 0,
+      "patient_age": 44,
+      "risk_factors": 1
+    },
+    {
+      "id": 407,
+      "prediction_score": 0.373,
+      "actual": 0,
+      "predicted": 0,
+      "patient_age": 43,
+      "risk_factors": 3
+    },
+    {
+      "id": 408,
+      "prediction_score": 0.004,
+      "actual": 0,
+      "predicted": 0,
+      "patient_age": 77,
+      "risk_factors": 0
+    },
+    {
+      "id": 409,
+      "prediction_score": 0.424,
+      "actual": 0,
+      "predicted": 0,
+      "patient_age": 71,
+      "risk_factors": 1
+    },
+    {
+      "id": 410,
+      "prediction_score": 0.555,
+      "actual": 0,
+      "predicted": 1,
+      "patient_age": 64,
+      "risk_factors": 5
+    },
+    {
+      "id": 411,
+      "prediction_score": 0.089,
+      "actual": 0,
+      "predicted": 0,
+      "patient_age": 51,
+      "risk_factors": 2
+    },
+    {
+      "id": 412,
+      "prediction_score": 0.385,
+      "actual": 0,
+      "predicted": 0,
+      "patient_age": 45,
+      "risk_factors": 4
+    },
+    {
+      "id": 413,
+      "prediction_score": 0.188,
+      "actual": 0,
+      "predicted": 0,
+      "patient_age": 73,
+      "risk_factors": 5
+    },
+    {
+      "id": 414,
+      "prediction_score": 0.466,
+      "actual": 0,
+      "predicted": 0,
+      "patient_age": 80,
+      "risk_factors": 0
+    },
+    {
+      "id": 415,
+      "prediction_score": 0.22,
+      "actual": 0,
+      "predicted": 0,
+      "patient_age": 84,
+      "risk_factors": 1
+    },
+    {
+      "id": 416,
+      "prediction_score": 0.367,
+      "actual": 0,
+      "predicted": 0,
+      "patient_age": 54,
+      "risk_factors": 0
+    },
+    {
+      "id": 417,
+      "prediction_score": 0.838,
+      "actual": 0,
+      "predicted": 1,
+      "patient_age": 72,
+      "risk_factors": 0
+    },
+    {
+      "id": 418,
+      "prediction_score": 0.026,
+      "actual": 0,
+      "predicted": 0,
+      "patient_age": 54,
+      "risk_factors": 4
+    },
+    {
+      "id": 419,
+      "prediction_score": 0.266,
+      "actual": 0,
+      "predicted": 0,
+      "patient_age": 78,
+      "risk_factors": 3
+    },
+    {
+      "id": 420,
+      "prediction_score": 0.532,
+      "actual": 0,
+      "predicted": 1,
+      "patient_age": 60,
+      "risk_factors": 5
+    },
+    {
+      "id": 421,
+      "prediction_score": 0.171,
+      "actual": 0,
+      "predicted": 0,
+      "patient_age": 47,
+      "risk_factors": 0
+    },
+    {
+      "id": 422,
+      "prediction_score": 0.621,
+      "actual": 0,
+      "predicted": 1,
+      "patient_age": 72,
+      "risk_factors": 5
+    },
+    {
+      "id": 423,
+      "prediction_score": 0.633,
+      "actual": 0,
+      "predicted": 1,
+      "patient_age": 75,
+      "risk_factors": 1
+    },
+    {
+      "id": 424,
+      "prediction_score": 0.642,
+      "actual": 0,
+      "predicted": 1,
+      "patient_age": 41,
+      "risk_factors": 5
+    },
+    {
+      "id": 425,
+      "prediction_score": 0.028,
+      "actual": 0,
+      "predicted": 0,
+      "patient_age": 84,
+      "risk_factors": 2
+    },
+    {
+      "id": 426,
+      "prediction_score": 0.358,
+      "actual": 0,
+      "predicted": 0,
+      "patient_age": 78,
+      "risk_factors": 4
+    },
+    {
+      "id": 427,
+      "prediction_score": 0.449,
+      "actual": 0,
+      "predicted": 0,
+      "patient_age": 42,
+      "risk_factors": 4
+    },
+    {
+      "id": 428,
+      "prediction_score": 0.252,
+      "actual": 0,
+      "predicted": 0,
+      "patient_age": 85,
+      "risk_factors": 0
+    },
+    {
+      "id": 429,
+      "prediction_score": 0.176,
+      "actual": 0,
+      "predicted": 0,
+      "patient_age": 57,
+      "risk_factors": 4
+    },
+    {
+      "id": 430,
+      "prediction_score": 0.07,
+      "actual": 0,
+      "predicted": 0,
+      "patient_age": 62,
+      "risk_factors": 5
+    },
+    {
+      "id": 431,
+      "prediction_score": 0.52,
+      "actual": 0,
+      "predicted": 1,
+      "patient_age": 58,
+      "risk_factors": 0
+    },
+    {
+      "id": 432,
+      "prediction_score": 0.08,
+      "actual": 0,
+      "predicted": 0,
+      "patient_age": 67,
+      "risk_factors": 5
+    },
+    {
+      "id": 433,
+      "prediction_score": 0.796,
+      "actual": 0,
+      "predicted": 1,
+      "patient_age": 56,
+      "risk_factors": 0
+    },
+    {
+      "id": 434,
+      "prediction_score": 0.354,
+      "actual": 0,
+      "predicted": 0,
+      "patient_age": 61,
+      "risk_factors": 3
+    },
+    {
+      "id": 435,
+      "prediction_score": 0.432,
+      "actual": 0,
+      "predicted": 0,
+      "patient_age": 41,
+      "risk_factors": 3
+    },
+    {
+      "id": 436,
+      "prediction_score": 0.254,
+      "actual": 0,
+      "predicted": 0,
+      "patient_age": 58,
+      "risk_factors": 5
+    },
+    {
+      "id": 437,
+      "prediction_score": 0.736,
+      "actual": 0,
+      "predicted": 1,
+      "patient_age": 64,
+      "risk_factors": 5
+    },
+    {
+      "id": 438,
+      "prediction_score": 0.696,
+      "actual": 0,
+      "predicted": 1,
+      "patient_age": 44,
+      "risk_factors": 3
+    },
+    {
+      "id": 439,
+      "prediction_score": 0.209,
+      "actual": 0,
+      "predicted": 0,
+      "patient_age": 46,
+      "risk_factors": 5
+    },
+    {
+      "id": 440,
+      "prediction_score": 0.593,
+      "actual": 1,
+      "predicted": 1,
+      "patient_age": 68,
+      "risk_factors": 5
+    },
+    {
+      "id": 441,
+      "prediction_score": 0.574,
+      "actual": 0,
+      "predicted": 1,
+      "patient_age": 52,
+      "risk_factors": 4
+    },
+    {
+      "id": 442,
+      "prediction_score": 0.417,
+      "actual": 0,
+      "predicted": 0,
+      "patient_age": 69,
+      "risk_factors": 3
+    },
+    {
+      "id": 443,
+      "prediction_score": 0.067,
+      "actual": 0,
+      "predicted": 0,
+      "patient_age": 64,
+      "risk_factors": 3
+    },
+    {
+      "id": 444,
+      "prediction_score": 0.212,
+      "actual": 0,
+      "predicted": 0,
+      "patient_age": 81,
+      "risk_factors": 4
+    },
+    {
+      "id": 445,
+      "prediction_score": 0.666,
+      "actual": 0,
+      "predicted": 1,
+      "patient_age": 52,
+      "risk_factors": 2
+    },
+    {
+      "id": 446,
+      "prediction_score": 0.42,
+      "actual": 0,
+      "predicted": 0,
+      "patient_age": 50,
+      "risk_factors": 0
+    },
+    {
+      "id": 447,
+      "prediction_score": 0.498,
+      "actual": 0,
+      "predicted": 0,
+      "patient_age": 52,
+      "risk_factors": 3
+    },
+    {
+      "id": 448,
+      "prediction_score": 0.64,
+      "actual": 0,
+      "predicted": 1,
+      "patient_age": 50,
+      "risk_factors": 3
+    },
+    {
+      "id": 449,
+      "prediction_score": 0.487,
+      "actual": 0,
+      "predicted": 0,
+      "patient_age": 71,
+      "risk_factors": 4
+    },
+    {
+      "id": 450,
+      "prediction_score": 0.704,
+      "actual": 1,
+      "predicted": 1,
+      "patient_age": 77,
+      "risk_factors": 3
+    },
+    {
+      "id": 451,
+      "prediction_score": 0.408,
+      "actual": 0,
+      "predicted": 0,
+      "patient_age": 56,
+      "risk_factors": 0
+    },
+    {
+      "id": 452,
+      "prediction_score": 0.167,
+      "actual": 0,
+      "predicted": 0,
+      "patient_age": 66,
+      "risk_factors": 2
+    },
+    {
+      "id": 453,
+      "prediction_score": 0.261,
+      "actual": 0,
+      "predicted": 0,
+      "patient_age": 46,
+      "risk_factors": 3
+    },
+    {
+      "id": 454,
+      "prediction_score": 0.313,
+      "actual": 0,
+      "predicted": 0,
+      "patient_age": 48,
+      "risk_factors": 2
+    },
+    {
+      "id": 455,
+      "prediction_score": 0.539,
+      "actual": 0,
+      "predicted": 1,
+      "patient_age": 51,
+      "risk_factors": 2
+    },
+    {
+      "id": 456,
+      "prediction_score": 0.103,
+      "actual": 0,
+      "predicted": 0,
+      "patient_age": 52,
+      "risk_factors": 4
+    },
+    {
+      "id": 457,
+      "prediction_score": 0.201,
+      "actual": 0,
+      "predicted": 0,
+      "patient_age": 79,
+      "risk_factors": 2
+    },
+    {
+      "id": 458,
+      "prediction_score": 0.379,
+      "actual": 0,
+      "predicted": 0,
+      "patient_age": 70,
+      "risk_factors": 0
+    },
+    {
+      "id": 459,
+      "prediction_score": 0.57,
+      "actual": 0,
+      "predicted": 1,
+      "patient_age": 68,
+      "risk_factors": 1
+    },
+    {
+      "id": 460,
+      "prediction_score": 0.8,
+      "actual": 1,
+      "predicted": 1,
+      "patient_age": 40,
+      "risk_factors": 1
+    },
+    {
+      "id": 461,
+      "prediction_score": 0.232,
+      "actual": 0,
+      "predicted": 0,
+      "patient_age": 81,
+      "risk_factors": 3
+    },
+    {
+      "id": 462,
+      "prediction_score": 0.251,
+      "actual": 0,
+      "predicted": 0,
+      "patient_age": 66,
+      "risk_factors": 4
+    },
+    {
+      "id": 463,
+      "prediction_score": 0.401,
+      "actual": 0,
+      "predicted": 0,
+      "patient_age": 83,
+      "risk_factors": 1
+    },
+    {
+      "id": 464,
+      "prediction_score": 0.046,
+      "actual": 0,
+      "predicted": 0,
+      "patient_age": 79,
+      "risk_factors": 3
+    },
+    {
+      "id": 465,
+      "prediction_score": 0.536,
+      "actual": 0,
+      "predicted": 1,
+      "patient_age": 76,
+      "risk_factors": 5
+    },
+    {
+      "id": 466,
+      "prediction_score": 0.239,
+      "actual": 0,
+      "predicted": 0,
+      "patient_age": 66,
+      "risk_factors": 3
+    },
+    {
+      "id": 467,
+      "prediction_score": 0.283,
+      "actual": 0,
+      "predicted": 0,
+      "patient_age": 85,
+      "risk_factors": 0
+    },
+    {
+      "id": 468,
+      "prediction_score": 0.304,
+      "actual": 0,
+      "predicted": 0,
+      "patient_age": 40,
+      "risk_factors": 2
+    },
+    {
+      "id": 469,
+      "prediction_score": 0.522,
+      "actual": 0,
+      "predicted": 1,
+      "patient_age": 49,
+      "risk_factors": 3
+    },
+    {
+      "id": 470,
+      "prediction_score": 0.257,
+      "actual": 0,
+      "predicted": 0,
+      "patient_age": 79,
+      "risk_factors": 1
+    },
+    {
+      "id": 471,
+      "prediction_score": 0.39,
+      "actual": 0,
+      "predicted": 0,
+      "patient_age": 54,
+      "risk_factors": 5
+    },
+    {
+      "id": 472,
+      "prediction_score": 0.533,
+      "actual": 0,
+      "predicted": 1,
+      "patient_age": 72,
+      "risk_factors": 2
+    },
+    {
+      "id": 473,
+      "prediction_score": 0.34,
+      "actual": 0,
+      "predicted": 0,
+      "patient_age": 65,
+      "risk_factors": 4
+    },
+    {
+      "id": 474,
+      "prediction_score": 0.503,
+      "actual": 0,
+      "predicted": 1,
+      "patient_age": 68,
+      "risk_factors": 2
+    },
+    {
+      "id": 475,
+      "prediction_score": 0.38,
+      "actual": 0,
+      "predicted": 0,
+      "patient_age": 62,
+      "risk_factors": 5
+    },
+    {
+      "id": 476,
+      "prediction_score": 0.184,
+      "actual": 0,
+      "predicted": 0,
+      "patient_age": 70,
+      "risk_factors": 2
+    },
+    {
+      "id": 477,
+      "prediction_score": 0.088,
+      "actual": 0,
+      "predicted": 0,
+      "patient_age": 57,
+      "risk_factors": 5
+    },
+    {
+      "id": 478,
+      "prediction_score": 0.289,
+      "actual": 0,
+      "predicted": 0,
+      "patient_age": 64,
+      "risk_factors": 2
+    },
+    {
+      "id": 479,
+      "prediction_score": 0.51,
+      "actual": 0,
+      "predicted": 1,
+      "patient_age": 54,
+      "risk_factors": 2
+    },
+    {
+      "id": 480,
+      "prediction_score": 0.666,
+      "actual": 0,
+      "predicted": 1,
+      "patient_age": 49,
+      "risk_factors": 0
+    },
+    {
+      "id": 481,
+      "prediction_score": 0.688,
+      "actual": 1,
+      "predicted": 1,
+      "patient_age": 81,
+      "risk_factors": 1
+    },
+    {
+      "id": 482,
+      "prediction_score": 0.152,
+      "actual": 0,
+      "predicted": 0,
+      "patient_age": 55,
+      "risk_factors": 0
+    },
+    {
+      "id": 483,
+      "prediction_score": 0.582,
+      "actual": 0,
+      "predicted": 1,
+      "patient_age": 82,
+      "risk_factors": 4
+    },
+    {
+      "id": 484,
+      "prediction_score": 0.637,
+      "actual": 1,
+      "predicted": 1,
+      "patient_age": 83,
+      "risk_factors": 5
+    },
+    {
+      "id": 485,
+      "prediction_score": 0.101,
+      "actual": 0,
+      "predicted": 0,
+      "patient_age": 46,
+      "risk_factors": 1
+    },
+    {
+      "id": 486,
+      "prediction_score": 0.65,
+      "actual": 0,
+      "predicted": 1,
+      "patient_age": 48,
+      "risk_factors": 5
+    },
+    {
+      "id": 487,
+      "prediction_score": 0.701,
+      "actual": 0,
+      "predicted": 1,
+      "patient_age": 65,
+      "risk_factors": 2
+    },
+    {
+      "id": 488,
+      "prediction_score": 0.588,
+      "actual": 0,
+      "predicted": 1,
+      "patient_age": 81,
+      "risk_factors": 4
+    },
+    {
+      "id": 489,
+      "prediction_score": 0.125,
+      "actual": 0,
+      "predicted": 0,
+      "patient_age": 83,
+      "risk_factors": 4
+    },
+    {
+      "id": 490,
+      "prediction_score": 0.268,
+      "actual": 0,
+      "predicted": 0,
+      "patient_age": 73,
+      "risk_factors": 2
+    },
+    {
+      "id": 491,
+      "prediction_score": 0.166,
+      "actual": 0,
+      "predicted": 0,
+      "patient_age": 41,
+      "risk_factors": 1
+    },
+    {
+      "id": 492,
+      "prediction_score": 0.047,
+      "actual": 0,
+      "predicted": 0,
+      "patient_age": 53,
+      "risk_factors": 1
+    },
+    {
+      "id": 493,
+      "prediction_score": 0.355,
+      "actual": 0,
+      "predicted": 0,
+      "patient_age": 58,
+      "risk_factors": 1
+    },
+    {
+      "id": 494,
+      "prediction_score": 0.162,
+      "actual": 0,
+      "predicted": 0,
+      "patient_age": 54,
+      "risk_factors": 0
+    },
+    {
+      "id": 495,
+      "prediction_score": 0.543,
+      "actual": 1,
+      "predicted": 1,
+      "patient_age": 80,
+      "risk_factors": 4
+    },
+    {
+      "id": 496,
+      "prediction_score": 0.059,
+      "actual": 0,
+      "predicted": 0,
+      "patient_age": 43,
+      "risk_factors": 2
+    },
+    {
+      "id": 497,
+      "prediction_score": 0.454,
+      "actual": 0,
+      "predicted": 0,
+      "patient_age": 37,
+      "risk_factors": 0
+    },
+    {
+      "id": 498,
+      "prediction_score": 0.03,
+      "actual": 0,
+      "predicted": 0,
+      "patient_age": 70,
+      "risk_factors": 2
+    },
+    {
+      "id": 499,
+      "prediction_score": 0.249,
+      "actual": 0,
+      "predicted": 0,
+      "patient_age": 79,
+      "risk_factors": 1
+    },
+    {
+      "id": 500,
+      "prediction_score": 0.392,
+      "actual": 0,
+      "predicted": 0,
+      "patient_age": 75,
+      "risk_factors": 3
+    },
+    {
+      "id": 501,
+      "prediction_score": 0.222,
+      "actual": 0,
+      "predicted": 0,
+      "patient_age": 41,
+      "risk_factors": 0
+    },
+    {
+      "id": 502,
+      "prediction_score": 0.581,
+      "actual": 0,
+      "predicted": 1,
+      "patient_age": 71,
+      "risk_factors": 2
+    },
+    {
+      "id": 503,
+      "prediction_score": 0.472,
+      "actual": 0,
+      "predicted": 0,
+      "patient_age": 65,
+      "risk_factors": 3
+    },
+    {
+      "id": 504,
+      "prediction_score": 0.532,
+      "actual": 0,
+      "predicted": 1,
+      "patient_age": 63,
+      "risk_factors": 2
+    },
+    {
+      "id": 505,
+      "prediction_score": 0.226,
+      "actual": 0,
+      "predicted": 0,
+      "patient_age": 46,
+      "risk_factors": 0
+    },
+    {
+      "id": 506,
+      "prediction_score": 0.466,
+      "actual": 1,
+      "predicted": 0,
+      "patient_age": 51,
+      "risk_factors": 3
+    },
+    {
+      "id": 507,
+      "prediction_score": 0.331,
+      "actual": 0,
+      "predicted": 0,
+      "patient_age": 42,
+      "risk_factors": 0
+    },
+    {
+      "id": 508,
+      "prediction_score": 0.177,
+      "actual": 0,
+      "predicted": 0,
+      "patient_age": 60,
+      "risk_factors": 3
+    },
+    {
+      "id": 509,
+      "prediction_score": 0.459,
+      "actual": 0,
+      "predicted": 0,
+      "patient_age": 39,
+      "risk_factors": 4
+    },
+    {
+      "id": 510,
+      "prediction_score": 0.049,
+      "actual": 0,
+      "predicted": 0,
+      "patient_age": 75,
+      "risk_factors": 5
+    },
+    {
+      "id": 511,
+      "prediction_score": 0.537,
+      "actual": 0,
+      "predicted": 1,
+      "patient_age": 38,
+      "risk_factors": 1
+    },
+    {
+      "id": 512,
+      "prediction_score": 0.65,
+      "actual": 1,
+      "predicted": 1,
+      "patient_age": 44,
+      "risk_factors": 4
+    },
+    {
+      "id": 513,
+      "prediction_score": 0.31,
+      "actual": 0,
+      "predicted": 0,
+      "patient_age": 54,
+      "risk_factors": 0
+    },
+    {
+      "id": 514,
+      "prediction_score": 0.134,
+      "actual": 0,
+      "predicted": 0,
+      "patient_age": 50,
+      "risk_factors": 0
+    },
+    {
+      "id": 515,
+      "prediction_score": 0.538,
+      "actual": 0,
+      "predicted": 1,
+      "patient_age": 70,
+      "risk_factors": 3
+    },
+    {
+      "id": 516,
+      "prediction_score": 0.04,
+      "actual": 0,
+      "predicted": 0,
+      "patient_age": 73,
+      "risk_factors": 4
+    },
+    {
+      "id": 517,
+      "prediction_score": 0.162,
+      "actual": 0,
+      "predicted": 0,
+      "patient_age": 85,
+      "risk_factors": 4
+    },
+    {
+      "id": 518,
+      "prediction_score": 0.603,
+      "actual": 0,
+      "predicted": 1,
+      "patient_age": 49,
+      "risk_factors": 4
+    },
+    {
+      "id": 519,
+      "prediction_score": 0.252,
+      "actual": 0,
+      "predicted": 0,
+      "patient_age": 59,
+      "risk_factors": 3
+    },
+    {
+      "id": 520,
+      "prediction_score": 0.424,
+      "actual": 0,
+      "predicted": 0,
+      "patient_age": 63,
+      "risk_factors": 2
+    },
+    {
+      "id": 521,
+      "prediction_score": 0.105,
+      "actual": 0,
+      "predicted": 0,
+      "patient_age": 72,
+      "risk_factors": 3
+    },
+    {
+      "id": 522,
+      "prediction_score": 0.252,
+      "actual": 0,
+      "predicted": 0,
+      "patient_age": 54,
+      "risk_factors": 4
+    },
+    {
+      "id": 523,
+      "prediction_score": 0.307,
+      "actual": 0,
+      "predicted": 0,
+      "patient_age": 74,
+      "risk_factors": 0
+    },
+    {
+      "id": 524,
+      "prediction_score": 0.143,
+      "actual": 0,
+      "predicted": 0,
+      "patient_age": 74,
+      "risk_factors": 5
+    },
+    {
+      "id": 525,
+      "prediction_score": 0.172,
+      "actual": 0,
+      "predicted": 0,
+      "patient_age": 41,
+      "risk_factors": 1
+    },
+    {
+      "id": 526,
+      "prediction_score": 0.163,
+      "actual": 0,
+      "predicted": 0,
+      "patient_age": 75,
+      "risk_factors": 1
+    },
+    {
+      "id": 527,
+      "prediction_score": 0.698,
+      "actual": 0,
+      "predicted": 1,
+      "patient_age": 51,
+      "risk_factors": 5
+    },
+    {
+      "id": 528,
+      "prediction_score": 0.512,
+      "actual": 0,
+      "predicted": 1,
+      "patient_age": 40,
+      "risk_factors": 1
+    },
+    {
+      "id": 529,
+      "prediction_score": 0.204,
+      "actual": 0,
+      "predicted": 0,
+      "patient_age": 50,
+      "risk_factors": 1
+    },
+    {
+      "id": 530,
+      "prediction_score": 0.441,
+      "actual": 0,
+      "predicted": 0,
+      "patient_age": 70,
+      "risk_factors": 0
+    },
+    {
+      "id": 531,
+      "prediction_score": 0.275,
+      "actual": 1,
+      "predicted": 0,
+      "patient_age": 45,
+      "risk_factors": 0
+    },
+    {
+      "id": 532,
+      "prediction_score": 0.476,
+      "actual": 0,
+      "predicted": 0,
+      "patient_age": 61,
+      "risk_factors": 3
+    },
+    {
+      "id": 533,
+      "prediction_score": 0.116,
+      "actual": 0,
+      "predicted": 0,
+      "patient_age": 79,
+      "risk_factors": 4
+    },
+    {
+      "id": 534,
+      "prediction_score": 0.678,
+      "actual": 0,
+      "predicted": 1,
+      "patient_age": 65,
+      "risk_factors": 2
+    },
+    {
+      "id": 535,
+      "prediction_score": 0.87,
+      "actual": 0,
+      "predicted": 1,
+      "patient_age": 37,
+      "risk_factors": 1
+    },
+    {
+      "id": 536,
+      "prediction_score": 0.262,
+      "actual": 0,
+      "predicted": 0,
+      "patient_age": 53,
+      "risk_factors": 5
+    },
+    {
+      "id": 537,
+      "prediction_score": 0.522,
+      "actual": 0,
+      "predicted": 1,
+      "patient_age": 53,
+      "risk_factors": 5
+    },
+    {
+      "id": 538,
+      "prediction_score": 0.367,
+      "actual": 0,
+      "predicted": 0,
+      "patient_age": 64,
+      "risk_factors": 0
+    },
+    {
+      "id": 539,
+      "prediction_score": 0.21,
+      "actual": 0,
+      "predicted": 0,
+      "patient_age": 78,
+      "risk_factors": 1
+    },
+    {
+      "id": 540,
+      "prediction_score": 0.298,
+      "actual": 0,
+      "predicted": 0,
+      "patient_age": 51,
+      "risk_factors": 5
+    },
+    {
+      "id": 541,
+      "prediction_score": 0.672,
+      "actual": 0,
+      "predicted": 1,
+      "patient_age": 72,
+      "risk_factors": 5
+    },
+    {
+      "id": 542,
+      "prediction_score": 0.449,
+      "actual": 0,
+      "predicted": 0,
+      "patient_age": 47,
+      "risk_factors": 3
+    },
+    {
+      "id": 543,
+      "prediction_score": 0.699,
+      "actual": 0,
+      "predicted": 1,
+      "patient_age": 42,
+      "risk_factors": 4
+    },
+    {
+      "id": 544,
+      "prediction_score": 0.122,
+      "actual": 0,
+      "predicted": 0,
+      "patient_age": 49,
+      "risk_factors": 5
+    },
+    {
+      "id": 545,
+      "prediction_score": 0.14,
+      "actual": 0,
+      "predicted": 0,
+      "patient_age": 44,
+      "risk_factors": 2
+    },
+    {
+      "id": 546,
+      "prediction_score": 0.491,
+      "actual": 0,
+      "predicted": 0,
+      "patient_age": 44,
+      "risk_factors": 0
+    },
+    {
+      "id": 547,
+      "prediction_score": 0.445,
+      "actual": 0,
+      "predicted": 0,
+      "patient_age": 38,
+      "risk_factors": 1
+    },
+    {
+      "id": 548,
+      "prediction_score": 0.604,
+      "actual": 0,
+      "predicted": 1,
+      "patient_age": 85,
+      "risk_factors": 2
+    },
+    {
+      "id": 549,
+      "prediction_score": 0.34,
+      "actual": 0,
+      "predicted": 0,
+      "patient_age": 73,
+      "risk_factors": 5
+    },
+    {
+      "id": 550,
+      "prediction_score": 0.41,
+      "actual": 0,
+      "predicted": 0,
+      "patient_age": 71,
+      "risk_factors": 2
+    },
+    {
+      "id": 551,
+      "prediction_score": 0.137,
+      "actual": 0,
+      "predicted": 0,
+      "patient_age": 63,
+      "risk_factors": 0
+    },
+    {
+      "id": 552,
+      "prediction_score": 0.492,
+      "actual": 0,
+      "predicted": 0,
+      "patient_age": 64,
+      "risk_factors": 5
+    },
+    {
+      "id": 553,
+      "prediction_score": 0.847,
+      "actual": 0,
+      "predicted": 1,
+      "patient_age": 54,
+      "risk_factors": 5
+    },
+    {
+      "id": 554,
+      "prediction_score": 0.307,
+      "actual": 0,
+      "predicted": 0,
+      "patient_age": 60,
+      "risk_factors": 2
+    },
+    {
+      "id": 555,
+      "prediction_score": 0.311,
+      "actual": 0,
+      "predicted": 0,
+      "patient_age": 67,
+      "risk_factors": 4
+    },
+    {
+      "id": 556,
+      "prediction_score": 0.209,
+      "actual": 0,
+      "predicted": 0,
+      "patient_age": 66,
+      "risk_factors": 3
+    },
+    {
+      "id": 557,
+      "prediction_score": 0.38,
+      "actual": 0,
+      "predicted": 0,
+      "patient_age": 40,
+      "risk_factors": 4
+    },
+    {
+      "id": 558,
+      "prediction_score": 0.594,
+      "actual": 0,
+      "predicted": 1,
+      "patient_age": 37,
+      "risk_factors": 3
+    },
+    {
+      "id": 559,
+      "prediction_score": 0.547,
+      "actual": 0,
+      "predicted": 1,
+      "patient_age": 82,
+      "risk_factors": 2
+    },
+    {
+      "id": 560,
+      "prediction_score": 0.649,
+      "actual": 0,
+      "predicted": 1,
+      "patient_age": 73,
+      "risk_factors": 2
+    },
+    {
+      "id": 561,
+      "prediction_score": 0.145,
+      "actual": 0,
+      "predicted": 0,
+      "patient_age": 36,
+      "risk_factors": 0
+    },
+    {
+      "id": 562,
+      "prediction_score": 0.664,
+      "actual": 0,
+      "predicted": 1,
+      "patient_age": 49,
+      "risk_factors": 5
+    },
+    {
+      "id": 563,
+      "prediction_score": 0.359,
+      "actual": 0,
+      "predicted": 0,
+      "patient_age": 71,
+      "risk_factors": 4
+    },
+    {
+      "id": 564,
+      "prediction_score": 0.2,
+      "actual": 0,
+      "predicted": 0,
+      "patient_age": 36,
+      "risk_factors": 5
+    },
+    {
+      "id": 565,
+      "prediction_score": 0.393,
+      "actual": 0,
+      "predicted": 0,
+      "patient_age": 52,
+      "risk_factors": 4
+    },
+    {
+      "id": 566,
+      "prediction_score": 0.113,
+      "actual": 0,
+      "predicted": 0,
+      "patient_age": 37,
+      "risk_factors": 1
+    },
+    {
+      "id": 567,
+      "prediction_score": 0.074,
+      "actual": 0,
+      "predicted": 0,
+      "patient_age": 65,
+      "risk_factors": 4
+    },
+    {
+      "id": 568,
+      "prediction_score": 0.22,
+      "actual": 0,
+      "predicted": 0,
+      "patient_age": 76,
+      "risk_factors": 3
+    },
+    {
+      "id": 569,
+      "prediction_score": 0.844,
+      "actual": 0,
+      "predicted": 1,
+      "patient_age": 52,
+      "risk_factors": 1
+    },
+    {
+      "id": 570,
+      "prediction_score": 0.294,
+      "actual": 0,
+      "predicted": 0,
+      "patient_age": 72,
+      "risk_factors": 3
+    },
+    {
+      "id": 571,
+      "prediction_score": 0.938,
+      "actual": 1,
+      "predicted": 1,
+      "patient_age": 75,
+      "risk_factors": 3
+    },
+    {
+      "id": 572,
+      "prediction_score": 0.251,
+      "actual": 0,
+      "predicted": 0,
+      "patient_age": 40,
+      "risk_factors": 3
+    },
+    {
+      "id": 573,
+      "prediction_score": 0.592,
+      "actual": 1,
+      "predicted": 1,
+      "patient_age": 57,
+      "risk_factors": 3
+    },
+    {
+      "id": 574,
+      "prediction_score": 0.459,
+      "actual": 0,
+      "predicted": 0,
+      "patient_age": 56,
+      "risk_factors": 2
+    },
+    {
+      "id": 575,
+      "prediction_score": 0.556,
+      "actual": 0,
+      "predicted": 1,
+      "patient_age": 77,
+      "risk_factors": 0
+    },
+    {
+      "id": 576,
+      "prediction_score": 0.429,
+      "actual": 0,
+      "predicted": 0,
+      "patient_age": 45,
+      "risk_factors": 2
+    },
+    {
+      "id": 577,
+      "prediction_score": 0.421,
+      "actual": 0,
+      "predicted": 0,
+      "patient_age": 61,
+      "risk_factors": 5
+    },
+    {
+      "id": 578,
+      "prediction_score": 0.42,
+      "actual": 0,
+      "predicted": 0,
+      "patient_age": 66,
+      "risk_factors": 2
+    },
+    {
+      "id": 579,
+      "prediction_score": 0.404,
+      "actual": 0,
+      "predicted": 0,
+      "patient_age": 77,
+      "risk_factors": 3
+    },
+    {
+      "id": 580,
+      "prediction_score": 0.176,
+      "actual": 0,
+      "predicted": 0,
+      "patient_age": 83,
+      "risk_factors": 4
+    },
+    {
+      "id": 581,
+      "prediction_score": 0.705,
+      "actual": 0,
+      "predicted": 1,
+      "patient_age": 37,
+      "risk_factors": 3
+    },
+    {
+      "id": 582,
+      "prediction_score": 0.176,
+      "actual": 0,
+      "predicted": 0,
+      "patient_age": 40,
+      "risk_factors": 2
+    },
+    {
+      "id": 583,
+      "prediction_score": 0.416,
+      "actual": 0,
+      "predicted": 0,
+      "patient_age": 51,
+      "risk_factors": 2
+    },
+    {
+      "id": 584,
+      "prediction_score": 0.6,
+      "actual": 0,
+      "predicted": 1,
+      "patient_age": 42,
+      "risk_factors": 3
+    },
+    {
+      "id": 585,
+      "prediction_score": 0.418,
+      "actual": 0,
+      "predicted": 0,
+      "patient_age": 67,
+      "risk_factors": 0
+    },
+    {
+      "id": 586,
+      "prediction_score": 0.193,
+      "actual": 0,
+      "predicted": 0,
+      "patient_age": 77,
+      "risk_factors": 4
+    },
+    {
+      "id": 587,
+      "prediction_score": 0.489,
+      "actual": 0,
+      "predicted": 0,
+      "patient_age": 64,
+      "risk_factors": 3
+    },
+    {
+      "id": 588,
+      "prediction_score": 0.168,
+      "actual": 0,
+      "predicted": 0,
+      "patient_age": 38,
+      "risk_factors": 1
+    },
+    {
+      "id": 589,
+      "prediction_score": 0.085,
+      "actual": 0,
+      "predicted": 0,
+      "patient_age": 68,
+      "risk_factors": 2
+    },
+    {
+      "id": 590,
+      "prediction_score": 0.161,
+      "actual": 0,
+      "predicted": 0,
+      "patient_age": 74,
+      "risk_factors": 3
+    },
+    {
+      "id": 591,
+      "prediction_score": 0.347,
+      "actual": 0,
+      "predicted": 0,
+      "patient_age": 75,
+      "risk_factors": 3
+    },
+    {
+      "id": 592,
+      "prediction_score": 0.37,
+      "actual": 1,
+      "predicted": 0,
+      "patient_age": 83,
+      "risk_factors": 0
+    },
+    {
+      "id": 593,
+      "prediction_score": 0.016,
+      "actual": 0,
+      "predicted": 0,
+      "patient_age": 48,
+      "risk_factors": 2
+    },
+    {
+      "id": 594,
+      "prediction_score": 0.553,
+      "actual": 0,
+      "predicted": 1,
+      "patient_age": 70,
+      "risk_factors": 1
+    },
+    {
+      "id": 595,
+      "prediction_score": 0.102,
+      "actual": 0,
+      "predicted": 0,
+      "patient_age": 53,
+      "risk_factors": 3
+    },
+    {
+      "id": 596,
+      "prediction_score": 0.459,
+      "actual": 0,
+      "predicted": 0,
+      "patient_age": 79,
+      "risk_factors": 3
+    },
+    {
+      "id": 597,
+      "prediction_score": 0.041,
+      "actual": 0,
+      "predicted": 0,
+      "patient_age": 42,
+      "risk_factors": 0
+    },
+    {
+      "id": 598,
+      "prediction_score": 0.12,
+      "actual": 0,
+      "predicted": 0,
+      "patient_age": 75,
+      "risk_factors": 4
+    },
+    {
+      "id": 599,
+      "prediction_score": 0.583,
+      "actual": 1,
+      "predicted": 1,
+      "patient_age": 50,
+      "risk_factors": 5
+    },
+    {
+      "id": 600,
+      "prediction_score": 0.432,
+      "actual": 0,
+      "predicted": 0,
+      "patient_age": 45,
+      "risk_factors": 2
+    },
+    {
+      "id": 601,
+      "prediction_score": 0.243,
+      "actual": 0,
+      "predicted": 0,
+      "patient_age": 70,
+      "risk_factors": 0
+    },
+    {
+      "id": 602,
+      "prediction_score": 0.408,
+      "actual": 0,
+      "predicted": 0,
+      "patient_age": 70,
+      "risk_factors": 3
+    },
+    {
+      "id": 603,
+      "prediction_score": 0.077,
+      "actual": 0,
+      "predicted": 0,
+      "patient_age": 40,
+      "risk_factors": 1
+    },
+    {
+      "id": 604,
+      "prediction_score": 0.311,
+      "actual": 0,
+      "predicted": 0,
+      "patient_age": 42,
+      "risk_factors": 3
+    },
+    {
+      "id": 605,
+      "prediction_score": 0.046,
+      "actual": 0,
+      "predicted": 0,
+      "patient_age": 42,
+      "risk_factors": 5
+    },
+    {
+      "id": 606,
+      "prediction_score": 0.317,
+      "actual": 0,
+      "predicted": 0,
+      "patient_age": 44,
+      "risk_factors": 3
+    },
+    {
+      "id": 607,
+      "prediction_score": 0.173,
+      "actual": 0,
+      "predicted": 0,
+      "patient_age": 80,
+      "risk_factors": 2
+    },
+    {
+      "id": 608,
+      "prediction_score": 0.265,
+      "actual": 0,
+      "predicted": 0,
+      "patient_age": 67,
+      "risk_factors": 5
+    },
+    {
+      "id": 609,
+      "prediction_score": 0.034,
+      "actual": 0,
+      "predicted": 0,
+      "patient_age": 52,
+      "risk_factors": 3
+    },
+    {
+      "id": 610,
+      "prediction_score": 0.229,
+      "actual": 0,
+      "predicted": 0,
+      "patient_age": 65,
+      "risk_factors": 3
+    },
+    {
+      "id": 611,
+      "prediction_score": 0.046,
+      "actual": 0,
+      "predicted": 0,
+      "patient_age": 50,
+      "risk_factors": 3
+    },
+    {
+      "id": 612,
+      "prediction_score": 0.881,
+      "actual": 1,
+      "predicted": 1,
+      "patient_age": 70,
+      "risk_factors": 1
+    },
+    {
+      "id": 613,
+      "prediction_score": 0.712,
+      "actual": 1,
+      "predicted": 1,
+      "patient_age": 59,
+      "risk_factors": 1
+    },
+    {
+      "id": 614,
+      "prediction_score": 0.006,
+      "actual": 0,
+      "predicted": 0,
+      "patient_age": 73,
+      "risk_factors": 4
+    },
+    {
+      "id": 615,
+      "prediction_score": 0.019,
+      "actual": 0,
+      "predicted": 0,
+      "patient_age": 82,
+      "risk_factors": 1
+    },
+    {
+      "id": 616,
+      "prediction_score": 0.802,
+      "actual": 1,
+      "predicted": 1,
+      "patient_age": 39,
+      "risk_factors": 2
+    },
+    {
+      "id": 617,
+      "prediction_score": 0.042,
+      "actual": 0,
+      "predicted": 0,
+      "patient_age": 84,
+      "risk_factors": 3
+    },
+    {
+      "id": 618,
+      "prediction_score": 0.504,
+      "actual": 0,
+      "predicted": 1,
+      "patient_age": 56,
+      "risk_factors": 4
+    },
+    {
+      "id": 619,
+      "prediction_score": 0.659,
+      "actual": 0,
+      "predicted": 1,
+      "patient_age": 52,
+      "risk_factors": 0
+    },
+    {
+      "id": 620,
+      "prediction_score": 0.236,
+      "actual": 0,
+      "predicted": 0,
+      "patient_age": 53,
+      "risk_factors": 5
+    },
+    {
+      "id": 621,
+      "prediction_score": 0.352,
+      "actual": 0,
+      "predicted": 0,
+      "patient_age": 54,
+      "risk_factors": 4
+    },
+    {
+      "id": 622,
+      "prediction_score": 0.548,
+      "actual": 0,
+      "predicted": 1,
+      "patient_age": 72,
+      "risk_factors": 5
+    },
+    {
+      "id": 623,
+      "prediction_score": 0.75,
+      "actual": 0,
+      "predicted": 1,
+      "patient_age": 66,
+      "risk_factors": 1
+    },
+    {
+      "id": 624,
+      "prediction_score": 0.256,
+      "actual": 0,
+      "predicted": 0,
+      "patient_age": 63,
+      "risk_factors": 4
+    },
+    {
+      "id": 625,
+      "prediction_score": 0.34,
+      "actual": 0,
+      "predicted": 0,
+      "patient_age": 65,
+      "risk_factors": 2
+    },
+    {
+      "id": 626,
+      "prediction_score": 0.193,
+      "actual": 0,
+      "predicted": 0,
+      "patient_age": 56,
+      "risk_factors": 4
+    },
+    {
+      "id": 627,
+      "prediction_score": 0.275,
+      "actual": 0,
+      "predicted": 0,
+      "patient_age": 83,
+      "risk_factors": 4
+    },
+    {
+      "id": 628,
+      "prediction_score": 0.328,
+      "actual": 0,
+      "predicted": 0,
+      "patient_age": 59,
+      "risk_factors": 3
+    },
+    {
+      "id": 629,
+      "prediction_score": 0.131,
+      "actual": 0,
+      "predicted": 0,
+      "patient_age": 55,
+      "risk_factors": 1
+    },
+    {
+      "id": 630,
+      "prediction_score": 0.587,
+      "actual": 0,
+      "predicted": 1,
+      "patient_age": 79,
+      "risk_factors": 1
+    },
+    {
+      "id": 631,
+      "prediction_score": 0.169,
+      "actual": 0,
+      "predicted": 0,
+      "patient_age": 71,
+      "risk_factors": 3
+    },
+    {
+      "id": 632,
+      "prediction_score": 0.133,
+      "actual": 0,
+      "predicted": 0,
+      "patient_age": 49,
+      "risk_factors": 3
+    },
+    {
+      "id": 633,
+      "prediction_score": 0.397,
+      "actual": 0,
+      "predicted": 0,
+      "patient_age": 37,
+      "risk_factors": 2
+    },
+    {
+      "id": 634,
+      "prediction_score": 0.296,
+      "actual": 0,
+      "predicted": 0,
+      "patient_age": 82,
+      "risk_factors": 3
+    },
+    {
+      "id": 635,
+      "prediction_score": 0.634,
+      "actual": 0,
+      "predicted": 1,
+      "patient_age": 80,
+      "risk_factors": 3
+    },
+    {
+      "id": 636,
+      "prediction_score": 0.827,
+      "actual": 0,
+      "predicted": 1,
+      "patient_age": 59,
+      "risk_factors": 5
+    },
+    {
+      "id": 637,
+      "prediction_score": 0.32,
+      "actual": 0,
+      "predicted": 0,
+      "patient_age": 85,
+      "risk_factors": 5
+    },
+    {
+      "id": 638,
+      "prediction_score": 0.162,
+      "actual": 0,
+      "predicted": 0,
+      "patient_age": 44,
+      "risk_factors": 3
+    },
+    {
+      "id": 639,
+      "prediction_score": 0.76,
+      "actual": 0,
+      "predicted": 1,
+      "patient_age": 37,
+      "risk_factors": 1
+    },
+    {
+      "id": 640,
+      "prediction_score": 0.462,
+      "actual": 0,
+      "predicted": 0,
+      "patient_age": 67,
+      "risk_factors": 4
+    },
+    {
+      "id": 641,
+      "prediction_score": 0.293,
+      "actual": 0,
+      "predicted": 0,
+      "patient_age": 56,
+      "risk_factors": 0
+    },
+    {
+      "id": 642,
+      "prediction_score": 0.081,
+      "actual": 0,
+      "predicted": 0,
+      "patient_age": 63,
+      "risk_factors": 0
+    },
+    {
+      "id": 643,
+      "prediction_score": 0.399,
+      "actual": 0,
+      "predicted": 0,
+      "patient_age": 68,
+      "risk_factors": 3
+    },
+    {
+      "id": 644,
+      "prediction_score": 0.265,
+      "actual": 0,
+      "predicted": 0,
+      "patient_age": 35,
+      "risk_factors": 5
+    },
+    {
+      "id": 645,
+      "prediction_score": 0.184,
+      "actual": 0,
+      "predicted": 0,
+      "patient_age": 44,
+      "risk_factors": 3
+    },
+    {
+      "id": 646,
+      "prediction_score": 0.676,
+      "actual": 0,
+      "predicted": 1,
+      "patient_age": 76,
+      "risk_factors": 1
+    },
+    {
+      "id": 647,
+      "prediction_score": 0.357,
+      "actual": 0,
+      "predicted": 0,
+      "patient_age": 39,
+      "risk_factors": 3
+    },
+    {
+      "id": 648,
+      "prediction_score": 0.618,
+      "actual": 0,
+      "predicted": 1,
+      "patient_age": 85,
+      "risk_factors": 2
+    },
+    {
+      "id": 649,
+      "prediction_score": 0.09,
+      "actual": 0,
+      "predicted": 0,
+      "patient_age": 56,
+      "risk_factors": 4
+    },
+    {
+      "id": 650,
+      "prediction_score": 0.138,
+      "actual": 0,
+      "predicted": 0,
+      "patient_age": 79,
+      "risk_factors": 3
+    },
+    {
+      "id": 651,
+      "prediction_score": 0.031,
+      "actual": 0,
+      "predicted": 0,
+      "patient_age": 76,
+      "risk_factors": 0
+    },
+    {
+      "id": 652,
+      "prediction_score": 0.461,
+      "actual": 0,
+      "predicted": 0,
+      "patient_age": 56,
+      "risk_factors": 5
+    },
+    {
+      "id": 653,
+      "prediction_score": 0.115,
+      "actual": 0,
+      "predicted": 0,
+      "patient_age": 69,
+      "risk_factors": 3
+    },
+    {
+      "id": 654,
+      "prediction_score": 0.151,
+      "actual": 0,
+      "predicted": 0,
+      "patient_age": 55,
+      "risk_factors": 5
+    },
+    {
+      "id": 655,
+      "prediction_score": 0.172,
+      "actual": 0,
+      "predicted": 0,
+      "patient_age": 80,
+      "risk_factors": 3
+    },
+    {
+      "id": 656,
+      "prediction_score": 0.169,
+      "actual": 0,
+      "predicted": 0,
+      "patient_age": 69,
+      "risk_factors": 0
+    },
+    {
+      "id": 657,
+      "prediction_score": 0.093,
+      "actual": 0,
+      "predicted": 0,
+      "patient_age": 74,
+      "risk_factors": 0
+    },
+    {
+      "id": 658,
+      "prediction_score": 0.556,
+      "actual": 0,
+      "predicted": 1,
+      "patient_age": 50,
+      "risk_factors": 5
+    },
+    {
+      "id": 659,
+      "prediction_score": 0.141,
+      "actual": 0,
+      "predicted": 0,
+      "patient_age": 78,
+      "risk_factors": 2
+    },
+    {
+      "id": 660,
+      "prediction_score": 0.4,
+      "actual": 0,
+      "predicted": 0,
+      "patient_age": 49,
+      "risk_factors": 5
+    },
+    {
+      "id": 661,
+      "prediction_score": 0.369,
+      "actual": 0,
+      "predicted": 0,
+      "patient_age": 40,
+      "risk_factors": 3
+    },
+    {
+      "id": 662,
+      "prediction_score": 0.241,
+      "actual": 0,
+      "predicted": 0,
+      "patient_age": 41,
+      "risk_factors": 5
+    },
+    {
+      "id": 663,
+      "prediction_score": 0.499,
+      "actual": 0,
+      "predicted": 0,
+      "patient_age": 80,
+      "risk_factors": 0
+    },
+    {
+      "id": 664,
+      "prediction_score": 0.599,
+      "actual": 0,
+      "predicted": 1,
+      "patient_age": 63,
+      "risk_factors": 1
+    },
+    {
+      "id": 665,
+      "prediction_score": 0.326,
+      "actual": 0,
+      "predicted": 0,
+      "patient_age": 79,
+      "risk_factors": 2
+    },
+    {
+      "id": 666,
+      "prediction_score": 0.135,
+      "actual": 0,
+      "predicted": 0,
+      "patient_age": 36,
+      "risk_factors": 0
+    },
+    {
+      "id": 667,
+      "prediction_score": 0.721,
+      "actual": 0,
+      "predicted": 1,
+      "patient_age": 55,
+      "risk_factors": 0
+    },
+    {
+      "id": 668,
+      "prediction_score": 0.385,
+      "actual": 0,
+      "predicted": 0,
+      "patient_age": 53,
+      "risk_factors": 2
+    },
+    {
+      "id": 669,
+      "prediction_score": 0.637,
+      "actual": 0,
+      "predicted": 1,
+      "patient_age": 58,
+      "risk_factors": 3
+    },
+    {
+      "id": 670,
+      "prediction_score": 0.072,
+      "actual": 0,
+      "predicted": 0,
+      "patient_age": 44,
+      "risk_factors": 1
+    },
+    {
+      "id": 671,
+      "prediction_score": 0.533,
+      "actual": 0,
+      "predicted": 1,
+      "patient_age": 68,
+      "risk_factors": 3
+    },
+    {
+      "id": 672,
+      "prediction_score": 0.162,
+      "actual": 0,
+      "predicted": 0,
+      "patient_age": 71,
+      "risk_factors": 5
+    },
+    {
+      "id": 673,
+      "prediction_score": 0.356,
+      "actual": 0,
+      "predicted": 0,
+      "patient_age": 85,
+      "risk_factors": 1
+    },
+    {
+      "id": 674,
+      "prediction_score": 0.285,
+      "actual": 0,
+      "predicted": 0,
+      "patient_age": 45,
+      "risk_factors": 1
+    },
+    {
+      "id": 675,
+      "prediction_score": 0.279,
+      "actual": 0,
+      "predicted": 0,
+      "patient_age": 40,
+      "risk_factors": 4
+    },
+    {
+      "id": 676,
+      "prediction_score": 0.494,
+      "actual": 0,
+      "predicted": 0,
+      "patient_age": 59,
+      "risk_factors": 4
+    },
+    {
+      "id": 677,
+      "prediction_score": 0.292,
+      "actual": 0,
+      "predicted": 0,
+      "patient_age": 78,
+      "risk_factors": 1
+    },
+    {
+      "id": 678,
+      "prediction_score": 0.306,
+      "actual": 0,
+      "predicted": 0,
+      "patient_age": 66,
+      "risk_factors": 4
+    },
+    {
+      "id": 679,
+      "prediction_score": 0.144,
+      "actual": 0,
+      "predicted": 0,
+      "patient_age": 44,
+      "risk_factors": 1
+    },
+    {
+      "id": 680,
+      "prediction_score": 0.27,
+      "actual": 0,
+      "predicted": 0,
+      "patient_age": 64,
+      "risk_factors": 5
+    },
+    {
+      "id": 681,
+      "prediction_score": 0.054,
+      "actual": 0,
+      "predicted": 0,
+      "patient_age": 51,
+      "risk_factors": 3
+    },
+    {
+      "id": 682,
+      "prediction_score": 0.272,
+      "actual": 0,
+      "predicted": 0,
+      "patient_age": 51,
+      "risk_factors": 5
+    },
+    {
+      "id": 683,
+      "prediction_score": 0.055,
+      "actual": 0,
+      "predicted": 0,
+      "patient_age": 35,
+      "risk_factors": 3
+    },
+    {
+      "id": 684,
+      "prediction_score": 0.616,
+      "actual": 0,
+      "predicted": 1,
+      "patient_age": 53,
+      "risk_factors": 5
+    },
+    {
+      "id": 685,
+      "prediction_score": 0.363,
+      "actual": 0,
+      "predicted": 0,
+      "patient_age": 69,
+      "risk_factors": 1
+    },
+    {
+      "id": 686,
+      "prediction_score": 0.365,
+      "actual": 0,
+      "predicted": 0,
+      "patient_age": 39,
+      "risk_factors": 3
+    },
+    {
+      "id": 687,
+      "prediction_score": 0.043,
+      "actual": 0,
+      "predicted": 0,
+      "patient_age": 57,
+      "risk_factors": 4
+    },
+    {
+      "id": 688,
+      "prediction_score": 0.858,
+      "actual": 0,
+      "predicted": 1,
+      "patient_age": 54,
+      "risk_factors": 5
+    },
+    {
+      "id": 689,
+      "prediction_score": 0.416,
+      "actual": 0,
+      "predicted": 0,
+      "patient_age": 62,
+      "risk_factors": 5
+    },
+    {
+      "id": 690,
+      "prediction_score": 0.389,
+      "actual": 0,
+      "predicted": 0,
+      "patient_age": 51,
+      "risk_factors": 3
+    },
+    {
+      "id": 691,
+      "prediction_score": 0.849,
+      "actual": 0,
+      "predicted": 1,
+      "patient_age": 54,
+      "risk_factors": 1
+    },
+    {
+      "id": 692,
+      "prediction_score": 0.365,
+      "actual": 0,
+      "predicted": 0,
+      "patient_age": 59,
+      "risk_factors": 3
+    },
+    {
+      "id": 693,
+      "prediction_score": 0.189,
+      "actual": 0,
+      "predicted": 0,
+      "patient_age": 41,
+      "risk_factors": 1
+    },
+    {
+      "id": 694,
+      "prediction_score": 0.134,
+      "actual": 0,
+      "predicted": 0,
+      "patient_age": 59,
+      "risk_factors": 4
+    },
+    {
+      "id": 695,
+      "prediction_score": 0.201,
+      "actual": 0,
+      "predicted": 0,
+      "patient_age": 57,
+      "risk_factors": 4
+    },
+    {
+      "id": 696,
+      "prediction_score": 0.525,
+      "actual": 0,
+      "predicted": 1,
+      "patient_age": 53,
+      "risk_factors": 5
+    },
+    {
+      "id": 697,
+      "prediction_score": 0.339,
+      "actual": 0,
+      "predicted": 0,
+      "patient_age": 53,
+      "risk_factors": 0
+    },
+    {
+      "id": 698,
+      "prediction_score": 0.273,
+      "actual": 0,
+      "predicted": 0,
+      "patient_age": 77,
+      "risk_factors": 3
+    },
+    {
+      "id": 699,
+      "prediction_score": 0.411,
+      "actual": 0,
+      "predicted": 0,
+      "patient_age": 52,
+      "risk_factors": 0
+    },
+    {
+      "id": 700,
+      "prediction_score": 0.27,
+      "actual": 0,
+      "predicted": 0,
+      "patient_age": 71,
+      "risk_factors": 5
+    },
+    {
+      "id": 701,
+      "prediction_score": 0.214,
+      "actual": 0,
+      "predicted": 0,
+      "patient_age": 84,
+      "risk_factors": 5
+    },
+    {
+      "id": 702,
+      "prediction_score": 0.314,
+      "actual": 0,
+      "predicted": 0,
+      "patient_age": 38,
+      "risk_factors": 4
+    },
+    {
+      "id": 703,
+      "prediction_score": 0.384,
+      "actual": 0,
+      "predicted": 0,
+      "patient_age": 82,
+      "risk_factors": 3
+    },
+    {
+      "id": 704,
+      "prediction_score": 0.144,
+      "actual": 0,
+      "predicted": 0,
+      "patient_age": 53,
+      "risk_factors": 1
+    },
+    {
+      "id": 705,
+      "prediction_score": 0.567,
+      "actual": 0,
+      "predicted": 1,
+      "patient_age": 73,
+      "risk_factors": 2
+    },
+    {
+      "id": 706,
+      "prediction_score": 0.174,
+      "actual": 0,
+      "predicted": 0,
+      "patient_age": 49,
+      "risk_factors": 5
+    },
+    {
+      "id": 707,
+      "prediction_score": 0.039,
+      "actual": 0,
+      "predicted": 0,
+      "patient_age": 47,
+      "risk_factors": 4
+    },
+    {
+      "id": 708,
+      "prediction_score": 0.655,
+      "actual": 1,
+      "predicted": 1,
+      "patient_age": 51,
+      "risk_factors": 5
+    },
+    {
+      "id": 709,
+      "prediction_score": 0.618,
+      "actual": 0,
+      "predicted": 1,
+      "patient_age": 83,
+      "risk_factors": 5
+    },
+    {
+      "id": 710,
+      "prediction_score": 0.299,
+      "actual": 0,
+      "predicted": 0,
+      "patient_age": 84,
+      "risk_factors": 5
+    },
+    {
+      "id": 711,
+      "prediction_score": 0.546,
+      "actual": 0,
+      "predicted": 1,
+      "patient_age": 78,
+      "risk_factors": 1
+    },
+    {
+      "id": 712,
+      "prediction_score": 0.09,
+      "actual": 0,
+      "predicted": 0,
+      "patient_age": 75,
+      "risk_factors": 0
+    },
+    {
+      "id": 713,
+      "prediction_score": 0.336,
+      "actual": 0,
+      "predicted": 0,
+      "patient_age": 75,
+      "risk_factors": 5
+    },
+    {
+      "id": 714,
+      "prediction_score": 0.049,
+      "actual": 0,
+      "predicted": 0,
+      "patient_age": 37,
+      "risk_factors": 2
+    },
+    {
+      "id": 715,
+      "prediction_score": 0.563,
+      "actual": 0,
+      "predicted": 1,
+      "patient_age": 85,
+      "risk_factors": 3
+    },
+    {
+      "id": 716,
+      "prediction_score": 0.616,
+      "actual": 0,
+      "predicted": 1,
+      "patient_age": 37,
+      "risk_factors": 4
+    },
+    {
+      "id": 717,
+      "prediction_score": 0.464,
+      "actual": 0,
+      "predicted": 0,
+      "patient_age": 58,
+      "risk_factors": 5
+    },
+    {
+      "id": 718,
+      "prediction_score": 0.43,
+      "actual": 0,
+      "predicted": 0,
+      "patient_age": 43,
+      "risk_factors": 0
+    },
+    {
+      "id": 719,
+      "prediction_score": 0.222,
+      "actual": 0,
+      "predicted": 0,
+      "patient_age": 53,
+      "risk_factors": 2
+    },
+    {
+      "id": 720,
+      "prediction_score": 0.677,
+      "actual": 0,
+      "predicted": 1,
+      "patient_age": 82,
+      "risk_factors": 3
+    },
+    {
+      "id": 721,
+      "prediction_score": 0.275,
+      "actual": 0,
+      "predicted": 0,
+      "patient_age": 46,
+      "risk_factors": 1
+    },
+    {
+      "id": 722,
+      "prediction_score": 0.555,
+      "actual": 0,
+      "predicted": 1,
+      "patient_age": 43,
+      "risk_factors": 4
+    },
+    {
+      "id": 723,
+      "prediction_score": 0.609,
+      "actual": 0,
+      "predicted": 1,
+      "patient_age": 58,
+      "risk_factors": 4
+    },
+    {
+      "id": 724,
+      "prediction_score": 0.183,
+      "actual": 0,
+      "predicted": 0,
+      "patient_age": 67,
+      "risk_factors": 2
+    },
+    {
+      "id": 725,
+      "prediction_score": 0.196,
+      "actual": 0,
+      "predicted": 0,
+      "patient_age": 45,
+      "risk_factors": 2
+    },
+    {
+      "id": 726,
+      "prediction_score": 0.134,
+      "actual": 0,
+      "predicted": 0,
+      "patient_age": 65,
+      "risk_factors": 2
+    },
+    {
+      "id": 727,
+      "prediction_score": 0.182,
+      "actual": 0,
+      "predicted": 0,
+      "patient_age": 82,
+      "risk_factors": 2
+    },
+    {
+      "id": 728,
+      "prediction_score": 0.331,
+      "actual": 0,
+      "predicted": 0,
+      "patient_age": 42,
+      "risk_factors": 3
+    },
+    {
+      "id": 729,
+      "prediction_score": 0.261,
+      "actual": 0,
+      "predicted": 0,
+      "patient_age": 39,
+      "risk_factors": 1
+    },
+    {
+      "id": 730,
+      "prediction_score": 0.265,
+      "actual": 0,
+      "predicted": 0,
+      "patient_age": 83,
+      "risk_factors": 1
+    },
+    {
+      "id": 731,
+      "prediction_score": 0.24,
+      "actual": 0,
+      "predicted": 0,
+      "patient_age": 78,
+      "risk_factors": 5
+    },
+    {
+      "id": 732,
+      "prediction_score": 0.099,
+      "actual": 0,
+      "predicted": 0,
+      "patient_age": 78,
+      "risk_factors": 3
+    },
+    {
+      "id": 733,
+      "prediction_score": 0.256,
+      "actual": 0,
+      "predicted": 0,
+      "patient_age": 70,
+      "risk_factors": 2
+    },
+    {
+      "id": 734,
+      "prediction_score": 0.406,
+      "actual": 0,
+      "predicted": 0,
+      "patient_age": 40,
+      "risk_factors": 3
+    },
+    {
+      "id": 735,
+      "prediction_score": 0.459,
+      "actual": 0,
+      "predicted": 0,
+      "patient_age": 35,
+      "risk_factors": 2
+    },
+    {
+      "id": 736,
+      "prediction_score": 0.347,
+      "actual": 0,
+      "predicted": 0,
+      "patient_age": 69,
+      "risk_factors": 0
+    },
+    {
+      "id": 737,
+      "prediction_score": 0.317,
+      "actual": 0,
+      "predicted": 0,
+      "patient_age": 64,
+      "risk_factors": 2
+    },
+    {
+      "id": 738,
+      "prediction_score": 0.084,
+      "actual": 0,
+      "predicted": 0,
+      "patient_age": 78,
+      "risk_factors": 5
+    },
+    {
+      "id": 739,
+      "prediction_score": 0.696,
+      "actual": 0,
+      "predicted": 1,
+      "patient_age": 78,
+      "risk_factors": 2
+    },
+    {
+      "id": 740,
+      "prediction_score": 0.627,
+      "actual": 0,
+      "predicted": 1,
+      "patient_age": 72,
+      "risk_factors": 3
+    },
+    {
+      "id": 741,
+      "prediction_score": 0.207,
+      "actual": 0,
+      "predicted": 0,
+      "patient_age": 75,
+      "risk_factors": 2
+    },
+    {
+      "id": 742,
+      "prediction_score": 0.527,
+      "actual": 0,
+      "predicted": 1,
+      "patient_age": 41,
+      "risk_factors": 5
+    },
+    {
+      "id": 743,
+      "prediction_score": 0.105,
+      "actual": 0,
+      "predicted": 0,
+      "patient_age": 49,
+      "risk_factors": 3
+    },
+    {
+      "id": 744,
+      "prediction_score": 0.223,
+      "actual": 0,
+      "predicted": 0,
+      "patient_age": 36,
+      "risk_factors": 4
+    },
+    {
+      "id": 745,
+      "prediction_score": 0.321,
+      "actual": 0,
+      "predicted": 0,
+      "patient_age": 70,
+      "risk_factors": 2
+    },
+    {
+      "id": 746,
+      "prediction_score": 0.526,
+      "actual": 0,
+      "predicted": 1,
+      "patient_age": 74,
+      "risk_factors": 1
+    },
+    {
+      "id": 747,
+      "prediction_score": 0.118,
+      "actual": 0,
+      "predicted": 0,
+      "patient_age": 76,
+      "risk_factors": 0
+    },
+    {
+      "id": 748,
+      "prediction_score": 0.233,
+      "actual": 0,
+      "predicted": 0,
+      "patient_age": 75,
+      "risk_factors": 3
+    },
+    {
+      "id": 749,
+      "prediction_score": 0.421,
+      "actual": 0,
+      "predicted": 0,
+      "patient_age": 79,
+      "risk_factors": 2
+    },
+    {
+      "id": 750,
+      "prediction_score": 0.226,
+      "actual": 0,
+      "predicted": 0,
+      "patient_age": 76,
+      "risk_factors": 3
+    },
+    {
+      "id": 751,
+      "prediction_score": 0.632,
+      "actual": 0,
+      "predicted": 1,
+      "patient_age": 42,
+      "risk_factors": 1
+    },
+    {
+      "id": 752,
+      "prediction_score": 0.119,
+      "actual": 0,
+      "predicted": 0,
+      "patient_age": 37,
+      "risk_factors": 0
+    },
+    {
+      "id": 753,
+      "prediction_score": 0.245,
+      "actual": 0,
+      "predicted": 0,
+      "patient_age": 54,
+      "risk_factors": 3
+    },
+    {
+      "id": 754,
+      "prediction_score": 0.725,
+      "actual": 0,
+      "predicted": 1,
+      "patient_age": 42,
+      "risk_factors": 0
+    },
+    {
+      "id": 755,
+      "prediction_score": 0.067,
+      "actual": 0,
+      "predicted": 0,
+      "patient_age": 50,
+      "risk_factors": 4
+    },
+    {
+      "id": 756,
+      "prediction_score": 0.291,
+      "actual": 0,
+      "predicted": 0,
+      "patient_age": 43,
+      "risk_factors": 3
+    },
+    {
+      "id": 757,
+      "prediction_score": 0.393,
+      "actual": 0,
+      "predicted": 0,
+      "patient_age": 64,
+      "risk_factors": 2
+    },
+    {
+      "id": 758,
+      "prediction_score": 0.116,
+      "actual": 0,
+      "predicted": 0,
+      "patient_age": 77,
+      "risk_factors": 5
+    },
+    {
+      "id": 759,
+      "prediction_score": 0.626,
+      "actual": 0,
+      "predicted": 1,
+      "patient_age": 79,
+      "risk_factors": 4
+    },
+    {
+      "id": 760,
+      "prediction_score": 0.175,
+      "actual": 0,
+      "predicted": 0,
+      "patient_age": 61,
+      "risk_factors": 4
+    },
+    {
+      "id": 761,
+      "prediction_score": 0.352,
+      "actual": 0,
+      "predicted": 0,
+      "patient_age": 82,
+      "risk_factors": 5
+    },
+    {
+      "id": 762,
+      "prediction_score": 0.514,
+      "actual": 0,
+      "predicted": 1,
+      "patient_age": 44,
+      "risk_factors": 3
+    },
+    {
+      "id": 763,
+      "prediction_score": 0.315,
+      "actual": 0,
+      "predicted": 0,
+      "patient_age": 76,
+      "risk_factors": 0
+    },
+    {
+      "id": 764,
+      "prediction_score": 0.181,
+      "actual": 0,
+      "predicted": 0,
+      "patient_age": 66,
+      "risk_factors": 4
+    },
+    {
+      "id": 765,
+      "prediction_score": 0.195,
+      "actual": 0,
+      "predicted": 0,
+      "patient_age": 61,
+      "risk_factors": 2
+    },
+    {
+      "id": 766,
+      "prediction_score": 0.286,
+      "actual": 0,
+      "predicted": 0,
+      "patient_age": 37,
+      "risk_factors": 5
+    },
+    {
+      "id": 767,
+      "prediction_score": 0.348,
+      "actual": 0,
+      "predicted": 0,
+      "patient_age": 58,
+      "risk_factors": 1
+    },
+    {
+      "id": 768,
+      "prediction_score": 0.256,
+      "actual": 0,
+      "predicted": 0,
+      "patient_age": 63,
+      "risk_factors": 3
+    },
+    {
+      "id": 769,
+      "prediction_score": 0.293,
+      "actual": 0,
+      "predicted": 0,
+      "patient_age": 50,
+      "risk_factors": 2
+    },
+    {
+      "id": 770,
+      "prediction_score": 0.165,
+      "actual": 0,
+      "predicted": 0,
+      "patient_age": 41,
+      "risk_factors": 5
+    },
+    {
+      "id": 771,
+      "prediction_score": 0.8,
+      "actual": 0,
+      "predicted": 1,
+      "patient_age": 58,
+      "risk_factors": 4
+    },
+    {
+      "id": 772,
+      "prediction_score": 0.227,
+      "actual": 0,
+      "predicted": 0,
+      "patient_age": 76,
+      "risk_factors": 2
+    },
+    {
+      "id": 773,
+      "prediction_score": 0.048,
+      "actual": 0,
+      "predicted": 0,
+      "patient_age": 38,
+      "risk_factors": 3
+    },
+    {
+      "id": 774,
+      "prediction_score": 0.079,
+      "actual": 0,
+      "predicted": 0,
+      "patient_age": 52,
+      "risk_factors": 1
+    },
+    {
+      "id": 775,
+      "prediction_score": 0.174,
+      "actual": 0,
+      "predicted": 0,
+      "patient_age": 42,
+      "risk_factors": 3
+    },
+    {
+      "id": 776,
+      "prediction_score": 0.846,
+      "actual": 1,
+      "predicted": 1,
+      "patient_age": 40,
+      "risk_factors": 5
+    },
+    {
+      "id": 777,
+      "prediction_score": 0.248,
+      "actual": 0,
+      "predicted": 0,
+      "patient_age": 48,
+      "risk_factors": 5
+    },
+    {
+      "id": 778,
+      "prediction_score": 0.401,
+      "actual": 0,
+      "predicted": 0,
+      "patient_age": 75,
+      "risk_factors": 4
+    },
+    {
+      "id": 779,
+      "prediction_score": 0.641,
+      "actual": 0,
+      "predicted": 1,
+      "patient_age": 36,
+      "risk_factors": 0
+    },
+    {
+      "id": 780,
+      "prediction_score": 0.359,
+      "actual": 0,
+      "predicted": 0,
+      "patient_age": 85,
+      "risk_factors": 2
+    },
+    {
+      "id": 781,
+      "prediction_score": 0.297,
+      "actual": 0,
+      "predicted": 0,
+      "patient_age": 50,
+      "risk_factors": 1
+    },
+    {
+      "id": 782,
+      "prediction_score": 0.269,
+      "actual": 0,
+      "predicted": 0,
+      "patient_age": 85,
+      "risk_factors": 4
+    },
+    {
+      "id": 783,
+      "prediction_score": 0.349,
+      "actual": 0,
+      "predicted": 0,
+      "patient_age": 48,
+      "risk_factors": 0
+    },
+    {
+      "id": 784,
+      "prediction_score": 0.104,
+      "actual": 0,
+      "predicted": 0,
+      "patient_age": 83,
+      "risk_factors": 4
+    },
+    {
+      "id": 785,
+      "prediction_score": 0.298,
+      "actual": 0,
+      "predicted": 0,
+      "patient_age": 48,
+      "risk_factors": 4
+    },
+    {
+      "id": 786,
+      "prediction_score": 0.489,
+      "actual": 0,
+      "predicted": 0,
+      "patient_age": 48,
+      "risk_factors": 1
+    },
+    {
+      "id": 787,
+      "prediction_score": 0.554,
+      "actual": 0,
+      "predicted": 1,
+      "patient_age": 56,
+      "risk_factors": 1
+    },
+    {
+      "id": 788,
+      "prediction_score": 0.28,
+      "actual": 0,
+      "predicted": 0,
+      "patient_age": 85,
+      "risk_factors": 4
+    },
+    {
+      "id": 789,
+      "prediction_score": 0.379,
+      "actual": 0,
+      "predicted": 0,
+      "patient_age": 35,
+      "risk_factors": 2
+    },
+    {
+      "id": 790,
+      "prediction_score": 0.344,
+      "actual": 0,
+      "predicted": 0,
+      "patient_age": 44,
+      "risk_factors": 1
+    },
+    {
+      "id": 791,
+      "prediction_score": 0.74,
+      "actual": 1,
+      "predicted": 1,
+      "patient_age": 69,
+      "risk_factors": 2
+    },
+    {
+      "id": 792,
+      "prediction_score": 0.212,
+      "actual": 0,
+      "predicted": 0,
+      "patient_age": 46,
+      "risk_factors": 0
+    },
+    {
+      "id": 793,
+      "prediction_score": 0.045,
+      "actual": 0,
+      "predicted": 0,
+      "patient_age": 77,
+      "risk_factors": 0
+    },
+    {
+      "id": 794,
+      "prediction_score": 0.357,
+      "actual": 0,
+      "predicted": 0,
+      "patient_age": 43,
+      "risk_factors": 0
+    },
+    {
+      "id": 795,
+      "prediction_score": 0.184,
+      "actual": 0,
+      "predicted": 0,
+      "patient_age": 57,
+      "risk_factors": 1
+    },
+    {
+      "id": 796,
+      "prediction_score": 0.269,
+      "actual": 0,
+      "predicted": 0,
+      "patient_age": 72,
+      "risk_factors": 2
+    },
+    {
+      "id": 797,
+      "prediction_score": 0.129,
+      "actual": 0,
+      "predicted": 0,
+      "patient_age": 36,
+      "risk_factors": 1
+    },
+    {
+      "id": 798,
+      "prediction_score": 0.088,
+      "actual": 0,
+      "predicted": 0,
+      "patient_age": 51,
+      "risk_factors": 0
+    },
+    {
+      "id": 799,
+      "prediction_score": 0.126,
+      "actual": 0,
+      "predicted": 0,
+      "patient_age": 43,
+      "risk_factors": 5
+    },
+    {
+      "id": 800,
+      "prediction_score": 0.481,
+      "actual": 0,
+      "predicted": 0,
+      "patient_age": 61,
+      "risk_factors": 4
+    },
+    {
+      "id": 801,
+      "prediction_score": 0.114,
+      "actual": 0,
+      "predicted": 0,
+      "patient_age": 42,
+      "risk_factors": 5
+    },
+    {
+      "id": 802,
+      "prediction_score": 0.03,
+      "actual": 0,
+      "predicted": 0,
+      "patient_age": 39,
+      "risk_factors": 3
+    },
+    {
+      "id": 803,
+      "prediction_score": 0.345,
+      "actual": 0,
+      "predicted": 0,
+      "patient_age": 63,
+      "risk_factors": 2
+    },
+    {
+      "id": 804,
+      "prediction_score": 0.479,
+      "actual": 0,
+      "predicted": 0,
+      "patient_age": 67,
+      "risk_factors": 4
+    },
+    {
+      "id": 805,
+      "prediction_score": 0.328,
+      "actual": 0,
+      "predicted": 0,
+      "patient_age": 41,
+      "risk_factors": 3
+    },
+    {
+      "id": 806,
+      "prediction_score": 0.131,
+      "actual": 0,
+      "predicted": 0,
+      "patient_age": 67,
+      "risk_factors": 1
+    },
+    {
+      "id": 807,
+      "prediction_score": 0.234,
+      "actual": 0,
+      "predicted": 0,
+      "patient_age": 74,
+      "risk_factors": 0
+    },
+    {
+      "id": 808,
+      "prediction_score": 0.206,
+      "actual": 0,
+      "predicted": 0,
+      "patient_age": 81,
+      "risk_factors": 5
+    },
+    {
+      "id": 809,
+      "prediction_score": 0.243,
+      "actual": 0,
+      "predicted": 0,
+      "patient_age": 68,
+      "risk_factors": 2
+    },
+    {
+      "id": 810,
+      "prediction_score": 0.403,
+      "actual": 0,
+      "predicted": 0,
+      "patient_age": 64,
+      "risk_factors": 5
+    },
+    {
+      "id": 811,
+      "prediction_score": 0.122,
+      "actual": 0,
+      "predicted": 0,
+      "patient_age": 36,
+      "risk_factors": 0
+    },
+    {
+      "id": 812,
+      "prediction_score": 0.219,
+      "actual": 0,
+      "predicted": 0,
+      "patient_age": 65,
+      "risk_factors": 3
+    },
+    {
+      "id": 813,
+      "prediction_score": 0.106,
+      "actual": 0,
+      "predicted": 0,
+      "patient_age": 62,
+      "risk_factors": 5
+    },
+    {
+      "id": 814,
+      "prediction_score": 0.186,
+      "actual": 0,
+      "predicted": 0,
+      "patient_age": 41,
+      "risk_factors": 3
+    },
+    {
+      "id": 815,
+      "prediction_score": 0.124,
+      "actual": 0,
+      "predicted": 0,
+      "patient_age": 80,
+      "risk_factors": 3
+    },
+    {
+      "id": 816,
+      "prediction_score": 0.418,
+      "actual": 0,
+      "predicted": 0,
+      "patient_age": 39,
+      "risk_factors": 0
+    },
+    {
+      "id": 817,
+      "prediction_score": 0.453,
+      "actual": 0,
+      "predicted": 0,
+      "patient_age": 55,
+      "risk_factors": 4
+    },
+    {
+      "id": 818,
+      "prediction_score": 0.186,
+      "actual": 0,
+      "predicted": 0,
+      "patient_age": 44,
+      "risk_factors": 0
+    },
+    {
+      "id": 819,
+      "prediction_score": 0.71,
+      "actual": 0,
+      "predicted": 1,
+      "patient_age": 43,
+      "risk_factors": 2
+    },
+    {
+      "id": 820,
+      "prediction_score": 0.618,
+      "actual": 0,
+      "predicted": 1,
+      "patient_age": 74,
+      "risk_factors": 5
+    },
+    {
+      "id": 821,
+      "prediction_score": 0.085,
+      "actual": 0,
+      "predicted": 0,
+      "patient_age": 72,
+      "risk_factors": 4
+    },
+    {
+      "id": 822,
+      "prediction_score": 0.198,
+      "actual": 0,
+      "predicted": 0,
+      "patient_age": 80,
+      "risk_factors": 2
+    },
+    {
+      "id": 823,
+      "prediction_score": 0.741,
+      "actual": 1,
+      "predicted": 1,
+      "patient_age": 59,
+      "risk_factors": 4
+    },
+    {
+      "id": 824,
+      "prediction_score": 0.131,
+      "actual": 0,
+      "predicted": 0,
+      "patient_age": 68,
+      "risk_factors": 2
+    },
+    {
+      "id": 825,
+      "prediction_score": 0.956,
+      "actual": 0,
+      "predicted": 1,
+      "patient_age": 64,
+      "risk_factors": 4
+    },
+    {
+      "id": 826,
+      "prediction_score": 0.396,
+      "actual": 0,
+      "predicted": 0,
+      "patient_age": 73,
+      "risk_factors": 3
+    },
+    {
+      "id": 827,
+      "prediction_score": 0.157,
+      "actual": 0,
+      "predicted": 0,
+      "patient_age": 41,
+      "risk_factors": 5
+    },
+    {
+      "id": 828,
+      "prediction_score": 0.183,
+      "actual": 0,
+      "predicted": 0,
+      "patient_age": 42,
+      "risk_factors": 5
+    },
+    {
+      "id": 829,
+      "prediction_score": 0.576,
+      "actual": 0,
+      "predicted": 1,
+      "patient_age": 76,
+      "risk_factors": 4
+    },
+    {
+      "id": 830,
+      "prediction_score": 0.38,
+      "actual": 1,
+      "predicted": 0,
+      "patient_age": 81,
+      "risk_factors": 1
+    },
+    {
+      "id": 831,
+      "prediction_score": 0.119,
+      "actual": 0,
+      "predicted": 0,
+      "patient_age": 62,
+      "risk_factors": 3
+    },
+    {
+      "id": 832,
+      "prediction_score": 0.179,
+      "actual": 0,
+      "predicted": 0,
+      "patient_age": 49,
+      "risk_factors": 3
+    },
+    {
+      "id": 833,
+      "prediction_score": 0.763,
+      "actual": 1,
+      "predicted": 1,
+      "patient_age": 56,
+      "risk_factors": 3
+    },
+    {
+      "id": 834,
+      "prediction_score": 0.172,
+      "actual": 0,
+      "predicted": 0,
+      "patient_age": 60,
+      "risk_factors": 3
+    },
+    {
+      "id": 835,
+      "prediction_score": 0.401,
+      "actual": 0,
+      "predicted": 0,
+      "patient_age": 81,
+      "risk_factors": 0
+    },
+    {
+      "id": 836,
+      "prediction_score": 0.068,
+      "actual": 0,
+      "predicted": 0,
+      "patient_age": 55,
+      "risk_factors": 3
+    },
+    {
+      "id": 837,
+      "prediction_score": 0.684,
+      "actual": 0,
+      "predicted": 1,
+      "patient_age": 55,
+      "risk_factors": 5
+    },
+    {
+      "id": 838,
+      "prediction_score": 0.147,
+      "actual": 0,
+      "predicted": 0,
+      "patient_age": 51,
+      "risk_factors": 2
+    },
+    {
+      "id": 839,
+      "prediction_score": 0.393,
+      "actual": 0,
+      "predicted": 0,
+      "patient_age": 44,
+      "risk_factors": 5
+    },
+    {
+      "id": 840,
+      "prediction_score": 0.12,
+      "actual": 0,
+      "predicted": 0,
+      "patient_age": 65,
+      "risk_factors": 0
+    },
+    {
+      "id": 841,
+      "prediction_score": 0.403,
+      "actual": 0,
+      "predicted": 0,
+      "patient_age": 40,
+      "risk_factors": 0
+    },
+    {
+      "id": 842,
+      "prediction_score": 0.468,
+      "actual": 0,
+      "predicted": 0,
+      "patient_age": 40,
+      "risk_factors": 3
+    },
+    {
+      "id": 843,
+      "prediction_score": 0.042,
+      "actual": 0,
+      "predicted": 0,
+      "patient_age": 41,
+      "risk_factors": 5
+    },
+    {
+      "id": 844,
+      "prediction_score": 0.258,
+      "actual": 0,
+      "predicted": 0,
+      "patient_age": 82,
+      "risk_factors": 2
+    },
+    {
+      "id": 845,
+      "prediction_score": 0.147,
+      "actual": 0,
+      "predicted": 0,
+      "patient_age": 43,
+      "risk_factors": 4
+    },
+    {
+      "id": 846,
+      "prediction_score": 0.121,
+      "actual": 0,
+      "predicted": 0,
+      "patient_age": 38,
+      "risk_factors": 4
+    },
+    {
+      "id": 847,
+      "prediction_score": 0.736,
+      "actual": 1,
+      "predicted": 1,
+      "patient_age": 70,
+      "risk_factors": 4
+    },
+    {
+      "id": 848,
+      "prediction_score": 0.3,
+      "actual": 0,
+      "predicted": 0,
+      "patient_age": 56,
+      "risk_factors": 5
+    },
+    {
+      "id": 849,
+      "prediction_score": 0.027,
+      "actual": 0,
+      "predicted": 0,
+      "patient_age": 42,
+      "risk_factors": 3
+    },
+    {
+      "id": 850,
+      "prediction_score": 0.109,
+      "actual": 0,
+      "predicted": 0,
+      "patient_age": 57,
+      "risk_factors": 5
+    },
+    {
+      "id": 851,
+      "prediction_score": 0.564,
+      "actual": 0,
+      "predicted": 1,
+      "patient_age": 83,
+      "risk_factors": 3
+    },
+    {
+      "id": 852,
+      "prediction_score": 0.12,
+      "actual": 0,
+      "predicted": 0,
+      "patient_age": 81,
+      "risk_factors": 0
+    },
+    {
+      "id": 853,
+      "prediction_score": 0.749,
+      "actual": 0,
+      "predicted": 1,
+      "patient_age": 53,
+      "risk_factors": 4
+    },
+    {
+      "id": 854,
+      "prediction_score": 0.469,
+      "actual": 0,
+      "predicted": 0,
+      "patient_age": 54,
+      "risk_factors": 2
+    },
+    {
+      "id": 855,
+      "prediction_score": 0.467,
+      "actual": 0,
+      "predicted": 0,
+      "patient_age": 41,
+      "risk_factors": 4
+    },
+    {
+      "id": 856,
+      "prediction_score": 0.615,
+      "actual": 0,
+      "predicted": 1,
+      "patient_age": 67,
+      "risk_factors": 1
+    },
+    {
+      "id": 857,
+      "prediction_score": 0.362,
+      "actual": 0,
+      "predicted": 0,
+      "patient_age": 44,
+      "risk_factors": 5
+    },
+    {
+      "id": 858,
+      "prediction_score": 0.293,
+      "actual": 0,
+      "predicted": 0,
+      "patient_age": 65,
+      "risk_factors": 1
+    },
+    {
+      "id": 859,
+      "prediction_score": 0.676,
+      "actual": 0,
+      "predicted": 1,
+      "patient_age": 41,
+      "risk_factors": 2
+    },
+    {
+      "id": 860,
+      "prediction_score": 0.556,
+      "actual": 0,
+      "predicted": 1,
+      "patient_age": 70,
+      "risk_factors": 2
+    },
+    {
+      "id": 861,
+      "prediction_score": 0.554,
+      "actual": 0,
+      "predicted": 1,
+      "patient_age": 42,
+      "risk_factors": 2
+    },
+    {
+      "id": 862,
+      "prediction_score": 0.569,
+      "actual": 0,
+      "predicted": 1,
+      "patient_age": 71,
+      "risk_factors": 1
+    },
+    {
+      "id": 863,
+      "prediction_score": 0.124,
+      "actual": 0,
+      "predicted": 0,
+      "patient_age": 62,
+      "risk_factors": 4
+    },
+    {
+      "id": 864,
+      "prediction_score": 0.253,
+      "actual": 0,
+      "predicted": 0,
+      "patient_age": 84,
+      "risk_factors": 4
+    },
+    {
+      "id": 865,
+      "prediction_score": 0.132,
+      "actual": 0,
+      "predicted": 0,
+      "patient_age": 74,
+      "risk_factors": 5
+    },
+    {
+      "id": 866,
+      "prediction_score": 0.257,
+      "actual": 0,
+      "predicted": 0,
+      "patient_age": 76,
+      "risk_factors": 4
+    },
+    {
+      "id": 867,
+      "prediction_score": 0.729,
+      "actual": 0,
+      "predicted": 1,
+      "patient_age": 36,
+      "risk_factors": 4
+    },
+    {
+      "id": 868,
+      "prediction_score": 0.181,
+      "actual": 0,
+      "predicted": 0,
+      "patient_age": 77,
+      "risk_factors": 5
+    },
+    {
+      "id": 869,
+      "prediction_score": 0.777,
+      "actual": 1,
+      "predicted": 1,
+      "patient_age": 52,
+      "risk_factors": 0
+    },
+    {
+      "id": 870,
+      "prediction_score": 0.118,
+      "actual": 0,
+      "predicted": 0,
+      "patient_age": 46,
+      "risk_factors": 2
+    },
+    {
+      "id": 871,
+      "prediction_score": 0.215,
+      "actual": 0,
+      "predicted": 0,
+      "patient_age": 79,
+      "risk_factors": 2
+    },
+    {
+      "id": 872,
+      "prediction_score": 0.244,
+      "actual": 0,
+      "predicted": 0,
+      "patient_age": 56,
+      "risk_factors": 2
+    },
+    {
+      "id": 873,
+      "prediction_score": 0.256,
+      "actual": 0,
+      "predicted": 0,
+      "patient_age": 35,
+      "risk_factors": 1
+    },
+    {
+      "id": 874,
+      "prediction_score": 0.087,
+      "actual": 0,
+      "predicted": 0,
+      "patient_age": 44,
+      "risk_factors": 4
+    },
+    {
+      "id": 875,
+      "prediction_score": 0.338,
+      "actual": 0,
+      "predicted": 0,
+      "patient_age": 77,
+      "risk_factors": 3
+    },
+    {
+      "id": 876,
+      "prediction_score": 0.335,
+      "actual": 0,
+      "predicted": 0,
+      "patient_age": 39,
+      "risk_factors": 1
+    },
+    {
+      "id": 877,
+      "prediction_score": 0.303,
+      "actual": 1,
+      "predicted": 0,
+      "patient_age": 82,
+      "risk_factors": 5
+    },
+    {
+      "id": 878,
+      "prediction_score": 0.029,
+      "actual": 0,
+      "predicted": 0,
+      "patient_age": 36,
+      "risk_factors": 0
+    },
+    {
+      "id": 879,
+      "prediction_score": 0.465,
+      "actual": 0,
+      "predicted": 0,
+      "patient_age": 82,
+      "risk_factors": 4
+    },
+    {
+      "id": 880,
+      "prediction_score": 0.468,
+      "actual": 0,
+      "predicted": 0,
+      "patient_age": 48,
+      "risk_factors": 3
+    },
+    {
+      "id": 881,
+      "prediction_score": 0.376,
+      "actual": 0,
+      "predicted": 0,
+      "patient_age": 61,
+      "risk_factors": 3
+    },
+    {
+      "id": 882,
+      "prediction_score": 0.061,
+      "actual": 0,
+      "predicted": 0,
+      "patient_age": 56,
+      "risk_factors": 1
+    },
+    {
+      "id": 883,
+      "prediction_score": 0.099,
+      "actual": 0,
+      "predicted": 0,
+      "patient_age": 58,
+      "risk_factors": 2
+    },
+    {
+      "id": 884,
+      "prediction_score": 0.16,
+      "actual": 0,
+      "predicted": 0,
+      "patient_age": 81,
+      "risk_factors": 2
+    },
+    {
+      "id": 885,
+      "prediction_score": 0.349,
+      "actual": 0,
+      "predicted": 0,
+      "patient_age": 84,
+      "risk_factors": 4
+    },
+    {
+      "id": 886,
+      "prediction_score": 0.275,
+      "actual": 0,
+      "predicted": 0,
+      "patient_age": 73,
+      "risk_factors": 0
+    },
+    {
+      "id": 887,
+      "prediction_score": 0.213,
+      "actual": 0,
+      "predicted": 0,
+      "patient_age": 38,
+      "risk_factors": 1
+    },
+    {
+      "id": 888,
+      "prediction_score": 0.504,
+      "actual": 0,
+      "predicted": 1,
+      "patient_age": 45,
+      "risk_factors": 4
+    },
+    {
+      "id": 889,
+      "prediction_score": 0.092,
+      "actual": 0,
+      "predicted": 0,
+      "patient_age": 38,
+      "risk_factors": 5
+    },
+    {
+      "id": 890,
+      "prediction_score": 0.11,
+      "actual": 0,
+      "predicted": 0,
+      "patient_age": 40,
+      "risk_factors": 2
+    },
+    {
+      "id": 891,
+      "prediction_score": 0.211,
+      "actual": 0,
+      "predicted": 0,
+      "patient_age": 63,
+      "risk_factors": 5
+    },
+    {
+      "id": 892,
+      "prediction_score": 0.231,
+      "actual": 0,
+      "predicted": 0,
+      "patient_age": 62,
+      "risk_factors": 3
+    },
+    {
+      "id": 893,
+      "prediction_score": 0.703,
+      "actual": 0,
+      "predicted": 1,
+      "patient_age": 73,
+      "risk_factors": 3
+    },
+    {
+      "id": 894,
+      "prediction_score": 0.91,
+      "actual": 0,
+      "predicted": 1,
+      "patient_age": 61,
+      "risk_factors": 2
+    },
+    {
+      "id": 895,
+      "prediction_score": 0.364,
+      "actual": 0,
+      "predicted": 0,
+      "patient_age": 48,
+      "risk_factors": 4
+    },
+    {
+      "id": 896,
+      "prediction_score": 0.313,
+      "actual": 0,
+      "predicted": 0,
+      "patient_age": 42,
+      "risk_factors": 2
+    },
+    {
+      "id": 897,
+      "prediction_score": 0.559,
+      "actual": 1,
+      "predicted": 1,
+      "patient_age": 62,
+      "risk_factors": 0
+    },
+    {
+      "id": 898,
+      "prediction_score": 0.2,
+      "actual": 0,
+      "predicted": 0,
+      "patient_age": 53,
+      "risk_factors": 5
+    },
+    {
+      "id": 899,
+      "prediction_score": 0.345,
+      "actual": 0,
+      "predicted": 0,
+      "patient_age": 78,
+      "risk_factors": 4
+    },
+    {
+      "id": 900,
+      "prediction_score": 0.139,
+      "actual": 0,
+      "predicted": 0,
+      "patient_age": 66,
+      "risk_factors": 4
+    },
+    {
+      "id": 901,
+      "prediction_score": 0.709,
+      "actual": 0,
+      "predicted": 1,
+      "patient_age": 77,
+      "risk_factors": 2
+    },
+    {
+      "id": 902,
+      "prediction_score": 0.124,
+      "actual": 0,
+      "predicted": 0,
+      "patient_age": 37,
+      "risk_factors": 1
+    },
+    {
+      "id": 903,
+      "prediction_score": 0.352,
+      "actual": 0,
+      "predicted": 0,
+      "patient_age": 60,
+      "risk_factors": 4
+    },
+    {
+      "id": 904,
+      "prediction_score": 0.441,
+      "actual": 0,
+      "predicted": 0,
+      "patient_age": 38,
+      "risk_factors": 0
+    },
+    {
+      "id": 905,
+      "prediction_score": 0.344,
+      "actual": 0,
+      "predicted": 0,
+      "patient_age": 48,
+      "risk_factors": 2
+    },
+    {
+      "id": 906,
+      "prediction_score": 0.212,
+      "actual": 0,
+      "predicted": 0,
+      "patient_age": 48,
+      "risk_factors": 1
+    },
+    {
+      "id": 907,
+      "prediction_score": 0.485,
+      "actual": 0,
+      "predicted": 0,
+      "patient_age": 83,
+      "risk_factors": 2
+    },
+    {
+      "id": 908,
+      "prediction_score": 0.632,
+      "actual": 0,
+      "predicted": 1,
+      "patient_age": 53,
+      "risk_factors": 2
+    },
+    {
+      "id": 909,
+      "prediction_score": 0.699,
+      "actual": 0,
+      "predicted": 1,
+      "patient_age": 42,
+      "risk_factors": 0
+    },
+    {
+      "id": 910,
+      "prediction_score": 0.221,
+      "actual": 0,
+      "predicted": 0,
+      "patient_age": 66,
+      "risk_factors": 5
+    },
+    {
+      "id": 911,
+      "prediction_score": 0.464,
+      "actual": 0,
+      "predicted": 0,
+      "patient_age": 62,
+      "risk_factors": 1
+    },
+    {
+      "id": 912,
+      "prediction_score": 0.436,
+      "actual": 0,
+      "predicted": 0,
+      "patient_age": 43,
+      "risk_factors": 3
+    },
+    {
+      "id": 913,
+      "prediction_score": 0.332,
+      "actual": 0,
+      "predicted": 0,
+      "patient_age": 69,
+      "risk_factors": 5
+    },
+    {
+      "id": 914,
+      "prediction_score": 0.239,
+      "actual": 0,
+      "predicted": 0,
+      "patient_age": 49,
+      "risk_factors": 4
+    },
+    {
+      "id": 915,
+      "prediction_score": 0.221,
+      "actual": 0,
+      "predicted": 0,
+      "patient_age": 70,
+      "risk_factors": 5
+    },
+    {
+      "id": 916,
+      "prediction_score": 0.795,
+      "actual": 0,
+      "predicted": 1,
+      "patient_age": 57,
+      "risk_factors": 0
+    },
+    {
+      "id": 917,
+      "prediction_score": 0.3,
+      "actual": 0,
+      "predicted": 0,
+      "patient_age": 60,
+      "risk_factors": 5
+    },
+    {
+      "id": 918,
+      "prediction_score": 0.446,
+      "actual": 0,
+      "predicted": 0,
+      "patient_age": 37,
+      "risk_factors": 3
+    },
+    {
+      "id": 919,
+      "prediction_score": 0.392,
+      "actual": 0,
+      "predicted": 0,
+      "patient_age": 36,
+      "risk_factors": 3
+    },
+    {
+      "id": 920,
+      "prediction_score": 0.744,
+      "actual": 0,
+      "predicted": 1,
+      "patient_age": 39,
+      "risk_factors": 2
+    },
+    {
+      "id": 921,
+      "prediction_score": 0.49,
+      "actual": 0,
+      "predicted": 0,
+      "patient_age": 71,
+      "risk_factors": 3
+    },
+    {
+      "id": 922,
+      "prediction_score": 0.075,
+      "actual": 0,
+      "predicted": 0,
+      "patient_age": 71,
+      "risk_factors": 3
+    },
+    {
+      "id": 923,
+      "prediction_score": 0.444,
+      "actual": 0,
+      "predicted": 0,
+      "patient_age": 80,
+      "risk_factors": 5
+    },
+    {
+      "id": 924,
+      "prediction_score": 0.283,
+      "actual": 0,
+      "predicted": 0,
+      "patient_age": 61,
+      "risk_factors": 2
+    },
+    {
+      "id": 925,
+      "prediction_score": 0.634,
+      "actual": 0,
+      "predicted": 1,
+      "patient_age": 42,
+      "risk_factors": 3
+    },
+    {
+      "id": 926,
+      "prediction_score": 0.296,
+      "actual": 0,
+      "predicted": 0,
+      "patient_age": 36,
+      "risk_factors": 2
+    },
+    {
+      "id": 927,
+      "prediction_score": 0.24,
+      "actual": 0,
+      "predicted": 0,
+      "patient_age": 45,
+      "risk_factors": 4
+    },
+    {
+      "id": 928,
+      "prediction_score": 0.862,
+      "actual": 1,
+      "predicted": 1,
+      "patient_age": 64,
+      "risk_factors": 5
+    },
+    {
+      "id": 929,
+      "prediction_score": 0.237,
+      "actual": 0,
+      "predicted": 0,
+      "patient_age": 58,
+      "risk_factors": 0
+    },
+    {
+      "id": 930,
+      "prediction_score": 0.201,
+      "actual": 0,
+      "predicted": 0,
+      "patient_age": 62,
+      "risk_factors": 0
+    },
+    {
+      "id": 931,
+      "prediction_score": 0.519,
+      "actual": 0,
+      "predicted": 1,
+      "patient_age": 50,
+      "risk_factors": 3
+    },
+    {
+      "id": 932,
+      "prediction_score": 0.413,
+      "actual": 0,
+      "predicted": 0,
+      "patient_age": 72,
+      "risk_factors": 3
+    },
+    {
+      "id": 933,
+      "prediction_score": 0.561,
+      "actual": 0,
+      "predicted": 1,
+      "patient_age": 68,
+      "risk_factors": 0
+    },
+    {
+      "id": 934,
+      "prediction_score": 0.311,
+      "actual": 0,
+      "predicted": 0,
+      "patient_age": 60,
+      "risk_factors": 2
+    },
+    {
+      "id": 935,
+      "prediction_score": 0.317,
+      "actual": 0,
+      "predicted": 0,
+      "patient_age": 82,
+      "risk_factors": 2
+    },
+    {
+      "id": 936,
+      "prediction_score": 0.256,
+      "actual": 0,
+      "predicted": 0,
+      "patient_age": 49,
+      "risk_factors": 2
+    },
+    {
+      "id": 937,
+      "prediction_score": 0.289,
+      "actual": 0,
+      "predicted": 0,
+      "patient_age": 84,
+      "risk_factors": 1
+    },
+    {
+      "id": 938,
+      "prediction_score": 0.075,
+      "actual": 0,
+      "predicted": 0,
+      "patient_age": 39,
+      "risk_factors": 4
+    },
+    {
+      "id": 939,
+      "prediction_score": 0.219,
+      "actual": 0,
+      "predicted": 0,
+      "patient_age": 75,
+      "risk_factors": 0
+    },
+    {
+      "id": 940,
+      "prediction_score": 0.541,
+      "actual": 0,
+      "predicted": 1,
+      "patient_age": 68,
+      "risk_factors": 4
+    },
+    {
+      "id": 941,
+      "prediction_score": 0.06,
+      "actual": 0,
+      "predicted": 0,
+      "patient_age": 47,
+      "risk_factors": 2
+    },
+    {
+      "id": 942,
+      "prediction_score": 0.01,
+      "actual": 0,
+      "predicted": 0,
+      "patient_age": 57,
+      "risk_factors": 5
+    },
+    {
+      "id": 943,
+      "prediction_score": 0.4,
+      "actual": 0,
+      "predicted": 0,
+      "patient_age": 76,
+      "risk_factors": 1
+    },
+    {
+      "id": 944,
+      "prediction_score": 0.206,
+      "actual": 0,
+      "predicted": 0,
+      "patient_age": 50,
+      "risk_factors": 0
+    },
+    {
+      "id": 945,
+      "prediction_score": 0.353,
+      "actual": 0,
+      "predicted": 0,
+      "patient_age": 44,
+      "risk_factors": 2
+    },
+    {
+      "id": 946,
+      "prediction_score": 0.594,
+      "actual": 0,
+      "predicted": 1,
+      "patient_age": 47,
+      "risk_factors": 1
+    },
+    {
+      "id": 947,
+      "prediction_score": 0.445,
+      "actual": 0,
+      "predicted": 0,
+      "patient_age": 73,
+      "risk_factors": 1
+    },
+    {
+      "id": 948,
+      "prediction_score": 0.264,
+      "actual": 0,
+      "predicted": 0,
+      "patient_age": 83,
+      "risk_factors": 5
+    },
+    {
+      "id": 949,
+      "prediction_score": 0.209,
+      "actual": 0,
+      "predicted": 0,
+      "patient_age": 39,
+      "risk_factors": 1
+    },
+    {
+      "id": 950,
+      "prediction_score": 0.219,
+      "actual": 0,
+      "predicted": 0,
+      "patient_age": 84,
+      "risk_factors": 5
+    },
+    {
+      "id": 951,
+      "prediction_score": 0.446,
+      "actual": 0,
+      "predicted": 0,
+      "patient_age": 66,
+      "risk_factors": 3
+    },
+    {
+      "id": 952,
+      "prediction_score": 0.494,
+      "actual": 0,
+      "predicted": 0,
+      "patient_age": 83,
+      "risk_factors": 4
+    },
+    {
+      "id": 953,
+      "prediction_score": 0.413,
+      "actual": 0,
+      "predicted": 0,
+      "patient_age": 83,
+      "risk_factors": 4
+    },
+    {
+      "id": 954,
+      "prediction_score": 0.566,
+      "actual": 0,
+      "predicted": 1,
+      "patient_age": 63,
+      "risk_factors": 5
+    },
+    {
+      "id": 955,
+      "prediction_score": 0.121,
+      "actual": 0,
+      "predicted": 0,
+      "patient_age": 71,
+      "risk_factors": 5
+    },
+    {
+      "id": 956,
+      "prediction_score": 0.375,
+      "actual": 0,
+      "predicted": 0,
+      "patient_age": 75,
+      "risk_factors": 4
+    },
+    {
+      "id": 957,
+      "prediction_score": 0.422,
+      "actual": 1,
+      "predicted": 0,
+      "patient_age": 55,
+      "risk_factors": 5
+    },
+    {
+      "id": 958,
+      "prediction_score": 0.252,
+      "actual": 0,
+      "predicted": 0,
+      "patient_age": 55,
+      "risk_factors": 1
+    },
+    {
+      "id": 959,
+      "prediction_score": 0.307,
+      "actual": 0,
+      "predicted": 0,
+      "patient_age": 63,
+      "risk_factors": 0
+    },
+    {
+      "id": 960,
+      "prediction_score": 0.077,
+      "actual": 0,
+      "predicted": 0,
+      "patient_age": 65,
+      "risk_factors": 3
+    },
+    {
+      "id": 961,
+      "prediction_score": 0.166,
+      "actual": 0,
+      "predicted": 0,
+      "patient_age": 75,
+      "risk_factors": 2
+    },
+    {
+      "id": 962,
+      "prediction_score": 0.484,
+      "actual": 0,
+      "predicted": 0,
+      "patient_age": 85,
+      "risk_factors": 2
+    },
+    {
+      "id": 963,
+      "prediction_score": 0.079,
+      "actual": 0,
+      "predicted": 0,
+      "patient_age": 72,
+      "risk_factors": 0
+    },
+    {
+      "id": 964,
+      "prediction_score": 0.254,
+      "actual": 0,
+      "predicted": 0,
+      "patient_age": 57,
+      "risk_factors": 4
+    },
+    {
+      "id": 965,
+      "prediction_score": 0.603,
+      "actual": 0,
+      "predicted": 1,
+      "patient_age": 39,
+      "risk_factors": 2
+    },
+    {
+      "id": 966,
+      "prediction_score": 0.2,
+      "actual": 0,
+      "predicted": 0,
+      "patient_age": 64,
+      "risk_factors": 3
+    },
+    {
+      "id": 967,
+      "prediction_score": 0.653,
+      "actual": 0,
+      "predicted": 1,
+      "patient_age": 37,
+      "risk_factors": 0
+    },
+    {
+      "id": 968,
+      "prediction_score": 0.382,
+      "actual": 0,
+      "predicted": 0,
+      "patient_age": 58,
+      "risk_factors": 2
+    },
+    {
+      "id": 969,
+      "prediction_score": 0.205,
+      "actual": 0,
+      "predicted": 0,
+      "patient_age": 39,
+      "risk_factors": 5
+    },
+    {
+      "id": 970,
+      "prediction_score": 0.112,
+      "actual": 0,
+      "predicted": 0,
+      "patient_age": 40,
+      "risk_factors": 4
+    },
+    {
+      "id": 971,
+      "prediction_score": 0.133,
+      "actual": 0,
+      "predicted": 0,
+      "patient_age": 73,
+      "risk_factors": 4
+    },
+    {
+      "id": 972,
+      "prediction_score": 0.409,
+      "actual": 0,
+      "predicted": 0,
+      "patient_age": 59,
+      "risk_factors": 3
+    },
+    {
+      "id": 973,
+      "prediction_score": 0.028,
+      "actual": 0,
+      "predicted": 0,
+      "patient_age": 72,
+      "risk_factors": 4
+    },
+    {
+      "id": 974,
+      "prediction_score": 0.648,
+      "actual": 0,
+      "predicted": 1,
+      "patient_age": 85,
+      "risk_factors": 5
+    },
+    {
+      "id": 975,
+      "prediction_score": 0.405,
+      "actual": 0,
+      "predicted": 0,
+      "patient_age": 37,
+      "risk_factors": 3
+    },
+    {
+      "id": 976,
+      "prediction_score": 0.23,
+      "actual": 0,
+      "predicted": 0,
+      "patient_age": 71,
+      "risk_factors": 5
+    },
+    {
+      "id": 977,
+      "prediction_score": 0.054,
+      "actual": 0,
+      "predicted": 0,
+      "patient_age": 47,
+      "risk_factors": 2
+    },
+    {
+      "id": 978,
+      "prediction_score": 0.597,
+      "actual": 0,
+      "predicted": 1,
+      "patient_age": 73,
+      "risk_factors": 3
+    },
+    {
+      "id": 979,
+      "prediction_score": 0.124,
+      "actual": 0,
+      "predicted": 0,
+      "patient_age": 67,
+      "risk_factors": 1
+    },
+    {
+      "id": 980,
+      "prediction_score": 0.057,
+      "actual": 0,
+      "predicted": 0,
+      "patient_age": 38,
+      "risk_factors": 3
+    },
+    {
+      "id": 981,
+      "prediction_score": 0.215,
+      "actual": 0,
+      "predicted": 0,
+      "patient_age": 41,
+      "risk_factors": 2
+    },
+    {
+      "id": 982,
+      "prediction_score": 0.463,
+      "actual": 0,
+      "predicted": 0,
+      "patient_age": 80,
+      "risk_factors": 0
+    },
+    {
+      "id": 983,
+      "prediction_score": 0.274,
+      "actual": 0,
+      "predicted": 0,
+      "patient_age": 67,
+      "risk_factors": 5
+    },
+    {
+      "id": 984,
+      "prediction_score": 0.295,
+      "actual": 0,
+      "predicted": 0,
+      "patient_age": 46,
+      "risk_factors": 0
+    },
+    {
+      "id": 985,
+      "prediction_score": 0.749,
+      "actual": 1,
+      "predicted": 1,
+      "patient_age": 50,
+      "risk_factors": 5
+    },
+    {
+      "id": 986,
+      "prediction_score": 0.31,
+      "actual": 0,
+      "predicted": 0,
+      "patient_age": 63,
+      "risk_factors": 3
+    },
+    {
+      "id": 987,
+      "prediction_score": 0.021,
+      "actual": 0,
+      "predicted": 0,
+      "patient_age": 68,
+      "risk_factors": 4
+    },
+    {
+      "id": 988,
+      "prediction_score": 0.418,
+      "actual": 0,
+      "predicted": 0,
+      "patient_age": 74,
+      "risk_factors": 1
+    },
+    {
+      "id": 989,
+      "prediction_score": 0.299,
+      "actual": 0,
+      "predicted": 0,
+      "patient_age": 58,
+      "risk_factors": 2
+    },
+    {
+      "id": 990,
+      "prediction_score": 0.536,
+      "actual": 0,
+      "predicted": 1,
+      "patient_age": 53,
+      "risk_factors": 3
+    },
+    {
+      "id": 991,
+      "prediction_score": 0.366,
+      "actual": 0,
+      "predicted": 0,
+      "patient_age": 61,
+      "risk_factors": 2
+    },
+    {
+      "id": 992,
+      "prediction_score": 0.629,
+      "actual": 0,
+      "predicted": 1,
+      "patient_age": 78,
+      "risk_factors": 4
+    },
+    {
+      "id": 993,
+      "prediction_score": 0.49,
+      "actual": 0,
+      "predicted": 0,
+      "patient_age": 38,
+      "risk_factors": 5
+    },
+    {
+      "id": 994,
+      "prediction_score": 0.196,
+      "actual": 0,
+      "predicted": 0,
+      "patient_age": 76,
+      "risk_factors": 2
+    },
+    {
+      "id": 995,
+      "prediction_score": 0.5,
+      "actual": 0,
+      "predicted": 1,
+      "patient_age": 39,
+      "risk_factors": 2
+    },
+    {
+      "id": 996,
+      "prediction_score": 0.099,
+      "actual": 0,
+      "predicted": 0,
+      "patient_age": 41,
+      "risk_factors": 4
+    },
+    {
+      "id": 997,
+      "prediction_score": 0.162,
+      "actual": 0,
+      "predicted": 0,
+      "patient_age": 78,
+      "risk_factors": 3
+    },
+    {
+      "id": 998,
+      "prediction_score": 0.576,
+      "actual": 0,
+      "predicted": 1,
+      "patient_age": 53,
+      "risk_factors": 2
+    },
+    {
+      "id": 999,
+      "prediction_score": 0.103,
+      "actual": 0,
+      "predicted": 0,
+      "patient_age": 81,
+      "risk_factors": 5
+    },
+    {
+      "id": 1000,
+      "prediction_score": 0.307,
+      "actual": 0,
+      "predicted": 0,
+      "patient_age": 73,
+      "risk_factors": 1
+    }
+  ]
+}
