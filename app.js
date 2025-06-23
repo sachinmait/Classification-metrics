@@ -163,34 +163,35 @@ class MetricsDashboard {
         });
 
         // Help modal - Fixed event listeners
-        const helpModal = document.getElementById('help-modal');
-        const helpBtn = document.getElementById('help-btn');
-        const closeHelpBtn = document.getElementById('close-help');
+        // Inside MetricsDashboard.prototype.setupEventListeners
+const helpModal = document.getElementById('help-modal');
+const helpBtn = document.getElementById('help-btn');
+const closeHelpBtn = document.getElementById('close-help');
 
-        helpBtn.addEventListener('click', (e) => {
-            e.preventDefault();
-            helpModal.classList.remove('hidden');
-        });
+helpBtn.addEventListener('click', (e) => {
+    e.preventDefault();
+    helpModal.classList.remove('hidden');
+});
 
-        closeHelpBtn.addEventListener('click', (e) => {
-            e.preventDefault();
-            e.stopPropagation();
-            helpModal.classList.add('hidden');
-        });
+closeHelpBtn.addEventListener('click', (e) => {
+    e.preventDefault();
+    e.stopPropagation();
+    helpModal.classList.add('hidden');
+});
 
-        // Close modal on backdrop click
-        helpModal.addEventListener('click', (e) => {
-            if (e.target === helpModal) {
-                helpModal.classList.add('hidden');
-            }
-        });
+// Close modal on backdrop click
+helpModal.addEventListener('click', (e) => {
+    if (e.target === helpModal) {
+        helpModal.classList.add('hidden');
+    }
+});
 
-        // Close modal on Escape key
-        document.addEventListener('keydown', (e) => {
-            if (e.key === 'Escape' && !helpModal.classList.contains('hidden')) {
-                helpModal.classList.add('hidden');
-            }
-        });
+// Close modal on Escape key
+document.addEventListener('keydown', (e) => {
+    if (e.key === 'Escape' && !helpModal.classList.contains('hidden')) {
+        helpModal.classList.add('hidden');
+    }
+});
     }
 
     setupThemeToggle() {
