@@ -672,3 +672,29 @@ class MetricsDashboard {
 document.addEventListener('DOMContentLoaded', () => {
     new MetricsDashboard();
 });
+
+// Modal open/close logic
+document.addEventListener('DOMContentLoaded', function() {
+  const helpBtn = document.getElementById('help-btn');
+  const helpModal = document.getElementById('help-modal');
+  const closeHelp = document.getElementById('close-help');
+
+  if (helpBtn && helpModal && closeHelp) {
+    // Open modal
+    helpBtn.addEventListener('click', function() {
+      helpModal.classList.remove('hidden');
+    });
+
+    // Close modal
+    closeHelp.addEventListener('click', function() {
+      helpModal.classList.add('hidden');
+    });
+
+    // Optional: Close modal when clicking outside the modal content
+    helpModal.addEventListener('click', function(e) {
+      if (e.target === helpModal) {
+        helpModal.classList.add('hidden');
+      }
+    });
+  }
+});
